@@ -1,0 +1,45 @@
+<HBProfile>
+  <Name>21-22 NOR Sholazar Basin (3 Hs,10 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="6628.937" Y="4518.991" Z="99.92104"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="6645.281" Y="4734.531" Z="67.9856"/>
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<Hotspot X="6519.164" Y="4980.38" Z="51.41568"/>
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+<!--Seen Name="Emerald Proto-Whelp"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

@@ -1,0 +1,176 @@
+<HBProfile>
+  <Name>15-16 KALI Un'Goro Crater (44 Hs,100 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-7621.096" Y="-2288.841" Z="-132.8795"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7283.601" Y="-2450.087" Z="-76.56384"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-6388.366" Y="-2004.441" Z="-8.523631"/>
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-6354.343" Y="-751.5343" Z="-99.65797"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7022.449" Y="-388.149" Z="-159.7001"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7434.307" Y="-351.3235" Z="-151.6102"/>
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7798.103" Y="-459.1463" Z="-108.8136"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-7547.644" Y="-2150.064" Z="-177.36"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-7333.369" Y="-2160.243" Z="-187.4593"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-6303.452" Y="-1480.323" Z="-182.9233"/>
+<!--Seen Name="Beetle"-->
+<Hotspot X="-6609.537" Y="-637.4108" Z="-181.9657"/>
+<!--Seen Name="Beetle"-->
+<Hotspot X="-6958.069" Y="-516.0858" Z="-172.3735"/>
+<!--Seen Name="Parrot"-->
+<Hotspot X="-7509.308" Y="-518.0794" Z="-148.786"/>
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Parrot"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7877.632" Y="-706.9017" Z="-181.3662"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-8023.811" Y="-1182.658" Z="-180.7472"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-8068.675" Y="-1383.348" Z="-188.538"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-8039.954" Y="-1601.374" Z="-200.9173"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Parrot"-->
+<Hotspot X="-7890.652" Y="-1853.945" Z="-190.1612"/>
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-6945.38" Y="-2065.647" Z="-195.5767"/>
+<!--Seen Name="Parrot"-->
+<!--Seen Name="Silky Moth"-->
+<Hotspot X="-6527.097" Y="-1589.371" Z="-186.5524"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-6467.42" Y="-1338.016" Z="-198.8744"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Silky Moth"-->
+<Hotspot X="-6486.06" Y="-1121.313" Z="-198.1986"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-6673.12" Y="-755.3466" Z="-200.8228"/>
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-6918.629" Y="-694.9625" Z="-188.4077"/>
+<!--Seen Name="Parrot"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7541.046" Y="-652.7774" Z="-178.5104"/>
+<!--Seen Name="Parrot"-->
+<Hotspot X="-7657.16" Y="-828.0081" Z="-151.3183"/>
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Diemetradon Hatchling"-->
+<Hotspot X="-7736.582" Y="-1016.903" Z="-138.3639"/>
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7827.555" Y="-1214.322" Z="-163.7362"/>
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7959.303" Y="-1512.074" Z="-188.2121"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7809.769" Y="-1809.078" Z="-181.204"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7530.909" Y="-1908.706" Z="-188.8593"/>
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7328.596" Y="-1972.857" Z="-189.4252"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-7085.711" Y="-2049.864" Z="-190.0933"/>
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-6836.262" Y="-1696.527" Z="-176.6523"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-6846.621" Y="-1487.996" Z="-173.8007"/>
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-7154.121" Y="-767.381" Z="-170.2618"/>
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-7429.602" Y="-797.8199" Z="-177.8149"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Diemetradon Hatchling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-7571.561" Y="-1692.302" Z="-142.0565"/>
+<!--Seen Name="Parrot"-->
+<Hotspot X="-7351.29" Y="-1814.88" Z="-121.8851"/>
+<!--Seen Name="Parrot"-->
+<Hotspot X="-7145.628" Y="-1858.379" Z="-130.0521"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Spotted Bell Frog"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7002.051" Y="-1283.479" Z="-129.8367"/>
+<!--Seen Name="Spotted Bell Frog"-->
+<Hotspot X="-7143.188" Y="-1008.084" Z="-185.7235"/>
+<!--Seen Name="Diemetradon Hatchling"-->
+<Hotspot X="-7415.558" Y="-1608.432" Z="-158.6931"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-7154.423" Y="-1251.594" Z="-123.6609"/>
+<!--Seen Name="Fire Beetle"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

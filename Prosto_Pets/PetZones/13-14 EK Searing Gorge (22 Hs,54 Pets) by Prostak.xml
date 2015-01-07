@@ -1,0 +1,108 @@
+<HBProfile>
+  <Name>13-14 EK Searing Gorge (22 Hs,54 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-7326.721" Y="-1176.642" Z="540.1093"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7294.853" Y="-887.095" Z="451.9428"/>
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-6826.095" Y="-814.3026" Z="415.1715"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-6554.472" Y="-892.8539" Z="437.593"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Molten Hatchling"-->
+<Hotspot X="-6372.384" Y="-1906.926" Z="414.6379"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-6605.43" Y="-1947.953" Z="406.1237"/>
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-7049.251" Y="-1831.144" Z="374.6552"/>
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7259.923" Y="-1793.063" Z="354.0209"/>
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+<Hotspot X="-7238.813" Y="-1427.545" Z="375.3336"/>
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7230.552" Y="-1027.523" Z="380.7478"/>
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-6593.071" Y="-1222.791" Z="435.7048"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-6610.456" Y="-1480.539" Z="361.8467"/>
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-6573.721" Y="-1746.331" Z="363.5034"/>
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7081.944" Y="-1710.443" Z="351.0937"/>
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7185.895" Y="-1484.367" Z="333.605"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-7095.456" Y="-1135.245" Z="398.6317"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-6716.646" Y="-1100.426" Z="355.6131"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Molten Hatchling"-->
+<Hotspot X="-6699.969" Y="-1370.366" Z="335.0322"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-6668.241" Y="-1588.811" Z="322.8598"/>
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-6862.994" Y="-1674.031" Z="340.8932"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Ash Spiderling"-->
+<Hotspot X="-7026.091" Y="-1424.902" Z="356.522"/>
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+<Hotspot X="-6828.622" Y="-1463.638" Z="349.5277"/>
+<!--Seen Name="Molten Hatchling"-->
+<!--Seen Name="Molten Hatchling"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

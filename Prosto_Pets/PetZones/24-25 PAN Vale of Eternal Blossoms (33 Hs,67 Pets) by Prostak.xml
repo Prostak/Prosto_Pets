@@ -1,0 +1,132 @@
+<HBProfile>
+  <Name>24-25 PAN Vale of Eternal Blossoms (33 Hs,67 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1497.134" Y="698.4945" Z="678.4053"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="903.4303" Y="633.253" Z="573.1851"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="851.9901" Y="941.9523" Z="611.3229"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="1063.019" Y="1395.319" Z="566.9003"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1253.797" Y="2080.648" Z="468.6124"/>
+<!--Seen Name="Golden Civet"-->
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="740.2021" Y="1794.152" Z="486.9275"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1286.959" Y="1110.566" Z="550.6784"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="1460.669" Y="959.741" Z="631.814"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="837.5859" Y="2098.989" Z="473.8633"/>
+<!--Seen Name="Golden Civet"-->
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="754.1524" Y="1837.688" Z="484.5064"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1472.909" Y="594.2205" Z="672.658"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1457.196" Y="962.7225" Z="633.8817"/>
+<!--Seen Name="Gilded Moth"-->
+<!--Seen Name="Gilded Moth"-->
+<!--Seen Name="Gilded Moth"-->
+<Hotspot X="1503.609" Y="728.1562" Z="678.2817"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1140.332" Y="2160.884" Z="464.2288"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="706.6221" Y="1613.913" Z="494.2352"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1060.385" Y="1394.763" Z="567.0262"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="902.3929" Y="2093.673" Z="471.4081"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="726.063" Y="1750.571" Z="489.4445"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1091.241" Y="446.7795" Z="581.1492"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="1075.252" Y="1397.896" Z="566.3181"/>
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="744.8346" Y="1808.777" Z="486.0718"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1088.091" Y="1400.605" Z="565.7039"/>
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="738.4031" Y="1788.705" Z="487.2325"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1503.03" Y="725.6256" Z="678.3563"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="836.9239" Y="2096.554" Z="473.9673"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="742.1846" Y="1800.605" Z="486.607"/>
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1396.333" Y="1015.608" Z="605.4188"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="1473.612" Y="597.1033" Z="672.869"/>
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="1344.512" Y="1930.648" Z="481.9724"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="1062.608" Y="1395.217" Z="566.9286"/>
+<!--Seen Name="Eternal Strider"-->
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="878.9218" Y="2102.908" Z="472.1485"/>
+<!--Seen Name="Golden Civet"-->
+<Hotspot X="1504.239" Y="730.8978" Z="678.1778"/>
+<!--Seen Name="Eternal Strider"-->
+<Hotspot X="919.2537" Y="550.2543" Z="577.1922"/>
+<!--Seen Name="Yellow-Bellied Bullfrog"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

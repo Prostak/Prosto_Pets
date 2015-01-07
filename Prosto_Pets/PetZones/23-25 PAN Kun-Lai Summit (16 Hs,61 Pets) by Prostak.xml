@@ -1,0 +1,109 @@
+<HBProfile>
+  <Name>23-25 PAN Kun-Lai Summit (16 Hs,61 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="3258.727" Y="2652.808" Z="687.9723"/>
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<Hotspot X="2980.89" Y="2465.488" Z="818.1234"/>
+<!--Seen Name="Zooey Snake"-->
+<Hotspot X="2666.25" Y="2148.28" Z="693.4913"/>
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<Hotspot X="2329.19" Y="2024.54" Z="693.2864"/>
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<Hotspot X="2195.689" Y="1615.712" Z="647.4431"/>
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Zooey Snake"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<Hotspot X="2652.192" Y="1447.434" Z="808.8962"/>
+<!--Seen Name="Prairie Mouse"-->
+<!--Seen Name="Prairie Mouse"-->
+<!--Seen Name="Tolai Hare"-->
+<Hotspot X="3533.474" Y="1497.902" Z="1030.803"/>
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Kun-Lai Runt"-->
+<Hotspot X="4000.824" Y="1585.097" Z="1025.101"/>
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Summit Kid"-->
+<Hotspot X="4351.074" Y="1055.982" Z="594.0555"/>
+<!--Seen Name="Tolai Hare"-->
+<Hotspot X="4293.806" Y="828.6033" Z="635.2159"/>
+<!--Seen Name="Zooey Snake"-->
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<Hotspot X="3091.826" Y="360.8338" Z="833.2853"/>
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<Hotspot X="3135.491" Y="560.1743" Z="689.4501"/>
+<!--Seen Name="Summit Kid"-->
+<Hotspot X="3412.079" Y="1822.865" Z="1025.631"/>
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<!--Seen Name="Summit Kid"-->
+<Hotspot X="2681.263" Y="968.617" Z="740.3093"/>
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<Hotspot X="2158.342" Y="866.8872" Z="677.7617"/>
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<!--Seen Name="Plains Monitor"-->
+<Hotspot X="1922.249" Y="821.0696" Z="685.77"/>
+<!--Seen Name="Tolai Hare"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+<!--Seen Name="Tolai Hare Pup"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

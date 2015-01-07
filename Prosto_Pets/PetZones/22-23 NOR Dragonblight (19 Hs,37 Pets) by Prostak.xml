@@ -1,0 +1,88 @@
+<HBProfile>
+  <Name>22-23 NOR Dragonblight (19 Hs,37 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="3246.611" Y="3263.916" Z="68.52333"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Tundra Penguin"-->
+<Hotspot X="3414.042" Y="2797.361" Z="149.0527"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3051.453" Y="2537.33" Z="84.08234"/>
+<!--Seen Name="Tundra Penguin"-->
+<Hotspot X="3193.232" Y="1862.024" Z="222.5746"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3541.431" Y="2028.128" Z="178.0589"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3352.88" Y="1357.724" Z="239.3108"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3077.153" Y="933.9646" Z="167.7387"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="4014.811" Y="754.1084" Z="142.3293"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="3525.665" Y="584.2394" Z="156.6996"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="4465.051" Y="741.3409" Z="171.7052"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="4929.786" Y="998.8878" Z="314.5694"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="4389.088" Y="96.62396" Z="168.476"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="4023.67" Y="-116.8185" Z="152.2241"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="3280.379" Y="-160.2166" Z="184.2055"/>
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<!--Seen Name="Dragonbone Hatchling"-->
+<Hotspot X="3351.118" Y="-400.4838" Z="264.2613"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="4840.397" Y="-1095.125" Z="339.0298"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="4355.683" Y="-1012.804" Z="263.8796"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3225.704" Y="-676.1959" Z="255.8492"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="2861.911" Y="-1472.018" Z="137.7768"/>
+<!--Seen Name="Arctic Hare"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

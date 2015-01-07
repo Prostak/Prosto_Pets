@@ -1,0 +1,104 @@
+<HBProfile>
+  <Name>13-14 EK Badlands (23 Hs,49 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-6588.437" Y="-2682.813" Z="433.9233"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-6492.436" Y="-2943.336" Z="447.3242"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="King Snake"-->
+<Hotspot X="-6405.231" Y="-3151.652" Z="459.9374"/>
+<!--Seen Name="King Snake"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-6075.476" Y="-3433.801" Z="409.4254"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Gold Beetle"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-6297.231" Y="-3813.978" Z="429.2436"/>
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="King Snake"-->
+<Hotspot X="-6392.593" Y="-4024.346" Z="441.7994"/>
+<!--Seen Name="Spiky Lizard"-->
+<Hotspot X="-6953.182" Y="-4080.675" Z="462.8041"/>
+<!--Seen Name="Gold Beetle"-->
+<!--Seen Name="King Snake"-->
+<Hotspot X="-7164.362" Y="-3643.577" Z="456.6228"/>
+<!--Seen Name="Spiky Lizard"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-7298.295" Y="-3458.826" Z="448.316"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-7190.684" Y="-3040.251" Z="419.3318"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-6942.314" Y="-4017.809" Z="448.8257"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-6834.644" Y="-3776.115" Z="459.9859"/>
+<!--Seen Name="Spiky Lizard"-->
+<!--Seen Name="Spiky Lizard"-->
+<Hotspot X="-7137.161" Y="-3519.928" Z="403.538"/>
+<!--Seen Name="Spiky Lizard"-->
+<Hotspot X="-7119.934" Y="-2281.599" Z="406.3553"/>
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-6506.196" Y="-3334.323" Z="375.665"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-6971.011" Y="-3143.901" Z="399.7154"/>
+<!--Seen Name="Spiky Lizard"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-7081.487" Y="-2639.142" Z="394.3744"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-6874.805" Y="-2614.604" Z="363.1473"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-6678.932" Y="-2810.948" Z="358.5388"/>
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-6686.104" Y="-3324.766" Z="359.9227"/>
+<!--Seen Name="King Snake"-->
+<Hotspot X="-6593.592" Y="-3527.691" Z="382.3775"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-6299.899" Y="-2567.118" Z="453.4551"/>
+<!--Seen Name="Spiky Lizard"-->
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-7022.435" Y="-2325.865" Z="433.244"/>
+<!--Seen Name="King Snake"-->
+<!--Seen Name="Gold Beetle"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

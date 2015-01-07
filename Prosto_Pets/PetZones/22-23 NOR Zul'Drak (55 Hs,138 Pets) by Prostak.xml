@@ -1,0 +1,225 @@
+<HBProfile>
+  <Name>22-23 NOR Zul'Drak (55 Hs,138 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="5191.95" Y="-4243.769" Z="489.422"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="5491.354" Y="-4492.921" Z="498.3849"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="5611.976" Y="-4112.518" Z="444.307"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="5841.41" Y="-4279.927" Z="427.2626"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="6171.302" Y="-3999.523" Z="505.0792"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="6254.834" Y="-4368.43" Z="521.9423"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="6565.556" Y="-4647.308" Z="538.2726"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6757.877" Y="-4808.469" Z="539.536"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="7164.652" Y="-4503.413" Z="521.2244"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="6372.029" Y="-4268.012" Z="538.4883"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6817.951" Y="-4285.731" Z="548.5812"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6526.628" Y="-4095.288" Z="542.3173"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6340.242" Y="-4002.435" Z="525.1172"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6437.226" Y="-3821.258" Z="537.7412"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="6266.183" Y="-3928.904" Z="538.8953"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5686.436" Y="-3685.711" Z="452.788"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="5606.801" Y="-3431.908" Z="427.5486"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5678.252" Y="-3032.604" Z="409.1273"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5439.287" Y="-3075.358" Z="405.6875"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5325.504" Y="-3353.415" Z="391.9247"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5289.595" Y="-3590.741" Z="445.4093"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5476.047" Y="-3789.47" Z="443.5193"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="4900.739" Y="-3555.251" Z="390.2878"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5027.554" Y="-3113.043" Z="350.2216"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5196.469" Y="-2963.636" Z="351.185"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="4919.687" Y="-2972.652" Z="418.32"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<Hotspot X="5086.853" Y="-2835.983" Z="361.9746"/>
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<Hotspot X="5250.708" Y="-2697.264" Z="341.7716"/>
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="5304.703" Y="-2415.322" Z="379.0263"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<Hotspot X="5145.681" Y="-2592.831" Z="367.2979"/>
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<Hotspot X="4993.08" Y="-2733.842" Z="352.771"/>
+<!--Seen Name="Water Waveling"-->
+<!--Seen Name="Water Waveling"-->
+<Hotspot X="6255.067" Y="-3635.203" Z="479.5274"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="6525.833" Y="-3554.114" Z="518.3753"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6273.98" Y="-3336.492" Z="458.8831"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="5847.722" Y="-2644.408" Z="367.4611"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="6114.406" Y="-2558.447" Z="387.0785"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5868.395" Y="-2365.942" Z="381.3121"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5590.495" Y="-2500.95" Z="383.2354"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="6113.082" Y="-2197.093" Z="338.2956"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5853.81" Y="-2189.651" Z="332.7307"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5638.394" Y="-2162.068" Z="342.7066"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="5589.016" Y="-1847.262" Z="355.1885"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="5774.987" Y="-1378.613" Z="324.0417"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5969.145" Y="-1616.545" Z="355.939"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="6013.105" Y="-2100.815" Z="398.9972"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5810.855" Y="-1566.975" Z="297.9106"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5457.314" Y="-1498.402" Z="320.778"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="5473.48" Y="-1830.951" Z="325.1923"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5312.291" Y="-1257.162" Z="331.6405"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="5301.66" Y="-1689.061" Z="289.0661"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="4923.461" Y="-1745.267" Z="376.1406"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="4745.038" Y="-2283.074" Z="299.4362"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="5045.151" Y="-2117.011" Z="359.2398"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="4918.715" Y="-2539.112" Z="300.0396"/>
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="4926.215" Y="-2869.726" Z="377.256"/>
+<!--Seen Name="Water Waveling"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

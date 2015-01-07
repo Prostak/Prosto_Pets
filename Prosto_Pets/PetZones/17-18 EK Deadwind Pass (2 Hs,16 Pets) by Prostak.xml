@@ -1,0 +1,50 @@
+<HBProfile>
+  <Name>17-18 EK Deadwind Pass (2 Hs,16 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-11087.79" Y="-1813.166" Z="193.8737"/>
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<Hotspot X="-11172.94" Y="-2019.443" Z="135.9303"/>
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

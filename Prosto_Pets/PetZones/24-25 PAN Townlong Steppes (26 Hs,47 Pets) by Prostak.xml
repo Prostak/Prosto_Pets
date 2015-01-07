@@ -1,0 +1,105 @@
+<HBProfile>
+  <Name>24-25 PAN Townlong Steppes (26 Hs,47 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1052.453" Y="4073.427" Z="281.6939"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Silent Hedgehog"-->
+<Hotspot X="1434.938" Y="3927.24" Z="244.2176"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="1542.333" Y="3647.808" Z="400.0295"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="1579.732" Y="3272.114" Z="718.7386"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="1825.392" Y="2712.936" Z="518.3775"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Kuitan Mongoose"-->
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2131.238" Y="2866.623" Z="542.5059"/>
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2340.806" Y="3170.752" Z="705.8063"/>
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2385.414" Y="3376.789" Z="653.2422"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2309.497" Y="3603.089" Z="510.718"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2230.727" Y="3837.193" Z="613.3942"/>
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2156.229" Y="4057.773" Z="639.0335"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="1917.212" Y="4715.176" Z="326.5297"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2084.972" Y="5148.706" Z="551.9647"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2740.448" Y="5511.213" Z="422.4326"/>
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2744.985" Y="5109" Z="383.2164"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2583.766" Y="4649.884" Z="385.5849"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2472.716" Y="4104.518" Z="644.6522"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Yakrat"-->
+<Hotspot X="1896.82" Y="4144.575" Z="336.5897"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="1367.091" Y="4382.054" Z="301.074"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="1501.574" Y="3985.932" Z="360.9273"/>
+<!--Seen Name="Yakrat"-->
+<!--Seen Name="Yakrat"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="1546.911" Y="3694.703" Z="396.3719"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2504.247" Y="4115.309" Z="225.4184"/>
+<!--Seen Name="Yakrat"-->
+<!--Seen Name="Yakrat"-->
+<Hotspot X="2628.348" Y="3874.749" Z="281.4094"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2731.628" Y="3674.548" Z="293.1445"/>
+<!--Seen Name="Kuitan Mongoose"-->
+<Hotspot X="2857.838" Y="3429.899" Z="396.583"/>
+<!--Seen Name="Grassland Hopper"-->
+<!--Seen Name="Grassland Hopper"-->
+<Hotspot X="2992.537" Y="3168.796" Z="472.5405"/>
+<!--Seen Name="Grassland Hopper"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

@@ -1,0 +1,151 @@
+<HBProfile>
+  <Name>20-21 OUT Netherstorm (42 Hs,77 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2766.183" Y="4086.598" Z="226.391"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2783.702" Y="4288.442" Z="212.3895"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3011.09" Y="4249.549" Z="199.2436"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2635.236" Y="3452.529" Z="185.4854"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="2829.805" Y="2992.228" Z="166.5035"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2622.578" Y="3168.96" Z="164.5306"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2532.083" Y="2966.912" Z="161.8861"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2302.896" Y="2868.974" Z="174.0053"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2245.865" Y="2625.003" Z="157.7255"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2460.617" Y="2058.197" Z="127.3707"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2593.595" Y="2397.602" Z="171.3324"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2601.935" Y="2647.146" Z="179.1634"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2898.684" Y="2347.797" Z="193.1724"/>
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="2870.435" Y="2110.275" Z="184.3698"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2994.303" Y="1940.705" Z="213.0822"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3396.368" Y="2610.652" Z="211.5699"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3222.682" Y="2899.221" Z="179.4127"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3081.445" Y="2734.452" Z="178.1994"/>
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="2987.155" Y="2438.038" Z="206.8324"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3010.605" Y="2037.915" Z="215.1234"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3066.464" Y="2460.314" Z="165.373"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3206.64" Y="2714.361" Z="200.2437"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3820.829" Y="2435.299" Z="170.3351"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4135.19" Y="2285.751" Z="179.018"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3855.656" Y="1650.859" Z="200.862"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3671.699" Y="1824.184" Z="188.0725"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3989.957" Y="2228.322" Z="262.9919"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="4092.519" Y="1964.488" Z="313.8619"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3819.638" Y="2055.911" Z="305.3235"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="4224.514" Y="2351.734" Z="169.7018"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4486.772" Y="2347.745" Z="159.2332"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4738.697" Y="2562.861" Z="294.3444"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4583.737" Y="2753.937" Z="201.4402"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4854.872" Y="3113.733" Z="171.0969"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4718.231" Y="3346.285" Z="237.5562"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4596.227" Y="3142.117" Z="201.5345"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4264.446" Y="3342.942" Z="182.0678"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="4306.426" Y="3565.134" Z="175.7328"/>
+<!--Seen Name="Nether Roach"-->
+<Hotspot X="3929.566" Y="3763.274" Z="185.4816"/>
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="3866.78" Y="3996.515" Z="246.6278"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="4087.411" Y="4132.298" Z="250.6666"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Nether Roach"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+<Hotspot X="4118.241" Y="3925.375" Z="228.8283"/>
+<!--Seen Name="Fledgling Nether Ray"-->
+<!--Seen Name="Fledgling Nether Ray"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

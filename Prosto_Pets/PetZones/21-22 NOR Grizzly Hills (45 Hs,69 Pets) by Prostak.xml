@@ -1,0 +1,146 @@
+<HBProfile>
+  <Name>21-22 NOR Grizzly Hills (45 Hs,69 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2841.21" Y="-1739.911" Z="95.71689"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="4172.997" Y="-1661.498" Z="314.2361"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4544.365" Y="-1965.381" Z="265.9827"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3164.963" Y="-1854.798" Z="186.851"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3524.605" Y="-1938.374" Z="267.0559"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3791.094" Y="-1923.669" Z="311.4954"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="4582.38" Y="-2277.723" Z="313.1735"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4194.567" Y="-2234.242" Z="312.2585"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3211.803" Y="-2254.96" Z="275.5338"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="2948.009" Y="-2218.363" Z="182.9694"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="3842.223" Y="-2032.138" Z="252.5608"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3855.599" Y="-2290.768" Z="269.2091"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4037.964" Y="-2512.995" Z="317.0996"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="3767.683" Y="-2531.305" Z="257.5501"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3206.718" Y="-2555.123" Z="142.8955"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="2773.272" Y="-2583.689" Z="149.1443"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="3139.28" Y="-2697.309" Z="218.7469"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3450.647" Y="-2832.184" Z="284.1722"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3962.386" Y="-2778.322" Z="312.7185"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="3940.066" Y="-2998.503" Z="358.5513"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3512.519" Y="-3000.085" Z="338.4976"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3171.028" Y="-3008.113" Z="234.619"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="2755.178" Y="-2939.179" Z="171.7324"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4207.133" Y="-3670.959" Z="343.8333"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4564.224" Y="-3632.625" Z="346.8199"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3928.528" Y="-3410.14" Z="365.4842"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="3721.92" Y="-3355.033" Z="392.4333"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3518.666" Y="-3277.851" Z="314.8811"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="3868.356" Y="-3994.933" Z="258.6585"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4388.31" Y="-3887.104" Z="314.984"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4687.951" Y="-3713.861" Z="391.0602"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4605.206" Y="-4063.343" Z="242.8972"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4050.073" Y="-4107.407" Z="287.823"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="3610.265" Y="-4478.442" Z="290.7179"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4045.128" Y="-4320.521" Z="330.9489"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4790.153" Y="-4246.948" Z="321.1578"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="5048.376" Y="-4426.199" Z="351.6485"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="5237.327" Y="-5027.325" Z="341.4867"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4975.534" Y="-5039.084" Z="348.6256"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4493.797" Y="-4363.557" Z="267.0381"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3837.918" Y="-4799.35" Z="261.5767"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="3043.748" Y="-3139.379" Z="213.6179"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="2909.073" Y="-2565.533" Z="161.6632"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="4102.365" Y="-4984.144" Z="245.7061"/>
+<!--Seen Name="Imperial Eagle Chick"-->
+<Hotspot X="4823.475" Y="-4359.972" Z="361.2388"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Imperial Eagle Chick"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

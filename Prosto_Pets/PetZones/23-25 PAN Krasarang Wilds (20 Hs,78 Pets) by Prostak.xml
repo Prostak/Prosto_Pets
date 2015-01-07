@@ -1,0 +1,130 @@
+<HBProfile>
+  <Name>23-25 PAN Krasarang Wilds (20 Hs,78 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-245.3211" Y="-811.6014" Z="221.6988"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-899.5864" Y="-469.1701" Z="351.9153"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1117.72" Y="-101.5963" Z="203.4039"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1235.652" Y="102.5033" Z="347.1934"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1346.325" Y="293.0525" Z="341.3861"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-1773.781" Y="580.6693" Z="242.5694"/>
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-2299.701" Y="674.3053" Z="269.6829"/>
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-2723.318" Y="608.7773" Z="193.8328"/>
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-2531.965" Y="1188.614" Z="200.4936"/>
+<!--Seen Name="Luyu Moth"-->
+<!--Seen Name="Luyu Moth"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<!--Seen Name="Luyu Moth"-->
+<!--Seen Name="Luyu Moth"-->
+<Hotspot X="-2036.705" Y="1191.08" Z="183.9912"/>
+<!--Seen Name="Savory Beetle"-->
+<!--Seen Name="Savory Beetle"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-1494.202" Y="1064.671" Z="205.4964"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1255.865" Y="1047.853" Z="291.9751"/>
+<!--Seen Name="Amethyst Spiderling"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Mei Li Sparkler"-->
+<!--Seen Name="Savory Beetle"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<Hotspot X="-1132.064" Y="1265.772" Z="202.4385"/>
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-1164.428" Y="1491.594" Z="210.0487"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Amethyst Spiderling"-->
+<Hotspot X="-1288.347" Y="1663.366" Z="213.3545"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Spiny Terrapin"-->
+<Hotspot X="-1490.242" Y="1611.107" Z="197.6632"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1737.743" Y="1608.161" Z="200.6827"/>
+<!--Seen Name="Luyu Moth"-->
+<Hotspot X="-1507.902" Y="2395.457" Z="198.6118"/>
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Spiny Terrapin"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1301.869" Y="2352.547" Z="476.7664"/>
+<!--Seen Name="Luyu Moth"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Mei Li Sparkler"-->
+<!--Seen Name="Jungle Grub"-->
+<Hotspot X="-1189.869" Y="2118.117" Z="217.1044"/>
+<!--Seen Name="Jungle Grub"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Savory Beetle"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

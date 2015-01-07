@@ -1,0 +1,70 @@
+<HBProfile>
+  <Name>22-23 NOR The Storm Peaks (18 Hs,20 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="6010.905" Y="-826.0938" Z="460.2557"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="7062.164" Y="-324.5411" Z="919.4127"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="6778.783" Y="-371.1505" Z="1171.797"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6626.54" Y="-188.2986" Z="1009.711"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="6980.368" Y="-2160.67" Z="810.9584"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="7148.487" Y="-2992.352" Z="1033.641"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="7105.198" Y="-3642.247" Z="993.9451"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="7872.538" Y="-3525.339" Z="945.8762"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="7886.147" Y="-2724.25" Z="1269.055"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="8233.293" Y="-2359.76" Z="1299.045"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="7803.682" Y="-1918.22" Z="1339.902"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="7788.195" Y="-1694.531" Z="1357.25"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="8115.493" Y="-1065.688" Z="1209.927"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="8256.627" Y="-1221.517" Z="1251.378"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="7916.194" Y="-655.5971" Z="1211.179"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="7366.374" Y="-1030.983" Z="1059.329"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="7807.167" Y="-35.06756" Z="1108.024"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="7489.781" Y="32.49421" Z="918.5283"/>
+<!--Seen Name="Arctic Hare"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

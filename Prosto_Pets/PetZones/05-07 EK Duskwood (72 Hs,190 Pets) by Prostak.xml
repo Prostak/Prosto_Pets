@@ -1,0 +1,294 @@
+<HBProfile>
+  <Name>05-07 EK Duskwood (72 Hs,190 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-10318.21" Y="738.2461" Z="212.924"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10418.23" Y="613.572" Z="106.8893"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10233.99" Y="457.6743" Z="107.2513"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10218.48" Y="195.2377" Z="114.0339"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10108.22" Y="-204.0433" Z="100.3649"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10018.3" Y="-455.7863" Z="102.2061"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10085.82" Y="-960.8147" Z="103.1015"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-10052.51" Y="-1313.096" Z="117.1155"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10011.38" Y="-1573.169" Z="116.3233"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10227.38" Y="-1508.992" Z="179.2702"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-10555.73" Y="-1508.752" Z="173.9483"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-10759.96" Y="-1441.466" Z="175.1508"/>
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-11098.79" Y="-1054.901" Z="145.1678"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-11139.04" Y="-771.2293" Z="124.752"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-11123.71" Y="-515.2503" Z="110.9952"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-11118.64" Y="-290.211" Z="112.7547"/>
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-11116.11" Y="2.316511" Z="106.4308"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10504.49" Y="598.8505" Z="70.93797"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10351.84" Y="62.26453" Z="94.97512"/>
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10100.51" Y="-816.2095" Z="87.18458"/>
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10356.22" Y="-1409.346" Z="128.4134"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11063.07" Y="-817.04" Z="112.3335"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-11004.95" Y="89.25157" Z="101.3488"/>
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10532.56" Y="98.78075" Z="118.3983"/>
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10688.82" Y="-29.3672" Z="99.63825"/>
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-10410.38" Y="-445.8899" Z="147.336"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10159.7" Y="-686.4332" Z="163.3747"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-10386.67" Y="-816.9435" Z="112.274"/>
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10643.31" Y="-785.5665" Z="140.9624"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10429.71" Y="-903.3901" Z="115.1485"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10669.33" Y="-1095.132" Z="101.8847"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="-10933.16" Y="-644.1318" Z="113.8589"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-10808.39" Y="-50.50977" Z="122.2151"/>
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10847.52" Y="-423.8272" Z="119.2918"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10814.46" Y="-732.9833" Z="117.2762"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10753.73" Y="-986.2007" Z="131.6773"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10245.6" Y="-1248.647" Z="207.3377"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-10550.15" Y="-1146.888" Z="220.8006"/>
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-11031.09" Y="-986.1667" Z="216.4615"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-10850.87" Y="577.5771" Z="107.7414"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10633.89" Y="578.4778" Z="104.7505"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10411.24" Y="615.5734" Z="106.7374"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10208.08" Y="399.5021" Z="111.2109"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10086.16" Y="-241.3358" Z="99.91166"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10021.29" Y="-713.2711" Z="112.8617"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10085.15" Y="-968.4696" Z="103.3993"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10051.41" Y="-1261.916" Z="116.6075"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9982.968" Y="-1599.431" Z="114.1794"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10213.29" Y="-1513.194" Z="177.3249"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-10555.74" Y="-1508.746" Z="173.9482"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-10801.33" Y="-1413.265" Z="175.6751"/>
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-11103.94" Y="-959.4398" Z="136.7095"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-11142.71" Y="-691.1479" Z="119.7023"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-11120.66" Y="113.5389" Z="102.1217"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10511" Y="597.8225" Z="71.35088"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10336.06" Y="334.0187" Z="107.3144"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-10349.63" Y="33.89849" Z="100.163"/>
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10106.92" Y="-846.0438" Z="83.96115"/>
+<!--Seen Name="Widow Spiderling"-->
+<Hotspot X="-10998.54" Y="-1227.851" Z="121.2361"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11063.88" Y="-839.9119" Z="111.2078"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-11044.47" Y="-113.4109" Z="95.3283"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-11003.03" Y="99.96731" Z="100.7127"/>
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10450.27" Y="83.69679" Z="120.9035"/>
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10648.46" Y="-22.19542" Z="98.24956"/>
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<!--Seen Name="Rat Snake"-->
+<Hotspot X="-10414.01" Y="-443.4987" Z="149.4166"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10326.7" Y="-808.135" Z="107.3"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Dusk Spiderling"-->
+<Hotspot X="-10583.69" Y="-805.8609" Z="134.3193"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Widow Spiderling"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Skunk"-->
+<Hotspot X="-10538.76" Y="-1072.337" Z="117.0444"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="-10347.29" Y="-1223.738" Z="126.6235"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-10811.97" Y="-57.31782" Z="122.4997"/>
+<!--Seen Name="Widow Spiderling"-->
+<Hotspot X="-10847.46" Y="-419.4693" Z="119.6458"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10842.28" Y="-646.3835" Z="113.305"/>
+<!--Seen Name="Rat Snake"-->
+<!--Seen Name="Mouse"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

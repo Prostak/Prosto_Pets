@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBBDF072-BF3C-4E9D-A912-A5C969A09116}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Prosto_Pets</RootNamespace>
+    <AssemblyName>Prosto_Pets</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Honorbuddy\Bots\Prosto_Pets\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS,PROSTO_HOME</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GreyMagic, Version=2.5.12479.763, Culture=neutral, PublicKeyToken=260525fa2b0e778a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Honorbuddy\GreyMagic.dll</HintPath>
+    </Reference>
+    <Reference Include="Honorbuddy">
+      <HintPath>..\..\..\..\Honorbuddy\Honorbuddy.exe</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tripper.Tools">
+      <HintPath>..\..\..\..\Honorbuddy\Tripper.Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PetProfile.cs" />
+    <Compile Include="PBwithText_v2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PBwithText_v2.Designer.cs">
+      <DependentUpon>PBwithText_v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PetReport.cs" />
+    <Compile Include="Pets\Aquatic.cs" />
+    <Compile Include="BattlePet.cs" />
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="MyPets.cs" />
+    <Compile Include="Pet.cs" />
+    <Compile Include="PetChooser.cs" />
+    <Compile Include="PetJournal.cs" />
+    <Compile Include="PetLoader.cs" />
+    <Compile Include="PetLua.cs" />
+    <Compile Include="Pets\Beast.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pets\Critter.cs" />
+    <Compile Include="Pets\Custom.cs" />
+    <Compile Include="Pets\Dragonkin.cs" />
+    <Compile Include="Pets\Elemental.cs" />
+    <Compile Include="Pets\Flying.cs" />
+    <Compile Include="Pets\Humanoid.cs" />
+    <Compile Include="Pets\Magic.cs" />
+    <Compile Include="Pets\Mechanical.cs" />
+    <Compile Include="Pets\PetTacticsBase.cs" />
+    <Compile Include="Pets\Undead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginLogger.cs" />
+    <Compile Include="PluginSettings.cs" />
+    <Compile Include="PluginSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginSettingsForm.Designer.cs">
+      <DependentUpon>PluginSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prosto_Pets.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\DefaultTabListPageRenderer.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\Design\TabListDesigner.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\Design\TabListPageDesigner.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\ITabListPageRenderer.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabListControlCollection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabListPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabListPageCollection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabListPageRenderer.cs" />
+    <Compile Include="UI\Cyotec.Windows.Forms.Tablist\TabListPageState.cs" />
+    <Compile Include="UI\FormMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormMP.Designer.cs">
+      <DependentUpon>FormMP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZoneList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PluginSettingsForm.resx">
+      <DependentUpon>PluginSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormMP.resx">
+      <DependentUpon>FormMP.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

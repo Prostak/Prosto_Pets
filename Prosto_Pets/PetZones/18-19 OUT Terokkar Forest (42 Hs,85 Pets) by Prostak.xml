@@ -1,0 +1,159 @@
+<HBProfile>
+  <Name>18-19 OUT Terokkar Forest (42 Hs,85 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-3082.939" Y="5941.682" Z="60.45814"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3517.002" Y="6234.16" Z="30.66237"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3774.007" Y="6109.107" Z="24.06366"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3517.753" Y="5870.019" Z="62.10157"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3040.856" Y="5972.807" Z="67.97507"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3045.314" Y="5890.251" Z="34.9672"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3327.019" Y="5822.997" Z="79.854"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="-3177.913" Y="5598.231" Z="43.36725"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-3726.441" Y="5457.179" Z="60.40142"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3489.227" Y="5304.288" Z="81.38516"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-3651.602" Y="5471.027" Z="41.57084"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3791.417" Y="5245.004" Z="35.89399"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-3357.421" Y="5321.746" Z="36.59413"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-3101.892" Y="5355.039" Z="23.89511"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-3746.519" Y="5021.665" Z="15.88209"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3811.707" Y="4778.949" Z="13.47563"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-3575.633" Y="4594.575" Z="24.09756"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-3367.233" Y="4552.047" Z="20.12798"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-3683.962" Y="4496.547" Z="28.4881"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-3915.076" Y="4419.021" Z="31.86686"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3673.631" Y="4224.542" Z="43.6992"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-3179.947" Y="4205.762" Z="79.66402"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-2903.944" Y="3944.053" Z="135.9801"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-3141.606" Y="3988.741" Z="173.5934"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3432.799" Y="4305.633" Z="40.76374"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3059.281" Y="4196.781" Z="59.76599"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="-3472.166" Y="4884.25" Z="20.94482"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3304.08" Y="5031.169" Z="-55.6971"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-3089.783" Y="4746.519" Z="51.30212"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2788.846" Y="4620.83" Z="49.81836"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2986.572" Y="4835.633" Z="32.48252"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2856.768" Y="5119.098" Z="30.49362"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2951.49" Y="4447.407" Z="35.47427"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-2590.405" Y="4249.353" Z="81.09811"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Warpstalker Hatchling"-->
+<Hotspot X="-2314.979" Y="4378.738" Z="143.4169"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Warpstalker Hatchling"-->
+<Hotspot X="-2197.693" Y="4542.004" Z="148.4549"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2292.353" Y="4721.979" Z="96.75398"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2432.662" Y="4870.901" Z="94.81663"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2457.71" Y="5402.953" Z="91.9976"/>
+<!--Seen Name="Warpstalker Hatchling"-->
+<Hotspot X="-1579.976" Y="4671.447" Z="185.7929"/>
+<!--Seen Name="Warpstalker Hatchling"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1466.177" Y="4356.53" Z="236.8774"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Flayer Youngling"-->
+<!--Seen Name="Flayer Youngling"-->
+<!--Seen Name="Flayer Youngling"-->
+<Hotspot X="-1397.052" Y="4165.243" Z="296.74"/>
+<!--Seen Name="Flayer Youngling"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

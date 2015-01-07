@@ -1,0 +1,258 @@
+<HBProfile>
+  <Name>23-25 PAN The Jade Forest (47 Hs,179 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="885.9501" Y="-740.5492" Z="449.6289"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="1407.545" Y="-841.8621" Z="484.5295"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="1608.689" Y="-880.9319" Z="465.533"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="1829.119" Y="-923.7474" Z="484.496"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="2481.242" Y="-1042.888" Z="614.8773"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="2724.325" Y="-1093.394" Z="520.7386"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="3020.814" Y="-1155.031" Z="657.3265"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="2885.416" Y="-1446.418" Z="437.6576"/>
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="2751.723" Y="-1707.65" Z="525.1585"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="2631.088" Y="-1938.63" Z="552.6364"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Emerald Turtle"-->
+<Hotspot X="2537.332" Y="-2281.29" Z="326.9359"/>
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="2077.07" Y="-2526.655" Z="204.6983"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Masked Tanuki Pup"-->
+<!--Seen Name="Masked Tanuki Pup"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="1985.181" Y="-2211.063" Z="431.8708"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="2108.777" Y="-1922.594" Z="413.7643"/>
+<!--Seen Name="Masked Tanuki Pup"-->
+<!--Seen Name="Masked Tanuki Pup"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="2226.521" Y="-1723.371" Z="428.2977"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki Pup"-->
+<Hotspot X="2219.836" Y="-747.9301" Z="666.9391"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="1998.642" Y="-773.9415" Z="517.4514"/>
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="1861.172" Y="-991.1465" Z="561.2861"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="1717.258" Y="-1249.413" Z="457.1973"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="1588.845" Y="-1489.317" Z="462.9685"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="1508.62" Y="-2114.121" Z="430.7762"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Garden Moth"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Garden Moth"-->
+<Hotspot X="1412.942" Y="-2337.244" Z="364.9939"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Garden Moth"-->
+<!--Seen Name="Garden Moth"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="1087.086" Y="-2424.332" Z="333.7567"/>
+<!--Seen Name="Temple Snake"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Temple Snake"-->
+<Hotspot X="814.0986" Y="-2492.851" Z="376.9272"/>
+<!--Seen Name="Temple Snake"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="426.9684" Y="-2588.101" Z="255.0511"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Jungle Darter"-->
+<!--Seen Name="Jungle Darter"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Jungle Darter"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="145.0316" Y="-2731.377" Z="330.8598"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Mirror Strider"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Mirror Strider"-->
+<Hotspot X="-156.2723" Y="-2707.536" Z="194.2982"/>
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Mirror Strider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Mirror Strider"-->
+<Hotspot X="-357.9638" Y="-2591.052" Z="202.1152"/>
+<!--Seen Name="Jungle Darter"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="-286.2045" Y="-2347.421" Z="222.0078"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jungle Darter"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="-175.1504" Y="-2041.68" Z="317.8973"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Jungle Darter"-->
+<Hotspot X="-349.5664" Y="-1667.007" Z="384.9965"/>
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="230.1003" Y="-1457.859" Z="304.6272"/>
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="419.9018" Y="-1389.277" Z="417.0132"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Masked Tanuki"-->
+<Hotspot X="627.7435" Y="-1314.032" Z="251.5714"/>
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Emerald Turtle"-->
+<Hotspot X="866.7642" Y="-1194.486" Z="429.9279"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Shrine Fly"-->
+<!--Seen Name="Shrine Fly"-->
+<!--Seen Name="Shrine Fly"-->
+<Hotspot X="1045.48" Y="-1046.206" Z="352.7074"/>
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="1287.658" Y="-741.7548" Z="486.1953"/>
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="1617.714" Y="-657.0709" Z="483.4125"/>
+<!--Seen Name="Emerald Turtle"-->
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="1841.006" Y="-631.0755" Z="490.8755"/>
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="2537.617" Y="-549.961" Z="533.9006"/>
+<!--Seen Name="Jumping Spider"-->
+<Hotspot X="2795.691" Y="-519.8924" Z="462.5582"/>
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="3067.96" Y="-741.3025" Z="413.9769"/>
+<!--Seen Name="Leopard Tree Frog"-->
+<Hotspot X="1727.074" Y="-1261.176" Z="434.5485"/>
+<!--Seen Name="Leopard Tree Frog"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="1474.721" Y="-1203.556" Z="416.6561"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<Hotspot X="1269.295" Y="-1156.704" Z="394.5931"/>
+<!--Seen Name="Jumping Spider"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Grove Viper"-->
+<!--Seen Name="Bucktooth Flapper"-->
+<!--Seen Name="Grove Viper"-->
+<Hotspot X="1047.899" Y="-1106.207" Z="376.7823"/>
+<!--Seen Name="Shrine Fly"-->
+<!--Seen Name="Shrine Fly"-->
+<!--Seen Name="Shrine Fly"-->
+<!--Seen Name="Shrine Fly"-->
+<Hotspot X="797.6495" Y="-1049.131" Z="359.3507"/>
+<!--Seen Name="Grove Viper"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

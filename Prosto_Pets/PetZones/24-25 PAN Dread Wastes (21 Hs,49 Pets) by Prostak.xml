@@ -1,0 +1,102 @@
+<HBProfile>
+  <Name>24-25 PAN Dread Wastes (21 Hs,49 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-717.7771" Y="2594.885" Z="363.3093"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-808.2253" Y="3318.884" Z="466.2931"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="-871.3889" Y="3638.664" Z="406.3343"/>
+<!--Seen Name="Rapana Whelk"-->
+<Hotspot X="-956.7253" Y="3832.307" Z="230.8307"/>
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Rapana Whelk"-->
+<Hotspot X="-1150.125" Y="4135.938" Z="200.0078"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="-1026.83" Y="4345.09" Z="202.9454"/>
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<Hotspot X="-796.2414" Y="4398.885" Z="184.5854"/>
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Emperor Crab"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<!--Seen Name="Rapana Whelk"-->
+<Hotspot X="-171.8896" Y="4107.805" Z="352.6318"/>
+<!--Seen Name="Resilient Roach"-->
+<!--Seen Name="Resilient Roach"-->
+<Hotspot X="254.1655" Y="2861.917" Z="540.7985"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="508.0692" Y="2570.339" Z="403.7538"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="701.9442" Y="2634.178" Z="413.7639"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="846.2094" Y="2832.391" Z="474.806"/>
+<!--Seen Name="Resilient Roach"-->
+<Hotspot X="869.8135" Y="3143.362" Z="521.5646"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="891.758" Y="3363.986" Z="497.3129"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Silent Hedgehog"-->
+<!--Seen Name="Silent Hedgehog"-->
+<Hotspot X="901.4575" Y="3839.945" Z="580.4827"/>
+<!--Seen Name="Silent Hedgehog"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="871.7455" Y="4046.17" Z="581.7736"/>
+<!--Seen Name="Silent Hedgehog"-->
+<Hotspot X="434.1708" Y="3781.018" Z="404.5898"/>
+<!--Seen Name="Resilient Roach"-->
+<!--Seen Name="Resilient Roach"-->
+<Hotspot X="-92.20942" Y="3337.212" Z="319.7722"/>
+<!--Seen Name="Resilient Roach"-->
+<Hotspot X="-528.2531" Y="2969.57" Z="311.2242"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="411.4453" Y="4318.422" Z="408.2418"/>
+<!--Seen Name="Resilient Roach"-->
+<!--Seen Name="Clouded Hedgehog"-->
+<Hotspot X="919.4003" Y="4124.28" Z="356.9711"/>
+<!--Seen Name="Clouded Hedgehog"-->
+<!--Seen Name="Silent Hedgehog"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

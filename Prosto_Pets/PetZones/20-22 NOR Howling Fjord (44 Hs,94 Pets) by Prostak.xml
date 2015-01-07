@@ -1,0 +1,170 @@
+<HBProfile>
+  <Name>20-22 NOR Howling Fjord (44 Hs,94 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2147.734" Y="-6067.198" Z="176.5773"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="1794.848" Y="-6198.102" Z="101.9615"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="1807.276" Y="-5451.831" Z="295.8553"/>
+<!--Seen Name="Fjord Rat"-->
+<Hotspot X="2603.915" Y="-4491.094" Z="294.4484"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2240.26" Y="-4321.539" Z="309.3911"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2464.327" Y="-3547.874" Z="278.3657"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="2626.054" Y="-3680.077" Z="294.4717"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2699.198" Y="-3599.242" Z="269.3892"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="1976.759" Y="-4082.559" Z="298.998"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1672.33" Y="-4124.125" Z="336.8403"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1671.615" Y="-4390.599" Z="250.9585"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1940.922" Y="-4691.202" Z="282.9377"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1758.534" Y="-5154.318" Z="245.819"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1287.413" Y="-5295.381" Z="264.7184"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="62.71969" Y="-6079.017" Z="36.2819"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="1205.803" Y="-6216.206" Z="303.8296"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1451.822" Y="-5492.768" Z="308.4854"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="986.3771" Y="-5648.963" Z="320.9807"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="785.9273" Y="-5580.303" Z="298.4973"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="311.1747" Y="-5342.658" Z="372.6321"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="143.3018" Y="-5491.271" Z="445.6162"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1057.785" Y="-4934.243" Z="93.81445"/>
+<!--Seen Name="Fjord Rat"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="864.455" Y="-4832.542" Z="76.65158"/>
+<!--Seen Name="Devouring Maggot"-->
+<!--Seen Name="Devouring Maggot"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="584.0577" Y="-5077.184" Z="52.45786"/>
+<!--Seen Name="Turkey"-->
+<Hotspot X="1006.193" Y="-4790.109" Z="99.87801"/>
+<!--Seen Name="Fjord Rat"-->
+<Hotspot X="1410.432" Y="-4525.417" Z="224.6012"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="1345.678" Y="-3998.159" Z="205.22"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="305.7073" Y="-3153.219" Z="76.51835"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="429.7929" Y="-3330.326" Z="107.0688"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<Hotspot X="575.2608" Y="-3490.397" Z="77.41254"/>
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<Hotspot X="780.8599" Y="-3365.061" Z="78.90038"/>
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<Hotspot X="702.0231" Y="-3168.329" Z="105.3277"/>
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<!--Seen Name="Fjord Worg Pup"-->
+<Hotspot X="477.5028" Y="-3665.727" Z="71.68279"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="143.0363" Y="-3313.465" Z="36.93827"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="78.87953" Y="-3515.009" Z="64.69314"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="137.7931" Y="-4930.472" Z="351.1718"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-36.3325" Y="-5104.168" Z="369.6746"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="205.1614" Y="-4511.446" Z="309.3728"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="440.1707" Y="-4146.3" Z="301.3302"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="1228.068" Y="-3269.544" Z="230.189"/>
+<!--Seen Name="Chicken"-->
+<Hotspot X="1458.047" Y="-3407.389" Z="215.4889"/>
+<!--Seen Name="Turkey"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="971.1356" Y="-4401.054" Z="233.749"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="854.6102" Y="-4792.626" Z="238.3186"/>
+<!--Seen Name="Fjord Rat"-->
+<Hotspot X="1058.304" Y="-5081.927" Z="228.758"/>
+<!--Seen Name="Fjord Rat"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

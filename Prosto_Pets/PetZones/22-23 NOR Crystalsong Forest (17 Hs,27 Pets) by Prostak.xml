@@ -1,0 +1,76 @@
+<HBProfile>
+  <Name>22-23 NOR Crystalsong Forest (17 Hs,27 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="5617.075" Y="890.6829" Z="725.8405"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5546.338" Y="-1051.098" Z="286.4573"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="5137.844" Y="-723.3143" Z="262.7197"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="5313.514" Y="-570.1951" Z="229.9323"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="5751.878" Y="-55.44798" Z="282.1032"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5493.753" Y="-55.21251" Z="251.5587"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5781.853" Y="98.56696" Z="319.5529"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="5625.717" Y="235.8137" Z="267.715"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5449.363" Y="491.2142" Z="262.1648"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5714.75" Y="324.9252" Z="239.2439"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5489.512" Y="946.328" Z="209.7057"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5667.881" Y="1068.035" Z="229.717"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5529.081" Y="569.0736" Z="684.4279"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5735.792" Y="380.7294" Z="734.5847"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5568.673" Y="805.4704" Z="726.5536"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5544.048" Y="408.3579" Z="623.8882"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5739.426" Y="262.633" Z="530.1524"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Squirrel"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

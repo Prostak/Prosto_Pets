@@ -1,0 +1,155 @@
+<HBProfile>
+  <Name>17-18 OUT Hellfire Peninsula (47 Hs,76 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-30.60305" Y="2165.277" Z="198.3944"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-294.188" Y="2034.143" Z="146.5961"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1092.416" Y="1983.091" Z="120.8248"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-1201.696" Y="2162.429" Z="105.7718"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-1224.735" Y="2722.15" Z="72.48064"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-849.9567" Y="2816.539" Z="82.28247"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-579.3669" Y="2799.256" Z="98.12119"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-619.9626" Y="2555.139" Z="106.2727"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-616.7661" Y="2298.102" Z="83.79681"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="15.82467" Y="2954.807" Z="72.68155"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-420.9875" Y="2257.776" Z="95.57962"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-464.8083" Y="2556.995" Z="97.0526"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-1217.082" Y="3017.21" Z="70.79189"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-1406.096" Y="3179.735" Z="44.57384"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-931.8979" Y="3045.314" Z="43.19008"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-560.5208" Y="3102.826" Z="75.90795"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-213.7038" Y="3329.253" Z="104.7933"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-405.3391" Y="3400.897" Z="98.18196"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-658.6144" Y="3378.26" Z="109.0668"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-862.814" Y="3348.773" Z="138.0082"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1085.436" Y="3273.626" Z="159.0912"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-602.6618" Y="3580.401" Z="92.34336"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-341.6066" Y="3546.589" Z="66.88834"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-98.88615" Y="3573.938" Z="94.48174"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="305.9938" Y="3644.654" Z="220.8557"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="25.28552" Y="3911.607" Z="134.3662"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-198.5623" Y="3772.396" Z="126.5001"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-404.0878" Y="3777.921" Z="111.8652"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-693.6401" Y="3795.825" Z="130.6519"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-1007.8" Y="3937.269" Z="176.2692"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-681.4274" Y="4398.838" Z="134.5748"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-740.2042" Y="4124.288" Z="86.21661"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-374.6793" Y="4256.731" Z="127.4949"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-263.599" Y="3989.286" Z="121.5155"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-57.7116" Y="4140.181" Z="125.895"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="191.4164" Y="4143.102" Z="126.0052"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="134.6169" Y="4558.666" Z="119.2655"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="145.8705" Y="4812.641" Z="118.4812"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-57.5706" Y="4802.965" Z="111.5922"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-294.25" Y="4728.219" Z="60.75689"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-317.3823" Y="5003.837" Z="91.18513"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="226.7318" Y="3742.727" Z="278.2623"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-54.02372" Y="2201.528" Z="226.6069"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-1147.132" Y="3411.581" Z="397.6128"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-1067.687" Y="3198.489" Z="249.7025"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-910.0894" Y="2775.771" Z="194.2803"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-686.908" Y="2177.141" Z="186.5645"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

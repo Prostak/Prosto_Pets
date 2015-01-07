@@ -1,0 +1,166 @@
+<HBProfile>
+  <Name>20-22 NOR Borean Tundra (45 Hs,89 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="3532.017" Y="3321.983" Z="207.7518"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3388.998" Y="3487.73" Z="213.4269"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="2008.492" Y="6308.805" Z="85.14246"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="2017.082" Y="5807.966" Z="71.69247"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="2283.502" Y="6236.375" Z="117.7841"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="2401.178" Y="6652.608" Z="98.6427"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="2622.737" Y="4968.903" Z="70.06462"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3028.173" Y="6636.27" Z="145.665"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="3196.98" Y="3441.072" Z="77.70814"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3388.452" Y="3424.751" Z="114.5096"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3160.544" Y="4846.864" Z="80.18307"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3081.024" Y="5402.938" Z="95.94878"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3164.167" Y="5935.673" Z="161.5671"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3286.01" Y="6154.919" Z="142.2213"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3349.937" Y="5511.979" Z="131.6439"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3352.732" Y="5151.061" Z="113.2074"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="3304.959" Y="4809.154" Z="98.50326"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3303.845" Y="4259.151" Z="102.2419"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3419.695" Y="3859.878" Z="135.5352"/>
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3517.613" Y="3611.591" Z="171.0914"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="4147.89" Y="4164.19" Z="144.1546"/>
+<!--Seen Name="Arctic Hare"-->
+<!--Seen Name="Arctic Hare"-->
+<Hotspot X="3451.773" Y="3996.656" Z="93.63346"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3455.77" Y="4787.244" Z="93.24165"/>
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="4309.774" Y="4850.096" Z="107.9866"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="4355.398" Y="5064.193" Z="70.19598"/>
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="4052.181" Y="5083.663" Z="51.07844"/>
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="3786.325" Y="5131.158" Z="61.83971"/>
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="3572.864" Y="5163.174" Z="78.7943"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3768.004" Y="5459.759" Z="97.06733"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3976.198" Y="5407.195" Z="98.28089"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="4159.279" Y="5299.462" Z="103.981"/>
+<!--Seen Name="Oily Slimeling"-->
+<!--Seen Name="Oily Slimeling"-->
+<Hotspot X="4441.709" Y="5440.993" Z="128.8608"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3795.123" Y="5665.572" Z="117.8329"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="4166.089" Y="5669.643" Z="124.0586"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="4021.73" Y="5865.03" Z="121.9508"/>
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="4455.789" Y="6162.891" Z="94.18619"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="3536.666" Y="6095.451" Z="197.8477"/>
+<!--Seen Name="Borean Marmot"-->
+<Hotspot X="3473.827" Y="6961.458" Z="303.0715"/>
+<!--Seen Name="Nexus Whelpling"-->
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="3565.094" Y="7240.635" Z="276.6075"/>
+<!--Seen Name="Nexus Whelpling"-->
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="3807.21" Y="7413.67" Z="315.9821"/>
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="4151.868" Y="6949.001" Z="287.5623"/>
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="3716.385" Y="6971.36" Z="309.5299"/>
+<!--Seen Name="Nexus Whelpling"-->
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="3614.458" Y="6613.922" Z="254.9885"/>
+<!--Seen Name="Nexus Whelpling"-->
+<!--Seen Name="Nexus Whelpling"-->
+<Hotspot X="3903.528" Y="6460.461" Z="283.7231"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4217.58" Y="6421.5" Z="297.4876"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

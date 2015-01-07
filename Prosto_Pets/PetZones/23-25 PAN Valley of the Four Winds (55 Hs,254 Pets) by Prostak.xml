@@ -1,0 +1,341 @@
+<HBProfile>
+  <Name>23-25 PAN Valley of the Four Winds (55 Hs,254 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="761.9993" Y="-716.4733" Z="439.5636"/>
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="761.9993" Y="-716.4733" Z="439.5636"/>
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="271.0369" Y="-929.0988" Z="288.4409"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-1124.334" Y="1951.262" Z="223.214"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-1011.247" Y="1663.34" Z="233.6683"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Greyhoof"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-926.837" Y="1448.428" Z="241.5128"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="-802.6904" Y="1132.348" Z="252.9606"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-729.4193" Y="945.7979" Z="259.6612"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="-703.1594" Y="878.9394" Z="262.2059"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-568.3737" Y="1228.788" Z="274.814"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-446.0457" Y="1549.233" Z="286.3607"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-360.9421" Y="1772.16" Z="294.43"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<Hotspot X="-260.4211" Y="2035.546" Z="303.7804"/>
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="-460.8243" Y="2097.426" Z="297.4553"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-787.0398" Y="1998.073" Z="452.3252"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-764.9374" Y="1754.441" Z="375.3828"/>
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-360.6101" Y="1640.291" Z="344.756"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-143.2125" Y="1621.71" Z="371.3422"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="-144.0584" Y="1306.719" Z="389.9845"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="-637.4305" Y="1314.023" Z="405.1526"/>
+<!--Seen Name="Sifang Otter"-->
+<Hotspot X="-626.7315" Y="997.2521" Z="314.41"/>
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-205.5613" Y="522.5714" Z="439.4001"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="0.4912009" Y="396.5033" Z="333.5704"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="199.3364" Y="270.1997" Z="397.5665"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="301.6394" Y="86.91711" Z="348.6718"/>
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="363.6092" Y="-151.0184" Z="335.7462"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="130.5779" Y="-160.211" Z="388.5956"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-76.97041" Y="-46.8062" Z="347.9202"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-377.2782" Y="93.60364" Z="337.0446"/>
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Sifang Otter"-->
+<Hotspot X="-278.9001" Y="-170.8446" Z="317.8846"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Softshell Snapling"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="-178.9615" Y="-439.3842" Z="327.4048"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-102.2824" Y="-645.5625" Z="359.0602"/>
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Sifang Otter"-->
+<Hotspot X="-20.6156" Y="-405.1307" Z="376.2817"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="32.62772" Y="-4.221441" Z="342.7274"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="62.80581" Y="223.0122" Z="341.0272"/>
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="107.9866" Y="563.2126" Z="324.5863"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="136.6414" Y="778.9766" Z="331.954"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="168.4612" Y="1018.572" Z="340.0746"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="196.0734" Y="1226.485" Z="347.2137"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="225.9745" Y="1451.633" Z="453.9505"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="263.6971" Y="1735.676" Z="490.1331"/>
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="256.8006" Y="1957.348" Z="484.9706"/>
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="22.68338" Y="2028.515" Z="342.0142"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Shy Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="138.4715" Y="1318.912" Z="462.8938"/>
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="5.843648" Y="-22.29324" Z="362.8716"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="29.82932" Y="-20.85815" Z="382.1451"/>
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-31.66051" Y="9.152399" Z="389.7372"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat Pup"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-92.69915" Y="239.1856" Z="343.3151"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Softshell Snapling"-->
+<Hotspot X="-150.9695" Y="458.7859" Z="324.5666"/>
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-202.5149" Y="653.0426" Z="331.4056"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<Hotspot X="-322.2147" Y="1104.149" Z="347.1319"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Marsh Fiddler"-->
+<Hotspot X="-402.469" Y="1406.599" Z="357.6829"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Shy Bandicoon"-->
+<Hotspot X="-456.9243" Y="1611.823" Z="359.0946"/>
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Shy Bandicoon"-->
+<Hotspot X="-552.637" Y="1972.53" Z="325.6857"/>
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+<!--Seen Name="Malayan Quillrat"-->
+<Hotspot X="-637.7274" Y="2293.206" Z="307.9998"/>
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon Kit"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Malayan Quillrat"-->
+<!--Seen Name="Bandicoon"-->
+<!--Seen Name="Marsh Fiddler"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

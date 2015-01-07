@@ -1,0 +1,59 @@
+<HBProfile>
+  <Name>01-02 EK Undercity (5 Hs,22 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1542.794" Y="85.22594" Z="352.3008"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1469.22" Y="194.0125" Z="326.2658"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1546.824" Y="402.8978" Z="289.0315"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1740.968" Y="390.2784" Z="273.8123"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1759.216" Y="137.8331" Z="284.1726"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Undercity Rat"-->
+<!--Seen Name="Roach"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

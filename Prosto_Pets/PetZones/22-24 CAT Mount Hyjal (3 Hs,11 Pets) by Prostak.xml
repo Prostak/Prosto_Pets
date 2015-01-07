@@ -1,0 +1,46 @@
+<HBProfile>
+  <Name>22-24 CAT Mount Hyjal (3 Hs,11 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="5553.172" Y="-3635.183" Z="1591.039"/>
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<Hotspot X="4758.864" Y="-3643.788" Z="1382.398"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4158.279" Y="-3655.896" Z="1174.212"/>
+<!--Seen Name="Unknown"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

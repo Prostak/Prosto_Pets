@@ -1,0 +1,165 @@
+<HBProfile>
+  <Name>18-20 OUT Blade's Edge Mountains (44 Hs,89 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2110.247" Y="7323.118" Z="430.2948"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="2719.873" Y="7140.561" Z="438.0712"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="1843.309" Y="7259.773" Z="434.486"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="3811.936" Y="6938.149" Z="209.0607"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3474.66" Y="7326.729" Z="259.1371"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="3671.294" Y="6788.087" Z="256.0777"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3458.008" Y="7045.441" Z="230.1375"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2922.163" Y="6106.736" Z="118.8669"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="2784.557" Y="6299.959" Z="82.0373"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="2578.121" Y="6600.608" Z="139.9213"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="1858.022" Y="6620.211" Z="212.5907"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="1692.697" Y="6955.482" Z="255.264"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2358.859" Y="6501.367" Z="77.85588"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3130.32" Y="5921.596" Z="68.8727"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3595.865" Y="5634.457" Z="63.22593"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3243.518" Y="5716.285" Z="82.19308"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="1719.474" Y="6317.965" Z="79.34015"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="2705.951" Y="5640.918" Z="93.58127"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2861.564" Y="5484.381" Z="198.5974"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3156.52" Y="5578.367" Z="186.838"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="3082.649" Y="5133.69" Z="323.4447"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3404.742" Y="5027.435" Z="338.129"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<Hotspot X="3638.347" Y="4965.792" Z="333.7998"/>
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<Hotspot X="4079.03" Y="5069.309" Z="335.5234"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3929.627" Y="6094.231" Z="332.2061"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="3881.068" Y="5728.652" Z="332.2263"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="3628.65" Y="4804.749" Z="328.9197"/>
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<Hotspot X="3226.489" Y="4938.055" Z="348.6259"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="2662.716" Y="5102.239" Z="351.8377"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="3648.484" Y="4973.109" Z="348.1287"/>
+<!--Seen Name="Scalded Basilisk Hatchling"-->
+<Hotspot X="2445.73" Y="5618.009" Z="346.1807"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="2034.115" Y="5689.374" Z="338.6624"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="1836.47" Y="5633.425" Z="324.6583"/>
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="1712.749" Y="5121.698" Z="320.7895"/>
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="1915.612" Y="5125.778" Z="316.1949"/>
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="2166.023" Y="5128.157" Z="315.7744"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="2363.163" Y="5188.397" Z="314.0713"/>
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="2091.852" Y="5656.074" Z="326.4088"/>
+<!--Seen Name="Cogblade Raptor"-->
+<Hotspot X="2200.246" Y="4953.682" Z="241.5679"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1577.971" Y="4783.191" Z="198.3698"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1841.976" Y="4908.204" Z="224.5778"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1806.018" Y="6136.168" Z="186.877"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2014.895" Y="6150.448" Z="201.9665"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3551.847" Y="4690.486" Z="301.1584"/>
+<!--Seen Name="Rock Viper"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

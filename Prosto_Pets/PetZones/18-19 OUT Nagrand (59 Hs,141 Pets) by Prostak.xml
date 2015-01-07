@@ -1,0 +1,232 @@
+<HBProfile>
+  <Name>18-19 OUT Nagrand (59 Hs,141 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-436.6219" Y="8409.702" Z="95.34769"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1113.973" Y="8705.651" Z="118.8723"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1013.473" Y="8525.139" Z="126.7108"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-754.3196" Y="8242.901" Z="101.0087"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-1207.594" Y="8291.099" Z="66.54205"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1189.015" Y="9133.958" Z="221.6187"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1347.678" Y="9273.999" Z="295.5488"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-1560.809" Y="9101.429" Z="141.956"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-1315.54" Y="8813.839" Z="106.8546"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1674.036" Y="8969.372" Z="115.8347"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1416.817" Y="8405.308" Z="43.40279"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-1521.472" Y="8147.563" Z="15.46138"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-1808.849" Y="8266.559" Z="13.98724"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2462.866" Y="8603.962" Z="13.31371"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-2895.91" Y="8351.332" Z="1.743931"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-2794.381" Y="7797.311" Z="29.52703"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2120.223" Y="8048.564" Z="21.92532"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-2328.322" Y="8417.176" Z="27.31952"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-2629.209" Y="8127.18" Z="5.501456"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-1953.629" Y="8130.342" Z="34.56027"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-1382.303" Y="8046.26" Z="67.50517"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-1237.703" Y="7857.405" Z="29.57874"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1725.877" Y="7861.628" Z="24.1773"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2050.992" Y="7895.101" Z="37.38066"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2181.475" Y="7728.522" Z="28.55526"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2370.925" Y="7647.784" Z="33.41201"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2584.089" Y="7652.821" Z="53.05117"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2938.193" Y="7305.539" Z="67.95377"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2791.756" Y="7111.432" Z="41.79409"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2486.207" Y="7117.419" Z="39.30058"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2172.141" Y="7481.063" Z="53.57872"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1891.443" Y="7477.828" Z="54.05383"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1597.537" Y="7509.591" Z="56.73769"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1388.257" Y="7531.188" Z="69.69932"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1021.023" Y="7868.349" Z="78.03873"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-908.9528" Y="7601.168" Z="92.1926"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-773.6741" Y="7291.729" Z="111.9806"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-827.9373" Y="7074.7" Z="89.5651"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-968.2119" Y="7272.68" Z="71.0609"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-1201.191" Y="6917.199" Z="59.06018"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1348.725" Y="6266.62" Z="95.30002"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1615.667" Y="6701.483" Z="53.98153"/>
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-1401.789" Y="7222.567" Z="178.7576"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1197.399" Y="7260.251" Z="192.727"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-1559.042" Y="7446.306" Z="67.8151"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-1812.752" Y="7439.835" Z="47.84886"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-2255.346" Y="7130.699" Z="68.8103"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-1585.49" Y="6832.093" Z="79.16165"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-918.5569" Y="6876.594" Z="83.4836"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2027.684" Y="6537.454" Z="67.46877"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-2209.408" Y="6756.658" Z="52.81411"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2572.233" Y="6099.956" Z="106.9758"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2331.406" Y="6355.024" Z="81.87759"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-2556.452" Y="6460.14" Z="71.94589"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2722.14" Y="6176.356" Z="94.7766"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2751.045" Y="6546.584" Z="100.1237"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Clefthoof Runt"-->
+<Hotspot X="-2300.416" Y="6611.106" Z="127.5299"/>
+<!--Seen Name="Clefthoof Runt"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-2896.838" Y="6000.545" Z="77.30329"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2896.214" Y="6095.606" Z="50.6496"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>
