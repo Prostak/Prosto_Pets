@@ -54,7 +54,7 @@ namespace Prosto_Pets
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();
         private static Stopwatch rezTimer = new Stopwatch();
-        private static Stopwatch RoundStartTimer = new Stopwatch();
+        private static Stopwatch RoundStartTimer = new Stopwatch();  
 
         private IPluginSettings _pluginSettings;
         private IPluginProperties _pluginProperties;
@@ -750,6 +750,7 @@ namespace Prosto_Pets
                            //where unit.CreatureType.ToString() == "14"
                            where unit.IsPetBattleCritter
                            where !unit.IsDead
+                           where !IsUnderWater(unit.Location)
                            //where (MySettings.UseWhiteList && thewhitelist.Contains(unit.Name.ToLower()) || !MySettings.UseWhiteList)
                            //where (MySettings.UseBlackList && !theblacklist.Contains(unit.Name.ToLower()) || !MySettings.UseBlackList)
                            //where unit.Distance < PokehBuddy.MySettings.Distance
@@ -845,6 +846,33 @@ namespace Prosto_Pets
                     .FirstOrDefault(x => x.Z <= (location.Z + 1.5));
         }
 
+        // Returns WoWPoint.Empty if unable to locate water's surface
+        public static WoWPoint WaterSurface(WoWPoint location)
+        {
+            WoWPoint hitLocation;
+            bool hitResult;
+            WoWPoint locationUpper = location.Add(0.0f, 0.0f, 2000.0f);
+            WoWPoint locationLower = location.Add(0.0f, 0.0f, -2000.0f);
+
+            hitResult = (GameWorld.TraceLine(locationUpper, locationLower, TraceLineHitFlags.LiquidAll, out hitLocation));
+
+            return (hitResult ? hitLocation : WoWPoint.Empty);
+        }
+
+        // Returns WoWPoint.Empty if unable to locate water's surface
+        public static bool IsUnderWater(WoWPoint location)
+        {
+            WoWPoint hitLocation;
+            bool hitResult;
+            WoWPoint locationUpper = location.Add(0.0f, 0.0f, 2000.0f);
+            WoWPoint locationLower = location.Add(0.0f, 0.0f, -2000.0f);
+
+            hitResult = (GameWorld.TraceLine(locationUpper, locationLower, TraceLineHitFlags.LiquidAll, out hitLocation));
+
+            if (!hitResult) return false;
+
+            return (location.Z > hitLocation.Z);
+        }
 
         private Composite moveToPoiAction()
         {
@@ -858,40 +886,13 @@ namespace Prosto_Pets
                     {
                         WoWPoint p = BotPoi.Current.Location;
                         var pZ = p.Z;
-                        Navigator.FindHeight(p.X, p.Y, out p.Z);
-                        //Logger.WriteDebug("After FindHeight: " + p.ToString());
-                        if (p.Z == 0f) p.Z = pZ;  // Height unknown, keeping Hs Z       
-#if false
-                        if (p.Z == 0f)
+                        if (BotPoi.Current.Type != PoiType.Interact)   // mushroom interfereing in Draenor. TODO: enable FPSware's height selection method
                         {
-                            float delta = 1.5f;
-                            //p = FindGroundLocation(p);
-                            //while (!Navigator.CanNavigateWithin(StyxWoW.Me.Location, p, Navigator.PathPrecision) && (pZ-p.Z) < 200)
-                            while (!Navigator.CanNavigateFully(StyxWoW.Me.Location, p) && (pZ - p.Z) < 200f)
-                            {
-                                p.Z -= delta;
-                                //Logger.WriteDebug("Decreasing to: " + p.ToString());
-                            }
-                            Logger.WriteDebug("Decreased to: " + p.ToString() + ", by " + (pZ - p.Z));
-                            //if (!Navigator.CanNavigateFully(StyxWoW.Me.Location, p))
-                            //{
-                            //    Logger.Alert("Toon doesn't have flying capability in this area, and there is no ground path between "
-                            //        + StyxWoW.Me.Location.ToString() + " and " + p.ToString()
-                            //     + ". Please learn the flying skill appropriate for this area.");
-                            //    TreeRoot.Stop("No path to destination");
-                            //    return RunStatus.Success;
-                            //}
-
+                            p = FindGroundLocation(p);
+                            //Logger.WriteDebug("After FindHeight: " + p.ToString());
+                            if (p.Z == 0f) p.Z = pZ;  // Height unknown, keeping Hs Z       
                         }
-#endif
                         MoveResult res = Navigator.MoveTo(p);
-                        //Logger.WriteDebug("MoveResult " + res);
-                        //while( res == MoveResult.PathGenerationFailed)
-                        //{
-                            //p.Z -= delta;
-                            //res = Navigator.MoveTo(p);
-                        //}
-                        //Flightor.MoveTo(p);
                     }
                     return RunStatus.Success;
                 });

@@ -24,13 +24,23 @@ namespace Prosto_Pets
 
             List<AandC> mechanical_abilities;
 
-
-
+            if (petName == "Iron Starlette")
+                mechanical_abilities = new List<AandC>() 
+		{
+			new AandC( "Explode",       () =>   hp < 0.1 	),	        // Slot 3 TODO: check the chances to win conventionally
+			new AandC( "Powerball",     () => 	speed <= speedEnemy),	// Slot 2  against Undead
+			new AandC( "Toxic Smoke" ,  () =>   ! buff("Toxic Smoke")			),	// Slot 2
+			new AandC( "Wind-Up",       () =>   ! buff("Wind-Up") 		),	// Slot 1
+			new AandC( "Supercharge",   () =>   shouldIHide ),	            // Slot 2
+			new AandC( "Wind-Up",       () =>   buff("Wind-Up") && buff("Supercharge") && ! shouldIHide ),	// Slot 1
+			new AandC( "Demolish" 			    ),	// Slot 1
+			new AandC( "Powerball"              ),	// Slot 2  against Undead
+		};
 
 ////////////////////////
 // LIFELIKE CREATIONS //
 ////////////////////////
-if( petName == "Fluxfire Feline" )
+else if( petName == "Fluxfire Feline" )
 	mechanical_abilities = new List<AandC>() 
 		{
 			new AandC( "Overtune", () => 		speed < speedEnemy && ! buff("Speed Boost") ),	// Slot 2
@@ -304,7 +314,7 @@ if( petName == "Fluxfire Feline" )
 
             else // Unknown pet
             {
-                Logger.Alert("Unknown humanoid pet: " + petName);
+                Logger.Alert("Unknown mechanical pet: " + petName);
                 return null;
             }
             return mechanical_abilities;

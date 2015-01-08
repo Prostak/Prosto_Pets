@@ -22,11 +22,40 @@ namespace Prosto_Pets
             }
 
             List<AandC> aquatic_abilities;
+
+            //////////////////
+            //// DRAENOR //
+            //////////////////
+
+            if (petName == "Moonshell Crab" )
+                aquatic_abilities = new List<AandC>()
+		{
+			new AandC( "Arcane Slash",      ()=> hpEnemy < 0.2 ),	        // Slot 1
+			new AandC( "Moon Tears"                                     ),	// Slot 3
+			new AandC( "Renewing Mists",    ()=> hp < 0.7 && ! buff("Renewing Mists")	),	// Slot 3
+			new AandC( "Amplify Magic",	    ()=> hp > 0.4	          ),	// Slot 2
+			new AandC( "Shell Shield",      ()=> hp < hpEnemy && ! buff("Shell Shield" )),	        // Slot 2
+			new AandC( "Arcane Slash" 			                      ),	// Slot 1
+			new AandC( "Water Jet" 		                          ),	    // Slot 1
+		};
+            else if (petName == "Zangar Crawler")
+                aquatic_abilities = new List<AandC>()
+		{
+			new AandC( "Devour", 			() => hpEnemy < 0.20 ),	// Slot 3,  if we kill the enemy with Devour, we restore health
+			new AandC( "Blood in the Water",()=> debuff("Bleeding") ),	// Slot 3
+			new AandC( "Rip",               ()=> ! debuff("Bleeding")	),	// Slot 1
+			new AandC( "Spiny Carapace" 			          ),	// Slot 2
+			new AandC( "Shell Shield",      ()=> hp < hpEnemy && ! buff("Shell Shield" )),	// Slot 2
+			new AandC( "Rip" 			                      ),	// Slot 1
+			new AandC( "Claw" 		                          ),	// Slot 1
+		};
+
+
             
 //////////////////
 //// CROCOLISKS //
 //////////////////
-            if (petName == "Chuck" || petName == "Muckbreath" || petName == "Snarly" || petName == "Toothy")
+            else if (petName == "Chuck" || petName == "Muckbreath" || petName == "Snarly" || petName == "Toothy")
                 aquatic_abilities = new List<AandC>()
 		{
 			new AandC( "Devour", 			() => hpEnemy < 0.20 ),	// Slot 3,  if we kill the enemy with Devour, we restore health

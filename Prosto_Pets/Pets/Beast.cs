@@ -24,10 +24,24 @@ namespace Prosto_Pets
 
             List<AandC> beast_abilities;
 
-//////////-
+            /////////////-
+            // DRAENOR //
+            /////////////-
+            if (petName == "Mossbite Skitterer")
+                beast_abilities = new List<AandC>() 
+		{
+			new AandC("Gnaw",       ()=> speed > speedEnemy ),	// Slot 1
+			new AandC("Ravage", 	() => hpEnemy < 0.2	),	// Slot 2
+			new AandC("Puncture Wound", ()=> debuff("Poisoned") 	),	// Slot 3
+			new AandC("Takedown",   ()=> debuff("Stunned") 			),	// Slot 1
+			new AandC("Body Slam" 		),	// Slot 3
+			new AandC("Gnaw" 			),	// Slot 1
+			new AandC("Bite" 			),	// Slot 1
+		};
+            //////////-
 // BEARS //
 //////////-
-            if (petName == "Baby Blizzard Bear" || petName == "Poley")
+            else if (petName == "Baby Blizzard Bear" || petName == "Poley")
                 beast_abilities = new List<AandC>() 
 		{
 			new AandC("Bite" 			),	// Slot 1
@@ -223,10 +237,11 @@ namespace Prosto_Pets
 		{
 			new AandC("Devour", () =>		hpEnemy < 0.20 ),	// Slot 3,  if( we kill the enemy with Devour, we restore health
 			new AandC("Leap", 	() =>		speed < speedEnemy && ! buff("Speed Boost") ),	// Slot 2
+			new AandC("Black Claw", () => !debuff("Black Claw") 		),	// Slot 3
 			new AandC("Bite" 			),	// Slot 1
 			new AandC("Hunting Party" 	),	// Slot 1
 			new AandC("Primal Cry" 		),	// Slot 2
-			new AandC("Black Claw" 		),	// Slot 3
+			new AandC("Leap"            ),	// Slot 3    -  unconditional Leap           
 		};
             else if (petName == "Zandalari Footslasher")
                 beast_abilities = new List<AandC>() 
@@ -242,10 +257,10 @@ namespace Prosto_Pets
                 beast_abilities = new List<AandC>() 
 		{
 			new AandC("Leap", () =>			speed < speedEnemy && ! buff("Speed Boost") ),	// Slot 3
+			new AandC("Black Claw", () => !debuff("Black Claw") ),	// Slot 2
 			new AandC("Bite" 			),	// Slot 1
 			new AandC("Hunting Party" 	),	// Slot 1
 			new AandC("Screech" 		),	// Slot 2
-			new AandC("Black Claw", () => !buff("Black Claw") ),	// Slot 2
 			new AandC("Bloodfang" 		),	// Slot 3
 			new AandC("Leap"            ),	// Slot 3    -  unconditional Leap           
 		};
@@ -253,11 +268,12 @@ namespace Prosto_Pets
                 beast_abilities = new List<AandC>() 
 		{
 			new AandC("Leap", () =>			speed < speedEnemy && ! buff("Speed Boost") ),	// Slot 2
+			new AandC("Black Claw", () => !debuff("Black Claw") ),	// Slot 2
 			new AandC("Bite" 			),	// Slot 1
 			new AandC("Flank" 			),	// Slot 1
 			new AandC("Primal Cry" 		),	// Slot 2
 			new AandC("Bloodfang" 		),	// Slot 3
-			new AandC("Black Claw" 		),	// Slot 3
+			new AandC("Leap"            ),	// Slot 3    -  unconditional Leap           
 		};
             ////////////-
             // RODENTS //
