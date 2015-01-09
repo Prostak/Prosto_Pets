@@ -45,6 +45,7 @@
             this.pB_pet3 = new PBwithText_v2();
             this.checkBox_Manual = new System.Windows.Forms.CheckBox();
             this.comboBox_Mode = new System.Windows.Forms.ComboBox();
+            this.label_Version = new System.Windows.Forms.Label();
             this.tabList_Geb = new Cyotek.Windows.Forms.TabList();
             this.tabListPage_General = new Cyotek.Windows.Forms.TabListPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -299,6 +300,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
@@ -332,6 +335,7 @@
             this.tableLayoutPanel1.Controls.Add(this.pB_pet3, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.checkBox_Manual, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.comboBox_Mode, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label_Version, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -535,6 +539,18 @@
             this.comboBox_Mode.Size = new System.Drawing.Size(149, 24);
             this.comboBox_Mode.TabIndex = 15;
             this.comboBox_Mode.SelectedIndexChanged += new System.EventHandler(this.comboBox_Mode_SelectedIndexChanged);
+            // 
+            // label_Version
+            // 
+            this.label_Version.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label_Version.AutoSize = true;
+            this.label_Version.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Version.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label_Version.Location = new System.Drawing.Point(23, 118);
+            this.label_Version.Name = "label_Version";
+            this.label_Version.Size = new System.Drawing.Size(108, 16);
+            this.label_Version.TabIndex = 16;
+            this.label_Version.Text = "Version 0.9.2        ";
             // 
             // tabList_Geb
             // 
@@ -2536,7 +2552,7 @@
             this.tabListPage_PetZones.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabListPage_PetZones.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tabListPage_PetZones.Name = "tabListPage_PetZones";
-            this.tabListPage_PetZones.Size = new System.Drawing.Size(462, 363);
+            this.tabListPage_PetZones.Size = new System.Drawing.Size(42, 192);
             this.tabListPage_PetZones.TabIndex = 6;
             this.tabListPage_PetZones.Text = "Pet Zones";
             // 
@@ -2587,7 +2603,7 @@
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(460, 361);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(40, 190);
             this.tableLayoutPanel11.TabIndex = 0;
             // 
             // checkBox_AutoZones
@@ -2596,9 +2612,9 @@
             this.checkBox_AutoZones.AutoSize = true;
             this.tableLayoutPanel11.SetColumnSpan(this.checkBox_AutoZones, 2);
             this.checkBox_AutoZones.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_AutoZones.Location = new System.Drawing.Point(3, 6);
+            this.checkBox_AutoZones.Location = new System.Drawing.Point(3, 3);
             this.checkBox_AutoZones.Name = "checkBox_AutoZones";
-            this.checkBox_AutoZones.Size = new System.Drawing.Size(366, 17);
+            this.checkBox_AutoZones.Size = new System.Drawing.Size(34, 9);
             this.checkBox_AutoZones.TabIndex = 0;
             this.checkBox_AutoZones.Text = "Automatically Select Zones based on pet Level and per-Mode increment";
             this.checkBox_AutoZones.UseVisualStyleBackColor = true;
@@ -2607,9 +2623,9 @@
             // 
             this.label78.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(12, 37);
+            this.label78.Location = new System.Drawing.Point(3, 15);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(77, 15);
+            this.label78.Size = new System.Drawing.Size(2, 15);
             this.label78.TabIndex = 1;
             this.label78.Text = "Levels 1-3:";
             // 
@@ -2617,9 +2633,9 @@
             // 
             this.button_Zone_1to3.AutoSize = true;
             this.button_Zone_1to3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_1to3.Location = new System.Drawing.Point(95, 33);
+            this.button_Zone_1to3.Location = new System.Drawing.Point(11, 18);
             this.button_Zone_1to3.Name = "button_Zone_1to3";
-            this.button_Zone_1to3.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_1to3.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_1to3.TabIndex = 2;
             this.button_Zone_1to3.Text = "C:\\";
             this.button_Zone_1to3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2630,9 +2646,9 @@
             // 
             this.label79.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(12, 67);
+            this.label79.Location = new System.Drawing.Point(3, 30);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(77, 15);
+            this.label79.Size = new System.Drawing.Size(2, 15);
             this.label79.TabIndex = 3;
             this.label79.Text = "Levels 4-5:";
             // 
@@ -2640,9 +2656,9 @@
             // 
             this.label80.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(12, 97);
+            this.label80.Location = new System.Drawing.Point(3, 45);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(77, 15);
+            this.label80.Size = new System.Drawing.Size(2, 15);
             this.label80.TabIndex = 4;
             this.label80.Text = "Levels 6-7:";
             // 
@@ -2650,9 +2666,9 @@
             // 
             this.label81.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(12, 127);
+            this.label81.Location = new System.Drawing.Point(3, 60);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(77, 15);
+            this.label81.Size = new System.Drawing.Size(2, 15);
             this.label81.TabIndex = 5;
             this.label81.Text = "Levels 8-9:";
             // 
@@ -2660,9 +2676,9 @@
             // 
             this.label82.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(12, 157);
+            this.label82.Location = new System.Drawing.Point(3, 75);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(77, 15);
+            this.label82.Size = new System.Drawing.Size(2, 15);
             this.label82.TabIndex = 6;
             this.label82.Text = "Lvls 10-11:";
             // 
@@ -2670,9 +2686,9 @@
             // 
             this.label83.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(12, 187);
+            this.label83.Location = new System.Drawing.Point(3, 90);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(77, 15);
+            this.label83.Size = new System.Drawing.Size(2, 15);
             this.label83.TabIndex = 7;
             this.label83.Text = "Lvls 12-13:";
             // 
@@ -2680,9 +2696,9 @@
             // 
             this.label85.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(12, 217);
+            this.label85.Location = new System.Drawing.Point(3, 105);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(77, 15);
+            this.label85.Size = new System.Drawing.Size(2, 15);
             this.label85.TabIndex = 9;
             this.label85.Text = "Lvls 14-15:";
             // 
@@ -2690,9 +2706,9 @@
             // 
             this.label86.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(12, 247);
+            this.label86.Location = new System.Drawing.Point(3, 120);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(77, 15);
+            this.label86.Size = new System.Drawing.Size(2, 15);
             this.label86.TabIndex = 10;
             this.label86.Text = "Lvls 16-17:";
             // 
@@ -2700,9 +2716,9 @@
             // 
             this.label87.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(12, 277);
+            this.label87.Location = new System.Drawing.Point(3, 135);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(77, 15);
+            this.label87.Size = new System.Drawing.Size(2, 15);
             this.label87.TabIndex = 11;
             this.label87.Text = "Lvls 18-19:";
             // 
@@ -2710,9 +2726,9 @@
             // 
             this.label88.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(12, 307);
+            this.label88.Location = new System.Drawing.Point(3, 150);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(77, 15);
+            this.label88.Size = new System.Drawing.Size(2, 15);
             this.label88.TabIndex = 12;
             this.label88.Text = "Lvls 20-21:";
             // 
@@ -2720,9 +2736,9 @@
             // 
             this.button_Zone_4to5.AutoSize = true;
             this.button_Zone_4to5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_4to5.Location = new System.Drawing.Point(95, 63);
+            this.button_Zone_4to5.Location = new System.Drawing.Point(11, 33);
             this.button_Zone_4to5.Name = "button_Zone_4to5";
-            this.button_Zone_4to5.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_4to5.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_4to5.TabIndex = 14;
             this.button_Zone_4to5.Text = "C:\\";
             this.button_Zone_4to5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2733,9 +2749,9 @@
             // 
             this.button_Zone_6to7.AutoSize = true;
             this.button_Zone_6to7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_6to7.Location = new System.Drawing.Point(95, 93);
+            this.button_Zone_6to7.Location = new System.Drawing.Point(11, 48);
             this.button_Zone_6to7.Name = "button_Zone_6to7";
-            this.button_Zone_6to7.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_6to7.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_6to7.TabIndex = 15;
             this.button_Zone_6to7.Text = "C:\\";
             this.button_Zone_6to7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2746,9 +2762,9 @@
             // 
             this.button_Zone_8to9.AutoSize = true;
             this.button_Zone_8to9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_8to9.Location = new System.Drawing.Point(95, 123);
+            this.button_Zone_8to9.Location = new System.Drawing.Point(11, 63);
             this.button_Zone_8to9.Name = "button_Zone_8to9";
-            this.button_Zone_8to9.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_8to9.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_8to9.TabIndex = 16;
             this.button_Zone_8to9.Text = "C:\\";
             this.button_Zone_8to9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2759,9 +2775,9 @@
             // 
             this.button_Zone_10to11.AutoSize = true;
             this.button_Zone_10to11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_10to11.Location = new System.Drawing.Point(95, 153);
+            this.button_Zone_10to11.Location = new System.Drawing.Point(11, 78);
             this.button_Zone_10to11.Name = "button_Zone_10to11";
-            this.button_Zone_10to11.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_10to11.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_10to11.TabIndex = 17;
             this.button_Zone_10to11.Text = "C:\\";
             this.button_Zone_10to11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2772,9 +2788,9 @@
             // 
             this.button_Zone_12to13.AutoSize = true;
             this.button_Zone_12to13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_12to13.Location = new System.Drawing.Point(95, 183);
+            this.button_Zone_12to13.Location = new System.Drawing.Point(11, 93);
             this.button_Zone_12to13.Name = "button_Zone_12to13";
-            this.button_Zone_12to13.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_12to13.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_12to13.TabIndex = 18;
             this.button_Zone_12to13.Text = "C:\\";
             this.button_Zone_12to13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2785,9 +2801,9 @@
             // 
             this.button_Zone_14to15.AutoSize = true;
             this.button_Zone_14to15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_14to15.Location = new System.Drawing.Point(95, 213);
+            this.button_Zone_14to15.Location = new System.Drawing.Point(11, 108);
             this.button_Zone_14to15.Name = "button_Zone_14to15";
-            this.button_Zone_14to15.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_14to15.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_14to15.TabIndex = 19;
             this.button_Zone_14to15.Text = "C:\\";
             this.button_Zone_14to15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2798,9 +2814,9 @@
             // 
             this.button_Zone_16to17.AutoSize = true;
             this.button_Zone_16to17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_16to17.Location = new System.Drawing.Point(95, 243);
+            this.button_Zone_16to17.Location = new System.Drawing.Point(11, 123);
             this.button_Zone_16to17.Name = "button_Zone_16to17";
-            this.button_Zone_16to17.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_16to17.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_16to17.TabIndex = 20;
             this.button_Zone_16to17.Text = "C:\\";
             this.button_Zone_16to17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2811,9 +2827,9 @@
             // 
             this.button_Zone_18to19.AutoSize = true;
             this.button_Zone_18to19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_18to19.Location = new System.Drawing.Point(95, 273);
+            this.button_Zone_18to19.Location = new System.Drawing.Point(11, 138);
             this.button_Zone_18to19.Name = "button_Zone_18to19";
-            this.button_Zone_18to19.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_18to19.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_18to19.TabIndex = 21;
             this.button_Zone_18to19.Text = "C:\\";
             this.button_Zone_18to19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2824,9 +2840,9 @@
             // 
             this.button_Zone_20to21.AutoSize = true;
             this.button_Zone_20to21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_20to21.Location = new System.Drawing.Point(95, 303);
+            this.button_Zone_20to21.Location = new System.Drawing.Point(11, 153);
             this.button_Zone_20to21.Name = "button_Zone_20to21";
-            this.button_Zone_20to21.Size = new System.Drawing.Size(34, 24);
+            this.button_Zone_20to21.Size = new System.Drawing.Size(26, 9);
             this.button_Zone_20to21.TabIndex = 22;
             this.button_Zone_20to21.Text = "C:\\";
             this.button_Zone_20to21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2837,9 +2853,9 @@
             // 
             this.button_Zone_22to25.AutoSize = true;
             this.button_Zone_22to25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_22to25.Location = new System.Drawing.Point(95, 333);
+            this.button_Zone_22to25.Location = new System.Drawing.Point(11, 168);
             this.button_Zone_22to25.Name = "button_Zone_22to25";
-            this.button_Zone_22to25.Size = new System.Drawing.Size(34, 25);
+            this.button_Zone_22to25.Size = new System.Drawing.Size(26, 19);
             this.button_Zone_22to25.TabIndex = 23;
             this.button_Zone_22to25.Text = "C:\\";
             this.button_Zone_22to25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2850,9 +2866,9 @@
             // 
             this.label89.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(12, 338);
+            this.label89.Location = new System.Drawing.Point(3, 165);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(77, 15);
+            this.label89.Size = new System.Drawing.Size(2, 25);
             this.label89.TabIndex = 24;
             this.label89.Text = "Lvls 22-25:";
             // 
@@ -3154,6 +3170,7 @@
         private System.Windows.Forms.Button button_Zone_22to25;
         private System.Windows.Forms.Label label89;
         private System.Windows.Forms.Label label_byLevel;
+        private System.Windows.Forms.Label label_Version;
 
     }
 }

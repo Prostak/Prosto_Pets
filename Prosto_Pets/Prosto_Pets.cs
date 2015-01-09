@@ -50,6 +50,7 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
+        public string Version { get { return "0.9.2"; } }
 
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();
@@ -181,7 +182,7 @@ namespace Prosto_Pets
 
         public override void Start()
         {
-            Logger.Write("Start pressed");
+            Logger.Write("Prosto_Pets started, version " + Version);
             BotPoi.Clear();
             AttachLuaEvents();
             MyPets.updateMyPets();
@@ -862,16 +863,16 @@ namespace Prosto_Pets
         // Returns WoWPoint.Empty if unable to locate water's surface
         public static bool IsUnderWater(WoWPoint location)
         {
-            WoWPoint hitLocation;
+            WoWPoint waterLocation;
             bool hitResult;
             WoWPoint locationUpper = location.Add(0.0f, 0.0f, 2000.0f);
             WoWPoint locationLower = location.Add(0.0f, 0.0f, -2000.0f);
 
-            hitResult = (GameWorld.TraceLine(locationUpper, locationLower, TraceLineHitFlags.LiquidAll, out hitLocation));
+            hitResult = (GameWorld.TraceLine(locationUpper, locationLower, TraceLineHitFlags.LiquidAll, out waterLocation));
 
             if (!hitResult) return false;
 
-            return (location.Z > hitLocation.Z);
+            return (location.Z < waterLocation.Z);
         }
 
         private Composite moveToPoiAction()

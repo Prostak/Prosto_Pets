@@ -120,6 +120,8 @@ namespace Prosto_Pets.UI
 
             #region Main / General
 
+            label_Version.Text = "Version " + Prosto_Pets.Instance.Version + "        ";
+
             checkBox_Manual.Checked = PluginSettings.Instance.MovementByPlayer;
             checkBox_LockPet1.Checked = PluginSettings.Instance.LockFirstSlot;
             checkBox_LockPet2.Checked = PluginSettings.Instance.LockSecondSlot;
