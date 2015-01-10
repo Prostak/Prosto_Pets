@@ -1,0 +1,463 @@
+<HBProfile>
+  <Name>23-25 DRA (Ground) Shadowmoon Valley (58 Hs,175 Pets) by Prostak.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1680.738" Y="-395.059" Z="20.46463"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="1950.347" Y="-490.3142" Z="2.838824"/>
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Forest Spiderling"-->
+<Hotspot X="1640.62" Y="-1354.111" Z="4.31748"/>
+<!--Seen Name="Zangar Crawler"-->
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="1640.62" Y="-1354.111" Z="4.234296"/>
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="1346.05" Y="-940.5677" Z="-35.82594"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<Hotspot X="1268.842" Y="-1079.86" Z="-32.28995"/>
+<!--Battle Name="Pixiebell"-->
+<!--Battle Name="Doodle"-->
+<!--Battle Name="Tally"-->
+<Hotspot X="1139.252" Y="-1440.125" Z="-11.27434"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Royal Moth"-->
+<Hotspot X="1175.837" Y="-1585.174" Z="7.268574"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1182.2" Y="-1743.068" Z="23.91994"/>
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="1605.38" Y="-1599.609" Z="1.355354"/>
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Seen Name="Zangar Crawler"-->
+<Hotspot X="1685.708" Y="-1554.129" Z="0.5064913"/>
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Zangar Crawler"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Royal Moth"-->
+<Hotspot X="1369.397" Y="-2198.279" Z="0.6054168"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="1202.97" Y="-2249.644" Z="0.3263381"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="1275.392" Y="-2212.504" Z="2.415411"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="716.1441" Y="-1809.995" Z="23.88899"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="716.1441" Y="-1809.995" Z="23.88899"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Zangar Crawler"-->
+<Hotspot X="521.7917" Y="-1867.8" Z="30.54962"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="324.3507" Y="-1961.92" Z="28.32252"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="140.8873" Y="-2021.42" Z="27.72801"/>
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<Hotspot X="53.23611" Y="-2290.582" Z="4.249918"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="-41.69671" Y="-2241.458" Z="3.372249"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="-52.22246" Y="-2242.486" Z="1.867019"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Spider"-->
+<Hotspot X="-73.6396" Y="-2179.809" Z="0.1711521"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Royal Moth"-->
+<Hotspot X="34.85243" Y="-1965.875" Z="24.65868"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="109.7595" Y="-1802.601" Z="27.281"/>
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="218.5509" Y="-1669.037" Z="25.29317"/>
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<Hotspot X="-51.28993" Y="-1422.307" Z="39.70539"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Zangar Crawler"-->
+<Hotspot X="-228.2498" Y="-1158.298" Z="-22.92546"/>
+<!--Seen Name="Waterfly"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Spider"-->
+<Hotspot X="-543.1893" Y="-1351.724" Z="-21.95081"/>
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Waterfly"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Royal Moth"-->
+<!--Seen Name="Waterfly"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Forest Spiderling"-->
+<Hotspot X="-323.1233" Y="-935.684" Z="9.390176"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Waterfly"-->
+<!--Battle Name="Spider"-->
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="-103.2344" Y="-884.9722" Z="20.5381"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="124.2257" Y="-909.1163" Z="14.52397"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="282.967" Y="-559.382" Z="-18.64542"/>
+<!--Seen Name="Waterfly"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="-171.3333" Y="-450.2639" Z="37.97331"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="-431.4826" Y="-496.8837" Z="27.34504"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="-729.2327" Y="-452.2292" Z="3.426811"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="-628.4028" Y="-133.6476" Z="4.687327"/>
+<!--Seen Name="Moonshell Crab"-->
+<Hotspot X="-423.4323" Y="-237.5694" Z="38.48594"/>
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="-180.9479" Y="-207.6944" Z="84.79218"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Waterfly"-->
+<Hotspot X="86.49479" Y="-260.158" Z="37.50465"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="300.1945" Y="-241.1094" Z="89.73218"/>
+<!--Seen Name="Waterfly"-->
+<Hotspot X="883.6371" Y="-393.9653" Z="-29.20597"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1211.002" Y="102.2865" Z="27.64102"/>
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1361.125" Y="680.2243" Z="99.59653"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="1528.369" Y="848.6116" Z="65.87645"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="1521.964" Y="646.7459" Z="74.73795"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="1689.815" Y="764.668" Z="79.6479"/>
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="1689.762" Y="560.3562" Z="47.54044"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="1891.324" Y="496.6638" Z="39.53479"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="2113.06" Y="658.0478" Z="58.09859"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="2196.179" Y="458.0172" Z="18.91261"/>
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="794.2778" Y="-958.1528" Z="-6.478333"/>
+<!--Seen Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Forest Spiderling"-->
+<Hotspot X="963.9271" Y="-1386.42" Z="5.749786"/>
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1175.837" Y="-1585.174" Z="7.268574"/>
+<!--Seen Name="Royal Moth"-->
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1118.778" Y="-1919.132" Z="11.24247"/>
+<!--Seen Name="Royal Moth"-->
+<Hotspot X="1278.329" Y="-2209.51" Z="2.541328"/>
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Hotspot X="1455.179" Y="-2242.545" Z="0.9848657"/-->  <!-- Unreachable -->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Mossbite Skitterer"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Forest Spiderling"-->
+<!--Seen Name="Moonshell Crab"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Zangar Crawler"-->
+<!--Battle Name="Forest Spiderling"-->
+<Hotspot X="1281.438" Y="-2210.166" Z="2.685968"/>
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Royal Moth"-->
+<!--Battle Name="Moonshell Crab"-->
+<!--Battle Name="Spider"-->
+<!--Battle Name="Waterfly"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

@@ -85,11 +85,24 @@ namespace Prosto_Pets
 
         }
 
+
+        public static string GetContinentName()
+        {
+            return Lua.GetReturnVal<string>("return GetInstanceInfo()", 0);
+        }
+
         public static string PlayerZone()
         {
             string zoneName = string.IsNullOrEmpty(StyxWoW.Me.ZoneText)
             ? "noZone"
             : (StyxWoW.Me.CurrentMap.IsGarrison ? "Garrison" : StyxWoW.Me.ZoneText);
+            if (GetContinentName() == "Draenor")
+            {
+                if (zoneName == "Shadowmoon Valley" || zoneName == "Nagrand")
+                {
+                    zoneName += "-DR";
+                }
+            }
             return zoneName;
         }
 

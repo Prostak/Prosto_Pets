@@ -124,7 +124,7 @@ namespace Prosto_Pets
             Continent = "DRA";
             add("Garrison", 23, 25);
             add("Shadowmoon Valley-DR", 23, 25);  // duplicate
-            add("Gorgond", 23, 25);
+            add("Gorgond-DR", 23, 25);
             add("Talador", 23, 25);
             add("Frostfire Ridge", 24, 25);
             add("Spires Of Arak", 24, 25);
