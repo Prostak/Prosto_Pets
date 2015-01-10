@@ -106,7 +106,7 @@ namespace Prosto_Pets.UI
 
         private void UpdateByLevelsLabel()
         {
-            string text = PetJournal.Instance.GetPetsByLevel();
+            string text = PetJournal.Instance.GetPetsByLevel( false );  // do not hide exact numbers
             label_byLevel.Text = text;
             label_byLevel.Invalidate();
         }

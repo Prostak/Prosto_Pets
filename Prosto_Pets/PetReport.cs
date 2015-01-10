@@ -130,8 +130,8 @@ namespace Prosto_Pets
             }
         }
     
-        // checks if filename player is in the same area, if not performs Close - Start 
-        // then checks if filename point is close to an existing hotspot, if not creates one and adds filename pet name there  
+        // checks if a player is in the same area, if not performs Close - Start 
+        // then checks if a point is close to an existing hotspot, if not creates one and adds a pet name there  
         public void AddBattle(string name)
         {
             if (!_started || !PluginSettings.Instance.RecordPets) return;
@@ -149,8 +149,8 @@ namespace Prosto_Pets
             ReportBattle( name );
         }
 
-        // checks if filename player is in the same area, if not performs Close - Start 
-        // then checks if filename pet id is already registered, if not creates one and adds filename pet name there  
+        // checks if a player is in the same area, if not performs Close - Start 
+        // then checks if a pet id is already registered, if not creates one and adds a pet name there  
         public void AddSeen(string id, string name, Styx.WoWPoint point)
         {
             if (!_started || !PluginSettings.Instance.RecordPets) return;
@@ -219,7 +219,7 @@ namespace Prosto_Pets
             try
             {
                 _petLog = File.AppendText( sPath );
-                _petLog.AutoFlush = true;  // not very intensive output, but it is bad to loose filename record
+                _petLog.AutoFlush = true;  // not very intensive output, but it is bad to loose a record
             }
             catch( Exception e)
             {

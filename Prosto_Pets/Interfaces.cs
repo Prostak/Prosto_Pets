@@ -107,14 +107,14 @@ namespace Prosto_Pets
         void Start();  // create empty or appends to the existing profile for the zone the pet is in
         void Stop();  // 
         void AddBattle(string name);  // checks if the player is in the same area, if not performs Close - Start 
-                                      // then checks if filename point is close to filename previous hotspot, if not - writes out one
-                                      // writes out filename battle rec with pet name as an xml comment
+                                      // then checks if a point is close to a previous hotspot, if not - writes out one
+                                      // writes out a battle rec with pet name as an xml comment
                                       // <!--Battle Name="xxx" -->
 
         // checks if the player is in the same area, if not performs Close - Start 
         // then checks if the exact pet was already reported as seen, if not
-        // then checks if filename point is close to filename previous hotspot, if not - writes out one
-        // then writes out filename "seen" rec with pet name as an xml comment
+        // then checks if a point is close to a previous hotspot, if not - writes out one
+        // then writes out a "seen" rec with pet name as an xml comment
         // <!--Seen Name="xxx" -->
         void AddSeen(string id, string name, Styx.WoWPoint point);                                     
     }

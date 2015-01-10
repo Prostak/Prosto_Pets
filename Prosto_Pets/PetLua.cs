@@ -358,7 +358,7 @@ namespace Prosto_Pets
     + "for auraIndex = 1,numAuras do\n"
     + "	local auraID, instanceID, turnsRemaining, isBuff = C_PetBattles.GetAuraInfo(LE_BATTLE_PET_ENEMY, petIndex, auraIndex)\n"
     + "	local id, name, icon, maxCooldown, unparsedDescription, numTurns, petType, noStrongWeakHints = C_PetBattles.GetAbilityInfoByID(auraID)\n"
-    + "	if name == \"" + auraName + "\" then  return true,turnsRemaining end\n"
+    + "	if name == \"" + auraName + "\" and id ~= 239 then  return true,turnsRemaining,id end\n"
     + "end\n"
 
     // Checking team wide buffs
@@ -366,8 +366,38 @@ namespace Prosto_Pets
     + "for auraIndex = 1, numTeamwideAuras do\n"
     + " local auraID, instanceID, turnsRemaining, isBuff = C_PetBattles.GetAuraInfo(LE_BATTLE_PET_ENEMY, PET_BATTLE_PAD_INDEX, auraIndex)\n"
     + " local id, name, icon, maxCooldown, unparsedDescription, numTurns, petType, noStrongWeakHints = C_PetBattles.GetAbilityInfoByID(auraID)\n"
-    + " if name == \"" + auraName + "\" then  return true,turnsRemaining end\n"
+    + " if name == \"" + auraName + "\" then  return true,turnsRemaining,id end\n"
     + "end\n"
+    + "return false;\n";
+            List<string> cnt = Lua.GetReturnValues(lua);
+            if (cnt != null)
+            {
+                if (cnt[0] == "1")
+                {
+                    //Logger.WriteDebug("Debuff: " + auraName + ", count=" + cnt.Count + ", id = " + ((cnt.Count>2 && (cnt[2] != null)) ? cnt[2] : "null"));
+                    return Convert.ToInt32(cnt[1]);
+                }
+            }
+            return -1;
+        }
+        public bool debuff(string name)
+        {
+            return debuffLeft(name) > 0;
+        }
+
+        public int debuffLeft(int id)
+        {
+            string lua = "local petIndex = C_PetBattles.GetActivePet(LE_BATTLE_PET_ENEMY);"
+    + "local numAuras = C_PetBattles.GetNumAuras(LE_BATTLE_PET_ENEMY, petIndex);"
+    + "if numAuras == nil then return false end;" // Return false if nil, e.g. when NOT in battle
+
+    // Checking front pet buffs
+    + "for auraIndex = 1,numAuras do\n"
+    + "	local auraID, instanceID, turnsRemaining, isBuff = C_PetBattles.GetAuraInfo(LE_BATTLE_PET_ENEMY, petIndex, auraIndex)\n"
+    + "	if auraID == " + id + " then  return true,turnsRemaining end\n"
+    + "end\n"
+
+    // Checking team wide buffs - not now
     + "return false;\n";
             List<string> cnt = Lua.GetReturnValues(lua);
             if (cnt != null)
@@ -381,10 +411,11 @@ namespace Prosto_Pets
             }
             return -1;
         }
-        public bool debuff(string name)
+        public bool debuff(int id)
         {
-            return debuffLeft(name) > 0;
+            return debuffLeft(id) > 0;
         }
+
 
         public string GetWeather()
         {

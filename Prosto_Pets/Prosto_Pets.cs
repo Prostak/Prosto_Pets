@@ -50,12 +50,13 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.2"; } }
+        public string Version { get { return "0.9.3"; } }
 
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();
         private static Stopwatch rezTimer = new Stopwatch();
-        private static Stopwatch RoundStartTimer = new Stopwatch();  
+        private static Stopwatch RoundStartTimer = new Stopwatch();
+        private static Stopwatch ClickWildTimer = new Stopwatch();
 
         private IPluginSettings _pluginSettings;
         private IPluginProperties _pluginProperties;
@@ -80,7 +81,7 @@ namespace Prosto_Pets
 
         private int numPetsOwnedOnStart;  // used just to check eligibility
         private bool isSlotAvailableOnStart;
-        private int CurrentProfileLevel;     // This is filename profile level
+        private int CurrentProfileLevel;     // This is a profile level
 
         private bool WasInitialized;
 
@@ -190,6 +191,7 @@ namespace Prosto_Pets
             // make sure Stop-Start does not create "Waiting for our Turn" situation
             AnimationActive = false;
             RoundStartTimer.Reset();
+            ClickWildTimer.Reset();
             LoadSuccess = true;      // amnesty TODO: load right here?
 
             _petReport.Start();
@@ -343,7 +345,7 @@ namespace Prosto_Pets
                                         clearPoiAction())),
                                 new Decorator(ret => canInteract(),
                                     new Sequence(
-                                        preCombatSwappingAction(), // - actually here needs to be filename pre-config team preparation if needed. But we may want to avoid Spiders too
+                                        preCombatSwappingAction(), // - actually here needs to be a pre-config team preparation if needed. But we may want to avoid Spiders too
                                         new Mount.ActionLandAndDismount(),
                                         interactWildPetAction())),
                                 moveToPoiAction(),
@@ -567,7 +569,7 @@ namespace Prosto_Pets
         {
             int count = 0;
             //MyPets.updateMyPets();
-            if (MyPets.Pet(0).Health < 40) count++;   // TODO: make filename parameter
+            if (MyPets.Pet(0).Health < 40) count++;   // TODO: make a parameter
             if (!_petLua.IsSlotLocked(2) && MyPets.Pet(1).Health < 40) count++;
             if (!_petLua.IsSlotLocked(3) && MyPets.Pet(2).Health < 40) count++;
             return count;
@@ -617,7 +619,7 @@ namespace Prosto_Pets
                     if (!Selected)
                     {
                         MyPets.updateMyPets();
-                        // TODO: here we know the target. This is filename place to put filename target-based team selection.
+                        // TODO: here we know the target. This is a place to put a target-based team selection.
                         LoadSuccess = LoadPetsForLevel( );  // TODO: look at config
                         if( !LoadSuccess)
                         {
@@ -781,9 +783,9 @@ namespace Prosto_Pets
             return new Styx.TreeSharp.Action(
                 ctx =>
                 {
-                    WoWUnit tar = WildBattleTarget();
-                    if (tar == null) return RunStatus.Failure;
-                    BotPoi.Current = new BotPoi(tar, PoiType.Interact, NavType.Fly);
+                    WoWUnit target = WildBattleTarget();
+                    if (target == null) return RunStatus.Failure;
+                    BotPoi.Current = new BotPoi(target, PoiType.Interact, NavType.Fly);
                     blacklistTimer.Reset();
                     blacklistTimer.Start();
                     return RunStatus.Success;
@@ -904,10 +906,12 @@ namespace Prosto_Pets
             return new Styx.TreeSharp.Action(
                 ctx =>
                 {
-                    // TODO: (done: added to sequence, check)
-                    // warning CS0618: 'Styx.CommonBot.Mount.Dismount(string)' is obsolete: 'Use ActionLandAndDismount or CommonCoroutines.LandAndDismount instead'
-                    // if (Styx.StyxWoW.Me.Mounted) Styx.CommonBot.Mount.Dismount("Dismounting");
-                    BotPoi.Current.AsObject.Interact();
+                    if (!ClickWildTimer.IsRunning || ClickWildTimer.ElapsedMilliseconds > 100)  // TODO: 1600 is ok but probably need another battle start criteria
+                    {
+                        //Logger.WriteDebug("Interact, Timer: " + ClickWildTimer.ElapsedMilliseconds);
+                        BotPoi.Current.AsObject.Interact();
+                        ClickWildTimer.Restart();
+                    }
                     return RunStatus.Success;
                 });
         }
@@ -918,7 +922,7 @@ namespace Prosto_Pets
             return BotPoi.Current.Type != PoiType.None && BotPoi.Current.Location.Distance2D(StyxWoW.Me.Location) > 5.0;
         }
 
-        // CHECK: A bit strange that this is not filename standard function
+        // TODO: CHECK: A bit strange that this is not a standard function
         private bool canFly()
         {
             bool license;
@@ -964,7 +968,9 @@ namespace Prosto_Pets
 
         private bool NeedSwaping()
         {
-            bool ret = MyPets.ActivePet.HealthPercent < PluginSettings.SwapTab[MyPets.ActivePetNum] && Moved;
+            bool ret = Moved &&
+                (MyPets.ActivePet.HealthPercent <= PluginSettings.SwapTab[MyPets.ActivePetNum]  // 100 should mean swap now
+                );
             bool canOut = _petLua.CanActivePetSwapOut();
             //Logger.Write("NeedSwapping: " + MyPets.ActivePetNum + ", Health: " + MyPets.ActivePet.HealthPercent + ", Limit: " + SwapTab[MyPets.ActivePetNum] + ", Moved=" + Moved + ", Need: " + ret + "");
             if( ret )
@@ -1084,6 +1090,7 @@ namespace Prosto_Pets
             return new Styx.TreeSharp.Action(
                 ctx =>
                 {
+                    ClickWildTimer.Reset();
                     MyPets.updateMyPets();
                     MyPets.updateEnemyActivePet();
 
@@ -1179,7 +1186,7 @@ namespace Prosto_Pets
 
         private void LuaPetRoundResultsComplete(object sender, LuaEventArgs args)
         {
-            // we need filename timer here, otherwise: filename) too fast, b) at dead enemy we may be lua-pressing buttons that we can't press
+            // we need a timer here, otherwise: a) too fast, b) at dead enemy we may be lua-pressing buttons that we can't press
             RoundStartTimer.Reset();
             RoundStartTimer.Start();
             AnimationActive = false;   // missing this event will get us stuck. TODO: add timer

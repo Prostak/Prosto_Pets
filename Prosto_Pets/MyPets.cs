@@ -226,9 +226,10 @@ namespace Prosto_Pets
 
         public static bool shouldIHide()
         {
-            if (debuff("Underwater") || debuff("Undeground") || debuff("Chew"))
+            if (debuff("Underwater") || debuff("Undeground") || debuff("Chew") || debuff("Flying"))
                 return true;
-            // TODO: check "Flying" debuff by id, since all flying pets have diff debuff with the same "Flying" name
+            // TODO: check "Flying" debuff by id? since all flying pets have diff debuff with the same "Flying" name (id 239, speed boost while healthy) vs. Flying id 341 as a result of Lift-Off
+            // currently we are blocking 239 inside Lua code. Probably it's ok. 
             return false;
         }
     }

@@ -94,7 +94,7 @@ namespace Prosto_Pets
             }
         }
 
-        public string GetPetsByLevel()
+        public string GetPetsByLevel( bool safeLog )
         {
             if( ! IsLoaded )                // needed for config form (before start)
             { PopulatePetJournal(); }
@@ -127,7 +127,14 @@ namespace Prosto_Pets
             bool found = false;
             for (int i = minL; i <= maxL; i++)
             {
-                if (levelCount[i] > 0) { levelText.Append("#" + i.ToString() + "=" + levelCount[i].ToString() + " "); found = true; }
+                if (levelCount[i] > 0) { 
+                    levelText.Append("#" + i.ToString() + "=" + 
+                    (safeLog ? 
+                        "**"    // replace exact count in the log 
+                        : levelCount[i].ToString())
+                    + " "); 
+                    found = true; 
+                }
             }
             if (!found) levelText.Append(" No pets match criteria");
             return levelText.ToString();
@@ -135,7 +142,7 @@ namespace Prosto_Pets
 
         public void WritePetsByLevel()   // TODO: make this a string and add to the GUI
         {
-            string byLevel = GetPetsByLevel();
+            string byLevel = GetPetsByLevel( true );
             string toPrint = string.Format("Pets by level {0} ({1}, {2})", byLevel,
                 _pluginProperties.UseWildPets?"wilds ok":"no wilds",
                 _pluginProperties.OnlyBluePets?"blues only":"not only blues");

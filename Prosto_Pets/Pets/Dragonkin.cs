@@ -196,7 +196,7 @@ namespace Prosto_Pets
 			new AandC( "Ancient Blessing",  () => buff("Ancient Blessing") || hp < 0.75 ),	// Slot 2
 			new AandC( "Roar", () => 			! buff("Attack Boost") ),	// Slot 1
 			new AandC( "Flamethrower" 	),	// Slot 1
-			new AandC( "Arcane Storm" 	),	// Slot 2 // Can it remove filename root if( already rooted || only prevent future roots cast against you?
+			new AandC( "Arcane Storm" 	),	// Slot 2 // Can it remove a root if( already rooted || only prevent future roots cast against you?
 		}
             ;
             else if (petName == "Essence of Competition" || petName == "Spirit of Competition")

@@ -295,7 +295,7 @@ namespace Prosto_Pets
 
         int _minPetHealth = 90;
         [CategoryAttribute("Pets to Choose")]
-        [DescriptionAttribute("The minimum pet health filename pet can have to be chosen")]
+        [DescriptionAttribute("The minimum pet health a pet can have to be chosen")]
         [DisplayName("Minimum Health %")]
         public int MinPetHealth
         {
@@ -387,7 +387,7 @@ namespace Prosto_Pets
 
         int _minRingerPetHealth = 90;
         [CategoryAttribute("Ringer")]
-        [DescriptionAttribute("The minimum pet health filename ringer pet can have to be chosen")]
+        [DescriptionAttribute("The minimum pet health a ringer pet can have to be chosen")]
         [DisplayName("Ringer Minimum Health %")]
         public int MinRingerPetHealth
         {
@@ -434,7 +434,7 @@ namespace Prosto_Pets
         public string MovementByPlayerSetting { get; set; }
 
         [CategoryAttribute("- Zone Movement by Player's hand")]
-        [DescriptionAttribute("Manual movement until filename pet is found")]
+        [DescriptionAttribute("Manual movement until a pet is found")]
         [DisplayName("Manual Zone movement")]
         public bool MovementByPlayer { get; set; }
 
@@ -720,7 +720,7 @@ namespace Prosto_Pets
 
 
         #region defaults
-        // Unfortunately, I do not see a way to keep this in just this one place: defaults should be set on XML-reading attr too. Third place is filename bool parsing.
+        // Unfortunately, I do not see a way to keep this in just this one place: defaults should be set on XML-reading attr too. Third place is a bool parsing.
         public void SetRelativesToDefault()
         {
             Pet2_Differ_Relative = 2;
