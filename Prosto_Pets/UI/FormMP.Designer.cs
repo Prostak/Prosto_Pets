@@ -720,6 +720,7 @@
             this.checkBox_CaptureRares.TabIndex = 14;
             this.checkBox_CaptureRares.Text = "Capture Rares";
             this.checkBox_CaptureRares.UseVisualStyleBackColor = true;
+            this.checkBox_CaptureRares.CheckedChanged += new System.EventHandler(this.checkBox_CaptureRares_CheckedChanged);
             // 
             // label12
             // 

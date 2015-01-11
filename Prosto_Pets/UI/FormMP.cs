@@ -967,6 +967,12 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
             System.Diagnostics.Process.Start("explorer.exe", e.LinkText);  //  explorer.exe passes the arguments to a singleton, which is guaranteed running un-elevated. 
         }
 
+        private void checkBox_CaptureRares_CheckedChanged(object sender, EventArgs e)
+        {
+            PluginSettings.Instance.CaptureRares = checkBox_CaptureRares.Checked;
+            // no need to update anything else
+        }
+
 
 
     }

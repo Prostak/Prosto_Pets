@@ -50,7 +50,7 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.3"; } }
+        public string Version { get { return "0.9.4"; } }
 
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();
@@ -679,7 +679,7 @@ namespace Prosto_Pets
             if (!_petLua.IsOurTurn()) return false;
             if( !_petLua.IsTrapAvailable()) return false;
 
-            if( MyPets.EnemyActivePet.Rarity >= 4)
+            if( MyPets.EnemyActivePet.Rarity >= 4 && PluginSettings.Instance.CaptureRares)
             {
                  return true;
             }

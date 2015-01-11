@@ -24,7 +24,7 @@ namespace Prosto_Pets
             List<AandC> custom_abilities = null;
 
             //////////////////
-            //// CROCOLISKS //
+            //// CRABS //
             //////////////////
  
             if (petName == "Emperor Crab" || petName == "Shore Crab" || petName == "Shore Crawler" || petName == "Spirebound Crab" || petName == "Strand Crab" || petName == "Strand Crawler")
