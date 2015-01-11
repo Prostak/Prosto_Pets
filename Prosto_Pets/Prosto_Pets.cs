@@ -50,7 +50,7 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.4"; } }
+        public string Version { get { return "0.9.5"; } }
 
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();
@@ -974,7 +974,9 @@ namespace Prosto_Pets
             bool canOut = _petLua.CanActivePetSwapOut();
             //Logger.Write("NeedSwapping: " + MyPets.ActivePetNum + ", Health: " + MyPets.ActivePet.HealthPercent + ", Limit: " + SwapTab[MyPets.ActivePetNum] + ", Moved=" + Moved + ", Need: " + ret + "");
             if( ret )
-            { Logger.WriteDebug("CanSwapOut: " + canOut); }  // TODO: separate functions
+            { 
+                Logger.WriteDebug("CanSwapOut: " + canOut); 
+            }  // TODO: separate functions
             return ret && canOut;
         }
 
@@ -1034,7 +1036,7 @@ namespace Prosto_Pets
 
             if (abilities == null)
             {
-                if (MyPets.ActivePet.PetType == 1)
+                if (MyPets.ActivePet.PetType == 1)         // TODO: use PT from PetTacticsBase
                     abilities = Humanoid.GetSpellTable();
                 else if (MyPets.ActivePet.PetType == 2)
                     abilities = Dragonkin.GetSpellTable();
@@ -1108,13 +1110,27 @@ namespace Prosto_Pets
                         if (button > 0 && _petLua.CanUseAbility(button))
                         {
                             _petLua.UseAbility(button);
+                            Moved = true;  // pet exposed
                         }
                         else
                         {
                             // default button pressing
-                            if (_petLua.CanUseAbility(1)) _petLua.UseAbility(1);
-                            else if (_petLua.CanUseAbility(2)) _petLua.UseAbility(2);
-                            else if (_petLua.CanUseAbility(3)) _petLua.UseAbility(3);
+                            if (_petLua.CanUseAbility(1))
+                            {
+                                _petLua.UseAbility(1);
+                                Moved = true;  // pet exposed
+                            }
+                            else if (_petLua.CanUseAbility(2))
+                            {
+                                _petLua.UseAbility(2);
+                                Moved = true;  // pet exposed
+                            }
+                            else if (_petLua.CanUseAbility(3))
+                            {
+                                _petLua.UseAbility(3);
+                                Moved = true;  // pet exposed
+                            }
+
                             else
                             {
                                 Logger.Write("No abilities active, skipping turn, Animation =" + AnimationActive);
@@ -1123,7 +1139,6 @@ namespace Prosto_Pets
                         }
                     }
                     _lastEnemyLevel = MyPets.EnemyActivePet.Level;
-                    Moved = true;  // pet exposed
                     return RunStatus.Success;
                 });
         }

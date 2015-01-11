@@ -6,6 +6,21 @@ using System.Threading.Tasks;
 
 namespace Prosto_Pets
 {
+
+    public enum PF
+    { 
+        Humanoid = 1,
+        Dragonkin = 2,
+        Flying = 3,
+        Undead = 4,
+        Critter = 5,
+        Magic = 6,
+        Elemental = 7,
+        Beast = 8,
+        Aquatic = 9,
+        Mechanical = 10
+    }
+
     public delegate bool BoolDelegate();
 
     public struct AandC  // Ability and Condition: pet Ability (button) and Condition when to use it
@@ -49,5 +64,16 @@ namespace Prosto_Pets
 
         // has enemy used Burrow, Lift-off, Chew or Dive? (invulnerable now + big hit next round)
         public static bool shouldIHide { get { return MyPets.shouldIHide(); } }
+
+        // checking type of our active pet
+        public static bool family(PF checkFamily) { return MyPets.ActivePet.PetType == (int)checkFamily; }
+        // checking type of enemy active pet
+        public static bool famEnemy(PF checkFamily) { return MyPets.EnemyActivePet.PetType == (int)checkFamily; }
+
+        // checking if our ability is strong against the current enemy pet
+        public static bool strong(string ability) { return MyPets.IsStrong(ability); }
+        // checking if our ability is weak against the current enemy pet
+        public static bool weak(string ability) { return MyPets.IsWeak(ability); }
+        
     }
 }

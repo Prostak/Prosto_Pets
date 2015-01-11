@@ -232,5 +232,38 @@ namespace Prosto_Pets
             // currently we are blocking 239 inside Lua code. Probably it's ok. 
             return false;
         }
+
+        public static float GetMod(string ability)
+        {
+            for (int i = 0; i < _abilityNames.Count; i++)
+            {
+                if (_abilityNames[i] == ability)
+                {
+                    if (i >= _abilityModifiers.Count)
+                    {
+                        Logger.Alert("GetMod: ability " + i + " (" + ability + ") has no modifier, total mods " + _abilityModifiers.Count);
+                        return 0;
+                    }
+                    float mod = _abilityModifiers[i];
+                    bool res = mod > 1;
+                    Logger.WriteDebug(string.Format("GetMod: ability {0}, modifier {1:F}", ability, mod));
+                    return mod;
+                }
+            }
+            Logger.WriteDebug("GetMod: ability " + ability + " not active");
+            return 0;
+        }
+
+        public static bool IsStrong(string ability)
+        {
+            return GetMod(ability) > 1;
+        }
+
+        public static bool IsWeak(string ability)
+        {
+            return GetMod(ability) < 1;
+        }
+
+
     }
 }
