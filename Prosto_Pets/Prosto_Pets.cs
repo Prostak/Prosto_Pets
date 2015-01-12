@@ -50,7 +50,11 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.5"; } }
+        public string Version { get { return "0.9.6"; } }
+        //
+        // 0.9.6:
+        // - text on Min Health corrected
+        // - Humanoid/Grommlok support added (thanks Misanthrope)
 
         public int battleCount;
         private static Stopwatch blacklistTimer = new Stopwatch();

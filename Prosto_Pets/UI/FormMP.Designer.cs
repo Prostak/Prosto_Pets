@@ -670,7 +670,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(174, 32);
             this.label7.TabIndex = 8;
-            this.label7.Text = "<-Pets will lower health % will not be selected";
+            this.label7.Text = "<-Pets will lower health % will be selected only if there is no others";
             // 
             // label10
             // 

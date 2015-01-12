@@ -163,6 +163,16 @@ if( petName == "Father Winter's Helper" || petName == "Winter's Little Helper" )
 //////////////////-
 // MISCELLANEOUS //
 //////////////////-
+;else if (petName == "Grommloc")            // by Misanthrope
+    humanoid_abilities = new List<AandC>() 
+		{			
+			new AandC( "Giant's Blood",	() =>  ! buff("Attack Boost") || hp < 0.6),	// Slot 3
+			new AandC( "Vicious Slice" 			),	// Slot 1
+			new AandC( "Smash" 			),	// Slot 1
+			new AandC( "Clobber" 			),	// Slot 2
+			new AandC( "Mighty Charge" 		),	// Slot 2
+			new AandC( "Takedown" 			),	// Slot 3
+		}
 ;else if(petName == "Anubisath Idol" )
 	humanoid_abilities = new List<AandC>() 
 		{
