@@ -46,6 +46,20 @@ namespace Prosto_Pets
             return -1;
         }
 
+        public string GetTargetClassification()
+        {
+            try
+            {
+                List<string> cnt = Lua.GetReturnValues("return UnitClassification('target')");
+                return cnt[0];
+            }
+            catch (Exception e)
+            {
+                Logger.Alert(e.ToString());
+            }
+            return "error";
+        }
+
         public int GetLevelBySlotID_Enemy(int slotID)
         {
             return Lua.GetReturnVal<int>("return C_PetBattles.GetLevel(LE_BATTLE_PET_ENEMY, " + slotID + ");", 0);

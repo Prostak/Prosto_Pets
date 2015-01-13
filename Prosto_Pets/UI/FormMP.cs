@@ -143,6 +143,7 @@ namespace Prosto_Pets.UI
             checkBox_FavOnlyRingers.Checked = PluginSettings.Instance.UseFavouriteRingers;
 
             checkBox_CaptureRares.Checked = PluginSettings.Instance.CaptureRares;
+            checkBox_IgnoreElites.Checked = PluginSettings.Instance.IgnoreElites;
             NotOwnedType_PropertyToButton();   // and color
 
             Relative_PropertiesToButtons();
@@ -301,6 +302,7 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
             PluginSettings.Instance.UseFavouriteRingers = checkBox_FavOnlyRingers.Checked;
 
             PluginSettings.Instance.CaptureRares = checkBox_CaptureRares.Checked;
+            PluginSettings.Instance.IgnoreElites = checkBox_IgnoreElites.Checked;
 
             if ((string)comboBox_CaptureNotOwned.SelectedItem == "Rares")
                 PluginSettings.Instance.CaptureNotOwnRarity = 4;
@@ -971,6 +973,11 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
         {
             PluginSettings.Instance.CaptureRares = checkBox_CaptureRares.Checked;
             // no need to update anything else
+        }
+
+        private void checkBox_Elites_CheckedChanged(object sender, EventArgs e)
+        {
+            PluginSettings.Instance.IgnoreElites = checkBox_IgnoreElites.Checked;
         }
 
 

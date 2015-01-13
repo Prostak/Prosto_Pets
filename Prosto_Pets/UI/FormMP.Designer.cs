@@ -218,6 +218,7 @@
             this.label89 = new System.Windows.Forms.Label();
             this.tabListPage1 = new Cyotek.Windows.Forms.TabListPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.checkBox_IgnoreElites = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -605,6 +606,7 @@
             this.tableLayoutPanel2.Controls.Add(this.checkBox_FavOnlyPets, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.checkBox_FavOnlyRingers, 1, 5);
             this.tableLayoutPanel2.Controls.Add(this.label_byLevel, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.checkBox_IgnoreElites, 0, 8);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
@@ -2892,6 +2894,21 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
+            // checkBox_Elites
+            // 
+            this.checkBox_IgnoreElites.AutoSize = true;
+            this.checkBox_IgnoreElites.Checked = true;
+            this.checkBox_IgnoreElites.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_IgnoreElites.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox_IgnoreElites.ForeColor = System.Drawing.Color.Peru;
+            this.checkBox_IgnoreElites.Location = new System.Drawing.Point(6, 286);
+            this.checkBox_IgnoreElites.Name = "checkBox_Elites";
+            this.checkBox_IgnoreElites.Size = new System.Drawing.Size(128, 26);
+            this.checkBox_IgnoreElites.TabIndex = 22;
+            this.checkBox_IgnoreElites.Text = "Ignore Elites";
+            this.checkBox_IgnoreElites.UseVisualStyleBackColor = true;
+            this.checkBox_IgnoreElites.CheckedChanged += new System.EventHandler(this.checkBox_Elites_CheckedChanged);
+            // 
             // FormMP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3172,6 +3189,7 @@
         private System.Windows.Forms.Label label89;
         private System.Windows.Forms.Label label_byLevel;
         private System.Windows.Forms.Label label_Version;
+        private System.Windows.Forms.CheckBox checkBox_IgnoreElites;
 
     }
 }

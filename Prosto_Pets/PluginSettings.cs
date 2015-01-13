@@ -56,6 +56,7 @@ namespace Prosto_Pets
             if (UseFavouritePetsOnly) { UseFavouriteRingers = true; }
             MinRingerPetHealth = ToIntValue(MinRingerPetHealthSetting, 90);
             CaptureRares = ToBoolValue(CaptureRaresSetting, true);
+            IgnoreElites = ToBoolValue(IgnoreElitesSetting, true);
             CaptureNotOwnRarity = ToIntValue(CaptureNotOwnRaritySetting, 3);
             MovementByPlayer = ToBoolValue(MovementByPlayerSetting, false);
             RecordPets = ToBoolValue(RecordPetsSetting, false);
@@ -122,6 +123,7 @@ namespace Prosto_Pets
             if (UseFavouritePetsOnly) { UseFavouriteRingersSetting = UseFavouritePetsOnly.ToString(); }
             MinRingerPetHealthSetting = MinRingerPetHealth.ToString();
             CaptureRaresSetting = CaptureRares.ToString();
+            IgnoreElitesSetting = IgnoreElites.ToString();
             CaptureNotOwnRaritySetting = CaptureNotOwnRarity.ToString();
             MovementByPlayerSetting = MovementByPlayer.ToString();
             RecordPetsSetting = RecordPets.ToString();
@@ -183,6 +185,7 @@ namespace Prosto_Pets
             if (UseFavouritePetsOnly) { sb.Append(", Use Favourite Pets Only=" + UseFavouritePetsOnly.ToString()); }
             else if (UseFavouriteRingers) { sb.Append(", Use Favourite Ringer Pets Only=" + UseFavouriteRingers.ToString()); }
             sb.Append(", CaptureRares=" + CaptureRares.ToString());
+            sb.Append(", IgnoreElites=" + IgnoreElites.ToString());
             sb.Append(", CaptureNotOwn=" + CaptureNotOwnRarity.ToString());
             sb.Append(", MoveByMan=" + MovementByPlayer.ToString());
             sb.Append(", Record=" + RecordPets.ToString());
@@ -424,6 +427,19 @@ namespace Prosto_Pets
         [DescriptionAttribute("Capture Rares instead of killing")]
         [DisplayName("Capture Rares")]
         public bool CaptureRares { get; set; }
+
+        #endregion
+
+        #region IgnoreElites
+
+        [Setting, Styx.Helpers.DefaultValue("-1")]
+        [Browsable(false)]
+        public string IgnoreElitesSetting { get; set; }
+
+        [CategoryAttribute("What to Capture")]
+        [DescriptionAttribute("Do Not Engage Elites")]
+        [DisplayName("Ignore Elites")]
+        public bool IgnoreElites { get; set; }
 
         #endregion
 

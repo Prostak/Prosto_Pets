@@ -22,6 +22,7 @@ namespace Prosto_Pets
         System.Collections.Generic.List<string> GetPetInfoByIndex(int partsize, uint k, int currentportionsize);
         System.Collections.Generic.List<string> GetPetStats(string PetID);
         int GetTargetLevel();
+        string GetTargetClassification();
         bool IsInBattle();
         bool IsSummonable(string PetID);
         void LoadPet(int slot, string petID);

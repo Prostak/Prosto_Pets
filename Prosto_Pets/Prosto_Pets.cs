@@ -50,7 +50,10 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.6"; } }
+        public string Version { get { return "0.9.7"; } }
+        //
+        // 0.9.7:
+        // - "Ignore Elites" checkbox added. Will not auto engage Legendary Pets if set (which is default)
         //
         // 0.9.6:
         // - text on Min Health corrected
@@ -415,8 +418,9 @@ namespace Prosto_Pets
 
         // TODO: is more detailed config needed? Probably a difference may be set configurable
         public bool ShouldAttack(WoWUnit pet)
-        { 
-            if( PluginSettings.Instance.DoNotEngage)
+        {
+
+            if (PluginSettings.Instance.DoNotEngage)
             {
                 Logger.WriteDebug("DoNotEngage is set - not engaging");
                 return false;
@@ -425,7 +429,14 @@ namespace Prosto_Pets
             // if the pet is withing the range of desired zone
             pet.Target();
             int level = _petLua.GetTargetLevel();
-            Logger.WriteDebug("Pet " + pet.Name + ", level=" + level);
+            string classification = _petLua.GetTargetClassification();
+            Logger.WriteDebug("Pet " + pet.Name + ", level=" + level + ", " + classification);
+
+            if( classification != "normal" && PluginSettings.Instance.IgnoreElites)
+            {
+                Logger.WriteDebug("Pet is " + classification + " and IgnoreElites is set. Ignoring.");
+                return false;
+            }
 
             if (PluginSettings.Instance.AutoZoneChange)
             {
