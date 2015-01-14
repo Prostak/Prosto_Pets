@@ -16,17 +16,11 @@ namespace Prosto_Pets
             int slot = 1;
             while( slot <= 3 )
             {
-                if (slot == 1 && PluginSettings.Instance.LockFirstSlot)
+                if((slot == 1 && PluginSettings.Instance.LockFirstSlot)
+                || (slot == 2 && PluginSettings.Instance.LockSecondSlot)
+                || (slot == 3 && PluginSettings.Instance.LockThirdSlot))
                 {
-                    Logger.Write(string.Format("Filling pet Slot {0} -- locked", slot));
-                }
-                else if (slot == 2 && PluginSettings.Instance.LockSecondSlot)
-                {
-                    Logger.Write(string.Format("Filling pet Slot {0} -- locked", slot));
-                }
-                else if (slot == 3 && PluginSettings.Instance.LockThirdSlot)
-                {
-                    Logger.Write(string.Format("Filling pet Slot {0} -- locked", slot));
+                    Logger.Write(string.Format("Filling pet Slot {0} -- locked. Keeping {1}", slot, MyPets.Pet(slot-1).Name));
                 }
                 else
                 {

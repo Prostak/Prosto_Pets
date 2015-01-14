@@ -127,18 +127,33 @@ namespace Prosto_Pets
                 }
             }
 
-            Logger.WriteDebug("Slot " +(slot+1)+ ": Trying to consider non-healthy pets, ignoring health");
+            Pet candidate = null;
+            Logger.WriteDebug("Slot " +(slot+1)+ ": Checking non-healthy pets, ignoring health");
             pet = SelectPet(slot, minLevel, maxLevel, isRinger, false);
-            if (pet != null) { return pet; }
+            if (pet != null) 
+            {
+                if (pet.Health > 0) return pet;
+                candidate = pet; 
+            }
+            // candidate not found or has 0 health, checking lower-level
 
             if (minLevel > PluginSettings.Instance.MinLevel)
             {
-                Logger.WriteDebug("Slot " + (slot + 1) + ": Trying to consider lower level non-healthy pets");
+                Logger.WriteDebug("Slot " + (slot + 1) + ": Checking lower level non-healthy pets");
                 for (int i = minLevel; i >= PluginSettings.Instance.MinLevel; i--)  // going down
                 {
                     pet = SelectPet(slot, i, i, isRinger, false);
-                    if (pet != null) { return pet; }
+                    if (pet != null) 
+                    {
+                        if ( candidate == null || pet.Health > candidate.Health)
+                            candidate = pet; 
+                    }
                 }
+            }
+            if( candidate != null )
+            {
+                Logger.WriteDebug("Slot " + (slot + 1) + ": Using non-healthy with highest health");
+                return candidate;
             }
 
             Logger.Write("Slot " + (slot + 1) + ": Failed to obtain any pets");
@@ -177,6 +192,7 @@ namespace Prosto_Pets
             
             Logger.WriteDebug(string.Format("Slot " +(slot+1)+ ": Asked to select [{0}-{1}], ringer={2}, healthy={3}", minPetLevel, maxPetLevel, isRingerSelection, healthyNeeded));
             //find the lowest available pet which matches the criteria
+            Pet candidate = null;
             //for (int level = minPetLevel; level <= maxPetLevel; level++)  - we have sorted by level
             {
                 foreach (Pet availablePet in petsList)
@@ -184,7 +200,7 @@ namespace Prosto_Pets
                     if( availablePet.Level > maxPetLevel)
                     {
                         Wd("Max level " + maxPetLevel + " reached. Exit.");
-                        return null;
+                        return candidate;
                     }
                     Wd("Checking " + availablePet.Name + ", level=" + availablePet.Level + (availablePet.IsRare ? ", Blue" : ""));
                     if (availablePet.Level < minPetLevel) { Wd("too low"); continue; }
@@ -200,10 +216,18 @@ namespace Prosto_Pets
                         if (healthyNeeded && availablePet.HealthPercentage < _pluginProperties.MinPetHealth && !isRingerSelection) { Wd("health levelled"); continue; } // health too low
                         if (healthyNeeded && availablePet.HealthPercentage < _pluginProperties.MinRingerPetHealth && isRingerSelection) { Wd("Health Ringer"); continue; } // health too low
                         if (_pluginProperties.OnlyBluePets && !availablePet.IsRare && (!isRingerSelection)) { Wd("not blue"); continue; } // not rare
-                        if (availablePet.IsSummonable())
+                        if (availablePet.IsSummonable() || availablePet.Health==0)
                         {
                             Wd("selected");
-                            return availablePet;
+                            if (healthyNeeded)
+                            {
+                                return availablePet;
+                            }
+                            else if (candidate == null || (candidate.HealthPercentage < availablePet.HealthPercentage))
+                            {
+                                Wd("candidate replaced");
+                                candidate = availablePet;
+                            }
                         }
                         else
                         {
@@ -217,7 +241,7 @@ namespace Prosto_Pets
                     }
                 }
             }
-            return null;
+            return candidate;
         }
     }
 }

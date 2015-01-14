@@ -330,11 +330,11 @@ namespace Prosto_Pets
             else if (petName == "Waterfly")
                 flying_abilities = new List<AandC>() 
 		{
-			new AandC( "Lift-Off", 		 () =>   shouldIHide ),	// Slot 3
-			new AandC( "Dodge",          () =>   shouldIHide ),	// Slot 3
+			new AandC( "Healing Stream", () =>      hp < 0.7 	),	// Slot 2
+			new AandC( "Lift-Off"                               ),	// Slot 3
+			new AandC( "Dodge"                                  ),	// Slot 3
 			new AandC( "Barbed Stinger", () =>	    ! debuff("Poisoned") ),	// Slot 1
 			new AandC( "Alpha Strike",	 () =>		speed > speedEnemy ),	// Slot 1
-			new AandC( "Healing Stream", () =>      hp < 0.7 	),	// Slot 2
 			new AandC( "Puncture Wound", () =>      debuff("Poisoned") 			),	// Slot 2
 			new AandC( "Barbed Stinger"      ),	// Slot 1 Uncond
 			new AandC( "Alpha Strike"        ),	// Slot 1 Uncond

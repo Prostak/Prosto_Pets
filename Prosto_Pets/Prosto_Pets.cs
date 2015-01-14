@@ -50,7 +50,13 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.7"; } }
+        public string Version { get { return "0.9.8"; } }
+        // 0.9.8: to Edacra with thanks
+        // - dead pets in the current team no longer stop the bot (it will wait for Revive CD) (Edacra issue 1)
+        // - reload pet journal on Start (Edacra issue 2)
+        // - movement from the indoor area corrected
+        // - names of the locked pets are printed
+        // - Waterfly tactics corrected
         //
         // 0.9.7:
         // - "Ignore Elites" checkbox added. Will not auto engage Legendary Pets if set (which is default)
@@ -199,7 +205,7 @@ namespace Prosto_Pets
             AnimationActive = false;
             RoundStartTimer.Reset();
             ClickWildTimer.Reset();
-            LoadSuccess = true;      // amnesty TODO: load right here?
+            LoadSuccess = true;      // amnesty TODO: load right here? -- after PopulatePetJournal
 
             _petReport.Start();
 
@@ -207,7 +213,7 @@ namespace Prosto_Pets
             isSlotAvailableOnStart = !_petLua.IsSlotLocked(1);
             Logger.WriteDebug("Owned on start: " + numPetsOwnedOnStart + ", slot available: " + isSlotAvailableOnStart);
 
-            LoadSuccess = LoadPetsForLevel();
+            _petJournal.PopulatePetJournal();  // unconditional load - things may have changed while stopped
             PluginSettings.Instance.SetSwapByCurrentMode();
             CurrentProfileLevel = 0;
             ChangeProfileIfNeeded();
@@ -838,7 +844,7 @@ namespace Prosto_Pets
                     }
                     hsLoc = _petProfile.CurrentPoint;
                     BotPoi.Current = new BotPoi(hsLoc, PoiType.Hotspot, NavType.Fly);
-                    Logger.WriteDebug(string.Format("X={0}, Y={1}, Z={2}", hsLoc.X, hsLoc.Y, hsLoc.Z));
+                    Logger.WriteDebug(string.Format("BotPoi.Current.Location: X={0}, Y={1}, Z={2}", BotPoi.Current.Location.X, BotPoi.Current.Location.Y, BotPoi.Current.Location.Z));
 
                     return RunStatus.Success;
                 });
@@ -856,12 +862,18 @@ namespace Prosto_Pets
 
         public static WoWPoint FindGroundLocation(WoWPoint location)
         {
-            return StyxWoW.Me.IsFlying
+            WoWPoint ret = StyxWoW.Me.IsFlying
                 ? GetAllHeights(location).OrderBy(x => x.Distance(location)).FirstOrDefault()
                 : GetAllHeights(location)
                     .OrderBy(x => x.Distance(location))
                     .Where(x => Navigator.CanNavigateFully(location, x))
                     .FirstOrDefault(x => x.Z <= (location.Z + 1.5));
+            if (ret.Equals(WoWPoint.Zero))
+            {
+                //Logger.WriteDebug("Can't find ground height for " + location.ToString() + ". Not changing");  // TODO: periodic print?
+                return location;
+            }
+            return ret;
         }
 
         // Returns WoWPoint.Empty if unable to locate water's surface
@@ -910,7 +922,8 @@ namespace Prosto_Pets
                             //Logger.WriteDebug("After FindHeight: " + p.ToString());
                             if (p.Z == 0f) p.Z = pZ;  // Height unknown, keeping Hs Z       
                         }
-                        MoveResult res = Navigator.MoveTo(p);
+                        //MoveResult res = Navigator.MoveTo(p);
+                        Flightor.MoveTo(p, false);
                     }
                     return RunStatus.Success;
                 });
@@ -1335,7 +1348,7 @@ namespace Prosto_Pets
             //Log("PetJournalListUpdate");
             MyPets.updateMyPets();
             MyPets.updateEnemyActivePet();
-            //_petJournal.PopulatePetJournal();
+            //_petJournal.PopulatePetJournal(); -- too long, too often
         }
         #endregion
 
