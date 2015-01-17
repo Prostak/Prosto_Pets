@@ -61,6 +61,16 @@ namespace Prosto_Pets
 			new AandC( "Deep Breath" 	),	// Slot 3
 		}
             ;
+            else if (petName == "Bronze Whelpling")     // Valpsjuk
+                dragonkin_abilities = new List<AandC>()
+		{
+		new AandC( "Arcane Slash",      () => hpEnemy < 0.2 				),	// Slot 1
+		new AandC( "Arcane Storm",      () => buffLeft("Arcane Storm") < 2	),	// Slot 3
+		new AandC( "Early Advantage",   () => hpEnemy < hp					),	// Slot 2
+		new AandC( "Tail Sweep"	    										),	// Slot 1
+		new AandC( "Arcane Slash" 			                      			),	// Slot 1
+		new AandC( "Crystal Prison" 		                        		),	// Slot 2
+		};
             else if (petName == "Emerald Proto-Whelp")
                 dragonkin_abilities = new List<AandC>() 
 		{

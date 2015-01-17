@@ -625,6 +625,11 @@ namespace Prosto_Pets
         #endregion
 
         #region Zone Profiles
+
+        [Setting, Styx.Helpers.DefaultValue("")]
+        [Browsable(false)]
+        public string LastProfile { get; set; }
+
         public bool AutoZoneChange { get; set; }
         [Setting, Styx.Helpers.DefaultValue("-1")]
         [CategoryAttribute("Zone Profiles")]

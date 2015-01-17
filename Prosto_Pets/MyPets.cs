@@ -86,7 +86,7 @@ namespace Prosto_Pets
             {
                 if (_petLua.IsInBattle())
                 {
-                    l = Lua.GetReturnValues("local speciesID = C_PetBattles.GetPetSpeciesID(1, " + (i + 1) + ") local level = C_PetBattles.GetLevel(1, " + (i + 1) + ") local xp, maxXP = C_PetBattles.GetXP(1, " + (i + 1) + ") local displayID = C_PetBattles.GetDisplayID(1, " + (i + 1) + ") local name = C_PetBattles.GetName(1, " + (i + 1) + ") local icon = C_PetBattles.GetIcon(1, " + (i + 1) + ") local petType = C_PetBattles.GetPetType(1, " + (i + 1) + ") local health = C_PetBattles.GetHealth(1, " + (i + 1) + ") local maxHealth = C_PetBattles.GetMaxHealth(1, " + (i + 1) + ") local power = C_PetBattles.GetPower(1, " + (i + 1) + ") local speed = C_PetBattles.GetSpeed(1, " + (i + 1) + ") local rarity = C_PetBattles.GetBreedQuality(1, " + (i + 1) + ") local petID = C_PetJournal.GetPetLoadOutInfo(" + (i + 1) + ") return speciesID, level, xp, maxXP, displayID, name, icon, petType, health, maxHealth, power, speed, rarity, petID");
+                    l = Lua.GetReturnValues("local speciesID = C_PetBattles.GetPetSpeciesID(1, " + (i + 1) + ") local level = C_PetBattles.GetLevel(1, " + (i + 1) + ") local xp, maxXP = C_PetBattles.GetXP(1, " + (i + 1) + ") local displayID = C_PetBattles.GetDisplayID(1, " + (i + 1) + ") local customName, name = C_PetBattles.GetName(1, " + (i + 1) + ") local icon = C_PetBattles.GetIcon(1, " + (i + 1) + ") local petType = C_PetBattles.GetPetType(1, " + (i + 1) + ") local health = C_PetBattles.GetHealth(1, " + (i + 1) + ") local maxHealth = C_PetBattles.GetMaxHealth(1, " + (i + 1) + ") local power = C_PetBattles.GetPower(1, " + (i + 1) + ") local speed = C_PetBattles.GetSpeed(1, " + (i + 1) + ") local rarity = C_PetBattles.GetBreedQuality(1, " + (i + 1) + ") local petID = C_PetJournal.GetPetLoadOutInfo(" + (i + 1) + ") return speciesID, level, xp, maxXP, displayID, name, icon, petType, health, maxHealth, power, speed, rarity, petID");
 
                     if (l != null)  // pets may be 0 to 3
                     {
@@ -226,7 +226,7 @@ namespace Prosto_Pets
 
         public static bool shouldIHide()
         {
-            if (debuff("Underwater") || debuff("Undeground") || debuff("Chew") || debuff("Flying"))
+            if (debuff("Underwater") || debuff("Underground") || debuff("Chew") || debuff("Flying"))
                 return true;
             // TODO: check "Flying" debuff by id? since all flying pets have diff debuff with the same "Flying" name (id 239, speed boost while healthy) vs. Flying id 341 as a result of Lift-Off
             // currently we are blocking 239 inside Lua code. Probably it's ok. 

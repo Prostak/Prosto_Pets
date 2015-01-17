@@ -309,7 +309,118 @@ else if( petName == "Fluxfire Feline" )
 			new AandC( "Decoy" 			),	// Slot 2
 			new AandC( "Bombing Run" 	),	// Slot 3
 			new AandC( "Explode" 		),	// Slot 3
-		};	
+		};
+            else if (petName == "Pierre")       // Studio60
+            
+                // High Fiber should only be cast if a negative aura is on our team and Heat Up is not active
+                // Should be changed, if required condition check becomes available
+                mechanical_abilities = new List<AandC>() 
+                {
+                    
+                    new AandC("Stench",     () => !debuff("Stench")), // Slot 2
+                    new AandC("Food Coma",  () => !debuff("Asleep")), // Slot 3
+                    new AandC("Heat Up"                            ), // Slot 2
+                    new AandC("High Fiber", () => !buff("Heat Up") ), // Slot 3 
+                    new AandC("Chop"     ), // Slot 1
+                    new AandC("Frying Pan") // Slot 1
+                };
+            
+
+            else if (petName == "Ancient Nest Guardian")    // Studio60
+            
+                // Feathered Frenzy is a fallback spell for elemental or aquatic enemies
+                // Entangling Roots is a fallback spell for elemental or mechanical enemies
+                mechanical_abilities = new List<AandC>() 
+                {
+                    new AandC("Feathered Frenzy", () => weak("Metal Fist") || strong("Feathered Frenzy")), // Slot 3
+                    new AandC("Extra Plating",    () => !buff("Extra Plating")), // Slot 2
+                    new AandC("Entangling Roots", () => weak("Metal Fist") || strong("Entangling Roots")), // Slot 2
+                    new AandC("Wind-Up",          () => hpEnemy > 0.5), // Slot 3
+                    new AandC("Metal Fist"), // Slot 1
+                    new AandC("Batter"    ), // Slot 1
+                };
+
+            else if (petName == "Blackfuse Bombling")    // Studio60
+            {
+                mechanical_abilities = new List<AandC>() 
+    {
+        new AandC("Bombing Run"), // Slot 2
+        new AandC("Flame Jet"), // Slot 2
+        new AandC("Explode", () => hp < 0.1), // Slot 3
+        new AandC("Armageddon", () => hp < 0.1), // Slot 3
+        new AandC("Burn"), // Slot 1
+        new AandC("Zap"), // Slot 1
+    };
+            }
+
+            else if (petName == "Lifelike Mechanical Frostboar")    // Studio60
+            {
+                mechanical_abilities = new List<AandC>() 
+    {
+        new AandC("Decoy"), // Slot 3
+        new AandC("Headbutt"), // Slot 3
+        new AandC("Rebuild", () => hp < 0.5), // Slot 2
+        new AandC("Pig Out", () => hp < 0.75), // Slot 2
+        new AandC("Charge"), // Slot 1
+        new AandC("Missile"), // Slot 1
+    };
+            }
+
+            else if (petName == "Lil' Bling")    // Studio60
+            {
+                mechanical_abilities = new List<AandC>() 
+    {
+        new AandC("Launch Rocket", () => buff("Setup Rocket")), // Slot 3
+        new AandC("Extra Plating", () => !buff("Extra Plating")), // Slot 2
+        new AandC("Inflation", () => debuff("Make it Rain")), // Slot 1
+        new AandC("Blingtron Gift Package", () => hp < 0.75), // Slot 2
+        new AandC("Make it Rain", () => !debuff("Make it Rain")), // Slot 3
+        new AandC("Launch Rocket", () => hpEnemy > 0.25), // Slot 3
+        new AandC("SMCKTHAT.EXE"), // Slot 1
+        new AandC("Inflation"), // Slot 1
+    };
+            }
+
+            else if (petName == "Mechanical Scorpid")    // Studio60
+            {
+                mechanical_abilities = new List<AandC>() 
+    {
+        new AandC("Extra Plating", () => !buff("Extra Plating")), // Slot 3
+        new AandC("Puncture Wound", () => debuff("Poisoned")), // Slot 2
+        new AandC("Black Claw", () => ! debuff("Black Claw")), // Slot 3
+        new AandC("Blinding Poison", () => ! debuff("Blinding Poison") && ! shouldIHide), // Slot 2
+        new AandC("Puncture Wound"), // Slot 2
+        new AandC("Barbed Stinger"), // Slot 1
+        new AandC("Wind-Up"), // Slot 1                   
+    };
+            }
+
+            else if (petName == "Rascal-Bot")
+            {
+                mechanical_abilities = new List<AandC>()     // Studio60
+    {    
+        new AandC("Lens Flare", () => ! debuff("Blind")), // Slot 2
+        new AandC("Amber Prison", () => ! debuff("Stunned")), // Slot 2                  
+        new AandC("Armageddon", () => hp < 0.1), // Slot 3
+        new AandC("Phaser"), // Slot 1
+        new AandC("Plot Twist"), // Slot 1              
+        new AandC("Reboot"), // Slot 3
+    };
+            }
+
+            else if (petName == "Stonegrinder")    // Studio60
+            {
+                mechanical_abilities = new List<AandC>() 
+    {    
+        new AandC("Clean-Up", () => debuff("Turret") || debuff("Decoy")), // Slot 3
+        new AandC("Supercharge"), // Slot 2    
+        new AandC("Thunderbolt"), // Slot 2
+        new AandC("Rebuild", () => hp < 0.75), // Slot 3               
+        new AandC("Screeching Gears"), // Slot 1
+        new AandC("Woodchipper"), // Slot 1                       
+    };
+            }
+            
 //////////////////-
 
             else // Unknown pet

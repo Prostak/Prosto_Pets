@@ -50,7 +50,15 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.8"; } }
+        public string Version { get { return "0.9.9"; } }
+        // 0.9.9:
+        // - using real names instead of custom names (thanks Studio60)
+        // - shouldHide fixed (thanks Studio60)
+        // - tactics for Pierre and Ancient Nest Guardian added (thanks Studio60)
+        // - tactics for Bronze Whelpling (thanks Valpsjuk)
+        // - mechanical tactics (too many to list here) by Studio60
+        // - Bot now remembers last used profile between sessions (and loads it if needed)
+        //
         // 0.9.8: to Edacra with thanks
         // - dead pets in the current team no longer stop the bot (it will wait for Revive CD) (Edacra issue 1)
         // - reload pet journal on Start (Edacra issue 2)
@@ -185,6 +193,9 @@ namespace Prosto_Pets
             isSlotAvailableOnStart = ! _petLua.IsSlotLocked(1);
             Logger.WriteDebug("Owned on start: " + numPetsOwnedOnStart + ", slot available: " + isSlotAvailableOnStart);
 
+            if( !string.IsNullOrEmpty(PluginSettings.Instance.LastProfile) )
+                LoadProfile(PluginSettings.Instance.LastProfile);
+
             // will fight everything. Is "nothing" better?
 
             WasInitialized = true;
@@ -259,6 +270,9 @@ namespace Prosto_Pets
             {
                 //Logger.Write("Processing new profile");
                 _petProfile = new PetProfile(args.NewProfile);
+                PluginSettings.Instance.LastProfile = ProfileManager.XmlLocation;
+                PluginSettings.Instance.Save();
+
             }
             catch (Exception ex)
             {
