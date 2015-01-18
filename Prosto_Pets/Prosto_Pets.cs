@@ -50,7 +50,7 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.9"; } }
+        public string Version { get { return "0.9.10"; } }
         // 0.9.10:
         // - help system implemented
         //
