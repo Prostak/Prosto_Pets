@@ -51,6 +51,9 @@ namespace Prosto_Pets
     public partial class Prosto_Pets : BotBase
     {
         public string Version { get { return "0.9.9"; } }
+        // 0.9.10:
+        // - help system implemented
+        //
         // 0.9.9:
         // - using real names instead of custom names (thanks Studio60)
         // - shouldHide fixed (thanks Studio60)

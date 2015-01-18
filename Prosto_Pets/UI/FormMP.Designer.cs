@@ -35,11 +35,11 @@
             this.checkBox_LockPet1 = new System.Windows.Forms.CheckBox();
             this.checkBox_LockPet2 = new System.Windows.Forms.CheckBox();
             this.checkBox_LockPet3 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_GenerateNew = new System.Windows.Forms.Button();
             this.label_Pet1 = new System.Windows.Forms.Label();
             this.label_Pet2 = new System.Windows.Forms.Label();
             this.label_Pet3 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_Mode = new System.Windows.Forms.Label();
             this.pB_pet1 = new PBwithText_v2();
             this.pB_pet2 = new PBwithText_v2();
             this.pB_pet3 = new PBwithText_v2();
@@ -57,25 +57,26 @@
             this.checkBox_UseWild = new System.Windows.Forms.CheckBox();
             this.checkBox_BluesOnly = new System.Windows.Forms.CheckBox();
             this.checkBox_CaptureRares = new System.Windows.Forms.CheckBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label_CaptureNotOwned = new System.Windows.Forms.Label();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown_MinPetHealth = new System.Windows.Forms.NumericUpDown();
             this.label_MinPetH = new System.Windows.Forms.Label();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown_MinRingerHealth = new System.Windows.Forms.NumericUpDown();
-            this.label9 = new System.Windows.Forms.Label();
+            this.label_MinRingerH = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown_MinLevel = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label_MinLevel = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown_MaxLevel = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label_MaxLevel = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox_CaptureNotOwned = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.checkBox_FavOnlyPets = new System.Windows.Forms.CheckBox();
             this.checkBox_FavOnlyRingers = new System.Windows.Forms.CheckBox();
             this.label_byLevel = new System.Windows.Forms.Label();
+            this.checkBox_IgnoreElites = new System.Windows.Forms.CheckBox();
             this.tabListPage_Relative = new Cyotek.Windows.Forms.TabListPage();
             this.tableLayout_Relative = new System.Windows.Forms.TableLayoutPanel();
             this.label21 = new System.Windows.Forms.Label();
@@ -218,7 +219,9 @@
             this.label89 = new System.Windows.Forms.Label();
             this.tabListPage1 = new Cyotek.Windows.Forms.TabListPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.checkBox_IgnoreElites = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.label_HelpName = new System.Windows.Forms.Label();
+            this.label_Help = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -278,11 +281,12 @@
             this.tabListPage_PetZones.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
             this.tabListPage1.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -295,7 +299,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabList_Geb);
-            this.splitContainer1.Size = new System.Drawing.Size(620, 580);
+            this.splitContainer1.Size = new System.Drawing.Size(629, 580);
             this.splitContainer1.SplitterDistance = 205;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -326,11 +330,11 @@
             this.tableLayoutPanel1.Controls.Add(this.checkBox_LockPet1, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.checkBox_LockPet2, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.checkBox_LockPet3, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_GenerateNew, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.label_Pet1, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label_Pet2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.label_Pet3, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label_Mode, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.pB_pet1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.pB_pet2, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.pB_pet3, 1, 3);
@@ -347,7 +351,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.05263F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.05263F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(620, 205);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(629, 205);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // label2
@@ -359,72 +363,77 @@
             this.tableLayoutPanel1.SetColumnSpan(this.label2, 2);
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(158, 0);
+            this.label2.Location = new System.Drawing.Point(160, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(304, 32);
+            this.label2.Size = new System.Drawing.Size(307, 32);
             this.label2.TabIndex = 0;
             this.label2.Text = "Current Team";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_DoubleClick);
             this.label2.DoubleClick += new System.EventHandler(this.label2_DoubleClick);
+            this.label2.MouseEnter += new System.EventHandler(this.label2_MouseEnter);
             // 
             // checkBox_LockPet1
             // 
             this.checkBox_LockPet1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_LockPet1.AutoSize = true;
-            this.checkBox_LockPet1.Location = new System.Drawing.Point(468, 45);
+            this.checkBox_LockPet1.Location = new System.Drawing.Point(473, 45);
             this.checkBox_LockPet1.Name = "checkBox_LockPet1";
             this.checkBox_LockPet1.Size = new System.Drawing.Size(77, 17);
             this.checkBox_LockPet1.TabIndex = 5;
             this.checkBox_LockPet1.Text = "Lock pet 1";
             this.checkBox_LockPet1.UseVisualStyleBackColor = true;
             this.checkBox_LockPet1.CheckedChanged += new System.EventHandler(this.checkBox_LockPet1_CheckedChanged);
+            this.checkBox_LockPet1.MouseEnter += new System.EventHandler(this.checkBox_LockPetX_MouseEnter);
             // 
             // checkBox_LockPet2
             // 
             this.checkBox_LockPet2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_LockPet2.AutoSize = true;
-            this.checkBox_LockPet2.Location = new System.Drawing.Point(468, 88);
+            this.checkBox_LockPet2.Location = new System.Drawing.Point(473, 88);
             this.checkBox_LockPet2.Name = "checkBox_LockPet2";
             this.checkBox_LockPet2.Size = new System.Drawing.Size(77, 17);
             this.checkBox_LockPet2.TabIndex = 6;
             this.checkBox_LockPet2.Text = "Lock pet 2";
             this.checkBox_LockPet2.UseVisualStyleBackColor = true;
             this.checkBox_LockPet2.CheckedChanged += new System.EventHandler(this.checkBox_LockPet2_CheckedChanged);
+            this.checkBox_LockPet2.MouseEnter += new System.EventHandler(this.checkBox_LockPetX_MouseEnter);
             // 
             // checkBox_LockPet3
             // 
             this.checkBox_LockPet3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_LockPet3.AutoSize = true;
-            this.checkBox_LockPet3.Location = new System.Drawing.Point(468, 131);
+            this.checkBox_LockPet3.Location = new System.Drawing.Point(473, 131);
             this.checkBox_LockPet3.Name = "checkBox_LockPet3";
             this.checkBox_LockPet3.Size = new System.Drawing.Size(77, 17);
             this.checkBox_LockPet3.TabIndex = 7;
             this.checkBox_LockPet3.Text = "Lock pet 3";
             this.checkBox_LockPet3.UseVisualStyleBackColor = true;
             this.checkBox_LockPet3.CheckedChanged += new System.EventHandler(this.checkBox_LockPet3_CheckedChanged);
+            this.checkBox_LockPet3.MouseEnter += new System.EventHandler(this.checkBox_LockPetX_MouseEnter);
             // 
-            // button1
+            // button_GenerateNew
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(471, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 26);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Generate New";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_GenerateNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.button_GenerateNew.AutoSize = true;
+            this.button_GenerateNew.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.button_GenerateNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_GenerateNew.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button_GenerateNew.Location = new System.Drawing.Point(478, 3);
+            this.button_GenerateNew.Name = "button_GenerateNew";
+            this.button_GenerateNew.Size = new System.Drawing.Size(143, 26);
+            this.button_GenerateNew.TabIndex = 8;
+            this.button_GenerateNew.Text = "Generate New";
+            this.button_GenerateNew.UseVisualStyleBackColor = false;
+            this.button_GenerateNew.Click += new System.EventHandler(this.button1_Click);
+            this.button_GenerateNew.MouseEnter += new System.EventHandler(this.button_GenerateNew_MouseEnter);
             // 
             // label_Pet1
             // 
             this.label_Pet1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_Pet1.AutoSize = true;
             this.label_Pet1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Pet1.Location = new System.Drawing.Point(441, 47);
+            this.label_Pet1.Location = new System.Drawing.Point(446, 47);
             this.label_Pet1.Name = "label_Pet1";
             this.label_Pet1.Size = new System.Drawing.Size(21, 13);
             this.label_Pet1.TabIndex = 0;
@@ -435,7 +444,7 @@
             this.label_Pet2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_Pet2.AutoSize = true;
             this.label_Pet2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Pet2.Location = new System.Drawing.Point(441, 90);
+            this.label_Pet2.Location = new System.Drawing.Point(446, 90);
             this.label_Pet2.Name = "label_Pet2";
             this.label_Pet2.Size = new System.Drawing.Size(21, 13);
             this.label_Pet2.TabIndex = 0;
@@ -446,24 +455,25 @@
             this.label_Pet3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_Pet3.AutoSize = true;
             this.label_Pet3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Pet3.Location = new System.Drawing.Point(441, 133);
+            this.label_Pet3.Location = new System.Drawing.Point(446, 133);
             this.label_Pet3.Name = "label_Pet3";
             this.label_Pet3.Size = new System.Drawing.Size(21, 13);
             this.label_Pet3.TabIndex = 0;
             this.label_Pet3.Text = "25";
             // 
-            // label3
+            // label_Mode
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(420, 176);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Mode:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_Mode.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label_Mode.AutoSize = true;
+            this.label_Mode.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Mode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label_Mode.Location = new System.Drawing.Point(425, 176);
+            this.label_Mode.Name = "label_Mode";
+            this.label_Mode.Size = new System.Drawing.Size(42, 13);
+            this.label_Mode.TabIndex = 10;
+            this.label_Mode.Text = "Mode:";
+            this.label_Mode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_Mode.MouseEnter += new System.EventHandler(this.label_Mode_MouseEnter);
             // 
             // pB_pet1
             // 
@@ -471,11 +481,11 @@
             this.pB_pet1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pB_pet1.Favourite = true;
             this.pB_pet1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pB_pet1.Location = new System.Drawing.Point(159, 35);
+            this.pB_pet1.Location = new System.Drawing.Point(161, 35);
             this.pB_pet1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pB_pet1.Name = "pB_pet1";
             this.pB_pet1.Percent = 70;
-            this.pB_pet1.Size = new System.Drawing.Size(240, 37);
+            this.pB_pet1.Size = new System.Drawing.Size(243, 37);
             this.pB_pet1.TabIndex = 11;
             this.pB_pet1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.pB_pet1.Load += new System.EventHandler(this.pB_pet1_Load);
@@ -486,11 +496,11 @@
             this.pB_pet2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pB_pet2.Favourite = true;
             this.pB_pet2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pB_pet2.Location = new System.Drawing.Point(159, 78);
+            this.pB_pet2.Location = new System.Drawing.Point(161, 78);
             this.pB_pet2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pB_pet2.Name = "pB_pet2";
             this.pB_pet2.Percent = 70;
-            this.pB_pet2.Size = new System.Drawing.Size(240, 37);
+            this.pB_pet2.Size = new System.Drawing.Size(243, 37);
             this.pB_pet2.TabIndex = 12;
             this.pB_pet2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.pB_pet2.Load += new System.EventHandler(this.pB_pet2_Load);
@@ -501,11 +511,11 @@
             this.pB_pet3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pB_pet3.Favourite = true;
             this.pB_pet3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pB_pet3.Location = new System.Drawing.Point(159, 121);
+            this.pB_pet3.Location = new System.Drawing.Point(161, 121);
             this.pB_pet3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pB_pet3.Name = "pB_pet3";
             this.pB_pet3.Percent = 70;
-            this.pB_pet3.Size = new System.Drawing.Size(240, 37);
+            this.pB_pet3.Size = new System.Drawing.Size(243, 37);
             this.pB_pet3.TabIndex = 13;
             this.pB_pet3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.pB_pet3.Load += new System.EventHandler(this.pB_pet3_Load);
@@ -515,13 +525,14 @@
             this.checkBox_Manual.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.checkBox_Manual.AutoSize = true;
             this.checkBox_Manual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Manual.Location = new System.Drawing.Point(207, 164);
+            this.checkBox_Manual.Location = new System.Drawing.Point(210, 164);
             this.checkBox_Manual.Name = "checkBox_Manual";
             this.checkBox_Manual.Size = new System.Drawing.Size(144, 38);
             this.checkBox_Manual.TabIndex = 14;
             this.checkBox_Manual.Text = "Manual Movement";
             this.checkBox_Manual.UseVisualStyleBackColor = true;
             this.checkBox_Manual.CheckedChanged += new System.EventHandler(this.checkBox_Manual_CheckedChanged);
+            this.checkBox_Manual.MouseEnter += new System.EventHandler(this.checkBox_Manual_MouseEnter);
             // 
             // comboBox_Mode
             // 
@@ -535,11 +546,12 @@
             "Ringer x2",
             "Capture",
             "Custom"});
-            this.comboBox_Mode.Location = new System.Drawing.Point(468, 171);
+            this.comboBox_Mode.Location = new System.Drawing.Point(473, 171);
             this.comboBox_Mode.Name = "comboBox_Mode";
-            this.comboBox_Mode.Size = new System.Drawing.Size(149, 24);
+            this.comboBox_Mode.Size = new System.Drawing.Size(153, 24);
             this.comboBox_Mode.TabIndex = 15;
             this.comboBox_Mode.SelectedIndexChanged += new System.EventHandler(this.comboBox_Mode_SelectedIndexChanged);
+            this.comboBox_Mode.MouseEnter += new System.EventHandler(this.comboBox_Mode_MouseEnter);
             // 
             // label_Version
             // 
@@ -547,7 +559,7 @@
             this.label_Version.AutoSize = true;
             this.label_Version.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Version.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label_Version.Location = new System.Drawing.Point(23, 118);
+            this.label_Version.Location = new System.Drawing.Point(24, 118);
             this.label_Version.Name = "label_Version";
             this.label_Version.Size = new System.Drawing.Size(108, 16);
             this.label_Version.TabIndex = 16;
@@ -567,7 +579,7 @@
             this.tabList_Geb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabList_Geb.Location = new System.Drawing.Point(0, 0);
             this.tabList_Geb.Name = "tabList_Geb";
-            this.tabList_Geb.Size = new System.Drawing.Size(620, 371);
+            this.tabList_Geb.Size = new System.Drawing.Size(629, 371);
             this.tabList_Geb.TabIndex = 0;
             // 
             // tabListPage_General
@@ -576,7 +588,7 @@
             this.tabListPage_General.Controls.Add(this.tableLayoutPanel2);
             this.tabListPage_General.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabListPage_General.Name = "tabListPage_General";
-            this.tabListPage_General.Size = new System.Drawing.Size(462, 363);
+            this.tabListPage_General.Size = new System.Drawing.Size(471, 363);
             this.tabListPage_General.TabIndex = 0;
             this.tabListPage_General.Text = "General";
             // 
@@ -595,7 +607,7 @@
             this.tableLayoutPanel2.Controls.Add(this.checkBox_UseWild, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.checkBox_BluesOnly, 1, 4);
             this.tableLayoutPanel2.Controls.Add(this.checkBox_CaptureRares, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.label12, 1, 7);
+            this.tableLayoutPanel2.Controls.Add(this.label_CaptureNotOwned, 1, 7);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel6, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 2);
@@ -623,7 +635,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(460, 361);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(469, 361);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // checkBox_DoNotEngage
@@ -631,13 +643,14 @@
             this.checkBox_DoNotEngage.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_DoNotEngage.AutoSize = true;
             this.checkBox_DoNotEngage.ForeColor = System.Drawing.Color.Peru;
-            this.checkBox_DoNotEngage.Location = new System.Drawing.Point(143, 10);
+            this.checkBox_DoNotEngage.Location = new System.Drawing.Point(146, 10);
             this.checkBox_DoNotEngage.Name = "checkBox_DoNotEngage";
             this.checkBox_DoNotEngage.Size = new System.Drawing.Size(113, 17);
             this.checkBox_DoNotEngage.TabIndex = 1;
             this.checkBox_DoNotEngage.Text = "Do Not Engage";
             this.checkBox_DoNotEngage.UseVisualStyleBackColor = true;
             this.checkBox_DoNotEngage.CheckedChanged += new System.EventHandler(this.checkBox_DoNotEngage_CheckedChanged);
+            this.checkBox_DoNotEngage.MouseEnter += new System.EventHandler(this.checkBox_DoNotEngage_MouseEnter);
             // 
             // checkBox_RecordPets
             // 
@@ -650,15 +663,16 @@
             this.checkBox_RecordPets.TabIndex = 0;
             this.checkBox_RecordPets.Text = "Record Pets";
             this.checkBox_RecordPets.UseVisualStyleBackColor = true;
+            this.checkBox_RecordPets.MouseEnter += new System.EventHandler(this.checkBox_RecordPets_MouseEnter);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(280, 73);
+            this.label6.Location = new System.Drawing.Point(286, 73);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(174, 32);
+            this.label6.Size = new System.Drawing.Size(177, 32);
             this.label6.TabIndex = 4;
             this.label6.Text = "<-Min and Max levels for Pets to be levelled";
             // 
@@ -668,9 +682,9 @@
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label7.Location = new System.Drawing.Point(280, 108);
+            this.label7.Location = new System.Drawing.Point(286, 108);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(174, 32);
+            this.label7.Size = new System.Drawing.Size(177, 32);
             this.label7.TabIndex = 8;
             this.label7.Text = "<-Pets will lower health % will be selected only if there is no others";
             // 
@@ -680,9 +694,9 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Peru;
-            this.label10.Location = new System.Drawing.Point(280, 3);
+            this.label10.Location = new System.Drawing.Point(286, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 32);
+            this.label10.Size = new System.Drawing.Size(177, 32);
             this.label10.TabIndex = 9;
             this.label10.Text = "Not engaging in battles while on manual - speeds up recording";
             // 
@@ -692,24 +706,26 @@
             this.checkBox_UseWild.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox_UseWild.Location = new System.Drawing.Point(6, 146);
             this.checkBox_UseWild.Name = "checkBox_UseWild";
-            this.checkBox_UseWild.Size = new System.Drawing.Size(128, 26);
+            this.checkBox_UseWild.Size = new System.Drawing.Size(131, 26);
             this.checkBox_UseWild.TabIndex = 10;
             this.checkBox_UseWild.Text = "Use Wild Pets";
             this.checkBox_UseWild.UseVisualStyleBackColor = true;
             this.checkBox_UseWild.CheckedChanged += new System.EventHandler(this.checkBox_UseWild_CheckedChanged);
+            this.checkBox_UseWild.MouseEnter += new System.EventHandler(this.checkBox_UseWild_MouseEnter);
             // 
             // checkBox_BluesOnly
             // 
             this.checkBox_BluesOnly.AutoSize = true;
             this.checkBox_BluesOnly.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox_BluesOnly.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.checkBox_BluesOnly.Location = new System.Drawing.Point(143, 146);
+            this.checkBox_BluesOnly.Location = new System.Drawing.Point(146, 146);
             this.checkBox_BluesOnly.Name = "checkBox_BluesOnly";
-            this.checkBox_BluesOnly.Size = new System.Drawing.Size(128, 26);
+            this.checkBox_BluesOnly.Size = new System.Drawing.Size(131, 26);
             this.checkBox_BluesOnly.TabIndex = 11;
             this.checkBox_BluesOnly.Text = "Blues Only";
             this.checkBox_BluesOnly.UseVisualStyleBackColor = true;
             this.checkBox_BluesOnly.CheckedChanged += new System.EventHandler(this.checkBox_BluesOnly_CheckedChanged);
+            this.checkBox_BluesOnly.MouseEnter += new System.EventHandler(this.checkBox_BluesOnly_MouseEnter);
             // 
             // checkBox_CaptureRares
             // 
@@ -723,17 +739,19 @@
             this.checkBox_CaptureRares.Text = "Capture Rares";
             this.checkBox_CaptureRares.UseVisualStyleBackColor = true;
             this.checkBox_CaptureRares.CheckedChanged += new System.EventHandler(this.checkBox_CaptureRares_CheckedChanged);
+            this.checkBox_CaptureRares.MouseEnter += new System.EventHandler(this.checkBox_CaptureRares_MouseEnter);
             // 
-            // label12
+            // label_CaptureNotOwned
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(151, 257);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(120, 13);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Capture not Owned:";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_CaptureNotOwned.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label_CaptureNotOwned.AutoSize = true;
+            this.label_CaptureNotOwned.Location = new System.Drawing.Point(157, 257);
+            this.label_CaptureNotOwned.Name = "label_CaptureNotOwned";
+            this.label_CaptureNotOwned.Size = new System.Drawing.Size(120, 13);
+            this.label_CaptureNotOwned.TabIndex = 15;
+            this.label_CaptureNotOwned.Text = "Capture not Owned:";
+            this.label_CaptureNotOwned.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_CaptureNotOwned.MouseEnter += new System.EventHandler(this.label_CaptureNotOwned_MouseEnter);
             // 
             // tableLayoutPanel6
             // 
@@ -767,6 +785,7 @@
             0,
             0});
             this.numericUpDown_MinPetHealth.ValueChanged += new System.EventHandler(this.numericUpDown_MinPetHealth_ValueChanged);
+            this.numericUpDown_MinPetHealth.Enter += new System.EventHandler(this.numericUpDown_MinPetHealth_Enter);
             // 
             // label_MinPetH
             // 
@@ -779,6 +798,7 @@
             this.label_MinPetH.TabIndex = 1;
             this.label_MinPetH.Text = "Min pet Health:";
             this.label_MinPetH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_MinPetH.MouseEnter += new System.EventHandler(this.label_MinPetH_MouseEnter);
             // 
             // tableLayoutPanel7
             // 
@@ -786,8 +806,8 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel7.Controls.Add(this.numericUpDown_MinRingerHealth, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.label9, 1, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(143, 111);
+            this.tableLayoutPanel7.Controls.Add(this.label_MinRingerH, 1, 0);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(146, 111);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -812,17 +832,19 @@
             0,
             0});
             this.numericUpDown_MinRingerHealth.ValueChanged += new System.EventHandler(this.numericUpDown_MinRingerHealth_ValueChanged);
+            this.numericUpDown_MinRingerHealth.Enter += new System.EventHandler(this.numericUpDown_MinRingerHealth_Enter);
             // 
-            // label9
+            // label_MinRingerH
             // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label9.Location = new System.Drawing.Point(52, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 26);
-            this.label9.TabIndex = 1;
-            this.label9.Text = ":Min H Ringer";
+            this.label_MinRingerH.AutoSize = true;
+            this.label_MinRingerH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_MinRingerH.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label_MinRingerH.Location = new System.Drawing.Point(52, 0);
+            this.label_MinRingerH.Name = "label_MinRingerH";
+            this.label_MinRingerH.Size = new System.Drawing.Size(69, 26);
+            this.label_MinRingerH.TabIndex = 1;
+            this.label_MinRingerH.Text = ":Min H Ringer";
+            this.label_MinRingerH.MouseEnter += new System.EventHandler(this.label_MinRingerH_MouseEnter);
             // 
             // tableLayoutPanel3
             // 
@@ -830,7 +852,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel3.Controls.Add(this.numericUpDown_MinLevel, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label4, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label_MinLevel, 0, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 76);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
@@ -861,17 +883,19 @@
             0,
             0});
             this.numericUpDown_MinLevel.ValueChanged += new System.EventHandler(this.numericUpDown_MinLevel_ValueChanged);
+            this.numericUpDown_MinLevel.Enter += new System.EventHandler(this.numericUpDown_MinLevel_Enter);
             // 
-            // label4
+            // label_MinLevel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 26);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Min Level:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_MinLevel.AutoSize = true;
+            this.label_MinLevel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_MinLevel.Location = new System.Drawing.Point(3, 0);
+            this.label_MinLevel.Name = "label_MinLevel";
+            this.label_MinLevel.Size = new System.Drawing.Size(68, 26);
+            this.label_MinLevel.TabIndex = 1;
+            this.label_MinLevel.Text = "Min Level:";
+            this.label_MinLevel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label_MinLevel.MouseEnter += new System.EventHandler(this.label_MinLevel_MouseEnter);
             // 
             // tableLayoutPanel4
             // 
@@ -879,8 +903,8 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel4.Controls.Add(this.numericUpDown_MaxLevel, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label5, 1, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(143, 76);
+            this.tableLayoutPanel4.Controls.Add(this.label_MaxLevel, 1, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(146, 76);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -912,15 +936,16 @@
             0});
             this.numericUpDown_MaxLevel.ValueChanged += new System.EventHandler(this.numericUpDown_MaxLevel_ValueChanged);
             // 
-            // label5
+            // label_MaxLevel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(52, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 26);
-            this.label5.TabIndex = 1;
-            this.label5.Text = ":Max Level ";
+            this.label_MaxLevel.AutoSize = true;
+            this.label_MaxLevel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_MaxLevel.Location = new System.Drawing.Point(52, 0);
+            this.label_MaxLevel.Name = "label_MaxLevel";
+            this.label_MaxLevel.Size = new System.Drawing.Size(69, 26);
+            this.label_MaxLevel.TabIndex = 1;
+            this.label_MaxLevel.Text = ":Max Level ";
+            this.label_MaxLevel.MouseEnter += new System.EventHandler(this.label_MaxLevel_MouseEnter);
             // 
             // label13
             // 
@@ -929,7 +954,7 @@
             this.tableLayoutPanel2.SetColumnSpan(this.label13, 2);
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label13.Location = new System.Drawing.Point(78, 54);
+            this.label13.Location = new System.Drawing.Point(81, 54);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(121, 16);
             this.label13.TabIndex = 17;
@@ -945,11 +970,12 @@
             "Commons",
             "All",
             "None"});
-            this.comboBox_CaptureNotOwned.Location = new System.Drawing.Point(280, 253);
+            this.comboBox_CaptureNotOwned.Location = new System.Drawing.Point(286, 253);
             this.comboBox_CaptureNotOwned.Name = "comboBox_CaptureNotOwned";
             this.comboBox_CaptureNotOwned.Size = new System.Drawing.Size(121, 21);
             this.comboBox_CaptureNotOwned.TabIndex = 16;
             this.comboBox_CaptureNotOwned.SelectedIndexChanged += new System.EventHandler(this.comboBox_CaptureNotOwned_SelectedIndexChanged);
+            this.comboBox_CaptureNotOwned.MouseEnter += new System.EventHandler(this.comboBox_CaptureNotOwned_MouseEnter);
             // 
             // label11
             // 
@@ -958,7 +984,7 @@
             this.tableLayoutPanel2.SetColumnSpan(this.label11, 2);
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label11.Location = new System.Drawing.Point(105, 229);
+            this.label11.Location = new System.Drawing.Point(108, 229);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(66, 16);
             this.label11.TabIndex = 13;
@@ -971,36 +997,55 @@
             this.checkBox_FavOnlyPets.ForeColor = System.Drawing.Color.BlueViolet;
             this.checkBox_FavOnlyPets.Location = new System.Drawing.Point(6, 181);
             this.checkBox_FavOnlyPets.Name = "checkBox_FavOnlyPets";
-            this.checkBox_FavOnlyPets.Size = new System.Drawing.Size(128, 26);
+            this.checkBox_FavOnlyPets.Size = new System.Drawing.Size(131, 26);
             this.checkBox_FavOnlyPets.TabIndex = 18;
             this.checkBox_FavOnlyPets.Text = "Fav Only Pets";
             this.checkBox_FavOnlyPets.UseVisualStyleBackColor = true;
             this.checkBox_FavOnlyPets.CheckedChanged += new System.EventHandler(this.checkBox_FavOnlyPets_CheckedChanged);
+            this.checkBox_FavOnlyPets.MouseEnter += new System.EventHandler(this.checkBox_FavOnlyPets_MouseEnter);
             // 
             // checkBox_FavOnlyRingers
             // 
             this.checkBox_FavOnlyRingers.AutoSize = true;
             this.checkBox_FavOnlyRingers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox_FavOnlyRingers.ForeColor = System.Drawing.Color.BlueViolet;
-            this.checkBox_FavOnlyRingers.Location = new System.Drawing.Point(143, 181);
+            this.checkBox_FavOnlyRingers.Location = new System.Drawing.Point(146, 181);
             this.checkBox_FavOnlyRingers.Name = "checkBox_FavOnlyRingers";
-            this.checkBox_FavOnlyRingers.Size = new System.Drawing.Size(128, 26);
+            this.checkBox_FavOnlyRingers.Size = new System.Drawing.Size(131, 26);
             this.checkBox_FavOnlyRingers.TabIndex = 19;
             this.checkBox_FavOnlyRingers.Text = "Fav Only Ringers";
             this.checkBox_FavOnlyRingers.UseVisualStyleBackColor = true;
             this.checkBox_FavOnlyRingers.CheckedChanged += new System.EventHandler(this.checkBox_FavOnlyRingers_CheckedChanged);
+            this.checkBox_FavOnlyRingers.MouseEnter += new System.EventHandler(this.checkBox_FavOnlyRingers_MouseEnter);
             // 
             // label_byLevel
             // 
             this.label_byLevel.AutoSize = true;
             this.label_byLevel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_byLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_byLevel.Location = new System.Drawing.Point(280, 38);
+            this.label_byLevel.Location = new System.Drawing.Point(286, 38);
             this.label_byLevel.Name = "label_byLevel";
-            this.label_byLevel.Size = new System.Drawing.Size(174, 32);
+            this.label_byLevel.Size = new System.Drawing.Size(177, 32);
             this.label_byLevel.TabIndex = 20;
             this.label_byLevel.Text = "by levels";
             this.label_byLevel.DoubleClick += new System.EventHandler(this.label_byLevel_DoubleClick);
+            this.label_byLevel.MouseEnter += new System.EventHandler(this.label_byLevel_MouseEnter);
+            // 
+            // checkBox_IgnoreElites
+            // 
+            this.checkBox_IgnoreElites.AutoSize = true;
+            this.checkBox_IgnoreElites.Checked = true;
+            this.checkBox_IgnoreElites.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_IgnoreElites.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox_IgnoreElites.ForeColor = System.Drawing.Color.Peru;
+            this.checkBox_IgnoreElites.Location = new System.Drawing.Point(6, 286);
+            this.checkBox_IgnoreElites.Name = "checkBox_IgnoreElites";
+            this.checkBox_IgnoreElites.Size = new System.Drawing.Size(131, 26);
+            this.checkBox_IgnoreElites.TabIndex = 22;
+            this.checkBox_IgnoreElites.Text = "Ignore Elites";
+            this.checkBox_IgnoreElites.UseVisualStyleBackColor = true;
+            this.checkBox_IgnoreElites.CheckedChanged += new System.EventHandler(this.checkBox_Elites_CheckedChanged);
+            this.checkBox_IgnoreElites.MouseEnter += new System.EventHandler(this.checkBox_IgnoreElites_MouseEnter);
             // 
             // tabListPage_Relative
             // 
@@ -1083,6 +1128,7 @@
             this.button_SetRelative.Text = "Relative Mode";
             this.button_SetRelative.UseVisualStyleBackColor = true;
             this.button_SetRelative.Click += new System.EventHandler(this.button_SetRelative_Click);
+            this.button_SetRelative.MouseEnter += new System.EventHandler(this.button_SetMode_MouseEnter);
             // 
             // button_DefailtsRelative
             // 
@@ -1095,6 +1141,7 @@
             this.button_DefailtsRelative.Text = "Restore Defaults";
             this.button_DefailtsRelative.UseVisualStyleBackColor = true;
             this.button_DefailtsRelative.Click += new System.EventHandler(this.button_DefailtsRelative_Click);
+            this.button_DefailtsRelative.MouseEnter += new System.EventHandler(this.button_DefaultsMode_MouseEnter);
             // 
             // label8
             // 
@@ -1105,7 +1152,8 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(18, 19);
             this.label8.TabIndex = 2;
-            this.label8.Text = "Pet3 to Differ by Pet1 by:";
+            this.label8.Text = "Pet3 to Differ from Pet1 by:";
+            this.label8.MouseEnter += new System.EventHandler(this.label_Pet3Diff_MouseEnter);
             // 
             // label14
             // 
@@ -1116,7 +1164,8 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(18, 19);
             this.label14.TabIndex = 3;
-            this.label14.Text = "Pet2 to Differ by Pet1 by:";
+            this.label14.Text = "Pet2 to Differ from Pet1 by:";
+            this.label14.MouseEnter += new System.EventHandler(this.label_Pet2Diff_MouseEnter);
             // 
             // label15
             // 
@@ -1128,6 +1177,7 @@
             this.label15.Size = new System.Drawing.Size(18, 19);
             this.label15.TabIndex = 4;
             this.label15.Text = "Select Zone that is higher than Pet1 by:";
+            this.label15.MouseEnter += new System.EventHandler(this.label_ZoneDiff_MouseEnter);
             // 
             // label16
             // 
@@ -1139,6 +1189,7 @@
             this.label16.Size = new System.Drawing.Size(18, 19);
             this.label16.TabIndex = 5;
             this.label16.Text = "Swap Pet1 in battle when Health is less than:";
+            this.label16.MouseEnter += new System.EventHandler(this.label_Pet1Swap_MouseEnter);
             // 
             // label18
             // 
@@ -1150,6 +1201,7 @@
             this.label18.Size = new System.Drawing.Size(18, 19);
             this.label18.TabIndex = 7;
             this.label18.Text = "Pet2 when Health is less than:";
+            this.label18.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // label17
             // 
@@ -1161,6 +1213,7 @@
             this.label17.Size = new System.Drawing.Size(18, 19);
             this.label17.TabIndex = 6;
             this.label17.Text = "Pet3 when Health is less than:";
+            this.label17.MouseEnter += new System.EventHandler(this.label_Pet3Swap_MouseEnter);
             // 
             // pet2Diff_Relative
             // 
@@ -1393,6 +1446,7 @@
             this.button_SetRinger.Text = "Ringer Mode";
             this.button_SetRinger.UseVisualStyleBackColor = true;
             this.button_SetRinger.Click += new System.EventHandler(this.button_SetRinger_Click);
+            this.button_SetRinger.MouseEnter += new System.EventHandler(this.button_SetMode_MouseEnter);
             // 
             // button_DefailtsRinger
             // 
@@ -1405,6 +1459,7 @@
             this.button_DefailtsRinger.Text = "Restore Defaults";
             this.button_DefailtsRinger.UseVisualStyleBackColor = true;
             this.button_DefailtsRinger.Click += new System.EventHandler(this.button_DefailtsRinger_Click);
+            this.button_DefailtsRinger.MouseEnter += new System.EventHandler(this.button_DefaultsMode_MouseEnter);
             // 
             // label27
             // 
@@ -1415,7 +1470,8 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(18, 19);
             this.label27.TabIndex = 2;
-            this.label27.Text = "Pet3 to Differ by Pet1 by:";
+            this.label27.Text = "Pet3 to Differ from Pet1 by:";
+            this.label27.MouseEnter += new System.EventHandler(this.label_Pet3Diff_MouseEnter);
             // 
             // label28
             // 
@@ -1426,7 +1482,8 @@
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(18, 19);
             this.label28.TabIndex = 3;
-            this.label28.Text = "Pet2 to Differ by Pet1 by:";
+            this.label28.Text = "Pet2 to Differ from Pet1 by:";
+            this.label28.MouseEnter += new System.EventHandler(this.label_Pet2Diff_MouseEnter);
             // 
             // label29
             // 
@@ -1438,6 +1495,7 @@
             this.label29.Size = new System.Drawing.Size(18, 19);
             this.label29.TabIndex = 4;
             this.label29.Text = "Select Zone that is higher than Pet1 by:";
+            this.label29.MouseEnter += new System.EventHandler(this.label_ZoneDiff_MouseEnter);
             // 
             // label30
             // 
@@ -1449,6 +1507,7 @@
             this.label30.Size = new System.Drawing.Size(18, 19);
             this.label30.TabIndex = 5;
             this.label30.Text = "Swap Pet1 in battle when Health is less than:";
+            this.label30.MouseEnter += new System.EventHandler(this.label_Pet1Swap_MouseEnter);
             // 
             // label31
             // 
@@ -1460,6 +1519,7 @@
             this.label31.Size = new System.Drawing.Size(18, 19);
             this.label31.TabIndex = 7;
             this.label31.Text = "Pet2 when Health is less than:";
+            this.label31.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // label32
             // 
@@ -1471,6 +1531,7 @@
             this.label32.Size = new System.Drawing.Size(18, 19);
             this.label32.TabIndex = 6;
             this.label32.Text = "Pet3 when Health is less than:";
+            this.label32.MouseEnter += new System.EventHandler(this.label_Pet3Swap_MouseEnter);
             // 
             // pet2Diff_Ringer
             // 
@@ -1702,6 +1763,7 @@
             this.button_SetRingerx2.Text = "Ringer x2 Mode";
             this.button_SetRingerx2.UseVisualStyleBackColor = true;
             this.button_SetRingerx2.Click += new System.EventHandler(this.button_SetRingerx2_Click);
+            this.button_SetRingerx2.MouseEnter += new System.EventHandler(this.button_SetMode_MouseEnter);
             // 
             // button_DefailtsRingerx2
             // 
@@ -1714,6 +1776,7 @@
             this.button_DefailtsRingerx2.Text = "Restore Defaults";
             this.button_DefailtsRingerx2.UseVisualStyleBackColor = true;
             this.button_DefailtsRingerx2.Click += new System.EventHandler(this.button_DefailtsRingerx2_Click);
+            this.button_DefailtsRingerx2.MouseEnter += new System.EventHandler(this.button_DefaultsMode_MouseEnter);
             // 
             // label40
             // 
@@ -1724,7 +1787,8 @@
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(18, 19);
             this.label40.TabIndex = 2;
-            this.label40.Text = "Pet3 to Differ by Pet1 by:";
+            this.label40.Text = "Pet3 to Differ from Pet1 by:";
+            this.label40.MouseEnter += new System.EventHandler(this.label_Pet3Diff_MouseEnter);
             // 
             // label41
             // 
@@ -1735,7 +1799,8 @@
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(18, 19);
             this.label41.TabIndex = 3;
-            this.label41.Text = "Pet2 to Differ by Pet1 by:";
+            this.label41.Text = "Pet2 to Differ from Pet1 by:";
+            this.label41.MouseEnter += new System.EventHandler(this.label_Pet2Diff_MouseEnter);
             // 
             // label42
             // 
@@ -1747,6 +1812,7 @@
             this.label42.Size = new System.Drawing.Size(18, 19);
             this.label42.TabIndex = 4;
             this.label42.Text = "Select Zone that is higher than Pet1 by:";
+            this.label42.MouseEnter += new System.EventHandler(this.label_ZoneDiff_MouseEnter);
             // 
             // label43
             // 
@@ -1758,6 +1824,7 @@
             this.label43.Size = new System.Drawing.Size(18, 19);
             this.label43.TabIndex = 5;
             this.label43.Text = "Swap Pet1 in battle when Health is less than:";
+            this.label43.MouseEnter += new System.EventHandler(this.label_Pet1Swap_MouseEnter);
             // 
             // label44
             // 
@@ -1769,6 +1836,7 @@
             this.label44.Size = new System.Drawing.Size(18, 19);
             this.label44.TabIndex = 7;
             this.label44.Text = "Pet2 when Health is less than:";
+            this.label44.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // label45
             // 
@@ -1780,6 +1848,7 @@
             this.label45.Size = new System.Drawing.Size(18, 19);
             this.label45.TabIndex = 6;
             this.label45.Text = "Pet3 when Health is less than:";
+            this.label45.MouseEnter += new System.EventHandler(this.label_Pet3Swap_MouseEnter);
             // 
             // pet2Diff_Ringerx2
             // 
@@ -2011,6 +2080,7 @@
             this.button_SetCapture.Text = "Capture Mode";
             this.button_SetCapture.UseVisualStyleBackColor = true;
             this.button_SetCapture.Click += new System.EventHandler(this.button_SetCapture_Click);
+            this.button_SetCapture.MouseEnter += new System.EventHandler(this.button_SetMode_MouseEnter);
             // 
             // button_DefailtsCapture
             // 
@@ -2023,6 +2093,7 @@
             this.button_DefailtsCapture.Text = "Restore Defaults";
             this.button_DefailtsCapture.UseVisualStyleBackColor = true;
             this.button_DefailtsCapture.Click += new System.EventHandler(this.button_DefailtsCapture_Click);
+            this.button_DefailtsCapture.MouseEnter += new System.EventHandler(this.button_DefaultsMode_MouseEnter);
             // 
             // label53
             // 
@@ -2033,7 +2104,8 @@
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(18, 19);
             this.label53.TabIndex = 2;
-            this.label53.Text = "Pet3 to Differ by Pet1 by:";
+            this.label53.Text = "Pet3 to Differ from Pet1 by:";
+            this.label53.MouseEnter += new System.EventHandler(this.label_Pet3Diff_MouseEnter);
             // 
             // label54
             // 
@@ -2044,7 +2116,8 @@
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(18, 19);
             this.label54.TabIndex = 3;
-            this.label54.Text = "Pet2 to Differ by Pet1 by:";
+            this.label54.Text = "Pet2 to Differ from Pet1 by:";
+            this.label54.MouseEnter += new System.EventHandler(this.label_Pet2Diff_MouseEnter);
             // 
             // label55
             // 
@@ -2056,6 +2129,7 @@
             this.label55.Size = new System.Drawing.Size(18, 19);
             this.label55.TabIndex = 4;
             this.label55.Text = "Select Zone that is higher than Pet1 by:";
+            this.label55.MouseEnter += new System.EventHandler(this.label_ZoneDiff_MouseEnter);
             // 
             // label56
             // 
@@ -2067,6 +2141,7 @@
             this.label56.Size = new System.Drawing.Size(18, 19);
             this.label56.TabIndex = 5;
             this.label56.Text = "Swap Pet1 in battle when Health is less than:";
+            this.label56.MouseEnter += new System.EventHandler(this.label_Pet1Swap_MouseEnter);
             // 
             // label57
             // 
@@ -2078,6 +2153,7 @@
             this.label57.Size = new System.Drawing.Size(18, 19);
             this.label57.TabIndex = 7;
             this.label57.Text = "Pet2 when Health is less than:";
+            this.label57.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // label58
             // 
@@ -2089,6 +2165,7 @@
             this.label58.Size = new System.Drawing.Size(18, 19);
             this.label58.TabIndex = 6;
             this.label58.Text = "Pet3 when Health is less than:";
+            this.label58.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // pet2Diff_Capture
             // 
@@ -2320,6 +2397,7 @@
             this.button_SetCustom.Text = "Custom Mode";
             this.button_SetCustom.UseVisualStyleBackColor = true;
             this.button_SetCustom.Click += new System.EventHandler(this.button_SetCustom_Click);
+            this.button_SetCustom.MouseEnter += new System.EventHandler(this.button_SetMode_MouseEnter);
             // 
             // button_DefailtsCustom
             // 
@@ -2332,6 +2410,7 @@
             this.button_DefailtsCustom.Text = "Restore Defaults";
             this.button_DefailtsCustom.UseVisualStyleBackColor = true;
             this.button_DefailtsCustom.Click += new System.EventHandler(this.button_DefailtsCustom_Click);
+            this.button_DefailtsCustom.MouseEnter += new System.EventHandler(this.button_DefaultsMode_MouseEnter);
             // 
             // label66
             // 
@@ -2342,7 +2421,8 @@
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(18, 19);
             this.label66.TabIndex = 2;
-            this.label66.Text = "Pet3 to Differ by Pet1 by:";
+            this.label66.Text = "Pet3 to Differ from Pet1 by:";
+            this.label66.MouseEnter += new System.EventHandler(this.label_Pet3Diff_MouseEnter);
             // 
             // label67
             // 
@@ -2353,7 +2433,8 @@
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(18, 19);
             this.label67.TabIndex = 3;
-            this.label67.Text = "Pet2 to Differ by Pet1 by:";
+            this.label67.Text = "Pet2 to Differ from Pet1 by:";
+            this.label67.MouseEnter += new System.EventHandler(this.label_Pet2Diff_MouseEnter);
             // 
             // label68
             // 
@@ -2365,6 +2446,7 @@
             this.label68.Size = new System.Drawing.Size(18, 19);
             this.label68.TabIndex = 4;
             this.label68.Text = "Select Zone that is higher than Pet1 by:";
+            this.label68.MouseEnter += new System.EventHandler(this.label_ZoneDiff_MouseEnter);
             // 
             // label69
             // 
@@ -2376,6 +2458,7 @@
             this.label69.Size = new System.Drawing.Size(18, 19);
             this.label69.TabIndex = 5;
             this.label69.Text = "Swap Pet1 in battle when Health is less than:";
+            this.label69.MouseEnter += new System.EventHandler(this.label_Pet1Swap_MouseEnter);
             // 
             // label70
             // 
@@ -2387,6 +2470,7 @@
             this.label70.Size = new System.Drawing.Size(18, 19);
             this.label70.TabIndex = 7;
             this.label70.Text = "Pet2 when Health is less than:";
+            this.label70.MouseEnter += new System.EventHandler(this.label_Pet2Swap_MouseEnter);
             // 
             // label71
             // 
@@ -2398,6 +2482,7 @@
             this.label71.Size = new System.Drawing.Size(18, 19);
             this.label71.TabIndex = 6;
             this.label71.Text = "Pet3 when Health is less than:";
+            this.label71.MouseEnter += new System.EventHandler(this.label_Pet3Swap_MouseEnter);
             // 
             // pet2Diff_Custom
             // 
@@ -2555,7 +2640,7 @@
             this.tabListPage_PetZones.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabListPage_PetZones.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tabListPage_PetZones.Name = "tabListPage_PetZones";
-            this.tabListPage_PetZones.Size = new System.Drawing.Size(42, 192);
+            this.tabListPage_PetZones.Size = new System.Drawing.Size(471, 363);
             this.tabListPage_PetZones.TabIndex = 6;
             this.tabListPage_PetZones.Text = "Pet Zones";
             // 
@@ -2606,7 +2691,7 @@
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(40, 190);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(469, 361);
             this.tableLayoutPanel11.TabIndex = 0;
             // 
             // checkBox_AutoZones
@@ -2615,20 +2700,21 @@
             this.checkBox_AutoZones.AutoSize = true;
             this.tableLayoutPanel11.SetColumnSpan(this.checkBox_AutoZones, 2);
             this.checkBox_AutoZones.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_AutoZones.Location = new System.Drawing.Point(3, 3);
+            this.checkBox_AutoZones.Location = new System.Drawing.Point(3, 6);
             this.checkBox_AutoZones.Name = "checkBox_AutoZones";
-            this.checkBox_AutoZones.Size = new System.Drawing.Size(34, 9);
+            this.checkBox_AutoZones.Size = new System.Drawing.Size(366, 17);
             this.checkBox_AutoZones.TabIndex = 0;
             this.checkBox_AutoZones.Text = "Automatically Select Zones based on pet Level and per-Mode increment";
             this.checkBox_AutoZones.UseVisualStyleBackColor = true;
+            this.checkBox_AutoZones.MouseEnter += new System.EventHandler(this.checkBox_AutoZones_MouseEnter);
             // 
             // label78
             // 
             this.label78.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(3, 15);
+            this.label78.Location = new System.Drawing.Point(13, 37);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(2, 15);
+            this.label78.Size = new System.Drawing.Size(77, 15);
             this.label78.TabIndex = 1;
             this.label78.Text = "Levels 1-3:";
             // 
@@ -2636,9 +2722,9 @@
             // 
             this.button_Zone_1to3.AutoSize = true;
             this.button_Zone_1to3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_1to3.Location = new System.Drawing.Point(11, 18);
+            this.button_Zone_1to3.Location = new System.Drawing.Point(96, 33);
             this.button_Zone_1to3.Name = "button_Zone_1to3";
-            this.button_Zone_1to3.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_1to3.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_1to3.TabIndex = 2;
             this.button_Zone_1to3.Text = "C:\\";
             this.button_Zone_1to3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2649,9 +2735,9 @@
             // 
             this.label79.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(3, 30);
+            this.label79.Location = new System.Drawing.Point(13, 67);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(2, 15);
+            this.label79.Size = new System.Drawing.Size(77, 15);
             this.label79.TabIndex = 3;
             this.label79.Text = "Levels 4-5:";
             // 
@@ -2659,9 +2745,9 @@
             // 
             this.label80.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(3, 45);
+            this.label80.Location = new System.Drawing.Point(13, 97);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(2, 15);
+            this.label80.Size = new System.Drawing.Size(77, 15);
             this.label80.TabIndex = 4;
             this.label80.Text = "Levels 6-7:";
             // 
@@ -2669,9 +2755,9 @@
             // 
             this.label81.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(3, 60);
+            this.label81.Location = new System.Drawing.Point(13, 127);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(2, 15);
+            this.label81.Size = new System.Drawing.Size(77, 15);
             this.label81.TabIndex = 5;
             this.label81.Text = "Levels 8-9:";
             // 
@@ -2679,9 +2765,9 @@
             // 
             this.label82.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(3, 75);
+            this.label82.Location = new System.Drawing.Point(13, 157);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(2, 15);
+            this.label82.Size = new System.Drawing.Size(77, 15);
             this.label82.TabIndex = 6;
             this.label82.Text = "Lvls 10-11:";
             // 
@@ -2689,9 +2775,9 @@
             // 
             this.label83.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(3, 90);
+            this.label83.Location = new System.Drawing.Point(13, 187);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(2, 15);
+            this.label83.Size = new System.Drawing.Size(77, 15);
             this.label83.TabIndex = 7;
             this.label83.Text = "Lvls 12-13:";
             // 
@@ -2699,9 +2785,9 @@
             // 
             this.label85.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(3, 105);
+            this.label85.Location = new System.Drawing.Point(13, 217);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(2, 15);
+            this.label85.Size = new System.Drawing.Size(77, 15);
             this.label85.TabIndex = 9;
             this.label85.Text = "Lvls 14-15:";
             // 
@@ -2709,9 +2795,9 @@
             // 
             this.label86.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(3, 120);
+            this.label86.Location = new System.Drawing.Point(13, 247);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(2, 15);
+            this.label86.Size = new System.Drawing.Size(77, 15);
             this.label86.TabIndex = 10;
             this.label86.Text = "Lvls 16-17:";
             // 
@@ -2719,9 +2805,9 @@
             // 
             this.label87.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(3, 135);
+            this.label87.Location = new System.Drawing.Point(13, 277);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(2, 15);
+            this.label87.Size = new System.Drawing.Size(77, 15);
             this.label87.TabIndex = 11;
             this.label87.Text = "Lvls 18-19:";
             // 
@@ -2729,9 +2815,9 @@
             // 
             this.label88.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(3, 150);
+            this.label88.Location = new System.Drawing.Point(13, 307);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(2, 15);
+            this.label88.Size = new System.Drawing.Size(77, 15);
             this.label88.TabIndex = 12;
             this.label88.Text = "Lvls 20-21:";
             // 
@@ -2739,9 +2825,9 @@
             // 
             this.button_Zone_4to5.AutoSize = true;
             this.button_Zone_4to5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_4to5.Location = new System.Drawing.Point(11, 33);
+            this.button_Zone_4to5.Location = new System.Drawing.Point(96, 63);
             this.button_Zone_4to5.Name = "button_Zone_4to5";
-            this.button_Zone_4to5.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_4to5.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_4to5.TabIndex = 14;
             this.button_Zone_4to5.Text = "C:\\";
             this.button_Zone_4to5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2752,9 +2838,9 @@
             // 
             this.button_Zone_6to7.AutoSize = true;
             this.button_Zone_6to7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_6to7.Location = new System.Drawing.Point(11, 48);
+            this.button_Zone_6to7.Location = new System.Drawing.Point(96, 93);
             this.button_Zone_6to7.Name = "button_Zone_6to7";
-            this.button_Zone_6to7.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_6to7.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_6to7.TabIndex = 15;
             this.button_Zone_6to7.Text = "C:\\";
             this.button_Zone_6to7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2765,9 +2851,9 @@
             // 
             this.button_Zone_8to9.AutoSize = true;
             this.button_Zone_8to9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_8to9.Location = new System.Drawing.Point(11, 63);
+            this.button_Zone_8to9.Location = new System.Drawing.Point(96, 123);
             this.button_Zone_8to9.Name = "button_Zone_8to9";
-            this.button_Zone_8to9.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_8to9.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_8to9.TabIndex = 16;
             this.button_Zone_8to9.Text = "C:\\";
             this.button_Zone_8to9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2778,9 +2864,9 @@
             // 
             this.button_Zone_10to11.AutoSize = true;
             this.button_Zone_10to11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_10to11.Location = new System.Drawing.Point(11, 78);
+            this.button_Zone_10to11.Location = new System.Drawing.Point(96, 153);
             this.button_Zone_10to11.Name = "button_Zone_10to11";
-            this.button_Zone_10to11.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_10to11.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_10to11.TabIndex = 17;
             this.button_Zone_10to11.Text = "C:\\";
             this.button_Zone_10to11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2791,9 +2877,9 @@
             // 
             this.button_Zone_12to13.AutoSize = true;
             this.button_Zone_12to13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_12to13.Location = new System.Drawing.Point(11, 93);
+            this.button_Zone_12to13.Location = new System.Drawing.Point(96, 183);
             this.button_Zone_12to13.Name = "button_Zone_12to13";
-            this.button_Zone_12to13.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_12to13.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_12to13.TabIndex = 18;
             this.button_Zone_12to13.Text = "C:\\";
             this.button_Zone_12to13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2804,9 +2890,9 @@
             // 
             this.button_Zone_14to15.AutoSize = true;
             this.button_Zone_14to15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_14to15.Location = new System.Drawing.Point(11, 108);
+            this.button_Zone_14to15.Location = new System.Drawing.Point(96, 213);
             this.button_Zone_14to15.Name = "button_Zone_14to15";
-            this.button_Zone_14to15.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_14to15.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_14to15.TabIndex = 19;
             this.button_Zone_14to15.Text = "C:\\";
             this.button_Zone_14to15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2817,9 +2903,9 @@
             // 
             this.button_Zone_16to17.AutoSize = true;
             this.button_Zone_16to17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_16to17.Location = new System.Drawing.Point(11, 123);
+            this.button_Zone_16to17.Location = new System.Drawing.Point(96, 243);
             this.button_Zone_16to17.Name = "button_Zone_16to17";
-            this.button_Zone_16to17.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_16to17.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_16to17.TabIndex = 20;
             this.button_Zone_16to17.Text = "C:\\";
             this.button_Zone_16to17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2830,9 +2916,9 @@
             // 
             this.button_Zone_18to19.AutoSize = true;
             this.button_Zone_18to19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_18to19.Location = new System.Drawing.Point(11, 138);
+            this.button_Zone_18to19.Location = new System.Drawing.Point(96, 273);
             this.button_Zone_18to19.Name = "button_Zone_18to19";
-            this.button_Zone_18to19.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_18to19.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_18to19.TabIndex = 21;
             this.button_Zone_18to19.Text = "C:\\";
             this.button_Zone_18to19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2843,9 +2929,9 @@
             // 
             this.button_Zone_20to21.AutoSize = true;
             this.button_Zone_20to21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_20to21.Location = new System.Drawing.Point(11, 153);
+            this.button_Zone_20to21.Location = new System.Drawing.Point(96, 303);
             this.button_Zone_20to21.Name = "button_Zone_20to21";
-            this.button_Zone_20to21.Size = new System.Drawing.Size(26, 9);
+            this.button_Zone_20to21.Size = new System.Drawing.Size(34, 24);
             this.button_Zone_20to21.TabIndex = 22;
             this.button_Zone_20to21.Text = "C:\\";
             this.button_Zone_20to21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2856,9 +2942,9 @@
             // 
             this.button_Zone_22to25.AutoSize = true;
             this.button_Zone_22to25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button_Zone_22to25.Location = new System.Drawing.Point(11, 168);
+            this.button_Zone_22to25.Location = new System.Drawing.Point(96, 333);
             this.button_Zone_22to25.Name = "button_Zone_22to25";
-            this.button_Zone_22to25.Size = new System.Drawing.Size(26, 19);
+            this.button_Zone_22to25.Size = new System.Drawing.Size(34, 25);
             this.button_Zone_22to25.TabIndex = 23;
             this.button_Zone_22to25.Text = "C:\\";
             this.button_Zone_22to25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2869,9 +2955,9 @@
             // 
             this.label89.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(3, 165);
+            this.label89.Location = new System.Drawing.Point(13, 338);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(2, 25);
+            this.label89.Size = new System.Drawing.Size(77, 15);
             this.label89.TabIndex = 24;
             this.label89.Text = "Lvls 22-25:";
             // 
@@ -2880,7 +2966,7 @@
             this.tabListPage1.Controls.Add(this.richTextBox1);
             this.tabListPage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabListPage1.Name = "tabListPage1";
-            this.tabListPage1.Size = new System.Drawing.Size(42, 192);
+            this.tabListPage1.Size = new System.Drawing.Size(471, 363);
             this.tabListPage1.TabIndex = 7;
             this.tabListPage1.Text = "Credits";
             // 
@@ -2889,32 +2975,58 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(42, 192);
+            this.richTextBox1.Size = new System.Drawing.Size(471, 363);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
-            // checkBox_Elites
+            // tableLayoutPanel12
             // 
-            this.checkBox_IgnoreElites.AutoSize = true;
-            this.checkBox_IgnoreElites.Checked = true;
-            this.checkBox_IgnoreElites.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_IgnoreElites.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox_IgnoreElites.ForeColor = System.Drawing.Color.Peru;
-            this.checkBox_IgnoreElites.Location = new System.Drawing.Point(6, 286);
-            this.checkBox_IgnoreElites.Name = "checkBox_Elites";
-            this.checkBox_IgnoreElites.Size = new System.Drawing.Size(128, 26);
-            this.checkBox_IgnoreElites.TabIndex = 22;
-            this.checkBox_IgnoreElites.Text = "Ignore Elites";
-            this.checkBox_IgnoreElites.UseVisualStyleBackColor = true;
-            this.checkBox_IgnoreElites.CheckedChanged += new System.EventHandler(this.checkBox_Elites_CheckedChanged);
+            this.tableLayoutPanel12.ColumnCount = 4;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel12.Controls.Add(this.label_HelpName, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.label_Help, 1, 0);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 582);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(629, 55);
+            this.tableLayoutPanel12.TabIndex = 1;
+            // 
+            // label_HelpName
+            // 
+            this.label_HelpName.AutoSize = true;
+            this.label_HelpName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_HelpName.Location = new System.Drawing.Point(3, 0);
+            this.label_HelpName.Name = "label_HelpName";
+            this.label_HelpName.Size = new System.Drawing.Size(151, 27);
+            this.label_HelpName.TabIndex = 0;
+            this.label_HelpName.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label_Help
+            // 
+            this.label_Help.AutoSize = true;
+            this.tableLayoutPanel12.SetColumnSpan(this.label_Help, 3);
+            this.label_Help.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_Help.Location = new System.Drawing.Point(160, 0);
+            this.label_Help.Name = "label_Help";
+            this.tableLayoutPanel12.SetRowSpan(this.label_Help, 2);
+            this.label_Help.Size = new System.Drawing.Size(466, 55);
+            this.label_Help.TabIndex = 1;
+            this.label_Help.Text = "Mouse-over a Control to get Help";
             // 
             // FormMP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(620, 580);
+            this.ClientSize = new System.Drawing.Size(629, 637);
+            this.Controls.Add(this.tableLayoutPanel12);
             this.Controls.Add(this.splitContainer1);
             this.Name = "FormMP";
             this.Text = "Prosto Pets Configuration";
@@ -2993,6 +3105,8 @@
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
             this.tabListPage1.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel12.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3014,11 +3128,11 @@
         private System.Windows.Forms.CheckBox checkBox_LockPet1;
         private System.Windows.Forms.CheckBox checkBox_LockPet2;
         private System.Windows.Forms.CheckBox checkBox_LockPet3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_GenerateNew;
         private System.Windows.Forms.Label label_Pet1;
         private System.Windows.Forms.Label label_Pet2;
         private System.Windows.Forms.Label label_Pet3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_Mode;
         private PBwithText_v2 pB_pet1;
         private PBwithText_v2 pB_pet2;
         private PBwithText_v2 pB_pet3;
@@ -3029,23 +3143,23 @@
         private System.Windows.Forms.CheckBox checkBox_DoNotEngage;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.NumericUpDown numericUpDown_MinLevel;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label_MinLevel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.NumericUpDown numericUpDown_MaxLevel;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label_MaxLevel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckBox checkBox_UseWild;
         private System.Windows.Forms.CheckBox checkBox_BluesOnly;
         private System.Windows.Forms.CheckBox checkBox_CaptureRares;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label_CaptureNotOwned;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.NumericUpDown numericUpDown_MinPetHealth;
         private System.Windows.Forms.Label label_MinPetH;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.NumericUpDown numericUpDown_MinRingerHealth;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label_MinRingerH;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox_CaptureNotOwned;
         private System.Windows.Forms.Label label11;
@@ -3190,6 +3304,9 @@
         private System.Windows.Forms.Label label_byLevel;
         private System.Windows.Forms.Label label_Version;
         private System.Windows.Forms.CheckBox checkBox_IgnoreElites;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+        private System.Windows.Forms.Label label_HelpName;
+        private System.Windows.Forms.Label label_Help;
 
     }
 }

@@ -585,12 +585,12 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
                 Logger.Alert("Prosto_Pets not started yet");
                 return;
             }
-            button1.Enabled = false;  // just in case: 1st op can take long
+            button_GenerateNew.Enabled = false;  // just in case: 1st op can take long
             Prosto_Pets.Instance.LoadPetsForLevel();   // TODO: check rc, show alarm
             pB_pet1_Load(sender, e);
             pB_pet2_Load(sender, e);
             pB_pet3_Load(sender, e);
-            button1.Enabled = true;
+            button_GenerateNew.Enabled = true;
         }
 
         private void checkBox_Manual_CheckedChanged(object sender, EventArgs e)
@@ -980,7 +980,212 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
             PluginSettings.Instance.IgnoreElites = checkBox_IgnoreElites.Checked;
         }
 
+        private void FillHelp( Control control, string text)
+        {
+            string buttonText = control.Text;
+            buttonText = buttonText.Replace(":", "");
+            label_HelpName.Text = buttonText + ":";
+            label_HelpName.Font = control.Font;
+            label_HelpName.ForeColor = control.ForeColor;
 
+            label_Help.Text = text;
+        }
+        
+        private void label2_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Double-Click to refresh the current team composition");
+        }
+
+        private void checkBox_CaptureRares_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED, the bot will try to capture rares if they are capturable. If NOT checked, the bot will destroy rares as usual");
+        }
+
+        private void button_GenerateNew_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Generate a Pet Team according to the settings you've chosen");
+        }
+
+        private void checkBox_LockPetX_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Do not change the Pet which is now in this position when generating a new team");
+        }
+
+        private void label_Mode_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, 
+                "RELATIVE: all 3 pets are from the set to be leveled; "
+              + "RINGER: pets 1 and 2 are to be leveled, pet 3 is a 'Ringer': much stronger than the enemy; "
+              + "RINGERx2: pet 1 is to be leveled, pets 2 and 3 are 'Ringers'; "
+              + "CAPTURE: pets to be stronger than the enemy in the ZONE YOU ARE IN, but not much stronger;"
+                );
+        }
+
+        private void comboBox_Mode_MouseEnter(object sender, EventArgs e)
+        {
+            label_Mode_MouseEnter(label_Mode, e);
+        }
+
+        private void checkBox_Manual_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "When CHECKED the bot will NOT use a Profile: you want to move a toon yourself."
+            + " If UNCHECKED the bot will use a Profile - see 'Pet Zones' tab for Profile configuration options ");
+        }
+
+        private void checkBox_RecordPets_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "When CHECKED the bot will record pets. " 
+                + "See 'Gathering Pet Info, creating your own Profiles' topic in the Prosto_Pets HB forum post for details and extra software tools.");
+        }
+
+        private void checkBox_DoNotEngage_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "When CHECKED the bot will not engage in pet battles (useful to speed up recording)");
+        }
+
+        private void label_MinLevel_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Specifies the minimum level of the pets you want to level. This is a HARD limit: the bot will STOP if it can't find such pets.");
+        }
+
+        private void numericUpDown_MinLevel_Enter(object sender, EventArgs e)
+        {
+            label_MinLevel_MouseEnter(label_MinLevel, e);
+        }
+
+        private void label_MaxLevel_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Specifies the maximum level of the pets you want to level. This is a HARD limit: the bot will STOP if it can't find such pets. "
+            + "Ringers are NOT a subject to this limit, only pets to be leveled.");
+        }
+
+        private void label_MinPetH_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Specifies the minimum health of the pets to be leveled. "
+            + " This is a SOFT limit: the bot will try to use a lower-health pets if it can't find healthy enough pets. "
+            + "Ringers are NOT a subject to this limit, only pets to be leveled.");
+        }
+
+        private void numericUpDown_MinPetHealth_Enter(object sender, EventArgs e)
+        {
+            label_MinPetH_MouseEnter(label_MinPetH, e);
+        }
+
+        private void label_MinRingerH_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Specifies the minimum health of the pets to be used as Ringers. "
+            + " This is a SOFT limit: the bot will try to use a lower-health pets if it can't find healthy enough pets. "
+            + "Leveled pets are NOT a subject to this limit, only Ringers.");
+        }
+
+        private void numericUpDown_MinRingerHealth_Enter(object sender, EventArgs e)
+        {
+            label_MinRingerH_MouseEnter(label_MinRingerH, e);
+        }
+
+        private void checkBox_UseWild_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will level wild pets and use them as Ringers. "
+                + "If NOT checked the bot will not level wild pets or use them as Ringers.");
+        }
+
+        private void checkBox_BluesOnly_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will level and use as Ringers ONLY BLUE pets. "
+                + "If NOT checked the bot will not have this restriction.");
+        }
+
+        private void checkBox_FavOnlyPets_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will level AND use as Ringers ONLY FAVORITE pets. "
+                + "(Favorites are set in the Blizzard's GUI). "
+                + "If NOT checked the bot will not have this restriction.");
+        }
+
+        private void checkBox_FavOnlyRingers_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will use as Ringers ONLY FAVORITE pets. "
+                + "(Favorites are set in the Blizzard's GUI). "
+                + "If NOT checked the bot will not have this restriction.");
+        }
+
+        private void checkBox_IgnoreElites_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will ignore elite and legendary pets. ");
+        }
+
+        private void label_CaptureNotOwned_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Specifies the minimum level of not yet owned pets you want to capture. "
+                + "Srt to 'None' if you do not want to capture such pets.");
+        }
+
+        private void comboBox_CaptureNotOwned_MouseEnter(object sender, EventArgs e)
+        {
+            label_CaptureNotOwned_MouseEnter(label_CaptureNotOwned, e);
+        }
+
+        private void label_byLevel_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Shows the contents of the currently selected team, by levels: [min-max] #level = number of pets on this level. "
+                + "Double-click to update.");
+        }
+
+        private void button_SetMode_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Press this button to set the mode.");
+        }
+
+        private void button_DefaultsMode_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Press this button to restore defaults for the mode.");
+        }
+
+        private void label_Pet2Diff_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Try to fill position 2 with a pet that is higher than pet 1 by this number of levels. "
+                + "This is a SOFT limit: the bot will try to use another pets if exact difference is unachievable.");
+        }
+
+        private void label_Pet3Diff_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Try to fill position 3 with a pet that is higher than pet 1 by this number of levels. "
+                + "This is a SOFT limit: the bot will try to use another pets if exact difference is unachievable.");
+        }
+
+        private void label_ZoneDiff_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Select the zone that contains pets higher than a lowest pet by this number of levels. "
+                + "The lowest pet is looked for in the whole set to be leveled, not just in the current team. "
+                + "CAPTURE mode: select the pet for position 1 so that the pets in the current zone will be that higher. Can be negative.");
+        }
+
+        private void label_Pet1Swap_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Swap pet 1 out of a battle when its health is less than specified here.");
+        }
+
+        private void label_Pet2Swap_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Swap pet 2 out of a battle when its health is less than specified here.");
+        }
+
+        private void label_Pet3Swap_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Swap pet 3 out of a battle when its health is less than specified here.");
+        }
+
+        private void label17_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_AutoZones_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "If CHECKED the bot will automatically load the profile from the list below. "
+            + "The level to load will be determined by adding Zone Diff value for the current mode to the lowest pet level. "
+            + " If NOT checked you should either load the profile yourself or use the manual mode.");
+        }
 
     }
 }
