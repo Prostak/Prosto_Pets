@@ -1,0 +1,214 @@
+<HBProfile>
+  <Name>Mount Hyjal</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="4559.925" Y="-4593.346" Z="890.0406"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4344.033" Y="-4438.15" Z="898.3533"/>
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4485.192" Y="-4293.859" Z="904.2726"/>
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4421.289" Y="-4092.956" Z="946.4406"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4548.127" Y="-4299.608" Z="903.8975"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4720.737" Y="-4690.912" Z="880.4999"/>
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4645.466" Y="-4479.372" Z="885.596"/>
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<Hotspot X="4233.816" Y="-3930.108" Z="975.9986"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4125.467" Y="-3739.467" Z="990.7863"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4013.631" Y="-3553.865" Z="1012.104"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Twilight Beetle"-->
+<Hotspot X="3730.756" Y="-3302.395" Z="1006.804"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4071.2" Y="-3278.342" Z="956.2955"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<Hotspot X="4076.062" Y="-3507.593" Z="1011.033"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4377.697" Y="-3808.426" Z="975.6967"/>
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="4500.943" Y="-3979.459" Z="941.7994"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4549.017" Y="-3401.851" Z="1009.052"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<Hotspot X="4686.562" Y="-3252.557" Z="1042.109"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4696.219" Y="-3019.698" Z="1074.989"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4307.834" Y="-2993.086" Z="1003.997"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="3756.582" Y="-2849.961" Z="998.1609"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="3927.173" Y="-2624.878" Z="1015.787"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4224.762" Y="-2739.053" Z="1037.344"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<Hotspot X="4443.008" Y="-2737.86" Z="1098.466"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="4553.787" Y="-2550.198" Z="1123.75"/>
+<!--Seen Name="Rock Viper"-->
+<!--Seen Name="Rock Viper"-->
+<Hotspot X="4164.804" Y="-2320.276" Z="1140.427"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Carrion Rat"-->
+<Hotspot X="3447.298" Y="-2488.786" Z="978.7482"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="3497.394" Y="-2292.389" Z="969.5323"/>
+<!--Seen Name="Fire-Proof Roach"-->
+<Hotspot X="4744.771" Y="-2540.941" Z="1159.459"/>
+<!--Seen Name="Ash Lizard"-->
+<!--Seen Name="Fire-Proof Roach"-->
+<!--Seen Name="Ash Lizard"-->
+<Hotspot X="5085.202" Y="-1735.869" Z="1331.693"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Elfin Rabbit"-->
+<Hotspot X="5163.504" Y="-2013.558" Z="1365.648"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Death's Head Cockroach"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Twilight Beetle"-->
+<Hotspot X="5442.528" Y="-2443.316" Z="1471.004"/>
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Silky Moth"-->
+<Hotspot X="5492.298" Y="-2654.339" Z="1484.673"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Death's Head Cockroach"-->
+<Hotspot X="5702.45" Y="-2955.393" Z="1551.566"/>
+<!--Seen Name="Elfin Rabbit"-->
+<Hotspot X="5442.628" Y="-3033.555" Z="1556.421"/>
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Elfin Rabbit"-->
+<Hotspot X="5242.284" Y="-2759.776" Z="1523.908"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5024.302" Y="-2626.547" Z="1426.708"/>
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5439.625" Y="-2636.98" Z="1483.638"/>
+<!--Seen Name="Silky Moth"-->
+<Hotspot X="5343.576" Y="-2869.929" Z="1530.999"/>
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Silky Moth"-->
+<Hotspot X="5591.918" Y="-3247.237" Z="1567.958"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Grotto Vole"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Grotto Vole"-->
+<Hotspot X="5607.879" Y="-3607.613" Z="1574.091"/>
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Elfin Rabbit"-->
+<Hotspot X="5573.279" Y="-3821.082" Z="1598.958"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5325.67" Y="-3624.895" Z="1568.566"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5154.272" Y="-3397.482" Z="1622.875"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Elfin Rabbit"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<Hotspot X="5515.731" Y="-3431.778" Z="1566.153"/>
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<Hotspot X="5508.239" Y="-3632.414" Z="1568.691"/>
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<!--Seen Name="Nordrassil Wisp"-->
+<Hotspot X="4721.713" Y="-4691.238" Z="880.6075"/>
+<!--Seen Name="Ash Lizard"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

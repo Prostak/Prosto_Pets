@@ -1,0 +1,699 @@
+<HBProfile>
+  <Name>Dun Morogh</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-5682.289" Y="-2178.734" Z="424.2871"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5837.688" Y="-2034.531" Z="401.8475"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5899.56" Y="-1819.305" Z="418.1604"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5814.404" Y="-1428.698" Z="403.5525"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5858.692" Y="-1140.22" Z="379.4018"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5887.737" Y="-659.929" Z="400.6467"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-6009.458" Y="-406.6194" Z="411.3926"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-6071.881" Y="-188.2051" Z="431.6805"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5520.447" Y="1015.77" Z="399.2327"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5035.09" Y="1403.341" Z="481.3662"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4838.404" Y="770.6883" Z="386.5975"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4848.782" Y="-511.68" Z="550.7388"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4657.904" Y="-895.0402" Z="515.4167"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4497.917" Y="-1440.704" Z="518.2494"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4514.58" Y="-1677.074" Z="506.5419"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4311.212" Y="-1643.319" Z="304.0955"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5399.259" Y="-2405.45" Z="415.7878"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5677.636" Y="-2177.785" Z="425.0493"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5760.602" Y="-1923.975" Z="401.6431"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5704.541" Y="-1503.567" Z="399.6436"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5818.36" Y="-1289.78" Z="382.6467"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5875.007" Y="-1022.452" Z="404.714"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5843.172" Y="-729.0761" Z="400.7511"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5844.218" Y="-476.1279" Z="409.3757"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5981.135" Y="-208.0467" Z="405.789"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5545.26" Y="869.3828" Z="394.4113"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5368.223" Y="1005.557" Z="386.8867"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4934.601" Y="911.3333" Z="405.1809"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4923.804" Y="-362.0531" Z="486.8031"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5017.115" Y="-1109.982" Z="501.6829"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4826.924" Y="-1658.581" Z="504.5858"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4520.995" Y="-1657.014" Z="504.697"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4711.815" Y="-1754.903" Z="517.0266"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4930.518" Y="-1655.097" Z="505.0404"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5223.645" Y="-1591.63" Z="497.9607"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5505.29" Y="-1649.272" Z="397.9656"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5712.572" Y="-1502.084" Z="400.345"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5647.112" Y="-1252.95" Z="390.0534"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5789.226" Y="-912.4374" Z="395.4799"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5885.004" Y="-669.6647" Z="401.7314"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5941.68" Y="-475.1528" Z="412.3344"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5836.383" Y="-295.342" Z="359.2258"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5911.755" Y="-109.9018" Z="372.7852"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5842.297" Y="83.28011" Z="368.2098"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5161.178" Y="757.6887" Z="285.4735"/>
+<!--Seen Name="Irradiated Roach"-->
+<!--Seen Name="Fluxfire Feline"-->
+<Hotspot X="-5070.914" Y="-277.984" Z="444.4073"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5231.116" Y="-420.585" Z="389.9992"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5250.02" Y="-775.5646" Z="398.815"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5531.665" Y="-1419.839" Z="402.9692"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5641.022" Y="-1237.875" Z="389.2297"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5661.797" Y="-975.366" Z="396.3615"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5820.571" Y="-844.2962" Z="402.9968"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5683.632" Y="-552.0779" Z="399.1123"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5579.586" Y="-376.5282" Z="407.2045"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5283.348" Y="-236.2088" Z="435.7275"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5311.334" Y="-458.3547" Z="390.6797"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5124.441" Y="-380.9657" Z="396.0517"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4911.854" Y="-370.5548" Z="492.1181"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5678.201" Y="-2178.895" Z="424.78"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5841.561" Y="-2057.471" Z="401.0257"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5872.796" Y="-1806.5" Z="408.4371"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5842.094" Y="-1419.672" Z="398.9864"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5847.284" Y="-1135.888" Z="379.7941"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5887.434" Y="-660.1533" Z="400.4945"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-6008.995" Y="-419.4484" Z="410.5103"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-6050.829" Y="-223.3486" Z="418.1012"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5508.887" Y="1017.738" Z="397.1418"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5000.187" Y="1425.001" Z="481.6012"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4833.557" Y="761.4435" Z="386.3206"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4839.82" Y="57.60405" Z="404.2105"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4853.686" Y="-518.8177" Z="553.728"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4657.891" Y="-895.8704" Z="515.4142"/>
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4592.29" Y="-1216.359" Z="503.3816"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4490.734" Y="-1443.915" Z="515.1292"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4517.606" Y="-1666.427" Z="505.0423"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5400.704" Y="-2402.532" Z="416.0447"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5582.282" Y="-2132.458" Z="403.1906"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5756.401" Y="-1923.432" Z="401.5923"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5827.157" Y="-1425.811" Z="401.2925"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5845.588" Y="-1134.671" Z="379.9733"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5815.356" Y="-917.0516" Z="396.3647"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5881.447" Y="-660.4589" Z="399.5202"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5853.717" Y="-402.9269" Z="401.4058"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5976.488" Y="-208.3418" Z="404.0637"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5570.333" Y="885.5834" Z="391.6314"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5386.94" Y="996.821" Z="385.1401"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4946.162" Y="912.5043" Z="406.1843"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4923.079" Y="-388.6833" Z="497.7953"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5065.446" Y="-1282.448" Z="501.9639"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4833.785" Y="-1668.423" Z="505.3243"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4625.721" Y="-1672.972" Z="504.6443"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4874.608" Y="-1722.396" Z="504.9624"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5069.658" Y="-1606.037" Z="507.7267"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5313.432" Y="-1507.987" Z="513.2864"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5512.005" Y="-1654.365" Z="396.2291"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5638.504" Y="-1470.42" Z="401.1278"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5637.351" Y="-1239.359" Z="389.6771"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5806.52" Y="-1089.501" Z="383.6384"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5744.643" Y="-859.9746" Z="402.4786"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5816.556" Y="-616.9484" Z="399.3565"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5854.998" Y="-420.1501" Z="406.4972"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5881.675" Y="-206.3922" Z="361.8236"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5881.945" Y="-5.351754" Z="361.3994"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5173.591" Y="523.3515" Z="391.87"/>
+<!--Seen Name="Fluxfire Feline"-->
+<Hotspot X="-5089.834" Y="772.3113" Z="283.6748"/>
+<!--Seen Name="Irradiated Roach"-->
+<!--Seen Name="Fluxfire Feline"-->
+<!--Seen Name="Irradiated Roach"-->
+<!--Seen Name="Fluxfire Feline"-->
+<Hotspot X="-5192.665" Y="-174.9556" Z="437.1433"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5120.513" Y="-373.1748" Z="397.5471"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5537.647" Y="-1416.431" Z="402.3102"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5552.161" Y="-1084.48" Z="392.363"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5786.503" Y="-912.8845" Z="395.2849"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5643.358" Y="-656.885" Z="402.8584"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5578.906" Y="-365.3964" Z="408.2849"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5287.453" Y="-240.0242" Z="436.3309"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5321.736" Y="-458.184" Z="388.6289"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5121.185" Y="-364.1569" Z="397.9947"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4928.458" Y="-236.8947" Z="458.2897"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4852.996" Y="-507.9576" Z="549.6896"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5581.841" Y="-2144.378" Z="401.8465"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5832.209" Y="-2037.981" Z="401.6641"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5868.974" Y="-1808.951" Z="407.824"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5836.098" Y="-1431.833" Z="399.5393"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5861.144" Y="-1138.437" Z="379.8657"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5889.318" Y="-663.7995" Z="402.0546"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5997.868" Y="-418.2583" Z="410.7248"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-6071.018" Y="-187.8945" Z="431.763"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-6307.96" Y="152.4225" Z="435.7656"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5508.295" Y="1014.506" Z="397.1952"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5009.167" Y="1399.309" Z="481.0654"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4822.531" Y="755.7246" Z="387.406"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4842.379" Y="41.10752" Z="405.1355"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4851.59" Y="-486.2029" Z="543.7585"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4658.676" Y="-893.4911" Z="515.418"/>
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4592.886" Y="-1219.049" Z="503.3816"/>
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4502.843" Y="-1444.532" Z="518.4297"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4345.103" Y="-1640.792" Z="311.4676"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4614.887" Y="-1671.01" Z="504.0054"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5397.916" Y="-2402.084" Z="417.1668"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5579.475" Y="-2153.039" Z="401.6566"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5746.404" Y="-1926.366" Z="401.9492"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5846.128" Y="-1422.818" Z="399.1777"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5718.471" Y="-1216.374" Z="386.4819"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5874.847" Y="-1013.556" Z="403.393"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5763.744" Y="-830.6034" Z="398.3065"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5812.7" Y="-625.3908" Z="399.6852"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5853.089" Y="-416.6954" Z="405.3777"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-6045.152" Y="-297.3641" Z="422.6036"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5557.11" Y="871.0474" Z="393.1941"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5347.799" Y="1015.056" Z="385.8204"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4938.282" Y="907.4987" Z="406.745"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4930.706" Y="-381.085" Z="492.8163"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5049.69" Y="-1306.056" Z="501.9614"/>
+<!--Seen Name="Long-tailed Mole"-->
+<Hotspot X="-4820.278" Y="-1646.474" Z="504.0489"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4517.425" Y="-1668.147" Z="504.8794"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-4713.167" Y="-1768.667" Z="515.2596"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4956.583" Y="-1655.612" Z="504.2587"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5222.253" Y="-1591.998" Z="497.9607"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5516.094" Y="-1653.744" Z="395.1565"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5653.054" Y="-1461.42" Z="400.124"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5655.814" Y="-1240.539" Z="390.2619"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5687.017" Y="-978.3379" Z="393.7042"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5831.77" Y="-725.269" Z="396.9603"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5851.907" Y="-472.5366" Z="410.3112"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5879.08" Y="-215.7483" Z="361.8129"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5871.296" Y="14.80344" Z="356.3053"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5084.065" Y="777.2629" Z="283.3056"/>
+<!--Seen Name="Fluxfire Feline"-->
+<!--Seen Name="Irradiated Roach"-->
+<!--Seen Name="Fluxfire Feline"-->
+<!--Seen Name="Irradiated Roach"-->
+<Hotspot X="-5048.647" Y="-269.6648" Z="441.9393"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5223.51" Y="-408.6186" Z="388.8247"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5142.767" Y="-627.0021" Z="397.7637"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-5525.251" Y="-1396.547" Z="401.7192"/>
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5541.916" Y="-1107.852" Z="391.8043"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5779.324" Y="-921.0787" Z="394.9338"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5643.473" Y="-651.5726" Z="402.8919"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5637.529" Y="-448.8827" Z="394.4772"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5263.695" Y="-245.948" Z="436.29"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5306.75" Y="-450.2954" Z="393.1021"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5115.155" Y="-375.3183" Z="398.9523"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4930.981" Y="-239.3979" Z="460.0414"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4856.622" Y="-488.7681" Z="544.7342"/>
+<!--Seen Name="Alpine Hare"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

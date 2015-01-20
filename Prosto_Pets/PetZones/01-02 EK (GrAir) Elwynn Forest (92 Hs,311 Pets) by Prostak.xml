@@ -1,0 +1,435 @@
+<HBProfile>
+  <Name>Elwynn Forest</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-9423.361" Y="-1477.926" Z="62.83236"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9687.879" Y="-1497.57" Z="50.02094"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9888.83" Y="-1270.523" Z="32.26477"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9706.512" Y="-1558.689" Z="56.10963"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9892.833" Y="-1280.293" Z="33.81836"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9913.652" Y="-1011.677" Z="23.75292"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9827.68" Y="-786.8442" Z="38.18885"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9716.107" Y="-549.6176" Z="44.42418"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9927.928" Y="-411.7726" Z="23.30183"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9963.22" Y="-160.3576" Z="21.23416"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10098.96" Y="80.88368" Z="24.93575"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10037.16" Y="390.9471" Z="23.2717"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10042.13" Y="605.4789" Z="40.54781"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9824.882" Y="676.0393" Z="33.71547"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9416.359" Y="477.3056" Z="49.86677"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9575.892" Y="736.7816" Z="35.69978"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9693.802" Y="550.514" Z="37.63773"/>
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9481.079" Y="472.4379" Z="51.6681"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9182.1" Y="410.9941" Z="88.34087"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8977.673" Y="-787.4459" Z="71.17902"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-8940.506" Y="-1120.833" Z="66.75746"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9384.575" Y="-1420.438" Z="61.71294"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9688.036" Y="-1501.72" Z="50.03037"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9744.383" Y="-1264.219" Z="48.44454"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9694.24" Y="-1039.947" Z="40.27412"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9656.75" Y="-819.1553" Z="45.37599"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9697.954" Y="-518.947" Z="51.98017"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9753.789" Y="-266.5323" Z="46.55574"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10016.72" Y="149.5703" Z="34.57733"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9814.8" Y="420.8339" Z="36.97787"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9604.203" Y="428.9151" Z="36.11049"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9418.836" Y="323.1029" Z="56.53737"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9258.942" Y="123.0731" Z="71.29639"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9173.236" Y="-72.35757" Z="76.62138"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Cat"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9080.87" Y="-816.8794" Z="70.06689"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9005.625" Y="-1003.152" Z="67.72833"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9261.748" Y="-970.9951" Z="68.89939"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9084.221" Y="-1154.017" Z="66.93807"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9310.487" Y="-1238.705" Z="68.43604"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="-9674.492" Y="-1012.581" Z="39.51396"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9594.048" Y="-634.1374" Z="57.27058"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9653.333" Y="162.3023" Z="47.9976"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9466.041" Y="-177.6868" Z="60.34618"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9483.977" Y="-413.2129" Z="60.07679"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9493.384" Y="-641.7749" Z="65.11388"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9460.66" Y="-952.4793" Z="55.72276"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9369.661" Y="-669.9608" Z="68.2495"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9247.711" Y="-163.4545" Z="68.39962"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9419.845" Y="-1481.824" Z="62.8972"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9709.719" Y="-1371.175" Z="53.02186"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9893.381" Y="-1276.177" Z="33.20995"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9874.629" Y="-1487.505" Z="31.04743"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9940.056" Y="-1240.914" Z="22.39845"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9809.627" Y="-1039.179" Z="37.73542"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9828.355" Y="-785.7084" Z="37.96935"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9866.176" Y="-496.3367" Z="25.00122"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9968.308" Y="-283.8876" Z="22.80397"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9970.562" Y="-39.94958" Z="34.8329"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10006.07" Y="190.8342" Z="31.18089"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10038.31" Y="408.4805" Z="24.73668"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10172.75" Y="591.3016" Z="24.20908"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9956.861" Y="707.6489" Z="22.81374"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9486.553" Y="551.0715" Z="53.08784"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9350.986" Y="347.5048" Z="61.95968"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9136.479" Y="353.5625" Z="92.08337"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8966.589" Y="-770.9732" Z="72.36886"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8836.264" Y="-937.1611" Z="74.88918"/>
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-8939.807" Y="-1113.496" Z="66.15976"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9309.036" Y="-1342.151" Z="69.3044"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9541.329" Y="-1531.344" Z="60.98168"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9734.943" Y="-1464.206" Z="51.91638"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9726.371" Y="-1240.667" Z="50.49979"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9697.009" Y="-1038.478" Z="39.90278"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9684.453" Y="-561.8741" Z="49.3998"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9766.36" Y="-358.4861" Z="53.26694"/>
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9792.262" Y="-94.60808" Z="27.29445"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9807.788" Y="373.822" Z="39.37864"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9607.646" Y="423.2924" Z="34.23345"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9362.83" Y="145.7776" Z="61.38251"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9165.37" Y="-60.95921" Z="78.18627"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Cat"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-9083.553" Y="-914.9271" Z="68.10979"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9085.148" Y="-1151.957" Z="67.49541"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9410.404" Y="-1253.156" Z="52.04939"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9675.229" Y="-1013.008" Z="39.18361"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9603.066" Y="-624.2671" Z="55.46319"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9652.05" Y="182.0892" Z="48.06224"/>
+<!--Seen Name="Fawn"-->
+<Hotspot X="-9476.86" Y="-81.34103" Z="59.44211"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9459.661" Y="-286.4262" Z="58.67455"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-9448.593" Y="-572.3604" Z="66.59787"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9455.49" Y="-778.4447" Z="61.74317"/>
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Fawn"-->
+<!--Seen Name="Black Lamb"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9337.625" Y="-501.8111" Z="69.20487"/>
+<!--Seen Name="Black Lamb"-->
+<Hotspot X="-9245.871" Y="-169.8609" Z="71.20892"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

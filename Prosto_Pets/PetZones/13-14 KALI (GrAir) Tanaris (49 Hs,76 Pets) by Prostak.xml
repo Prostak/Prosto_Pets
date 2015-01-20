@@ -1,0 +1,157 @@
+<HBProfile>
+  <Name>Tanaris</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-5880.108" Y="-2978.147" Z="96.67015"/>
+<!--Seen Name="Twilight Iguana"-->
+<Hotspot X="-7209.597" Y="-4534.406" Z="5.130002"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7422.648" Y="-4648.409" Z="4.744395"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7381.58" Y="-4350.804" Z="2.903501"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7804.157" Y="-4808.936" Z="3.709482"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-7896.036" Y="-4574.935" Z="9.474737"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7955.854" Y="-4053.579" Z="2.184006"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-7884.996" Y="-3730.259" Z="56.52807"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-7506.405" Y="-3729.844" Z="11.12239"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-7370.38" Y="-3900.258" Z="5.984862"/>
+<!--Seen Name="Sea Gull"-->
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7058.578" Y="-3757.699" Z="11.28094"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7056.61" Y="-3763.729" Z="11.10647"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7305.372" Y="-3678.268" Z="10.23519"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Stinkbug"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-7109.86" Y="-2668.451" Z="9.394297"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8321.785" Y="-2354.496" Z="24.10875"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="-8550.561" Y="-2244.178" Z="26.18337"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-9455.851" Y="-2320.694" Z="13.25323"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-9322.363" Y="-3406.937" Z="10.98149"/>
+<!--Seen Name="Sand Kitten"-->
+<Hotspot X="-8682.986" Y="-4573.148" Z="9.976567"/>
+<!--Seen Name="Stinkbug"-->
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-8819.423" Y="-4774.854" Z="3.900938"/>
+<!--Seen Name="Sea Gull"-->
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-8490.356" Y="-5045.658" Z="9.792657"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-7938.411" Y="-5206.877" Z="1.986412"/>
+<!--Seen Name="Stinkbug"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7809.44" Y="-4803.818" Z="3.867112"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8154.829" Y="-4624.693" Z="-123.1188"/>
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<Hotspot X="-8378.48" Y="-4623.321" Z="-188.9205"/>
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<Hotspot X="-8245.771" Y="-5073.907" Z="6.053648"/>
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-8211.981" Y="-4485.178" Z="10.71777"/>
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<Hotspot X="-8114.251" Y="-3980.031" Z="9.454914"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-8016.886" Y="-3729.659" Z="53.73211"/>
+<!--Seen Name="Gold Beetle"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-7551.407" Y="-3603.688" Z="12.97207"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7013.808" Y="-3017.006" Z="11.90191"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7473.499" Y="-2778.94" Z="10.94383"/>
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-8583.992" Y="-2379.469" Z="34.45866"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-9132.696" Y="-2503.957" Z="13.22272"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-9513.101" Y="-3645.444" Z="11.60306"/>
+<!--Seen Name="Gold Beetle"-->
+<Hotspot X="-9982.038" Y="-3597.565" Z="3.494852"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-10147.33" Y="-3952.529" Z="8.41424"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-10005.69" Y="-4266.53" Z="11.11095"/>
+<!--Seen Name="Sea Gull"-->
+<Hotspot X="-8635.419" Y="-4336.181" Z="-207.9561"/>
+<!--Seen Name="Infinite Whelpling"-->
+<!--Seen Name="Infinite Whelpling"-->
+<Hotspot X="-9018.009" Y="-3465.726" Z="17.47503"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8722.034" Y="-3447.981" Z="8.845928"/>
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<!--Seen Name="Sand Kitten"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8247.266" Y="-3313.522" Z="17.99352"/>
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-7413.612" Y="-3218.093" Z="10.57802"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-7238.522" Y="-3115.005" Z="6.496516"/>
+<!--Seen Name="Stinkbug"-->
+<Hotspot X="-8075.888" Y="-2883.11" Z="36.44228"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8444.021" Y="-2759.09" Z="17.71476"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Stinkbug"-->
+<!--Seen Name="Stripe-Tailed Scorpid"-->
+<Hotspot X="-8788.917" Y="-2766.388" Z="27.45028"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8988.165" Y="-2879.423" Z="47.41826"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-8922.419" Y="-2648.207" Z="28.24992"/>
+<!--Seen Name="Stinkbug"-->
+<!--Seen Name="Rattlesnake"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

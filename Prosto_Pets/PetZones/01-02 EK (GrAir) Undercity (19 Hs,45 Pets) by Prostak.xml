@@ -1,0 +1,96 @@
+<HBProfile>
+  <Name>Undercity</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1487.647" Y="138.5732" Z="61.70307"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1817.078" Y="388.1016" Z="61.28765"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1721.685" Y="175.0225" Z="61.87854"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1652.886" Y="162.4906" Z="61.68254"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1672.452" Y="290.0095" Z="62.01714"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1761.666" Y="726.3761" Z="46.38516"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1756.882" Y="726.5543" Z="46.82856"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1493.439" Y="73.30783" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1465.702" Y="110.8258" Z="-60.18947"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="1696.776" Y="318.5002" Z="61.21561"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1773.143" Y="254.2069" Z="59.89283"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="1754.704" Y="732.3958" Z="48.10838"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1745.045" Y="667.7817" Z="40.91415"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1462.592" Y="112.8855" Z="-60.18944"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="1708.976" Y="429.7845" Z="60.33881"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1738.527" Y="254.6942" Z="62.10816"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1716.058" Y="52.07953" Z="60.5513"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1644.67" Y="296.4221" Z="-62.17632"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="1746.388" Y="669.7634" Z="41.76734"/>
+<!--Seen Name="Rat"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

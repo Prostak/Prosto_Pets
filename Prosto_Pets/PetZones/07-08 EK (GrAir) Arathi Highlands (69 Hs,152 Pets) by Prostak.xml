@@ -1,0 +1,253 @@
+<HBProfile>
+  <Name>Arathi Highlands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-1920.678" Y="-2800.872" Z="72.68202"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-2013.749" Y="-2514.171" Z="72.96848"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1454.671" Y="-1912.783" Z="46.84986"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1625.867" Y="-1629.009" Z="67.07716"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-656.5367" Y="-1913.135" Z="60.02584"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-828.8174" Y="-3554.527" Z="74.67081"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1635.503" Y="-3398.804" Z="32.49839"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1686.799" Y="-3055.091" Z="23.2002"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1865.442" Y="-2521.535" Z="49.88699"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1407.999" Y="-1704.245" Z="46.55621"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-752.0844" Y="-2004.863" Z="34.44205"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1031.104" Y="-2997.874" Z="53.61965"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-971.6955" Y="-3525.654" Z="56.96201"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1264.269" Y="-3313.82" Z="34.46494"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1654.482" Y="-3091.844" Z="23.46708"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1593.329" Y="-2415.015" Z="89.73085"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1316.762" Y="-2680.797" Z="56.71878"/>
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<Hotspot X="-1380.591" Y="-2885.99" Z="33.67637"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1112.312" Y="-1662.495" Z="36.63363"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1748.098" Y="-3352.1" Z="28.78011"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1924.452" Y="-2797.005" Z="72.71788"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1720.926" Y="-1738.33" Z="52.58648"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1448.38" Y="-2021.421" Z="20.6701"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1646.868" Y="-1846.006" Z="79.17885"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1710.186" Y="-1575.588" Z="54.81484"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1154.492" Y="-1552.872" Z="56.5758"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-725.7927" Y="-1779.412" Z="61.38668"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-624.5596" Y="-1972.113" Z="57.22742"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-776.9434" Y="-2160.167" Z="40.40098"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-845.3057" Y="-3378.399" Z="76.03221"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1619.871" Y="-3315.371" Z="24.87197"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1688.577" Y="-3109.195" Z="27.22908"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1758.545" Y="-2792.541" Z="48.46397"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1818.582" Y="-2536.039" Z="50.51926"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1677.283" Y="-2309.824" Z="31.79366"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1405.596" Y="-1702.891" Z="47.61864"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-866.1532" Y="-1773.439" Z="40.66505"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1153.787" Y="-2777.534" Z="44.73245"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1044.008" Y="-3113.298" Z="53.08004"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1263.012" Y="-3437.22" Z="35.71116"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1511.832" Y="-3287.726" Z="31.53671"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1648.34" Y="-3088.531" Z="24.35195"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1343.076" Y="-2679.709" Z="67.06884"/>
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<Hotspot X="-1082.554" Y="-3178.856" Z="41.52598"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1929.428" Y="-2795.969" Z="75.35843"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-2100.648" Y="-2428.172" Z="67.43815"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1719.613" Y="-1742.875" Z="52.62851"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1449.552" Y="-1912.924" Z="46.71608"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1645.646" Y="-1846.242" Z="79.39561"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1705.529" Y="-1577.846" Z="54.55098"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1526.428" Y="-1703.066" Z="68.09325"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1048.085" Y="-1487.105" Z="51.80139"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-718.7294" Y="-1779.481" Z="61.77984"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-628.3887" Y="-1974.123" Z="57.04519"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-849.4911" Y="-2315.907" Z="55.47699"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-848.1196" Y="-3378.922" Z="75.64243"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-1621.734" Y="-3310.229" Z="25.01818"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1681.604" Y="-3109.915" Z="26.23317"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1757.136" Y="-2791.511" Z="48.4188"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1869.222" Y="-2518.212" Z="49.89543"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1677.299" Y="-2312.255" Z="32.02444"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-860.5835" Y="-1775.439" Z="40.15908"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1017.182" Y="-2298.665" Z="44.88615"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1086.431" Y="-2858.253" Z="42.44197"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-1044.47" Y="-3114.51" Z="53.12797"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1262.706" Y="-3439.757" Z="35.89944"/>
+<!--Seen Name="Grasslands Cottontail"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1364.054" Y="-3265.275" Z="45.22905"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Grasslands Cottontail"-->
+<Hotspot X="-1342.755" Y="-2681.094" Z="66.70672"/>
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<!--Seen Name="Tiny Twister"-->
+<Hotspot X="-1079.283" Y="-3179.25" Z="41.08202"/>
+<!--Seen Name="Grasslands Cottontail"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

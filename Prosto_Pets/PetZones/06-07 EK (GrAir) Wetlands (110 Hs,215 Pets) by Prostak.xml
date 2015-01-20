@@ -1,0 +1,357 @@
+<HBProfile>
+  <Name>Wetlands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-2864.769" Y="-1131.119" Z="9.236087"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2818.983" Y="-2808.848" Z="43.51226"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2987.865" Y="-3178.091" Z="55.49994"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3240.654" Y="-3388.429" Z="65.38303"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3351.615" Y="-3575.098" Z="54.27245"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3461.016" Y="-3788.381" Z="80.91601"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-2865.266" Y="-1131.048" Z="9.174377"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2881.469" Y="-1349.548" Z="9.495954"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2751.401" Y="-1715.871" Z="10.32296"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2894.755" Y="-2190.588" Z="24.57471"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-2921.471" Y="-2484.003" Z="32.98946"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-2812.199" Y="-2690.654" Z="51.93184"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2953.141" Y="-2882.654" Z="30.48917"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2993.844" Y="-3181.566" Z="54.4009"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3220.995" Y="-3306.95" Z="65.384"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3550.63" Y="-3120.419" Z="23.59158"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3804.05" Y="-3115.214" Z="11.39228"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3810.798" Y="-2463.126" Z="166.9586"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3764.841" Y="-2086.038" Z="159.6511"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3273.52" Y="-1172.812" Z="9.25572"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2954.662" Y="-2184.305" Z="17.21409"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2987.796" Y="-2579.769" Z="15.2645"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3047.191" Y="-2820.783" Z="26.55053"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-3354.615" Y="-2873.816" Z="13.94274"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3567.09" Y="-2992.089" Z="10.35994"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3703.502" Y="-2839.264" Z="11.41055"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3487.936" Y="-2406.959" Z="52.09587"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-3487.511" Y="-1857.238" Z="16.74207"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3448.66" Y="-1334.02" Z="9.189865"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3160.155" Y="-1328.144" Z="10.70268"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3116.614" Y="-1748.901" Z="10.09574"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3047.033" Y="-1973.792" Z="8.783066"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3095.599" Y="-2349.251" Z="9.748967"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3412.76" Y="-2758.754" Z="11.93638"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3300.345" Y="-2505.135" Z="20.37065"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-3346.457" Y="-3576.49" Z="55.18443"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3352.304" Y="-3571.279" Z="53.91832"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3054.988" Y="-997.9114" Z="9.121481"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2860.923" Y="-1128.124" Z="9.306786"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2809.309" Y="-2810.12" Z="45.36162"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3240.394" Y="-3381.821" Z="64.62988"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3347.849" Y="-3580.979" Z="55.5943"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3055.896" Y="-1003.939" Z="9.132603"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2970.844" Y="-1201.762" Z="9.705662"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2841.126" Y="-2156.746" Z="29.67173"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-2922.647" Y="-2487.073" Z="32.61779"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-2811.842" Y="-2691.761" Z="52.05444"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2951.167" Y="-2880.225" Z="30.31727"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2989.187" Y="-3175.058" Z="55.51097"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3221.845" Y="-3306.781" Z="65.31924"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3540.594" Y="-3187.488" Z="24.91335"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3805.164" Y="-3118.199" Z="12.14868"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3802.143" Y="-2447.527" Z="168.4824"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3800.501" Y="-2066.799" Z="156.3148"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3259.369" Y="-1050.743" Z="10.63591"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3078.588" Y="-1172.734" Z="9.203599"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2852.818" Y="-1498.677" Z="11.19536"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2945.538" Y="-1937.31" Z="12.01793"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2950.865" Y="-2183.835" Z="17.66067"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2995.812" Y="-2579.826" Z="12.68947"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3251.651" Y="-2986.951" Z="20.80674"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3542.311" Y="-3073.203" Z="19.58453"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3584.027" Y="-2862.425" Z="12.63317"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3491.131" Y="-2410.996" Z="51.90657"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-3489.098" Y="-1826.572" Z="16.35579"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3556.562" Y="-1243.446" Z="11.06515"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3110.59" Y="-1752.572" Z="9.640533"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3046.369" Y="-1970.84" Z="9.122048"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3095.385" Y="-2351.135" Z="9.546289"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3401.464" Y="-2761.292" Z="14.98567"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3146.491" Y="-2527.969" Z="9.739602"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-3416.412" Y="-3150.778" Z="25.60809"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3354.004" Y="-3578.869" Z="54.2413"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3463.225" Y="-3789.234" Z="80.89552"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-3350.98" Y="-3578.517" Z="54.70455"/>
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3055.713" Y="-1004.942" Z="9.118036"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2863.053" Y="-1127.67" Z="9.181786"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2817.57" Y="-2806.714" Z="43.83022"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3352.587" Y="-3579.813" Z="54.59761"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3459.161" Y="-3792.59" Z="79.59002"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-3258.661" Y="-1049.039" Z="10.85606"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3056.515" Y="-1002.597" Z="9.305264"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2975.247" Y="-1204.821" Z="10.04933"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2824.02" Y="-2158.713" Z="30.34911"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-2842.259" Y="-2548.979" Z="54.0429"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-2881.219" Y="-2820.802" Z="32.96745"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2991.812" Y="-3178.033" Z="54.94181"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3221.494" Y="-3310.381" Z="65.72507"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3513.126" Y="-3246.548" Z="28.00052"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3808.966" Y="-3114.628" Z="11.83759"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-4184.015" Y="-2727.875" Z="33.90725"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3806.644" Y="-2456.817" Z="167.2634"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3814.677" Y="-2082.32" Z="155.6836"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="-3078.341" Y="-1177.288" Z="9.203599"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2849.79" Y="-1490.511" Z="10.7653"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2941.852" Y="-1944.218" Z="13.84009"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-2954.076" Y="-2182.378" Z="17.55771"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2991.555" Y="-2580.855" Z="14.45119"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3214.366" Y="-2912.51" Z="17.37835"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3571.941" Y="-2989.669" Z="10.65985"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3484.423" Y="-2433.497" Z="49.26773"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3489.389" Y="-1825.134" Z="16.36567"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3554.461" Y="-1243.751" Z="10.87396"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3117.177" Y="-1752.793" Z="10.48282"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3045.059" Y="-1970.303" Z="9.362925"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3083.323" Y="-2521.163" Z="9.741943"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3406.966" Y="-2759.464" Z="13.01098"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3145.86" Y="-2530.087" Z="9.99867"/>
+<!--Seen Name="Tiny Bog Beast"-->
+<Hotspot X="-3543.779" Y="-3074.441" Z="19.75507"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-3354.882" Y="-3571.59" Z="53.7517"/>
+<!--Seen Name="Mountain Skunk"-->
+<!--Seen Name="Mountain Skunk"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

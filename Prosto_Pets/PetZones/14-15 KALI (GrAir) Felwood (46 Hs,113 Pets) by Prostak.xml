@@ -1,0 +1,191 @@
+<HBProfile>
+  <Name>Felwood</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="5267.708" Y="-410.0865" Z="325.4592"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5696.801" Y="-562.1945" Z="374.9671"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5963.98" Y="-622.4505" Z="398.3284"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6220.817" Y="-742.075" Z="408.2072"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6460.698" Y="-812.0557" Z="474.2908"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6573.642" Y="-1141.756" Z="440.7259"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6702.083" Y="-1428.394" Z="481.7106"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6905.892" Y="-1591.991" Z="504.5499"/>
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<Hotspot X="6851.563" Y="-1813.021" Z="565.2943"/>
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<Hotspot X="6886.628" Y="-2028.156" Z="579.5507"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6527.85" Y="-2043.05" Z="569.3348"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6198.072" Y="-1815.703" Z="548.4645"/>
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5948.13" Y="-1328.345" Z="415.5262"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5667.944" Y="-1136.231" Z="387.231"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5494.375" Y="-920.7961" Z="363.3751"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5207.123" Y="-807.7845" Z="353.8318"/>
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5004.872" Y="-693.8703" Z="294.277"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="4795.514" Y="-748.406" Z="299.9897"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="3903.627" Y="-1453.974" Z="222.003"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="3645.088" Y="-1486.536" Z="178.6412"/>
+<!--Seen Name="Tainted Moth"-->
+<Hotspot X="3579.137" Y="-1111.127" Z="220.6449"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="3788.065" Y="-979.7381" Z="247.8446"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<Hotspot X="3817.02" Y="-776.7277" Z="312.0136"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="4266.201" Y="-543.9178" Z="300.0157"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="4573.018" Y="-408.8195" Z="307.3274"/>
+<!--Seen Name="Tainted Moth"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<Hotspot X="4814.929" Y="-378.5521" Z="352.2806"/>
+<!--Seen Name="Tainted Moth"-->
+<Hotspot X="5149.203" Y="-363.4551" Z="347.4794"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6198.358" Y="-823.3273" Z="413.5959"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6548.159" Y="-1235.099" Z="440.4817"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6757.257" Y="-1890.38" Z="550.5418"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="6471.861" Y="-1915.016" Z="544.5257"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6210.521" Y="-1647.245" Z="488.7399"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6110.083" Y="-1411.948" Z="409.1219"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="6110.157" Y="-1178.174" Z="372.6636"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5839.753" Y="-895.8997" Z="412.418"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="5165.06" Y="-701.5376" Z="332.7325"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="4528.704" Y="-959.9601" Z="324.4892"/>
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="4318.819" Y="-981.3655" Z="307.526"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Cockroach"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tainted Moth"-->
+<Hotspot X="4074.8" Y="-1095.023" Z="271.7249"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="3879.633" Y="-1182.953" Z="231.0815"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Moth"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="4108.019" Y="-885.894" Z="265.4822"/>
+<!--Seen Name="Tainted Moth"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="4328.182" Y="-690.2661" Z="273.6164"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="4535.229" Y="-667.0781" Z="259.4845"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="6245.051" Y="-1067.929" Z="376.2229"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="6324.078" Y="-1284.982" Z="374.7299"/>
+<!--Seen Name="Tainted Rat"-->
+<!--Seen Name="Tainted Rat"-->
+<Hotspot X="7419.222" Y="-2235.261" Z="489.3702"/>
+<!--Seen Name="Squirrel"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

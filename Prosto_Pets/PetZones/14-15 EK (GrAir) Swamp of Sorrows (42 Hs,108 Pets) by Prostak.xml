@@ -1,0 +1,182 @@
+<HBProfile>
+  <Name>Swamp of Sorrows</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-10591.36" Y="-2560.345" Z="23.68923"/>
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10177.25" Y="-2461.09" Z="28.21696"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10383.18" Y="-2570.718" Z="28.66851"/>
+<!--Seen Name="Parrot"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10236.35" Y="-2742.47" Z="22.82991"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10173.63" Y="-2959.292" Z="23.73568"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Swamp Moth"-->
+<Hotspot X="-10409.76" Y="-3142.362" Z="21.3614"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-10535.6" Y="-3395.994" Z="21.64932"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10322.4" Y="-3440.808" Z="18.38129"/>
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10125.13" Y="-3354.209" Z="20.96174"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10361.62" Y="-3510.908" Z="22.72863"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10058.54" Y="-3774.146" Z="22.06169"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10612.12" Y="-4357.633" Z="5.118864"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10968.79" Y="-4156.779" Z="7.459298"/>
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10793.86" Y="-3782.953" Z="24.31524"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10878.66" Y="-4095.893" Z="23.10456"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10664.7" Y="-4216.667" Z="23.45776"/>
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-9949.586" Y="-3805.646" Z="22.16579"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-9820.405" Y="-4128.849" Z="1.509027"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-9992.149" Y="-4293.873" Z="1.597982"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10050.53" Y="-4062.107" Z="23.27861"/>
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10598.87" Y="-2557.179" Z="24.31276"/>
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10601.68" Y="-2555.617" Z="24.01131"/>
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10173.51" Y="-2468.311" Z="27.30408"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10379.51" Y="-2563.757" Z="28.66851"/>
+<!--Seen Name="Parrot"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10241.31" Y="-2744.388" Z="23.49616"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10163.23" Y="-2961.805" Z="22.98542"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Swamp Moth"-->
+<Hotspot X="-10421.19" Y="-3148.333" Z="22.32063"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-10536.94" Y="-3395.204" Z="21.83113"/>
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10305.92" Y="-3440.729" Z="18.9155"/>
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-10122.77" Y="-3356.386" Z="20.00959"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10361.15" Y="-3510.716" Z="22.75158"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10047.9" Y="-3762.021" Z="22.18489"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-10614.33" Y="-4356.726" Z="5.256273"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10975.14" Y="-4156.668" Z="6.618966"/>
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10779.97" Y="-3781.772" Z="24.60427"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Moccasin"-->
+<Hotspot X="-10877.76" Y="-4096.807" Z="23.107"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10666.11" Y="-4218.038" Z="23.41111"/>
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-9948.656" Y="-3808.596" Z="22.98458"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-9821.825" Y="-4128.811" Z="1.697748"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-9991.504" Y="-4291.253" Z="2.001929"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10216.9" Y="-4361.342" Z="4.700413"/>
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-10058.14" Y="-4057.765" Z="23.79732"/>
+<!--Seen Name="Swamp Moth"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

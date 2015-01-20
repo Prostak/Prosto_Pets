@@ -1,0 +1,495 @@
+<HBProfile>
+  <Name>Loch Modan</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-5948.511" Y="-2988.375" Z="386.3502"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-6096.516" Y="-2794.887" Z="418.3557"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-5813.252" Y="-2560.898" Z="308.3489"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5186.552" Y="-2696.034" Z="349.5799"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4822.698" Y="-2586.793" Z="354.1606"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4683.944" Y="-2827.404" Z="323.7999"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4742.834" Y="-3074.497" Z="311.9706"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4787.001" Y="-3618.643" Z="302.5635"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4902.421" Y="-3891.701" Z="302.0624"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-4820.425" Y="-4094.625" Z="306.189"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5035.909" Y="-4093.336" Z="302.8096"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5789.069" Y="-4178.848" Z="382.4724"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5816.229" Y="-3883.7" Z="350.794"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5741.438" Y="-3500.16" Z="305.7668"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5772.457" Y="-3104.364" Z="320.6541"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5881.111" Y="-2863.279" Z="366.1108"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5803.113" Y="-2574.167" Z="309.4669"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5022.768" Y="-2769.512" Z="323.7183"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4756.25" Y="-3193.75" Z="276.3693"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-4819.287" Y="-3427.716" Z="284.7636"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4957.162" Y="-3894.762" Z="308.6713"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5209.551" Y="-4018.438" Z="331.5395"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5410.08" Y="-4083.69" Z="347.1237"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5722.213" Y="-4140.996" Z="386.7433"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5586.752" Y="-3697.928" Z="312.6598"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5606.458" Y="-3485.832" Z="288.8486"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-5802.119" Y="-2872.436" Z="366.9382"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-4935.88" Y="-2798.726" Z="324.903"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4922.066" Y="-3237.459" Z="279.547"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-4990.138" Y="-3672.245" Z="310.7123"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5145.074" Y="-3853.384" Z="332.8051"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5520.211" Y="-3796.264" Z="321.3051"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5650.965" Y="-2983.688" Z="350.7654"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-5342.206" Y="-2949.517" Z="323.6303"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5058.839" Y="-3191.341" Z="289.3618"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5098.882" Y="-3569.835" Z="292.8282"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5418.261" Y="-3306.021" Z="268.7891"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-5327.646" Y="-3093.863" Z="347.4667"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5181.478" Y="-3270.115" Z="278.3716"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5571.913" Y="-2397.605" Z="400.6165"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5428.085" Y="-2394.667" Z="404.0173"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4739.264" Y="-3075.94" Z="311.5602"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5329.139" Y="-2920.186" Z="345.1349"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5622.188" Y="-2877.905" Z="363.5479"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5959.375" Y="-2778.646" Z="391.0427"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-5871.338" Y="-3083.803" Z="329.4645"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-6044.237" Y="-2817.172" Z="411.2129"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-5319.098" Y="-2604.253" Z="481.9044"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4975.348" Y="-2632.254" Z="354.6638"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4756.562" Y="-2568.719" Z="381.3606"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4681.727" Y="-2829.674" Z="323.7228"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4657.858" Y="-3060.298" Z="336.5238"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4681.729" Y="-3589.723" Z="399.1454"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4898.889" Y="-3835.261" Z="304.3683"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-4977.528" Y="-4020.74" Z="299.3204"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5108.34" Y="-4185.646" Z="385.166"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5334.709" Y="-4237.396" Z="391.6644"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5775.736" Y="-4188.555" Z="396.0578"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5860.774" Y="-3988.766" Z="406.6939"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5825.973" Y="-3780.031" Z="336.2639"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5713.338" Y="-3592.564" Z="315.5421"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5810.225" Y="-3327.381" Z="301.1455"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5782.82" Y="-3112.401" Z="322.1566"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5878.125" Y="-2865.625" Z="366.0573"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-6115.079" Y="-2478.724" Z="374.944"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5795.958" Y="-2580.973" Z="309.2402"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5093.652" Y="-2712.341" Z="342.5978"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4785.922" Y="-2872.548" Z="323.8079"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4769.875" Y="-3174.954" Z="276.217"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-4826.56" Y="-3450.552" Z="285.521"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4856.988" Y="-3685.541" Z="311.6291"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-4951.898" Y="-3892.782" Z="307.8684"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5356.123" Y="-4074.163" Z="331.3632"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5591.261" Y="-3694.974" Z="313.2206"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5651.885" Y="-3080.465" Z="374.031"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5854.344" Y="-2844.228" Z="365.5985"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5624.361" Y="-2874.561" Z="363.1347"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-4928.056" Y="-2802.379" Z="324.9394"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4797.752" Y="-3231.938" Z="277.5714"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4994.854" Y="-3675.778" Z="311.6491"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5144.513" Y="-3858.445" Z="332.4882"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5423.244" Y="-3952.899" Z="344.6146"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5559.077" Y="-3191.938" Z="329.4276"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5553.678" Y="-2989.111" Z="342.1479"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5328.729" Y="-2919.567" Z="345.1857"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5111.162" Y="-3121.031" Z="313.7105"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5080.18" Y="-3467.844" Z="295.8595"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5396.813" Y="-3469.546" Z="288.6767"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5548.795" Y="-3325.241" Z="277.9894"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-5313.194" Y="-3204.571" Z="292.3765"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5588.755" Y="-2407.917" Z="409.5423"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5446.787" Y="-2385.839" Z="400.5138"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="-4660.523" Y="-3057.695" Z="336.7706"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4936.974" Y="-2952.754" Z="369.5639"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5330.732" Y="-2920.826" Z="345.362"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5621.279" Y="-2874.867" Z="363.5952"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5916.88" Y="-3001.95" Z="378.0294"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-6049.86" Y="-2812.855" Z="411.3008"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-6116.382" Y="-2477.898" Z="375.1423"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5318.873" Y="-2604.84" Z="481.8072"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4976.214" Y="-2631.11" Z="354.4223"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4755.891" Y="-2568.257" Z="381.6489"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4688.129" Y="-2830.22" Z="324.0181"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4657.934" Y="-3058.639" Z="336.3343"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-4681.451" Y="-3589.582" Z="398.9611"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4900.197" Y="-3846.035" Z="303.8636"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-5010.61" Y="-4058.095" Z="297.6347"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5242.536" Y="-4113.658" Z="330.7594"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5493.779" Y="-4245.966" Z="447.1381"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5773.309" Y="-4187.691" Z="396.5143"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5862.723" Y="-3990.163" Z="407.8619"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5818.724" Y="-3778.313" Z="334.8827"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5710.173" Y="-3596.559" Z="315.5174"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5804.666" Y="-3328.87" Z="300.4234"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5778.083" Y="-3096.792" Z="320.7108"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5093.16" Y="-2718.223" Z="343.6103"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4782.932" Y="-2869.802" Z="324.6725"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4825.977" Y="-3107.92" Z="315.6448"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-4818.797" Y="-3423.355" Z="286.2371"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4855.555" Y="-3686.793" Z="311.7416"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-4953.362" Y="-3894.719" Z="308.0684"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5213.621" Y="-4022.143" Z="330.3344"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5411.008" Y="-4080.544" Z="345.8146"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5586.424" Y="-3700.849" Z="312.4365"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5607.134" Y="-3494.252" Z="289.3666"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5649.382" Y="-3078.138" Z="373.8857"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4929.216" Y="-2799.739" Z="325.4391"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4919.685" Y="-3226.947" Z="281.0847"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-4926.974" Y="-3561.813" Z="291.5608"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5068.568" Y="-3763.831" Z="312.2588"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5275.137" Y="-4008.693" Z="330.4729"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5512.701" Y="-3794.587" Z="321.8842"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5557.55" Y="-3191.82" Z="329.5138"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5621.574" Y="-2939.879" Z="377.0761"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-5330.314" Y="-2919.229" Z="345.6432"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5108.996" Y="-3121.928" Z="313.4261"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5092.732" Y="-3583.213" Z="295.6038"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5393.935" Y="-3469.198" Z="288.4271"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-5537.291" Y="-3326.002" Z="277.7693"/>
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-5313.165" Y="-3202.857" Z="292.4452"/>
+<!--Seen Name="Little Black Ram"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-5573.167" Y="-2401.889" Z="401.0511"/>
+<!--Seen Name="Snow Cub"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snow Cub"-->
+<Hotspot X="-5432.446" Y="-2392.858" Z="402.4133"/>
+<!--Seen Name="Alpine Hare"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

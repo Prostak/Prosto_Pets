@@ -1,0 +1,83 @@
+<HBProfile>
+  <Name>Orgrimmar</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2313.306" Y="-4723.488" Z="117.7431"/>
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1919.395" Y="-4849.425" Z="137.522"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="2081.479" Y="-4441.546" Z="96.48769"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="2200.654" Y="-4658.944" Z="80.47459"/>
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1944.278" Y="-4359.742" Z="24.15847"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="2016.542" Y="-4149.035" Z="106.367"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="1705.888" Y="-4210.342" Z="53.04553"/>
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1733.414" Y="-4546.122" Z="90.87022"/>
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="1926.418" Y="-4291.639" Z="24.90353"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="1814.908" Y="-4042.678" Z="122.9255"/>
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1606.933" Y="-4070.595" Z="123.494"/>
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Robo-Chick"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Robo-Chick"-->
+<Hotspot X="1563.224" Y="-4311.441" Z="24.01487"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1898.644" Y="-4202.518" Z="37.20874"/>
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="1594.243" Y="-4436.158" Z="13.7898"/>
+<!--Seen Name="Dung Beetle"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

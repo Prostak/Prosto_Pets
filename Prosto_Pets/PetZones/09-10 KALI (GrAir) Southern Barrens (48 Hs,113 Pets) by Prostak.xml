@@ -1,0 +1,193 @@
+<HBProfile>
+  <Name>Southern Barrens</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-577.1572" Y="-1561.242" Z="88.61525"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Cheetah Cub"-->
+<!--Seen Name="Cheetah Cub"-->
+<Hotspot X="-808.7037" Y="-1682.205" Z="75.42518"/>
+<!--Seen Name="Cheetah Cub"-->
+<Hotspot X="-1507.301" Y="-2584.306" Z="88.66322"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1326.262" Y="-2176.527" Z="80.2524"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1050.727" Y="-1785.958" Z="84.34533"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-808.7037" Y="-1682.205" Z="75.44649"/>
+<!--Seen Name="Cheetah Cub"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-573.0949" Y="-1555.449" Z="89.02046"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-289.6886" Y="-1060.372" Z="40.9516"/>
+<!--Seen Name="Cheetah Cub"-->
+<Hotspot X="-644.2444" Y="-1418.142" Z="154.242"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1104.189" Y="-1758.043" Z="84.44835"/>
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-1319.983" Y="-1762.238" Z="91.82282"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1472.787" Y="-2043.959" Z="83.73021"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1840.381" Y="-2263.639" Z="92.08743"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1945.722" Y="-2717.445" Z="95.53209"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-2258.151" Y="-2487.416" Z="92.35384"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2214.088" Y="-2218.414" Z="91.78178"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1948.442" Y="-2046.69" Z="96.06208"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1675.83" Y="-1859.399" Z="93.317"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-1687.175" Y="-1579.206" Z="91.77037"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-1866.509" Y="-1785.278" Z="92.14236"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1995.893" Y="-2170.852" Z="94.45307"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2353.498" Y="-2332.887" Z="95.03178"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2477.173" Y="-2527.466" Z="92.18581"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-2563.837" Y="-2337.186" Z="91.79166"/>
+<!--Seen Name="Giraffe Calf"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2476.56" Y="-2045.185" Z="92.25239"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-2224.243" Y="-1870.421" Z="91.78116"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-1880.751" Y="-1778.625" Z="92.68415"/>
+<!--Seen Name="Giraffe Calf"-->
+<Hotspot X="-1679.922" Y="-1633.912" Z="93.59822"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2346.336" Y="-1630.26" Z="66.70731"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-2577.4" Y="-1756.732" Z="91.78116"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-2560.209" Y="-2074.805" Z="91.78178"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3196.709" Y="-2215.734" Z="97.58165"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3222.54" Y="-2003.62" Z="88.04836"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3158.319" Y="-1786.782" Z="94.71321"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Giraffe Calf"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-2882.474" Y="-2016.409" Z="92.03902"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3242.551" Y="-2092.791" Z="111.4536"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3462.668" Y="-2396.438" Z="93.14212"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-3678.284" Y="-1717.928" Z="92.77988"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3882.419" Y="-1693.908" Z="92.84708"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-3919.933" Y="-2011.601" Z="95.07821"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3790.52" Y="-2192.957" Z="86.02915"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-3843.134" Y="-2470.34" Z="91.79166"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-4008.113" Y="-2329.495" Z="127.6285"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-4061.775" Y="-2069.115" Z="91.79003"/>
+<!--Seen Name="Giraffe Calf"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-4047.123" Y="-2310.264" Z="128.4589"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-4066.888" Y="-1803.903" Z="93.89565"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-4457.824" Y="-1864.076" Z="86.50179"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-3645.795" Y="-2463.725" Z="82.63229"/>
+<!--Seen Name="Adder"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

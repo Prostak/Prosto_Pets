@@ -1,0 +1,231 @@
+<HBProfile>
+  <Name>Winterspring</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="6487.24" Y="-2379.415" Z="588.6714"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6249.708" Y="-2510.451" Z="567.2835"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6404.946" Y="-2760.762" Z="579.4687"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6371.468" Y="-3147.462" Z="621.0927"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6312.133" Y="-3660.38" Z="756.3458"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6367.012" Y="-3865.812" Z="688.8201"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6238.307" Y="-4186.673" Z="725.2237"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6005.583" Y="-4324.129" Z="742.145"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5559.614" Y="-4487.462" Z="764.1921"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="5344.681" Y="-4576.089" Z="693.7018"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Crystal Spider"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5137.997" Y="-4498.048" Z="851.9184"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5062.802" Y="-4715.044" Z="852.2122"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5120.036" Y="-4962.392" Z="876.372"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5625.93" Y="-4954.205" Z="810.0532"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6412.984" Y="-5076.03" Z="750.0345"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7029.611" Y="-5200.079" Z="734.0645"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7602.501" Y="-5072.916" Z="744.3462"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Mountain Skunk"-->
+<Hotspot X="8074.06" Y="-4048.362" Z="692.4658"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="8246.341" Y="-3830.754" Z="730.9359"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6772.351" Y="-3240.233" Z="613.6747"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6711.535" Y="-2681.976" Z="533.9196"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6889.854" Y="-2545.844" Z="592.7675"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6640.297" Y="-2510.585" Z="536.4241"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6456.282" Y="-2611.369" Z="572.0805"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6656.974" Y="-2957.002" Z="571.8055"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6601.855" Y="-3341.717" Z="627.752"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6585.104" Y="-3851.731" Z="656.8631"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6370.95" Y="-4107.577" Z="705.3555"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6011.081" Y="-4534.906" Z="702.9972"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5512.102" Y="-4679.182" Z="789.0226"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5260.389" Y="-4802.624" Z="696.0883"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="5475.051" Y="-4856.705" Z="861.8144"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="5692.871" Y="-4909.044" Z="801.5604"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6412.852" Y="-4838.373" Z="720.844"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snowy Owl"-->
+<Hotspot X="7020.694" Y="-4966.547" Z="707.4091"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7307.37" Y="-4992.11" Z="726.5036"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7575.778" Y="-4942.838" Z="692.02"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="7683.854" Y="-4578.088" Z="663.8589"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7892.045" Y="-4445.559" Z="702.7927"/>
+<!--Seen Name="Snowy Owl"-->
+<Hotspot X="7936.329" Y="-4245.285" Z="697.6127"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="8081.717" Y="-3932.908" Z="691.2249"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="7882.465" Y="-3853.091" Z="694.9765"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7500.731" Y="-3960.894" Z="714.9871"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7287.047" Y="-4056.676" Z="706.1238"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="7045.833" Y="-3962.305" Z="750.7031"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6498.519" Y="-4503.499" Z="714.9361"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6206.312" Y="-4692.242" Z="723.9137"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6357.644" Y="-4824.438" Z="731.3126"/>
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="6589.005" Y="-4661.501" Z="702.1962"/>
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Robo-Chick"-->
+<!--Seen Name="Rabid Nut Varmint 5000"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<Hotspot X="6812.9" Y="-4719.798" Z="700.8366"/>
+<!--Seen Name="Rabid Nut Varmint 5000"-->
+<!--Seen Name="Robo-Chick"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<Hotspot X="7117.666" Y="-4709.792" Z="705.8134"/>
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7451.01" Y="-4738.336" Z="651.4826"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Hare"-->
+<Hotspot X="7546.302" Y="-4539.29" Z="612.1427"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7730.642" Y="-4269.08" Z="687.7545"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Snowy Owl"-->
+<Hotspot X="7327.87" Y="-4173.514" Z="700.8372"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="7143.117" Y="-4318.118" Z="662.2116"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<Hotspot X="6923.479" Y="-4507.145" Z="713.8376"/>
+<!--Seen Name="Alpine Hare"-->
+<!--Seen Name="Snowy Owl"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<!--Seen Name="Anodized Robo Cub"-->
+<Hotspot X="6696.811" Y="-4548.273" Z="726.1921"/>
+<!--Seen Name="Anodized Robo Cub"-->
+<Hotspot X="5215.053" Y="-4490.505" Z="841.5093"/>
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Chipmunk"-->
+<!--Seen Name="Alpine Hare"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

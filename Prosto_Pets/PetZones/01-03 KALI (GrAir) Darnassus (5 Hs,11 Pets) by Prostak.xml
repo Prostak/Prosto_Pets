@@ -1,0 +1,48 @@
+<HBProfile>
+  <Name>Darnassus</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="9830.95" Y="2371.14" Z="1315.368"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="9979.326" Y="2209.106" Z="1332.438"/>
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="10210.92" Y="2425.578" Z="1328.943"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="9886.324" Y="2587.305" Z="1315.803"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Forest Moth"-->
+<Hotspot X="9918.954" Y="2364.064" Z="1316.02"/>
+<!--Seen Name="Small Frog"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

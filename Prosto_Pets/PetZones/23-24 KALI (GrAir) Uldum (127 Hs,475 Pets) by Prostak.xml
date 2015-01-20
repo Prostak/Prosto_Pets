@@ -1,0 +1,634 @@
+<HBProfile>
+  <Name>Uldum</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-8901.641" Y="-1679.873" Z="130.3684"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-8639.284" Y="-1435.897" Z="184.6534"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-8667.743" Y="-1222.268" Z="213.5173"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-8881.551" Y="-1307.31" Z="124.6207"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-8999.317" Y="-1136.212" Z="145.9405"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Locust"-->
+<Hotspot X="-9119.496" Y="-1324.186" Z="113.2181"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Locust"-->
+<Hotspot X="-9307.198" Y="-1247.462" Z="118.7695"/>
+<!--Seen Name="Locust"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-9818.229" Y="-1192.188" Z="102.5397"/>
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-10033.59" Y="-1196.828" Z="47.65162"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-10164.27" Y="-1384.444" Z="61.20568"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10349.65" Y="-1299.862" Z="44.58014"/>
+<!--Seen Name="Locust"-->
+<Hotspot X="-10819.25" Y="-1559.149" Z="13.20073"/>
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Locust"-->
+<Hotspot X="-10968.6" Y="-1724.786" Z="7.626427"/>
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-10921.65" Y="-2177.396" Z="171.5945"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-10798.2" Y="-2348.084" Z="106.4196"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10719.73" Y="-2537.18" Z="119.0834"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10198.42" Y="-2754.636" Z="5.117648"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9942.771" Y="-2762.425" Z="5.356705"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-9746.886" Y="-2584.552" Z="128.1788"/>
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-9781.118" Y="-2314.098" Z="61.82711"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9772.77" Y="-2077.148" Z="53.41799"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9590.067" Y="-1951.404" Z="100.5549"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-9390.435" Y="-1764.234" Z="52.78544"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9182.052" Y="-1823.601" Z="102.0641"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-8843.603" Y="-1123.104" Z="159.3549"/>
+<!--Seen Name="Locust"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-8889.835" Y="-1381.276" Z="129.4322"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9136.627" Y="-1581.329" Z="66.29527"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9373.768" Y="-1596.576" Z="68.48441"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-9661.757" Y="-1717.336" Z="15.57169"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9829.406" Y="-1861.337" Z="15.4595"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9848.692" Y="-2110.017" Z="15.44821"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9973.397" Y="-2354.441" Z="39.21614"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10039.64" Y="-2676.455" Z="9.978745"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10350.4" Y="-2655.511" Z="5.113439"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-10422.49" Y="-2377.619" Z="48.20361"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10139.43" Y="-2349.123" Z="28.62302"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10006.06" Y="-2159.964" Z="38.74044"/>
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-9377.099" Y="-1481.489" Z="65.56984"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10618.42" Y="-1805.271" Z="231.5992"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10808.14" Y="-1961.47" Z="167.7032"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-11004.63" Y="-2076.563" Z="173.117"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10427.92" Y="-2333.802" Z="51.04904"/>
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10077.1" Y="-2423.916" Z="20.94257"/>
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9923.082" Y="-1638.614" Z="12.63274"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10141.21" Y="-1717.817" Z="54.58207"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10325.93" Y="-1818.887" Z="56.83723"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10503.34" Y="-1942.366" Z="72.01041"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10715.21" Y="-1982.397" Z="139.1166"/>
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-11145.58" Y="-1681.471" Z="0.9943445"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-11201.13" Y="-1465.207" Z="10.62728"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-11049.04" Y="-1311.615" Z="10.81959"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-11256.16" Y="-1374.658" Z="3.803759"/>
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-11158.18" Y="-1193.91" Z="9.439419"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Oasis Moth"-->
+<Hotspot X="-10678.16" Y="-1197.206" Z="13.18038"/>
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Oasis Moth"-->
+<Hotspot X="-10421.03" Y="-1205.357" Z="45.12595"/>
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-9903.6" Y="-1004.595" Z="43.72194"/>
+<!--Seen Name="Locust"-->
+<Hotspot X="-9280.893" Y="-1127.552" Z="125.6075"/>
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-8937.381" Y="-1091.075" Z="155.1251"/>
+<!--Seen Name="Locust"-->
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-9287.618" Y="-709.6032" Z="124.5049"/>
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-9148.506" Y="-492.0302" Z="132.3087"/>
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-8511.827" Y="-44.64864" Z="237.0036"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-8595.31" Y="-440.2553" Z="200.387"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-8585.785" Y="-753.1971" Z="256.7757"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-8924.973" Y="-874.6402" Z="155.1922"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9186.971" Y="-906.9558" Z="133.9805"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-8656.932" Y="-367.2827" Z="194.7431"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-8714.946" Y="-660.2095" Z="188.1409"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-8892.44" Y="-560.9191" Z="159.1126"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-8595.592" Y="28.02539" Z="289.2151"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-8759.444" Y="235.0623" Z="329.3378"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9157.667" Y="360.7776" Z="298.216"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-9243.424" Y="626.1066" Z="180.6956"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-8861.65" Y="639.1211" Z="153.8155"/>
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-8413.109" Y="948.0958" Z="173.5278"/>
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-8404.149" Y="582.9445" Z="155.6739"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9332.455" Y="303.5723" Z="261.7686"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-8971.7" Y="192.2498" Z="145.6631"/>
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-8853.143" Y="-50.4315" Z="142.4839"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-9263.313" Y="185.788" Z="259.6329"/>
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-9428.697" Y="513.8495" Z="152.9095"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-9564.574" Y="671.5248" Z="139.2973"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9783.635" Y="711.0979" Z="95.5079"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10070.43" Y="852.6415" Z="66.2803"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10276.5" Y="1299.921" Z="136.1743"/>
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10839.72" Y="531.4785" Z="12.54709"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-11240.36" Y="-257.0543" Z="32.54292"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-11378.94" Y="-414.5775" Z="106.3676"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-11596.26" Y="-494.3827" Z="121.601"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-11486.84" Y="-680.9895" Z="121.1315"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-11483.69" Y="-1127.459" Z="5.12489"/>
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Locust"-->
+<Hotspot X="-11292.6" Y="-1189.863" Z="4.994001"/>
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Locust"-->
+<Hotspot X="-10457.36" Y="-1023.681" Z="119.9088"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Mac Frog"-->
+<Hotspot X="-10224.01" Y="-834.1356" Z="62.05753"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Oasis Moth"-->
+<Hotspot X="-9904.043" Y="-754.9719" Z="104.2176"/>
+<!--Seen Name="Locust"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Emerald Boa"-->
+<Hotspot X="-9574.439" Y="-543.6875" Z="123.746"/>
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Oasis Moth"-->
+<!--Seen Name="Mac Frog"-->
+<!--Seen Name="Locust"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-9567.575" Y="-77.84299" Z="92.37647"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9746.25" Y="135.7044" Z="86.81222"/>
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-9738.796" Y="375.0237" Z="77.44099"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-9919.011" Y="463.9431" Z="44.19402"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10173.07" Y="606.155" Z="37.84122"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10181.64" Y="806.7618" Z="63.11696"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-10553.05" Y="744.4892" Z="35.81361"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10646.66" Y="510.6046" Z="24.53668"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10725.1" Y="293.2204" Z="25.52635"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10880.35" Y="81.11328" Z="30.75134"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10844.36" Y="-188.9058" Z="22.56597"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-11003.77" Y="-317.3254" Z="23.58726"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-11235.01" Y="-373.7887" Z="29.96153"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-11218.47" Y="-592.9193" Z="51.82798"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-11313.8" Y="-789.3192" Z="136.6321"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10971.03" Y="-921.2394" Z="107.6878"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10761.97" Y="-919.0493" Z="102.7093"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-10248.63" Y="-644.0181" Z="151.8206"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Emerald Boa"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-10153.89" Y="-411.0905" Z="132.3836"/>
+<!--Seen Name="Sidewinder"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-9955.892" Y="-356.0717" Z="65.27995"/>
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-9675.895" Y="-219.892" Z="99.39044"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-9694.06" Y="-11.1373" Z="88.52747"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-9876.435" Y="175.6704" Z="74.31892"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10416.85" Y="182.3917" Z="51.71862"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-10538.69" Y="-7.762026" Z="128.2716"/>
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10337.17" Y="-538.4424" Z="300.346"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10379.87" Y="-317.5694" Z="336.6992"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<!--Seen Name="Horned Lizard"-->
+<Hotspot X="-10452.91" Y="-92.79181" Z="282.7127"/>
+<!--Seen Name="Desert Spider"-->
+<!--Seen Name="Desert Spider"-->
+<Hotspot X="-10152.58" Y="-190.2531" Z="125.5334"/>
+<!--Seen Name="Sidewinder"-->
+<Hotspot X="-10052.78" Y="43.83594" Z="63.0372"/>
+<!--Seen Name="Leopard Scorpid"-->
+<!--Seen Name="Leopard Scorpid"-->
+<Hotspot X="-9981.223" Y="589.9914" Z="33.30846"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Tol'vir Scarab"-->
+<Hotspot X="-10325.33" Y="1337.661" Z="134.5987"/>
+<!--Seen Name="Tol'vir Scarab"-->
+<!--Seen Name="Leopard Scorpid"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

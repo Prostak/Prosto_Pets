@@ -1,0 +1,433 @@
+<HBProfile>
+  <Name>Eastern Plaguelands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="2472.089" Y="-2459.816" Z="74.64962"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="1569.368" Y="-3263.065" Z="87.18829"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1859.413" Y="-2762.765" Z="90.94344"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2114.268" Y="-2690.666" Z="79.36063"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2388.565" Y="-2498.332" Z="73.00988"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2994.221" Y="-2779.524" Z="115.2802"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3207.949" Y="-3005.681" Z="127.9333"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3258.372" Y="-3750.923" Z="148.8086"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="3363.829" Y="-4468.636" Z="127.7868"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2098.317" Y="-5268.687" Z="83.26443"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1781.047" Y="-5117.709" Z="75.86741"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1636.777" Y="-4797.011" Z="86.29234"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1611.361" Y="-4478.824" Z="82.43498"/>
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1587.766" Y="-3620.393" Z="103.2745"/>
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1956.384" Y="-2848.531" Z="79.48158"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2863.794" Y="-2907.364" Z="98.04815"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3171.656" Y="-3672.166" Z="138.4062"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="3052.544" Y="-3868.962" Z="127.355"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3185.143" Y="-4459.373" Z="109.6754"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3173.076" Y="-4747.78" Z="124.6809"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2555.966" Y="-4903.261" Z="75.02113"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2402.632" Y="-5075.569" Z="81.23329"/>
+<!--Seen Name="Bat"-->
+<Hotspot X="2083.426" Y="-5139.643" Z="84.33029"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1740.784" Y="-4890.787" Z="92.38703"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1832.084" Y="-4366.22" Z="100.3125"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1792.694" Y="-3806.08" Z="128.343"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1829.895" Y="-3574.041" Z="116.5908"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1835.606" Y="-3217.183" Z="120.3144"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2803.702" Y="-3096.329" Z="102.1225"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2994.383" Y="-3298.827" Z="125.549"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2972.383" Y="-3587.168" Z="145.1053"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="3023.368" Y="-3860.044" Z="121.9768"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2972.021" Y="-4076.03" Z="98.81614"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3039.133" Y="-4324.889" Z="99.10777"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2842.268" Y="-4625.084" Z="91.47443"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2622.244" Y="-4669.121" Z="83.94477"/>
+<!--Seen Name="Bat"-->
+<Hotspot X="2189.56" Y="-4862.776" Z="86.77261"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2149.987" Y="-4582.269" Z="77.27995"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1951.241" Y="-4228.852" Z="80.68279"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2085.119" Y="-3942.972" Z="135.5245"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2014.277" Y="-3718.989" Z="127.1142"/>
+<!--Seen Name="Bat"-->
+<Hotspot X="2093.13" Y="-3523" Z="120.6665"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2889.606" Y="-3853.881" Z="112.4668"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2684.714" Y="-4143.891" Z="88.0458"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2523.616" Y="-4447.009" Z="84.24899"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2495.815" Y="-4688.723" Z="82.01316"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2284.45" Y="-4750.946" Z="97.72716"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2679.185" Y="-4567.39" Z="87.01718"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2916.863" Y="-4791.949" Z="97.16141"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1965.16" Y="-5071.76" Z="86.27145"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2309.351" Y="-4544.471" Z="81.16235"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2460.027" Y="-4273.726" Z="76.56474"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1440.042" Y="-5790.372" Z="131.3258"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2477.19" Y="-2456.331" Z="73.67586"/>
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1570.576" Y="-3254.244" Z="86.70644"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1794.701" Y="-2854.41" Z="70.03526"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2483.783" Y="-2453.54" Z="73.55889"/>
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2992.578" Y="-2789.214" Z="114.0738"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3205.189" Y="-2997.808" Z="127.866"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3256.686" Y="-3749.684" Z="148.062"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="3362.954" Y="-4452.275" Z="127.7513"/>
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3180.422" Y="-4740.616" Z="121.2052"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2002.768" Y="-5234.902" Z="80.43297"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="1774.479" Y="-5114.079" Z="77.20224"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1648.234" Y="-4798.585" Z="85.30622"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1607.521" Y="-4474.585" Z="84.63889"/>
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1617.931" Y="-3843.273" Z="128.5811"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1582.66" Y="-3616.746" Z="102.2563"/>
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1682.198" Y="-3324.691" Z="100.4228"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1890.671" Y="-3041.621" Z="79.27875"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1957.303" Y="-2848.365" Z="79.43905"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2881.904" Y="-2896.12" Z="98.26769"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3170.185" Y="-3678.25" Z="136.467"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="3056.739" Y="-3873.202" Z="128.2333"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3188.445" Y="-4490.63" Z="111.5712"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3012.863" Y="-4861.886" Z="101.3051"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2841.97" Y="-4997.672" Z="106.0305"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2766.648" Y="-4802.609" Z="78.78835"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1946.318" Y="-5077.954" Z="86.40073"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1739.364" Y="-4905.97" Z="91.61766"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1757.661" Y="-4424.666" Z="74.42408"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1792.599" Y="-3803.546" Z="128.6353"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1831.118" Y="-3577.254" Z="116.5701"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1810.662" Y="-3339.83" Z="111.0748"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2809.206" Y="-3100.974" Z="102.0075"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3007.293" Y="-3295.469" Z="133.6095"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2983.056" Y="-3601.72" Z="145.3807"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="3023.205" Y="-3861.874" Z="122.0538"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2971.139" Y="-4083.409" Z="97.81161"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3023.628" Y="-4327.283" Z="98.41739"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2825.788" Y="-4642.027" Z="89.7148"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2265.973" Y="-4873.724" Z="97.23968"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2065.948" Y="-4792.708" Z="75.2557"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2005.078" Y="-4509.371" Z="76.02877"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1934.427" Y="-4226.358" Z="83.1423"/>
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2067.242" Y="-3926.082" Z="133.1642"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2014.497" Y="-3721.174" Z="127.1479"/>
+<!--Seen Name="Bat"-->
+<Hotspot X="2103.577" Y="-3519.537" Z="120.405"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2301.573" Y="-3564.545" Z="156.4554"/>
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2814.578" Y="-3911.254" Z="102.3362"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2676.596" Y="-4126.749" Z="87.57891"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2526.317" Y="-4428.149" Z="91.32743"/>
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2619.605" Y="-4661.881" Z="83.53619"/>
+<!--Seen Name="Bat"-->
+<Hotspot X="2265.067" Y="-4757.703" Z="100.053"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="2913.023" Y="-4802.796" Z="97.58282"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="2146.219" Y="-5286.845" Z="86.26756"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2463.049" Y="-4274.263" Z="76.59231"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1439.104" Y="-5783.756" Z="131.3252"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1496.216" Y="-3179.262" Z="112.6871"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1709.117" Y="-3168.92" Z="78.32926"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1853.479" Y="-2761.947" Z="90.29198"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="2944.724" Y="-2761.097" Z="110.2796"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3205.866" Y="-2880.479" Z="154.7555"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="3353.303" Y="-3035.049" Z="163.0578"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="3284.976" Y="-3701.837" Z="151.161"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="3362.599" Y="-4445.327" Z="128.5732"/>
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2379.703" Y="-5207.979" Z="74.49439"/>
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1942.284" Y="-5227.621" Z="92.66727"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="1704.676" Y="-5142.935" Z="75.3993"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1596.597" Y="-4657.168" Z="80.15305"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Festering Maggot"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Festering Maggot"-->
+<Hotspot X="1623.1" Y="-3841.172" Z="130.8225"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="1648.672" Y="-3444.688" Z="137.2099"/>
+<!--Seen Name="Infected Fawn"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

@@ -1,0 +1,79 @@
+<HBProfile>
+  <Name>Moonglade</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="7421.319" Y="-2235.972" Z="489.1993"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Forest Moth"-->
+<Hotspot X="7486.045" Y="-2522.875" Z="458.6984"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7419.308" Y="-2871.09" Z="466.5685"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="8012.664" Y="-2596.257" Z="499.4755"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="8005.248" Y="-2274.181" Z="491.6844"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7804.851" Y="-2151.479" Z="479.1937"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7593.231" Y="-2114.061" Z="484.3083"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7425.635" Y="-2313.657" Z="479.851"/>
+<!--Seen Name="Forest Moth"-->
+<Hotspot X="7802.68" Y="-2311.531" Z="456.0193"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="8014.8" Y="-2273.71" Z="492.2787"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7764.44" Y="-2555.359" Z="476.7937"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7542.914" Y="-2869.803" Z="462.4182"/>
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Silky Moth"-->
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7547.52" Y="-2420.588" Z="454.8506"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Forest Moth"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

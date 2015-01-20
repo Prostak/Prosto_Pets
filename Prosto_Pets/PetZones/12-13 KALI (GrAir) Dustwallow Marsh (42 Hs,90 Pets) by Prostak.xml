@@ -1,0 +1,164 @@
+<HBProfile>
+  <Name>Dustwallow Marsh</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-3618.504" Y="-2437.89" Z="93.52035"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-3453.672" Y="-2727.731" Z="35.11953"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-2979.707" Y="-2845.721" Z="34.51032"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2779.452" Y="-2730.282" Z="40.08602"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2664.208" Y="-2943.425" Z="37.53865"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2606.547" Y="-3460.187" Z="36.41778"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-3083.179" Y="-4105.412" Z="38.97971"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3327.532" Y="-3871.661" Z="32.29901"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3613.281" Y="-3465.584" Z="50.71119"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-3807.007" Y="-3303.225" Z="30.25178"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-3637.069" Y="-2820.485" Z="35.97115"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-3628.366" Y="-2487.696" Z="76.99162"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-3446.314" Y="-2852.622" Z="34.34711"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3095.877" Y="-2953.501" Z="33.37798"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-2604.307" Y="-2995.766" Z="36.39911"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-2701.522" Y="-3391.185" Z="33.49854"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-2772.669" Y="-3721.764" Z="39.91441"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-2823.307" Y="-3431.839" Z="34.58598"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3546.166" Y="-3172.803" Z="48.82279"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3527.878" Y="-2882.77" Z="35.79951"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-3148.72" Y="-3038.176" Z="34.7538"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-2855.557" Y="-3189.93" Z="41.43969"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4108.943" Y="-2817.879" Z="38.91084"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-4572.105" Y="-2796.955" Z="38.40691"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-4637.99" Y="-3025.609" Z="33.97345"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4849.082" Y="-3397.508" Z="38.13694"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="-4973.789" Y="-3609.481" Z="43.14308"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-4936.021" Y="-3840.454" Z="47.32113"/>
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<Hotspot X="-4695.55" Y="-3927.372" Z="45.28784"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-3953.198" Y="-3559.724" Z="38.40169"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3841.626" Y="-3225.556" Z="36.55523"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-3874.955" Y="-3024.899" Z="37.39743"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-3983.381" Y="-2824.496" Z="36.19893"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-4488.919" Y="-2931.228" Z="35.4363"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-4607.528" Y="-3125.216" Z="35.94618"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4759.324" Y="-3432.341" Z="39.93339"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<Hotspot X="-4783.386" Y="-3641.886" Z="49.12924"/>
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<Hotspot X="-4639.26" Y="-3902.393" Z="40.66153"/>
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<!--Seen Name="Spawn of Onyxia"-->
+<Hotspot X="-4001.828" Y="-3767.445" Z="39.55"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-4086.148" Y="-3138.317" Z="36.24089"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-4184.702" Y="-2943.354" Z="35.6184"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="-4156.234" Y="-3659.042" Z="40.72366"/>
+<!--Seen Name="Snake"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

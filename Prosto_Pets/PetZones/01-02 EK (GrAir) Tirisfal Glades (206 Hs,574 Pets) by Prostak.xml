@@ -1,0 +1,812 @@
+<HBProfile>
+  <Name>Tirisfal Glades</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1446.812" Y="371.2048" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1429.975" Y="170.1811" Z="-62.22148"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="1755.947" Y="729.6264" Z="47.49665"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1823.165" Y="1116.346" Z="42.22079"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1590.624" Y="2043.094" Z="154.8336"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1735.211" Y="2234.731" Z="150.3002"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1921.493" Y="2370.239" Z="131.9668"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2132.833" Y="2428.48" Z="132.6532"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2690.575" Y="1326.174" Z="39.26758"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2817.602" Y="1029.053" Z="113.2498"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2933.889" Y="856.8142" Z="112.7794"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2981.257" Y="581.0911" Z="92.8126"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2949.367" Y="-128.8743" Z="24.85637"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2995.044" Y="-774.4445" Z="160.3179"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2801.74" Y="-915.252" Z="154.5108"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2379.181" Y="-1070.589" Z="89.98583"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1621.581" Y="-505.3447" Z="49.60357"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1605.707" Y="46.65625" Z="61.13863"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1475.74" Y="174.2979" Z="61.71479"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Undercity Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1449.837" Y="378.6422" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1648.495" Y="436.2076" Z="61.25577"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1707.469" Y="111.802" Z="60.90916"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1658.478" Y="215.2381" Z="-62.17984"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1770.589" Y="702.0512" Z="45.12974"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1825.807" Y="1115.01" Z="41.54037"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2908.314" Y="1056.214" Z="103.2539"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2975.198" Y="758.0071" Z="95.45529"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2961.006" Y="-128.3125" Z="20.6929"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2946.59" Y="-666.0319" Z="153.5166"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2822.495" Y="-801.55" Z="150.4828"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2381.002" Y="-1078.387" Z="94.17416"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="1612.285" Y="-488.913" Z="49.85109"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1833.229" Y="-24.32764" Z="39.39985"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1834.455" Y="407.1428" Z="61.68545"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1811.468" Y="670.8505" Z="42.7421"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1937.451" Y="1130.048" Z="36.90436"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2322.807" Y="1651.891" Z="37.97278"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2370.458" Y="1343.112" Z="33.53484"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2647.548" Y="1032.603" Z="102.9083"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2847.31" Y="948.6595" Z="121.796"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2972.56" Y="770.7972" Z="92.44861"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2864.926" Y="430.6978" Z="20.59448"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2816.285" Y="112.8652" Z="26.13527"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2789.298" Y="-85.40242" Z="33.88634"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2811.316" Y="-353.2374" Z="75.45564"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2618.603" Y="-562.2429" Z="89.07424"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2607.078" Y="-776.3262" Z="76.44193"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2407.68" Y="-836.1271" Z="66.78333"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="2019.939" Y="-526.7086" Z="43.7466"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2079.08" Y="229.4975" Z="53.5382"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2133.944" Y="561.7067" Z="39.63882"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2323.843" Y="1649.326" Z="37.58629"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2361.11" Y="1335.753" Z="33.3925"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2556.516" Y="818.2529" Z="108.3936"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2850.936" Y="720.7386" Z="130.8558"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2594.713" Y="573.9741" Z="15.22834"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2539.113" Y="-47.20633" Z="28.20478"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2659.439" Y="-260.5445" Z="54.83173"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2410.106" Y="-589.539" Z="72.74382"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2184.786" Y="-570.4981" Z="79.75217"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2078.201" Y="215.2808" Z="49.30363"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2150.937" Y="556.7278" Z="43.25434"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2021.018" Y="738.3568" Z="42.3714"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2231.961" Y="998.5359" Z="36.76443"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2220.971" Y="1233.56" Z="41.56575"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2529.319" Y="755.0555" Z="113.4855"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2377.865" Y="463.0215" Z="35.14548"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2541.346" Y="-50.09309" Z="28.18258"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2083.597" Y="232.6403" Z="56.30786"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2148.8" Y="564.3614" Z="40.95356"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2016.923" Y="733.9624" Z="43.00483"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2231.574" Y="992.597" Z="36.8098"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2208.488" Y="693.0007" Z="35.1519"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1391.691" Y="369.2511" Z="-66.02386"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="1412.367" Y="146.0493" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1481.211" Y="573.3018" Z="52.43401"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1823.234" Y="1114.606" Z="41.84628"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1661.961" Y="2043.812" Z="149.6186"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1755.074" Y="2238.102" Z="151.2648"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1921.24" Y="2376.111" Z="132.4361"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2139.19" Y="2426.527" Z="132.6532"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2825.951" Y="1018.976" Z="115.8676"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2975.887" Y="769.7748" Z="92.19689"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2958.67" Y="-126.2412" Z="21.66442"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2993.977" Y="-777.3956" Z="158.9901"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2806.293" Y="-925.7693" Z="155.2827"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1712.83" Y="-352.708" Z="35.55725"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1603.923" Y="61.93722" Z="-62.17569"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="1643.398" Y="117.197" Z="60.18463"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1506.095" Y="215.4187" Z="61.63621"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1596.371" Y="412.0365" Z="60.76352"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1828.492" Y="412.0526" Z="61.64193"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Undercity Rat"-->
+<Hotspot X="1737.589" Y="671.012" Z="42.93774"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1766.636" Y="695.6968" Z="44.58926"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1828.893" Y="1118.04" Z="40.92004"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2925.277" Y="1060.339" Z="99.21864"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2962.58" Y="770.5695" Z="94.12473"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2944.033" Y="-666.2246" Z="152.1022"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2786.46" Y="-831.1319" Z="154.0202"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2311.469" Y="-918.1126" Z="73.3948"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="1747.58" Y="-667.9905" Z="44.55238"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1709.417" Y="-361.0896" Z="36.20056"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1895.879" Y="-187.408" Z="35.16229"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1901.887" Y="104.1693" Z="30.53538"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1828.919" Y="413.4809" Z="61.651"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1774.301" Y="696.6612" Z="45.34269"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1915.098" Y="1125.882" Z="33.4926"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2648.753" Y="1028.003" Z="103.1042"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2845.903" Y="956.3618" Z="120.421"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2850.382" Y="717.9231" Z="131.3933"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2832.512" Y="391.2891" Z="20.97746"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2813.942" Y="119.457" Z="25.72364"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2795.213" Y="-80.84799" Z="33.6953"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2809.812" Y="-352.5818" Z="75.42728"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2626.293" Y="-561.0943" Z="89.08292"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2609.321" Y="-767.7623" Z="79.23527"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2397.535" Y="-842.9177" Z="67.11855"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="1973.448" Y="-482.696" Z="35.47267"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2062.712" Y="-11.17969" Z="41.89465"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2037.435" Y="291.7271" Z="54.33757"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2089.007" Y="605.3278" Z="34.91446"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2087.482" Y="938.7471" Z="38.06075"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2075.083" Y="1194.362" Z="44.21762"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2271.253" Y="1339.78" Z="33.34265"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2556.155" Y="806.71" Z="109.905"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2770.928" Y="812.4444" Z="112.694"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2593.806" Y="574.085" Z="15.17321"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2538.943" Y="-42.74999" Z="28.17578"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2654.429" Y="-246.0133" Z="50.06539"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2440.324" Y="-297.9553" Z="64.54881"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2403.06" Y="-593.4959" Z="71.74143"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2189.292" Y="-564.7367" Z="79.55757"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2005.091" Y="-447.2225" Z="34.64074"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2071.03" Y="0.8293185" Z="43.19085"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2037.666" Y="291.8943" Z="54.44901"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2091.495" Y="598.8506" Z="35.23975"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2088.667" Y="954.6398" Z="38.21893"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2352.188" Y="520.8755" Z="30.8357"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2387.573" Y="316.2934" Z="38.73701"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2316.402" Y="104.0489" Z="37.60128"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2175.763" Y="637.8818" Z="35.23744"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1890.765" Y="-195.5898" Z="37.35721"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1754.087" Y="-657.3708" Z="44.79324"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1456.312" Y="376.7611" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="1412.017" Y="147.8667" Z="61.71479"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1820.63" Y="1116.097" Z="42.7342"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1593.683" Y="2040.605" Z="154.9131"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1895.799" Y="2274.987" Z="147.3488"/>
+<!--Seen Name="Bat"-->
+<!--Seen Name="Bat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1982.432" Y="2483.169" Z="135.0379"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Bat"-->
+<Hotspot X="2816.438" Y="1021.193" Z="114.5332"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2944.544" Y="859.8542" Z="112.0586"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2954.721" Y="653.2637" Z="104.977"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2881.209" Y="412.9478" Z="22.46187"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2962.502" Y="-123.8885" Z="20.82643"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2990.358" Y="-777.1126" Z="158.2661"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2807.304" Y="-919.3076" Z="154.5426"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1726.958" Y="-348.8663" Z="36.66743"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1608.853" Y="45.25194" Z="61.29988"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1504.192" Y="221.6532" Z="61.62695"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1594.958" Y="416.175" Z="60.36506"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1687.244" Y="310.2416" Z="61.6869"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="1646.598" Y="223.5118" Z="-56.878"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Undercity Rat"-->
+<Hotspot X="1824.593" Y="1116.284" Z="41.88582"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2911.727" Y="1060.814" Z="102.0298"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2936.595" Y="856.0302" Z="112.4774"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2969.95" Y="-126.3434" Z="18.61065"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2943.028" Y="-672.7624" Z="151.1336"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2790.67" Y="-839.8658" Z="154.0425"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2296.072" Y="-921.8253" Z="75.03608"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="1753.387" Y="-660.241" Z="44.61133"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1714.418" Y="-354.3697" Z="35.72485"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1895.99" Y="-191.3458" Z="35.77877"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="1868.013" Y="8.587976" Z="40.80708"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1875.773" Y="385.3692" Z="42.51038"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="1750.982" Y="656.861" Z="39.53923"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1946.976" Y="1129.992" Z="37.72909"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2655.367" Y="1022.456" Z="103.9437"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2850.381" Y="946.1819" Z="122.1961"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2851.608" Y="718.4988" Z="130.9681"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2881.727" Y="413.1784" Z="22.73814"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2822.857" Y="121.6416" Z="26.38527"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2812.472" Y="-176.845" Z="44.58274"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2816.153" Y="-378.9243" Z="77.50383"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2616.724" Y="-506.6811" Z="94.07283"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2611.713" Y="-758.0684" Z="80.65706"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2381.396" Y="-865.3442" Z="70.53848"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="2020.898" Y="-515.3741" Z="42.99873"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2084.435" Y="3.9984" Z="40.57285"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2090.965" Y="594.193" Z="35.37216"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2040.25" Y="1105.573" Z="34.74816"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2285.604" Y="1304.161" Z="31.62339"/>
+<!--Seen Name="Chicken"-->
+<Hotspot X="2556.211" Y="805.0812" Z="110.1224"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2853.089" Y="721.3967" Z="130.0411"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2600.972" Y="567.0174" Z="15.96755"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2569.91" Y="-70.76599" Z="31.20479"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2439.705" Y="-301.5597" Z="65.52725"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2404.573" Y="-590.6209" Z="71.56254"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2021.73" Y="-518.5995" Z="43.19141"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2078.646" Y="2.548828" Z="42.05844"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2092.046" Y="594.0814" Z="35.25536"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2227.156" Y="1045.504" Z="34.04482"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<Hotspot X="2352.59" Y="821.6588" Z="45.68078"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="2349.541" Y="519.9911" Z="30.87451"/>
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Lost of Lordaeron"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="2320.189" Y="108.9878" Z="37.63183"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1894.673" Y="-187.1531" Z="35.67711"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1792.794" Y="-534.4932" Z="41.38799"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

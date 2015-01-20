@@ -1,0 +1,210 @@
+<HBProfile>
+  <Name>The Cape of Stranglethorn</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-13574.04" Y="-94.68867" Z="42.37178"/>
+<!--Seen Name="Beetle"-->
+<Hotspot X="-13961.25" Y="58.19271" Z="17.88999"/>
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<Hotspot X="-14672.05" Y="257.9957" Z="1.054408"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14868.05" Y="214.9188" Z="2.799658"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14883.17" Y="-172.582" Z="1.150732"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="-14682.92" Y="-457.087" Z="0.8366467"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-14506.22" Y="-291.5303" Z="2.769914"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-14729.49" Y="-98.41243" Z="2.151169"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14885.16" Y="447.8135" Z="3.167326"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14677.06" Y="395.5129" Z="4.820128"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-14439.22" Y="467.5365" Z="3.95183"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-14123.55" Y="487.8993" Z="1.406966"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13954.49" Y="627.1505" Z="2.043683"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13982.66" Y="168.0281" Z="18.54133"/>
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<Hotspot X="-13660.76" Y="624.3394" Z="3.8937"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-13881.29" Y="101.3138" Z="16.29998"/>
+<!--Seen Name="Crimson Moth"-->
+<Hotspot X="-13641.76" Y="303.9581" Z="42.98037"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-13822.98" Y="81.53067" Z="24.92562"/>
+<!--Seen Name="Crimson Moth"-->
+<Hotspot X="-13556.31" Y="656.999" Z="4.205454"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13267.91" Y="677.5283" Z="2.022734"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13277.75" Y="57.5918" Z="17.45016"/>
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="-13244.08" Y="453.4604" Z="5.670837"/>
+<!--Seen Name="Lizard Hatchling"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-13025.34" Y="495.7697" Z="4.728334"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-13039.91" Y="219.0412" Z="22.31759"/>
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Lizard Hatchling"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-12807.15" Y="407.0096" Z="0.796891"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13255.16" Y="-271.6811" Z="16.9603"/>
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="-14827.68" Y="316.3218" Z="1.172181"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14880.31" Y="-175.6852" Z="1.582365"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Forest Spiderling"-->
+<Hotspot X="-14680.1" Y="-462.921" Z="0.7465937"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-14509.07" Y="-290.8171" Z="2.801622"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-14727.79" Y="-90.95986" Z="1.668023"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14886.83" Y="446.9006" Z="3.015539"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14557.31" Y="440.182" Z="107.845"/>
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Forest Spiderling"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-14287.67" Y="531.0995" Z="8.931779"/>
+<!--Seen Name="Wharf Rat"-->
+<!--Seen Name="Wharf Rat"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-14037.32" Y="555.6738" Z="4.888946"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13847.29" Y="686.5933" Z="3.381661"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-14055.47" Y="155.6767" Z="14.87878"/>
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Crimson Moth"-->
+<Hotspot X="-13780.56" Y="672.5705" Z="7.995359"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13685.49" Y="494.8498" Z="37.5892"/>
+<!--Seen Name="Tree Python"-->
+<Hotspot X="-13923.84" Y="91.75153" Z="15.57761"/>
+<!--Seen Name="Crimson Moth"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Beetle"-->
+<Hotspot X="-13555.1" Y="656.3971" Z="4.32804"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13268.48" Y="682.1705" Z="2.603334"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13245.85" Y="450.5111" Z="5.538555"/>
+<!--Seen Name="Lizard Hatchling"-->
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Lizard Hatchling"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13024.17" Y="494.4941" Z="4.273623"/>
+<!--Seen Name="Strand Crab"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Strand Crab"-->
+<Hotspot X="-13053.48" Y="206.8416" Z="21.7884"/>
+<!--Seen Name="Tree Python"-->
+<!--Seen Name="Beetle"-->
+<!--Seen Name="Lizard Hatchling"-->
+<!--Seen Name="Lizard Hatchling"-->
+<Hotspot X="-12811" Y="405.1991" Z="1.475104"/>
+<!--Seen Name="Strand Crab"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

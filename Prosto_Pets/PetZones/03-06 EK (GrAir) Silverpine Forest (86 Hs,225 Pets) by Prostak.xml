@@ -1,0 +1,343 @@
+<HBProfile>
+  <Name>Silverpine Forest</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-645.8764" Y="1628.267" Z="30.52908"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="1515.281" Y="772.7321" Z="53.3142"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1389.856" Y="364.5978" Z="-66.01506"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="1023.257" Y="162.6991" Z="39.59414"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="802.2021" Y="262.2991" Z="35.34988"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="613.9045" Y="405.7654" Z="34.87907"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="292.5679" Y="606.8211" Z="48.18904"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="72.64168" Y="634.8303" Z="78.32625"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-422.106" Y="724.899" Z="99.68363"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-772.0704" Y="1362.196" Z="35.68318"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-673.6548" Y="1599.697" Z="27.27538"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="744.5335" Y="1646.28" Z="41.14484"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1201.373" Y="1648.278" Z="22.99926"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1266.33" Y="1372.63" Z="48.12184"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="653.4199" Y="713.0205" Z="32.99548"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="356.834" Y="707.2471" Z="40.95506"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-173.1762" Y="836.2831" Z="60.56924"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-390.2628" Y="769.7064" Z="94.48385"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-586.2769" Y="877.9377" Z="92.29858"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-501.5254" Y="1256.43" Z="45.83856"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="200.9245" Y="1605.32" Z="138.0831"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="929.8295" Y="1583.958" Z="31.68928"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1071.963" Y="1119.85" Z="40.69054"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-40.78677" Y="957.5696" Z="66.42091"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-396.0278" Y="1111.337" Z="86.79834"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="480.8367" Y="1342.271" Z="89.22066"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="686.4769" Y="1401.483" Z="73.39778"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="646.066" Y="1201.74" Z="77.41188"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="14.76262" Y="1094.721" Z="68.67522"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="988.4266" Y="1145.224" Z="46.91426"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1515.121" Y="771.6217" Z="53.8436"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-678.0978" Y="1677.029" Z="31.46487"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="1311.401" Y="1262.24" Z="52.71193"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1460.23" Y="780.3137" Z="51.68821"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1480.804" Y="543.8746" Z="45.96032"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1026.79" Y="182.0737" Z="33.80237"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="800.3255" Y="265.7182" Z="35.18642"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="619.4426" Y="398.6093" Z="35.42945"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="409.1762" Y="627.5685" Z="32.97008"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="203.4947" Y="621.6542" Z="42.97493"/>
+<!--Seen Name="Infected Fawn"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-499.0337" Y="686.1702" Z="88.56681"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-789.4237" Y="1309.391" Z="33.95329"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-619.0419" Y="1443.423" Z="28.64045"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="746.2361" Y="1654.404" Z="43.00776"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1172.036" Y="1798.237" Z="18.43832"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1314.127" Y="1263.584" Z="52.28578"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1309.424" Y="855.7556" Z="36.69333"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1141.063" Y="599.3102" Z="41.1459"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="628.4371" Y="928.6873" Z="36.16476"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-187.4606" Y="836.1378" Z="62.87395"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-587.2175" Y="880.0688" Z="92.41173"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="212.7063" Y="1605.812" Z="136.5172"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="926.989" Y="1585.638" Z="33.1077"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1135.683" Y="1294.148" Z="38.85381"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-107.5093" Y="937.8531" Z="68.2296"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="358.6046" Y="1492.577" Z="123.0692"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="687.4702" Y="1394.42" Z="74.45348"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="204.3107" Y="1190.465" Z="74.31438"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1510.772" Y="772.3433" Z="53.22248"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-635.6653" Y="1627.41" Z="31.10963"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="1313.284" Y="1265.736" Z="52.20646"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1020.86" Y="144.1061" Z="33.75381"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="774.2866" Y="225.7867" Z="41.12328"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="623.6544" Y="425.8493" Z="37.25029"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="299.0535" Y="598.8819" Z="50.69134"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Infected Fawn"-->
+<Hotspot X="68.75" Y="639.4269" Z="78.44788"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-495.5293" Y="677.8145" Z="88.18648"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-766.7722" Y="1306.162" Z="33.96379"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-675.0338" Y="1520.331" Z="29.69065"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="745.7338" Y="1646.922" Z="40.66965"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1174.439" Y="1800.416" Z="18.80895"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1320.514" Y="1264.297" Z="51.84442"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1321.228" Y="842.5148" Z="38.08698"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="1142.016" Y="608.4708" Z="40.03448"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="628.9457" Y="913.9378" Z="34.80464"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="223.2829" Y="704.7837" Z="42.47098"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-177.4444" Y="831.0301" Z="60.64173"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-498.1552" Y="919.9604" Z="90.44038"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-487.0461" Y="1352.725" Z="36.36889"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="195.5489" Y="1595.257" Z="137.6277"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="690.9919" Y="1406.676" Z="71.51678"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="-98.95898" Y="936.459" Z="67.96891"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="545.9493" Y="1369.953" Z="87.51669"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="792.5157" Y="1336.373" Z="66.58523"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="546.2527" Y="1293.685" Z="87.20164"/>
+<!--Seen Name="Blighted Squirrel"-->
+<Hotspot X="207.0326" Y="1192.91" Z="74.44875"/>
+<!--Seen Name="Blighted Squirrel"-->
+<!--Seen Name="Blighted Squirrel"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

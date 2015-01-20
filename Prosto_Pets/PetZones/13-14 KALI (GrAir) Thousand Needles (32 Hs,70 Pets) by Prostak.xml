@@ -1,0 +1,134 @@
+<HBProfile>
+  <Name>Thousand Needles</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-5343.206" Y="-3899.726" Z="86.19915"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5350.306" Y="-4224.265" Z="91.8441"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-6262.065" Y="-4597.607" Z="95.4442"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-6452.934" Y="-4384.465" Z="86.9165"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-6661.604" Y="-4126.525" Z="86.14143"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-6756.06" Y="-3935.902" Z="88.36973"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-6777.475" Y="-3591.707" Z="86.48524"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-6148.802" Y="-3317.737" Z="86.52994"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-5822.379" Y="-3078.894" Z="94.08064"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<Hotspot X="-5752.306" Y="-2802.993" Z="87.51991"/>
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<Hotspot X="-5692.721" Y="-1808.462" Z="88.57134"/>
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<Hotspot X="-5574.825" Y="-1630.063" Z="87.68338"/>
+<!--Seen Name="Twilight Iguana"-->
+<!--Seen Name="Twilight Iguana"-->
+<Hotspot X="-5195.905" Y="-1199.198" Z="46.61057"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-5242.069" Y="-856.0485" Z="89.50043"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-4974.681" Y="-749.2966" Z="86.44721"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-4719.313" Y="-744.7907" Z="88.93851"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-4716.109" Y="-1718.27" Z="92.11291"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5125.43" Y="-2693.151" Z="90.86222"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5340.352" Y="-3898.818" Z="86.26525"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5687.618" Y="-3321.39" Z="106.8785"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5569.337" Y="-2645.372" Z="88.15057"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5618.039" Y="-2326.233" Z="92.70708"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-5511.171" Y="-2055.869" Z="81.96596"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-5029.927" Y="-1306.182" Z="99.39815"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-4721.457" Y="-1541.867" Z="98.16483"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5163.422" Y="-2160.552" Z="93.19769"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-5273.46" Y="-2511.322" Z="81.80424"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-5466.916" Y="-2784.736" Z="94.21929"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-5381.702" Y="-2977.768" Z="93.72472"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-4972.337" Y="-1447.218" Z="96.8011"/>
+<!--Seen Name="Roach"-->
+<Hotspot X="-6148.157" Y="-3321.79" Z="86.42716"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-6740.723" Y="-3408.005" Z="86.25687"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Scorpid"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

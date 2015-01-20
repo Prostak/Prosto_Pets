@@ -1,0 +1,183 @@
+<HBProfile>
+  <Name>Redridge Mountains</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-9530.971" Y="-3522.257" Z="134.3515"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9727.414" Y="-3224.03" Z="58.73445"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9780.719" Y="-2988.889" Z="94.53003"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9650.491" Y="-2324.091" Z="71.31828"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9778.606" Y="-1849.681" Z="42.91618"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9554.412" Y="-1908.387" Z="70.10339"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Redridge Rat"-->
+<Hotspot X="-9183.726" Y="-1979.491" Z="117.2835"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-8934.86" Y="-2102.053" Z="137.7037"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9370.413" Y="-3444.534" Z="92.24335"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9639.944" Y="-3168.72" Z="49.33236"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9587.909" Y="-2257.891" Z="85.5741"/>
+<!--Seen Name="Redridge Rat"-->
+<Hotspot X="-9178.403" Y="-2097.419" Z="88.02954"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9072.031" Y="-2297.458" Z="179.6092"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9023.934" Y="-2557.178" Z="131.3187"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9112.308" Y="-2746.992" Z="93.33994"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9134.941" Y="-3029.824" Z="108.3755"/>
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9052.103" Y="-3218.3" Z="105.8256"/>
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9558.588" Y="-3058.168" Z="80.09653"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9567.303" Y="-2112.076" Z="73.34004"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9139.779" Y="-2306.808" Z="117.8435"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9222.149" Y="-3107.511" Z="107.8402"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9448.991" Y="-2232.501" Z="70.69213"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9537.651" Y="-3530.378" Z="136.4837"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9721.668" Y="-3217.783" Z="58.78223"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9780.719" Y="-2988.889" Z="94.568"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9684.448" Y="-2776.955" Z="52.3772"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9656.508" Y="-2316.23" Z="71.41447"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9464.795" Y="-1861.564" Z="100.0918"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Roach"-->
+<!--Seen Name="Redridge Rat"-->
+<Hotspot X="-9186.384" Y="-1981.32" Z="117.6025"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-8921.152" Y="-2112.135" Z="137.7163"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9639.896" Y="-3172.064" Z="49.18808"/>
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9617.497" Y="-2254.265" Z="85.40473"/>
+<!--Seen Name="Redridge Rat"-->
+<Hotspot X="-9381.9" Y="-1986.663" Z="58.47506"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="-9190.649" Y="-2083.032" Z="86.73972"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9064.767" Y="-2303.04" Z="179.6092"/>
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<!--Seen Name="Fledgling Buzzard"-->
+<Hotspot X="-9108.389" Y="-2733.235" Z="93.89075"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="-9134.745" Y="-3030.618" Z="108.4932"/>
+<!--Seen Name="Redridge Rat"-->
+<!--Seen Name="Redridge Rat"-->
+<Hotspot X="-9211.193" Y="-3225.599" Z="100.6607"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9557.929" Y="-3043.324" Z="81.45689"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9229.333" Y="-3100.827" Z="108.1254"/>
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<!--Seen Name="Mountain Cottontail"-->
+<Hotspot X="-9647.644" Y="-1697.133" Z="64.27233"/>
+<!--Seen Name="Rabbit"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

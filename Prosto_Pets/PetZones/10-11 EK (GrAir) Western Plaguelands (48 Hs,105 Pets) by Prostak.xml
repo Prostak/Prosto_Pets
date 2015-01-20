@@ -1,0 +1,185 @@
+<HBProfile>
+  <Name>Western Plaguelands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="3017.195" Y="-1478.755" Z="146.3685"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="872.9725" Y="-2119.968" Z="37.53505"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="1302.358" Y="-974.3452" Z="61.94404"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1616.507" Y="-941.5856" Z="70.68115"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1888.878" Y="-1564.974" Z="59.68124"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2094.688" Y="-2490.683" Z="59.42107"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1687.357" Y="-2219.66" Z="59.50697"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1130.15" Y="-2551.062" Z="59.46548"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1112.287" Y="-1854.521" Z="60.67507"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1236.989" Y="-1393.627" Z="53.19261"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="1821.351" Y="-1569.791" Z="59.33013"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1905.325" Y="-1777.425" Z="62.45702"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1688.64" Y="-2225.392" Z="59.10375"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1545.555" Y="-2050.265" Z="62.4306"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1461.017" Y="-1705.366" Z="73.49811"/>
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="1490.589" Y="-1498.269" Z="56.58436"/>
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="3052.527" Y="-1465.815" Z="150.7303"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="870.6465" Y="-2120.121" Z="37.41066"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="1296.427" Y="-995.5159" Z="59.59672"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1608.887" Y="-966.2955" Z="69.21748"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1852.576" Y="-1442.499" Z="61.93291"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2065.079" Y="-2477.47" Z="60.6389"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1165.742" Y="-2392.438" Z="59.87934"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1118.183" Y="-1836.632" Z="61.31844"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1237.532" Y="-1393.081" Z="52.94305"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="1846.873" Y="-1553.652" Z="58.94559"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1887.112" Y="-2235.839" Z="63.45221"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1639.259" Y="-2133.272" Z="62.8616"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1457.342" Y="-1921.838" Z="59.86819"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1461.017" Y="-1705.366" Z="73.49811"/>
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="1490.589" Y="-1498.269" Z="56.58436"/>
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+<Hotspot X="3004.851" Y="-1486.984" Z="146.3325"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="877.9442" Y="-2123.831" Z="39.97696"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="1278.209" Y="-990.3566" Z="62.10723"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="1712.939" Y="-1169.889" Z="59.69598"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1858.293" Y="-1434.069" Z="62.69184"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="2025.466" Y="-1606.572" Z="60.89295"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2233.66" Y="-2391.77" Z="59.56404"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1920.862" Y="-2470.376" Z="68.59936"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1168.985" Y="-2371.605" Z="58.20926"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1112.302" Y="-1845.395" Z="60.95558"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1227.669" Y="-1383.236" Z="52.82432"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1445.659" Y="-1203.244" Z="62.41657"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1843.647" Y="-1536.93" Z="59.05938"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1875.724" Y="-2226.614" Z="62.54359"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1649.137" Y="-2132.545" Z="61.89647"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="1485.122" Y="-1873.686" Z="58.91927"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="1417.272" Y="-1685.138" Z="70.97471"/>
+<!--Seen Name="Blighthawk"-->
+<!--Seen Name="Blighthawk"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

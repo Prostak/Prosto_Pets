@@ -1,0 +1,836 @@
+<HBProfile>
+  <Name>Twilight Highlands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-3060.763" Y="-3272.953" Z="69.07132"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3489.826" Y="-3807.549" Z="76.38499"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4323.765" Y="-3391.261" Z="232.3974"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3459.82" Y="-3792.182" Z="79.93523"/>
+<!--Seen Name="Highlands Mouse"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2727.511" Y="-3476.812" Z="181.5688"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2871.969" Y="-3641.332" Z="194.449"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2937.296" Y="-3956.403" Z="267.9555"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-2550.86" Y="-4618.766" Z="157.2361"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2477.797" Y="-5039.389" Z="134.4631"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2424.846" Y="-5391.752" Z="142.9139"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3038.214" Y="-6155.291" Z="90.84446"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3289.606" Y="-6105.186" Z="101.7392"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3519.489" Y="-6189.612" Z="5.820676"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4078.396" Y="-6466.122" Z="37.96273"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4307.469" Y="-6504.159" Z="2.88607"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4517.442" Y="-6562.182" Z="2.363905"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4707.237" Y="-6426.136" Z="5.581124"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-5088.34" Y="-6057.346" Z="1.368339"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5121.219" Y="-5813.496" Z="13.1593"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5178.592" Y="-5455.688" Z="24.18864"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5426.821" Y="-4828.458" Z="37.82912"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5227.229" Y="-4930.85" Z="75.88957"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5132.531" Y="-4615.39" Z="355.8105"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-5021.635" Y="-4350.624" Z="361.4377"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4821.076" Y="-4092.653" Z="306.3659"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4601.61" Y="-4078.868" Z="331.948"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4094.937" Y="-3861.922" Z="188.4933"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3914.474" Y="-4081.246" Z="172.587"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3055.569" Y="-4084.212" Z="266.4863"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2822.485" Y="-4451.227" Z="198.9516"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-2656.804" Y="-5292.593" Z="170.8547"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Wildhammer Gryphon Hatchling"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3108.095" Y="-5891.386" Z="101.7902"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3574.322" Y="-6040.974" Z="19.7166"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3896.583" Y="-5929.36" Z="11.83965"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-4138.01" Y="-5876.194" Z="14.84517"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-4522.528" Y="-5996.932" Z="32.11563"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4924.804" Y="-5960.494" Z="23.70991"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4970.195" Y="-5754.495" Z="32.04672"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5121.387" Y="-5515.307" Z="32.50766"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5094.191" Y="-4788.051" Z="325.0964"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5057.392" Y="-4447.594" Z="357.2186"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4555.318" Y="-4056.665" Z="331.7939"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3159.475" Y="-4076.454" Z="236.2923"/>
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-3082.134" Y="-4438.731" Z="182.4971"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2730.846" Y="-5600.86" Z="377.3962"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2941.414" Y="-5745.83" Z="160.3482"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3295.568" Y="-5753.453" Z="76.2241"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3490.57" Y="-5823.032" Z="28.46192"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3764.185" Y="-5852.532" Z="12.76959"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3962.867" Y="-5762.139" Z="33.56039"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3946.95" Y="-5545.285" Z="65.30609"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4484.475" Y="-5402.946" Z="87.76048"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4678.033" Y="-5254.275" Z="118.7548"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4902.282" Y="-5181.602" Z="145.2302"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-4443.239" Y="-4295.214" Z="327.6364"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3976.358" Y="-4326.584" Z="198.1342"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3822.217" Y="-4458.121" Z="181.1033"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3409.051" Y="-4360.925" Z="181.2979"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2941.663" Y="-4817.811" Z="148.8403"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2926.443" Y="-5134.392" Z="141.5258"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3059.882" Y="-5300.574" Z="100.5593"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3265.589" Y="-5401.572" Z="59.19251"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3344.569" Y="-5589.61" Z="43.85825"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3612.259" Y="-5740.173" Z="12.15093"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3710.016" Y="-5562.655" Z="36.24578"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3884.386" Y="-5455.297" Z="57.72666"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4081.826" Y="-5415.12" Z="44.4264"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4420.556" Y="-5141.742" Z="79.40807"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-4505.721" Y="-4841.728" Z="153.6019"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3927.627" Y="-5373.846" Z="33.52146"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-3410.642" Y="-5279.03" Z="9.342252"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-3190.068" Y="-5110.618" Z="134.9428"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3353.33" Y="-4870.842" Z="110.8586"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3477.881" Y="-4673.85" Z="124.0253"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3490.383" Y="-4240.59" Z="214.2962"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3287.32" Y="-4339.849" Z="162.0121"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-2991.805" Y="-3177.355" Z="54.97327"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3459.677" Y="-3790.544" Z="80.29116"/>
+<!--Seen Name="Highlands Mouse"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4319.834" Y="-3394.312" Z="232.0468"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3491.654" Y="-3811.448" Z="77.15849"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3312.679" Y="-3904.984" Z="204.4329"/>
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-2716.035" Y="-3478.466" Z="181.8398"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2943.188" Y="-3955.576" Z="268.2445"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-2553.412" Y="-4621.502" Z="157.9727"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2474.1" Y="-5043.3" Z="133.5301"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2413.023" Y="-5390.707" Z="136.7355"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3030.417" Y="-6154.476" Z="90.94559"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3291.125" Y="-6105.118" Z="101.6736"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3520.997" Y="-6183.631" Z="6.736043"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4078.163" Y="-6465.087" Z="37.7845"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4415.264" Y="-6554.027" Z="2.298134"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4702.801" Y="-6243.579" Z="6.387247"/>
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-5086.725" Y="-6063.222" Z="1.010212"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5118.234" Y="-5817.239" Z="13.34346"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5173.416" Y="-5460.444" Z="25.12502"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5426.542" Y="-4823.897" Z="37.82913"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5229.001" Y="-4925.555" Z="75.39385"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5142.769" Y="-4712.71" Z="354.8943"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-5109.177" Y="-4184.11" Z="384.9108"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4780.501" Y="-4100.697" Z="308.9798"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4096.531" Y="-3862.182" Z="188.6564"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3915.347" Y="-4082.097" Z="172.6507"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3195.367" Y="-4016.304" Z="221.6647"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2923.307" Y="-4348.512" Z="193.518"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-2639.209" Y="-4690.201" Z="169.0255"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2609.433" Y="-5205.109" Z="153.3291"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Wildhammer Gryphon Hatchling"-->
+<Hotspot X="-2571.041" Y="-5408.596" Z="167.5023"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3107.999" Y="-5889.628" Z="101.6992"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3574.213" Y="-6044.344" Z="19.44149"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3895.654" Y="-5929.925" Z="11.70457"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-4143.967" Y="-5940.403" Z="15.24333"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4341.182" Y="-5905.777" Z="33.2907"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4524.234" Y="-5999.493" Z="32.25553"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4872.755" Y="-5853.366" Z="30.45248"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-5118.962" Y="-5516.6" Z="32.67044"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5094.512" Y="-4784.97" Z="325.2524"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4595.893" Y="-4115.645" Z="331.9229"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4261.297" Y="-3980.292" Z="322.0991"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-3158.169" Y="-4077.385" Z="237.159"/>
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-3084.693" Y="-4433.147" Z="183.5761"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2731.25" Y="-5598.672" Z="377.6505"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2935.598" Y="-5744.781" Z="160.7872"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3285.613" Y="-5747.709" Z="76.75168"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3486.662" Y="-5822.623" Z="29.65487"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3760.775" Y="-5854.786" Z="11.91827"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3944.901" Y="-5715.553" Z="25.98378"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4392.492" Y="-5389.363" Z="75.44518"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4648.97" Y="-5392.659" Z="87.5667"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4767.932" Y="-5219.989" Z="117.1533"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-4440.13" Y="-4300.208" Z="326.9641"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3978.001" Y="-4315.201" Z="198.5241"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3824.222" Y="-4462.158" Z="180.0629"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3410.094" Y="-4363.141" Z="181.1832"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3044.666" Y="-4878.858" Z="143.8722"/>
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2926.235" Y="-5137.92" Z="141.434"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3104.405" Y="-5254.26" Z="101.617"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3218.573" Y="-5428.8" Z="64.48647"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-3346.298" Y="-5596.275" Z="42.69955"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3625.84" Y="-5659.902" Z="28.97896"/>
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3838.626" Y="-5567.22" Z="65.63698"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4052.47" Y="-5448.202" Z="59.122"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4125.905" Y="-5201.861" Z="-10.15241"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4426.021" Y="-5038.719" Z="113.6308"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-4579.693" Y="-4842.835" Z="164.5913"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3875.377" Y="-5365.035" Z="34.52128"/>
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3359.06" Y="-5222.092" Z="52.04966"/>
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-3188.06" Y="-5104.779" Z="135.7314"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3345.63" Y="-4878.728" Z="111.3808"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3479.582" Y="-4678.107" Z="122.9604"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3722.229" Y="-4549.167" Z="169.1434"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3489.827" Y="-4235.954" Z="214.6376"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3286.326" Y="-4339.657" Z="161.971"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-2988.641" Y="-3177.243" Z="55.52691"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3491.498" Y="-3811.916" Z="77.19184"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3463.828" Y="-3789.902" Z="80.74358"/>
+<!--Seen Name="Highlands Mouse"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-2720.691" Y="-3474.274" Z="182.218"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-2838.844" Y="-3923.413" Z="223.7116"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<Hotspot X="-2546.896" Y="-4620.288" Z="156.5926"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2468.246" Y="-5042.689" Z="132.2892"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2410.272" Y="-5390.892" Z="135.4089"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-2547.941" Y="-5756.418" Z="99.48356"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3035.446" Y="-6153.424" Z="91.23576"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3238.538" Y="-6257.96" Z="89.89085"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3477.178" Y="-6135.593" Z="32.59155"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4075.015" Y="-6464.054" Z="37.85283"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-4418.221" Y="-6554.953" Z="2.163257"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-4706.359" Y="-6241.742" Z="6.09086"/>
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-5086.357" Y="-6060.351" Z="1.22728"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5119.112" Y="-5819.255" Z="13.14751"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5175.104" Y="-5452.225" Z="24.54621"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-5425.834" Y="-4822.662" Z="37.82917"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5229.079" Y="-4926.656" Z="75.47183"/>
+<!--Seen Name="Highlands Mouse"-->
+<Hotspot X="-5140.661" Y="-4711.74" Z="354.8943"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-5107.375" Y="-4186.528" Z="385.184"/>
+<!--Seen Name="Little Black Ram"-->
+<Hotspot X="-4769.648" Y="-4084.545" Z="311.9822"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-4093.062" Y="-3864.643" Z="188.1539"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3912.977" Y="-4077.291" Z="171.9101"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3149.484" Y="-4019.585" Z="236.722"/>
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Highlands Turkey"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2915.66" Y="-4349.057" Z="194.5115"/>
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-2639.794" Y="-4695.205" Z="167.6485"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-2610.631" Y="-5211.334" Z="154.6366"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Wildhammer Gryphon Hatchling"-->
+<Hotspot X="-2567.563" Y="-5408.174" Z="166.8255"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="-3110.791" Y="-5889.771" Z="101.3557"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3572.763" Y="-6039.741" Z="20.00191"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3894.935" Y="-5922.257" Z="10.70207"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4142.952" Y="-5940.792" Z="15.27984"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4343.146" Y="-5905.712" Z="33.62185"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4523.781" Y="-5997.192" Z="32.16693"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4869.632" Y="-5850.541" Z="30.28989"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5117.322" Y="-5514.378" Z="32.74608"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5201.833" Y="-4985.882" Z="78.26566"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-5096.904" Y="-4788.416" Z="324.9542"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4603.886" Y="-4117.748" Z="331.7845"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4260.866" Y="-3989.855" Z="321.9338"/>
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-3082.515" Y="-4440.796" Z="182.0261"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-2938.986" Y="-5740.658" Z="160.8441"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3283.97" Y="-5749.356" Z="78.42588"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-3486.867" Y="-5823.271" Z="29.49788"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3760.638" Y="-5853.542" Z="12.06878"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3875.39" Y="-5686.082" Z="46.00019"/>
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4094.983" Y="-5633.055" Z="34.02259"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4400.112" Y="-5392.622" Z="77.77273"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-4649.68" Y="-5389.052" Z="88.33628"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-4773.313" Y="-5223.906" Z="117.121"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-4441.92" Y="-4306.556" Z="325.7806"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3977.194" Y="-4323.337" Z="198.4286"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-3654.482" Y="-4432.891" Z="201.4642"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3409.968" Y="-4362.089" Z="181.368"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3040.587" Y="-4878.967" Z="145.0681"/>
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-2927.706" Y="-5139.683" Z="141.2968"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3103.832" Y="-5241.602" Z="104.1065"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3218.14" Y="-5429.209" Z="64.35754"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<Hotspot X="-3354.51" Y="-5588.424" Z="42.11778"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Spider"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3556.51" Y="-5650.938" Z="14.5342"/>
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Grizzly Squirrel"-->
+<Hotspot X="-3796.252" Y="-5583.075" Z="53.82238"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4010.416" Y="-5491.541" Z="80.05614"/>
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-4128.784" Y="-5197.51" Z="-9.700926"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-4419.791" Y="-5136.459" Z="79.94043"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Rattlesnake"-->
+<Hotspot X="-4581.787" Y="-4852.495" Z="163.8166"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3870.679" Y="-5362.31" Z="33.80039"/>
+<!--Seen Name="Twilight Fiendling"-->
+<Hotspot X="-3363.966" Y="-5227.073" Z="50.75013"/>
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Highlands Skunk"-->
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Highlands Skunk"-->
+<Hotspot X="-3194.266" Y="-5111.474" Z="133.4168"/>
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<!--Seen Name="Yellow-Bellied Marmot"-->
+<Hotspot X="-3349.328" Y="-4871.334" Z="112.0671"/>
+<!--Seen Name="Black Rat"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Rattlesnake"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3477.766" Y="-4672.498" Z="124.3338"/>
+<!--Seen Name="Grizzly Squirrel"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-3492.885" Y="-4234.411" Z="214.6213"/>
+<!--Seen Name="Black Rat"-->
+<Hotspot X="-3291.179" Y="-4343.98" Z="162.2518"/>
+<!--Seen Name="Highlands Mouse"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

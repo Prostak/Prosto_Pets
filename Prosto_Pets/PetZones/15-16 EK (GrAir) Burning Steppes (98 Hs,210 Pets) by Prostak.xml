@@ -1,0 +1,340 @@
+<HBProfile>
+  <Name>Burning Steppes</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-7679.119" Y="-720.0663" Z="183.1404"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7731.227" Y="-1385.177" Z="131.6905"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-7468.189" Y="-1606.418" Z="261.7789"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7517.69" Y="-1948.13" Z="184.7163"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7551.014" Y="-2328.78" Z="157.049"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7559.821" Y="-2629.788" Z="138.6447"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7613.166" Y="-2947.906" Z="132.1752"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8144.955" Y="-3089.49" Z="200.5585"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8518.244" Y="-2421.442" Z="244.14"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8483.705" Y="-2184.94" Z="259.2748"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8308.765" Y="-1839.473" Z="145.4357"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8374.897" Y="-1572.508" Z="207.7311"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8347.565" Y="-1292.647" Z="207.3082"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8325.602" Y="-840.2916" Z="226.0354"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7701.772" Y="-1605.121" Z="131.6232"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7677.177" Y="-1839.331" Z="133.3785"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7677.883" Y="-2282.426" Z="142.1257"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7615.139" Y="-2555.545" Z="133.4582"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7654.166" Y="-2879.166" Z="135.1652"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8355.486" Y="-2821.463" Z="207.0944"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8274.583" Y="-1910.391" Z="143.9129"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8209.084" Y="-1689.716" Z="142.5378"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8208.072" Y="-1406.219" Z="142.6626"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8211.355" Y="-1120.981" Z="145.8698"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7903.773" Y="-1550.408" Z="138.4632"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7824.103" Y="-1962.406" Z="136.7205"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7826.802" Y="-2514.065" Z="140.2633"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7829.835" Y="-2751.078" Z="140.5792"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7979.178" Y="-1879.651" Z="129.7234"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8095.69" Y="-1704.76" Z="131.1832"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7898.002" Y="-1497.465" Z="140.8136"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7528.615" Y="-2183.867" Z="131.6641"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7768.994" Y="-2130.398" Z="129.1743"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8222.913" Y="-1977.362" Z="142.8995"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-7793.589" Y="-620.612" Z="205.863"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7722.288" Y="-1380.805" Z="131.6814"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-7470.151" Y="-1610.659" Z="261.9929"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7519.461" Y="-1952.44" Z="183.979"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7534.513" Y="-2181.097" Z="131.8588"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7635.052" Y="-3108.855" Z="200.467"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8014.837" Y="-3106.435" Z="205.863"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8485.354" Y="-2713.008" Z="227.8172"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8520.256" Y="-2416.296" Z="244.1425"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8479.83" Y="-2180.255" Z="259.2788"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8420.169" Y="-1682.998" Z="237.7116"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8351.842" Y="-1286.779" Z="208.1581"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8327.371" Y="-831.6567" Z="225.9789"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7711.568" Y="-1752.253" Z="131.1786"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7658.993" Y="-1978.384" Z="134.3522"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-7650.986" Y="-2292.215" Z="131.3981"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7793.646" Y="-2906.815" Z="133.1127"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8107.94" Y="-2945.009" Z="134.4667"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8356.408" Y="-2820.895" Z="207.2797"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8390.228" Y="-2471.462" Z="131.4922"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-8205.907" Y="-2212.892" Z="132.6895"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8230.628" Y="-1975.522" Z="143.4068"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-8248.138" Y="-1712.152" Z="139.9404"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8222.279" Y="-1310.225" Z="141.6721"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7955.729" Y="-1417.907" Z="134.7149"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7886.24" Y="-1606.32" Z="131.3786"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7744.33" Y="-1844.499" Z="133.6115"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7767.431" Y="-2133.168" Z="129.6143"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7758.317" Y="-2629.458" Z="140.2331"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7969.319" Y="-2639.195" Z="195.4744"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8016.463" Y="-2139.256" Z="127.223"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7931.003" Y="-1497.128" Z="146.5309"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7646.894" Y="-2082.615" Z="124.189"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8225.291" Y="-1971.908" Z="142.8733"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7796.412" Y="-617.7256" Z="205.863"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7722.227" Y="-1379.398" Z="131.8713"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7548.724" Y="-1573.262" Z="214.9238"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7522.9" Y="-1949.428" Z="183.869"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7548.131" Y="-2334.238" Z="156.5871"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7628.337" Y="-3105.549" Z="200.6027"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8020.214" Y="-3104.831" Z="205.863"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8485.687" Y="-2711.477" Z="227.8271"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8518.293" Y="-2417.903" Z="244.1326"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8479.761" Y="-2185.959" Z="259.2788"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8422.139" Y="-1686.855" Z="238.2273"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8348.177" Y="-1289.427" Z="208.2241"/>
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8326.031" Y="-840.1435" Z="226.0354"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-7653.021" Y="-1976.219" Z="134.3647"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-7647.822" Y="-2290.695" Z="131.2638"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7726.63" Y="-2480.005" Z="144.298"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7814.103" Y="-2843.083" Z="133.5541"/>
+<!--Seen Name="Ash Viper"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8107.553" Y="-2944.9" Z="134.4568"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8364.099" Y="-2821.316" Z="208.8398"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-8391.308" Y="-2475.313" Z="131.483"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<Hotspot X="-8202.727" Y="-2209.254" Z="132.3515"/>
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8236.168" Y="-1968.709" Z="144.1147"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-8244.957" Y="-1720.647" Z="139.9404"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Crab"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-8225.45" Y="-1306.587" Z="141.6236"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7957.441" Y="-1411.745" Z="134.2254"/>
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-7883.954" Y="-1605.628" Z="131.4259"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7768.38" Y="-2127.553" Z="129.0891"/>
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-7751.423" Y="-2630.257" Z="140.2331"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Ash Viper"-->
+<Hotspot X="-7968.871" Y="-2643.065" Z="195.5217"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+<Hotspot X="-8015.925" Y="-1617.552" Z="129.7445"/>
+<!--Seen Name="Lava Beetle"-->
+<!--Seen Name="Lava Beetle"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

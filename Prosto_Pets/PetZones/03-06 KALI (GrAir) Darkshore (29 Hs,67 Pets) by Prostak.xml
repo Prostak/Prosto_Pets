@@ -1,0 +1,128 @@
+<HBProfile>
+  <Name>Darkshore</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="7118.374" Y="68.09573" Z="14.28738"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="6948.377" Y="-47.00299" Z="17.97835"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7222.499" Y="-145.9798" Z="18.84122"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="6820.816" Y="-69.72212" Z="28.46189"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="7117.151" Y="-672.2246" Z="49.51288"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7320.273" Y="-979.8906" Z="32.33496"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="7452.034" Y="-1571.024" Z="178.2723"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="7912.436" Y="-1113.223" Z="36.52233"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="7606.151" Y="-863.7958" Z="15.18844"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Shimmershell Snail"-->
+<!--Seen Name="Shimmershell Snail"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="7396.327" Y="-604.699" Z="17.18703"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Shimmershell Snail"-->
+<!--Seen Name="Shimmershell Snail"-->
+<Hotspot X="7243.509" Y="-306.4177" Z="19.70119"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="6259.728" Y="58.5918" Z="11.07223"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="6051.307" Y="6.070515" Z="14.84034"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="5727.329" Y="136.3621" Z="23.42337"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="5547.631" Y="226.5917" Z="21.71918"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="5302.167" Y="214.5929" Z="13.04505"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="5045.211" Y="319.8051" Z="32.00067"/>
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<Hotspot X="4817.588" Y="423.5211" Z="24.36608"/>
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<Hotspot X="4604.108" Y="420.0063" Z="19.11405"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="4277.041" Y="494.9194" Z="61.0302"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4525.891" Y="589.9161" Z="24.41313"/>
+<!--Seen Name="Shimmershell Snail"-->
+<Hotspot X="4731.542" Y="275.6995" Z="50.72194"/>
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<Hotspot X="4937.834" Y="179.8952" Z="50.89701"/>
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<!--Seen Name="Darkshore Cub"-->
+<Hotspot X="6004.637" Y="320.3603" Z="22.29609"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="6183.441" Y="437.7107" Z="19.1821"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Shimmershell Snail"-->
+<!--Seen Name="Shimmershell Snail"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="6419.775" Y="453.6418" Z="14.94196"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="6599.8" Y="345.4687" Z="14.40828"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="4588.986" Y="348.6151" Z="18.40265"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="4217.885" Y="377.6587" Z="60.31629"/>
+<!--Seen Name="Squirrel"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

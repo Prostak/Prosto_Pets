@@ -1,0 +1,135 @@
+<HBProfile>
+  <Name>Blasted Lands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-12432.49" Y="-2646.17" Z="2.147488"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12696.23" Y="-2877.491" Z="1.905658"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-12512.51" Y="-2999.482" Z="2.854152"/>
+<!--Seen Name="Adder"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12273.22" Y="-2660.596" Z="2.282656"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11943.86" Y="-2491.816" Z="-24.55541"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12370.09" Y="-2553.524" Z="2.86591"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-11752.35" Y="-2961.516" Z="8.32249"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12542.47" Y="-3383.733" Z="5.912794"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12362.44" Y="-3755.115" Z="5.56433"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12156.72" Y="-3691.8" Z="12.32522"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-12384.5" Y="-3283.746" Z="25.2138"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12388.7" Y="-3513.86" Z="21.57763"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="-10995.11" Y="-3397.768" Z="62.36639"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11077.03" Y="-2874.184" Z="10.06515"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-11530" Y="-2833.111" Z="6.680199"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="-11520.98" Y="-3086.994" Z="-1.025164"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12071.22" Y="-3384.545" Z="91.72318"/>
+<!--Seen Name="Scorpling"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Scorpling"-->
+<Hotspot X="-11457.28" Y="-3420.834" Z="7.298155"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-11427.14" Y="-2928.497" Z="3.72544"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11249.86" Y="-3147.719" Z="3.63044"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="-12418.69" Y="-2652.51" Z="4.344753"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12708.59" Y="-2880.526" Z="1.63438"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12519.3" Y="-2985.664" Z="2.822916"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12272.5" Y="-2651.626" Z="3.184623"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11939.42" Y="-2486.662" Z="-23.91813"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12379.73" Y="-2531.469" Z="3.612726"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-11742.06" Y="-2954.462" Z="5.881672"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12521.58" Y="-3381.4" Z="6.640517"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12346.81" Y="-3750.708" Z="4.358025"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12087.78" Y="-3786.64" Z="6.974232"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12383.57" Y="-3289.846" Z="25.20393"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-12393.91" Y="-3521.992" Z="22.43218"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="-11001.69" Y="-3401.431" Z="62.09168"/>
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11091.29" Y="-2864.241" Z="11.68842"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-11520.2" Y="-2811.441" Z="3.989308"/>
+<!--Seen Name="Spider"-->
+<Hotspot X="-11525.22" Y="-3102.766" Z="-1.21255"/>
+<!--Seen Name="Adder"-->
+<Hotspot X="-12057.51" Y="-3376.918" Z="89.35758"/>
+<!--Seen Name="Scorpling"-->
+<!--Seen Name="Scorpling"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Scorpling"-->
+<Hotspot X="-11453.11" Y="-3419.918" Z="6.42462"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Scorpid"-->
+<Hotspot X="-11408.13" Y="-2899.991" Z="3.649313"/>
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Fire Beetle"-->
+<Hotspot X="-11253.58" Y="-3148.33" Z="3.802473"/>
+<!--Seen Name="Scorpid"-->
+<!--Seen Name="Fire Beetle"-->
+<!--Seen Name="Adder"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

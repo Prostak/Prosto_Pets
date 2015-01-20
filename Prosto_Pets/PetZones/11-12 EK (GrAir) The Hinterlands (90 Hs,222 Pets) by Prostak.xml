@@ -1,0 +1,344 @@
+<HBProfile>
+  <Name>The Hinterlands</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="326.0843" Y="-2230.432" Z="137.7385"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="57.88962" Y="-2290.893" Z="111.1758"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-26.50876" Y="-2487.408" Z="120.5548"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-262.1181" Y="-2558.894" Z="118.7998"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-543.6625" Y="-3862.797" Z="230.6897"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="-319.6471" Y="-4595.005" Z="10.75911"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="1021.106" Y="-3847.004" Z="110.6452"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="156.3358" Y="-2420.441" Z="124.2228"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-27.93812" Y="-2550.214" Z="117.4163"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-271.7109" Y="-2993.293" Z="102.5348"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-207.469" Y="-3191.204" Z="122.6666"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-216.9529" Y="-3829.717" Z="239.2906"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-429.8442" Y="-3946.404" Z="215.8687"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="-457.9013" Y="-4192.689" Z="195.1043"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-25.726" Y="-4587.833" Z="10.69658"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="339.7617" Y="-4226.496" Z="118.857"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="706.7935" Y="-4150.697" Z="100.4667"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="692.9507" Y="-3850.533" Z="114.3428"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="462.8267" Y="-3623.666" Z="119.2596"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="446.1134" Y="-3350.165" Z="119.774"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="318.3606" Y="-3171.083" Z="119.4512"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="105.0948" Y="-2522.169" Z="120.6534"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-11.69173" Y="-2802.567" Z="123.8848"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-91.68504" Y="-2991.383" Z="121.0281"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="3.729598" Y="-3493.634" Z="117.4293"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-71.39294" Y="-4038.484" Z="122.591"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="105.0521" Y="-4384.622" Z="121.5608"/>
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="418.6953" Y="-3919.752" Z="127.3017"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<Hotspot X="393.6183" Y="-3716.762" Z="128.5284"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="152.4471" Y="-3249.871" Z="118.2902"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="258.2224" Y="-3465.314" Z="156.1543"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-34.13161" Y="-3281.227" Z="119.2901"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="37.38686" Y="-3607.547" Z="124.3052"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="349.2041" Y="-3659.358" Z="126.4119"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-782.151" Y="-4449.52" Z="12.07645"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-33.14898" Y="-2486.165" Z="120.1333"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-255.6869" Y="-3347.729" Z="138.5507"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-541.6852" Y="-3862.009" Z="230.6897"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-769.7764" Y="-4458.183" Z="11.86322"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-39.71966" Y="-4605.622" Z="9.269186"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="1007.883" Y="-3922.696" Z="104.1973"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="301.3906" Y="-2656.422" Z="117.0595"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="245.6512" Y="-2423.114" Z="133.8028"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-259.5091" Y="-2881.743" Z="90.81604"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-202.2729" Y="-3184.784" Z="121.6603"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-159.0093" Y="-3475.504" Z="130.479"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-251.1698" Y="-3827.418" Z="239.5209"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-423.764" Y="-3942.536" Z="215.9934"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-393.4813" Y="-4163.835" Z="174.168"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="152.8003" Y="-4560.546" Z="119.7425"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="521.3876" Y="-4170.995" Z="124.6469"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="742.7266" Y="-4000.677" Z="97.13483"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="471.3401" Y="-3624.465" Z="118.6926"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="315.6804" Y="-3362.508" Z="114.768"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="142.9" Y="-2990.711" Z="123.5133"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="115.8088" Y="-2519.793" Z="120.5183"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="10.42037" Y="-2697.58" Z="133.1336"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="378.7255" Y="-3850.887" Z="96.33547"/>
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="201.5474" Y="-3363.521" Z="113.0389"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="145.5485" Y="-3603.091" Z="128.6651"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="70.46384" Y="-3364.302" Z="117.6914"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-40.09598" Y="-4602.664" Z="9.565532"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-767.1875" Y="-4449.479" Z="11.14287"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-27.17587" Y="-2481.822" Z="121.0898"/>
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-277.7474" Y="-3346.134" Z="142.6993"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-540.5182" Y="-3860.259" Z="230.6897"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="-778.7015" Y="-4451.433" Z="12.17209"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="1025.188" Y="-3858.135" Z="111.093"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="290.5449" Y="-2657.182" Z="122.0198"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="247.5073" Y="-2422.59" Z="133.5472"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="2.72396" Y="-2369.52" Z="124.1175"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-264.8495" Y="-2879.392" Z="87.43784"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-121.0139" Y="-3218.896" Z="122.2251"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-151.4771" Y="-3455.378" Z="131.6472"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="-251.1698" Y="-3827.418" Z="239.5209"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-430.7671" Y="-3945.567" Z="215.861"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Cockroach"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-393.6599" Y="-4165.378" Z="174.2288"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Cockroach"-->
+<Hotspot X="-217.3647" Y="-4489.632" Z="11.99775"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="520.6605" Y="-4177.44" Z="126.3224"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="745.1345" Y="-3989.009" Z="97.11095"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="475.8878" Y="-3629.636" Z="118.7713"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="316.0759" Y="-3272.405" Z="114.9504"/>
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="270.014" Y="-3055.77" Z="117.5998"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="128.5356" Y="-2849.318" Z="113.766"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="-12.27083" Y="-2486.503" Z="120.046"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="11.08764" Y="-2693.61" Z="131.5871"/>
+<!--Seen Name="Hare"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="263.9056" Y="-4074.594" Z="123.5548"/>
+<!--Seen Name="Hare"-->
+<Hotspot X="379.2997" Y="-3851.354" Z="96.21234"/>
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Jade Oozeling"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="191.2968" Y="-3383.418" Z="117.1308"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Brown Marmot"-->
+<Hotspot X="164.9187" Y="-3588.605" Z="126.2782"/>
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Brown Marmot"-->
+<!--Seen Name="Rat"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

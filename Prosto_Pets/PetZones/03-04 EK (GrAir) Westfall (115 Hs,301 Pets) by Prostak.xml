@@ -1,0 +1,448 @@
+<HBProfile>
+  <Name>Westfall</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-11420.84" Y="1786.754" Z="7.034706"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-11263.57" Y="1970.495" Z="9.465467"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10977.06" Y="2058.317" Z="9.948285"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10753.2" Y="2130.376" Z="3.338064"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10248.49" Y="2054.576" Z="2.881251"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9954.526" Y="1883.493" Z="9.545595"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9691.693" Y="1558.766" Z="14.16112"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9624.403" Y="1313.361" Z="1.848304"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9783.746" Y="990.5507" Z="29.20289"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10048.43" Y="844.7064" Z="33.64694"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10261.34" Y="863.2659" Z="39.76545"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10453.51" Y="788.1195" Z="33.69422"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10914.64" Y="741.886" Z="38.07876"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11151.82" Y="648.1211" Z="38.041"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11223.91" Y="1188.722" Z="89.8754"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-11264.36" Y="1631.07" Z="57.2443"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11164.28" Y="1913.748" Z="33.85095"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10944.14" Y="1962.219" Z="37.63534"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10606.57" Y="2008.703" Z="38.89712"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10307.51" Y="1934.019" Z="34.80159"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10106.49" Y="1926.911" Z="12.2837"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10016.05" Y="1737.385" Z="34.32988"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-9740.59" Y="1493.484" Z="43.93406"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10414.29" Y="978.4028" Z="35.89518"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10656.1" Y="898.692" Z="39.62224"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10873.94" Y="824.1088" Z="33.16012"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11078.51" Y="875.5292" Z="41.43451"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-11079.87" Y="1099.076" Z="38.73727"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11098.58" Y="1374.674" Z="42.18706"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11131.63" Y="1730.862" Z="41.11979"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10908.01" Y="1804.378" Z="62.28201"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10713.9" Y="1918.238" Z="43.46062"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10562.03" Y="1785.77" Z="39.48665"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10355.16" Y="1834.579" Z="33.35051"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10002.38" Y="1566.413" Z="42.79186"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-9885.61" Y="1303.281" Z="42.02841"/>
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10172.18" Y="1055.348" Z="36.42222"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10416.12" Y="1096.497" Z="33.00477"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10635.96" Y="962.7021" Z="35.05968"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10882.65" Y="982.2507" Z="36.23447"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-11092.59" Y="873.0791" Z="41.57973"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-11077.4" Y="1096.251" Z="37.5991"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-11013.22" Y="1376.28" Z="44.0829"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11045.13" Y="1638.072" Z="46.846"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10747.13" Y="1729.633" Z="41.23004"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10526.29" Y="1719.203" Z="3.170283"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10352.37" Y="1842.937" Z="35.2491"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10281.02" Y="1646.932" Z="25.26709"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10175.56" Y="1051.073" Z="36.39796"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10384.33" Y="1119.823" Z="34.92425"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10712.46" Y="1100.607" Z="36.17543"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10917.56" Y="1142.868" Z="40.06774"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10909.81" Y="1488.98" Z="48.74255"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10408.99" Y="1267.158" Z="45.52607"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-10726.98" Y="1376.9" Z="37.06928"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-10393.09" Y="967.3593" Z="32.09785"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10477.89" Y="758.3551" Z="35.18005"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10921.22" Y="730.4009" Z="43.14849"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-11460.22" Y="1767.65" Z="2.964823"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10989.68" Y="2060.515" Z="8.87072"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10755.15" Y="2082.339" Z="5.496224"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10246.92" Y="2048.464" Z="4.936327"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9949.163" Y="1884.728" Z="8.178767"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9687.761" Y="1576.312" Z="12.33025"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9629.02" Y="1314.34" Z="3.260721"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-9794.854" Y="963.4443" Z="29.25543"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10191.34" Y="928.3934" Z="40.26525"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10412.5" Y="845.4814" Z="42.03299"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10561.45" Y="676.481" Z="23.55571"/>
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10925.48" Y="726.3285" Z="44.30029"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11164.84" Y="652.2518" Z="39.37967"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11214.55" Y="1194.405" Z="89.09167"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-11262.03" Y="1653.34" Z="49.77894"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11174.37" Y="1923.771" Z="34.88672"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10967.93" Y="1955.856" Z="36.38211"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10761.17" Y="1988.658" Z="34.52185"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10538.12" Y="1980.695" Z="33.89534"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10303.89" Y="1940.033" Z="34.0092"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="-10037.11" Y="1714.432" Z="38.01501"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-9795.607" Y="1638.915" Z="16.20274"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-9783.785" Y="1369.497" Z="40.81377"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10394.81" Y="968.0402" Z="32.14314"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10676.48" Y="886.3077" Z="38.80074"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10873.59" Y="836.2662" Z="33.06211"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11089.51" Y="876.1011" Z="41.74549"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-11073.98" Y="1112.234" Z="38.9245"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11094.02" Y="1365.692" Z="40.92091"/>
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11114.81" Y="1747.743" Z="39.44715"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10878.78" Y="1878.34" Z="72.11738"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10588.24" Y="1846.286" Z="40.5528"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10356.49" Y="1846.651" Z="35.80538"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10021.09" Y="1570.694" Z="44.73946"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-9962.56" Y="1290.58" Z="43.93972"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Chicken"-->
+<Hotspot X="-10174.97" Y="1052.565" Z="36.40846"/>
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10637.62" Y="969.2563" Z="33.55254"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-10866.5" Y="973.8196" Z="35.42027"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10959" Y="776.5734" Z="40.36697"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10956.5" Y="1010.373" Z="37.79508"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-11043.48" Y="1215.637" Z="45.19665"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-11047.26" Y="1636.161" Z="47.45358"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10757.48" Y="1747.678" Z="38.34255"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10536.75" Y="1710.183" Z="12.4666"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10352.42" Y="1837.946" Z="34.24629"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10272.06" Y="1644.486" Z="27.54427"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10046.02" Y="1463.994" Z="45.00499"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Snake"-->
+<Hotspot X="-10131.13" Y="1213.72" Z="36.29778"/>
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Tiny Harvester"-->
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10671.25" Y="1206.861" Z="38.03994"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10852.83" Y="1072.755" Z="39.4556"/>
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10842.84" Y="1280.681" Z="34.49203"/>
+<!--Seen Name="Mouse"-->
+<!--Seen Name="Mouse"-->
+<Hotspot X="-10287.5" Y="1458.843" Z="40.1171"/>
+<!--Seen Name="Tiny Harvester"-->
+<Hotspot X="-10413.14" Y="1239.474" Z="47.09766"/>
+<!--Seen Name="Snake"-->
+<!--Seen Name="Prairie Dog"-->
+<Hotspot X="-10735.37" Y="1380.358" Z="35.27563"/>
+<!--Seen Name="Snake"-->
+<Hotspot X="-10400.25" Y="965.4275" Z="32.54243"/>
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Prairie Dog"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-10469.15" Y="755.3214" Z="32.67411"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Snake"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Small Frog"-->
+<!--Seen Name="Small Frog"-->
+<Hotspot X="-10925.91" Y="724.6813" Z="44.73484"/>
+<!--Seen Name="Prairie Dog"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

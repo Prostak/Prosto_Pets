@@ -1,5 +1,5 @@
 <HBProfile>
-  <Name>17-18 EK Deadwind Pass (2 Hs,16 Pets) by Prostak.xml</Name>
+  <Name>Deadwind Pass</Name>
   <MinDurability>0.4</MinDurability>
   <MinFreeBagSlots>1</MinFreeBagSlots>
   
@@ -26,22 +26,44 @@
 </Mailboxes>
 
 <Hotspots>
-<Hotspot X="-11087.79" Y="-1813.166" Z="193.8737"/>
-<!--Seen Name="Arcane Eye"-->
-<!--Seen Name="Restless Shadeling"-->
+<Hotspot X="-11091.88" Y="-1926.64" Z="4.91344"/>
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Arcane Eye"-->
 <!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Arcane Eye"-->
-<Hotspot X="-11172.94" Y="-2019.443" Z="135.9303"/>
+<!--Seen Name="Arcane Eye"-->
+<Hotspot X="-11186.86" Y="-2104.12" Z="31.23894"/>
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<Hotspot X="-10917.83" Y="-1879.57" Z="-15.04014"/>
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Arcane Eye"-->
+<Hotspot X="-11143.55" Y="-1867.477" Z="66.28313"/>
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<Hotspot X="-11022.41" Y="-1876.247" Z="51.03815"/>
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Arcane Eye"-->
+<Hotspot X="-11146.23" Y="-2064.795" Z="47.79894"/>
 <!--Seen Name="Arcane Eye"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Arcane Eye"-->
 <!--Seen Name="Arcane Eye"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
+<!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 <!--Seen Name="Restless Shadeling"-->
 </Hotspots>

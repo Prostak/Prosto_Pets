@@ -1,0 +1,421 @@
+<HBProfile>
+  <Name>Hillsbrad Foothills</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-975.5148" Y="-1423.934" Z="56.92763"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-965.1004" Y="-909.2166" Z="29.54954"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-914.6638" Y="-534.6816" Z="3.523891"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-954.934" Y="-277.8654" Z="61.63888"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-1026.959" Y="60.88555" Z="51.70532"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-887.0639" Y="230.5059" Z="8.807546"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-731.4756" Y="392.1732" Z="68.45403"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-492.4063" Y="353.9169" Z="92.58579"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-214.8634" Y="327.7858" Z="106.3582"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="55.13382" Y="449.4245" Z="42.04221"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="452.5127" Y="335.7434" Z="41.62624"/>
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="366.1465" Y="143.8506" Z="42.30592"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="930.6833" Y="-796.8901" Z="118.8072"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="286.1311" Y="-1003.536" Z="80.03135"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="41.95599" Y="-1111.221" Z="37.12637"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="-93.17958" Y="-1259.255" Z="74.67594"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-519.7628" Y="-1560.95" Z="53.0642"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-711.6945" Y="-1484.611" Z="61.77684"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-839.854" Y="-1324.878" Z="62.06961"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-873.7936" Y="-982.5091" Z="30.44902"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-737.2781" Y="-602.0864" Z="21.0162"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-746.2129" Y="-277.6484" Z="18.35891"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-853.7856" Y="-87.86196" Z="24.04092"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-844.7283" Y="140.3815" Z="37.05858"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-711.4397" Y="310.7318" Z="50.45808"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-299.8076" Y="225.3313" Z="92.33683"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-11.7653" Y="148.5013" Z="53.06902"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="113.5566" Y="315.3116" Z="44.11782"/>
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="496.164" Y="278.8391" Z="38.22898"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="949.7921" Y="-635.1857" Z="123.0558"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="671.4673" Y="-845.9921" Z="158.6112"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-320.9411" Y="-1337.506" Z="70.08076"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-506.071" Y="-1459.12" Z="51.03802"/>
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-731.799" Y="-1335.102" Z="64.17126"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-517.017" Y="-208.0553" Z="53.98662"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-474.387" Y="8.986908" Z="55.35594"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-22.7156" Y="58.43587" Z="64.03924"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="171.8225" Y="-92.51527" Z="113.289"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="78.60921" Y="-821.5217" Z="72.73428"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-197.3965" Y="-805.7285" Z="58.04504"/>
+<!--Seen Name="Maggot"-->
+<Hotspot X="-180.1272" Y="-162.358" Z="96.99645"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="78.41595" Y="-496.6644" Z="140.3286"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-144.7646" Y="-593.1683" Z="162.4421"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-988.4734" Y="-908.3248" Z="31.21672"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-814.6492" Y="-633.3519" Z="12.57402"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-952.6959" Y="-281.2332" Z="61.47833"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-1025.632" Y="56.67548" Z="51.01936"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-719.0399" Y="452.5002" Z="75.86959"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-480.9186" Y="352.994" Z="95.27464"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-214.781" Y="340.4112" Z="106.1781"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="0.2148886" Y="374.7851" Z="45.64437"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="156.0176" Y="505.7539" Z="41.27301"/>
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="454.7419" Y="381.4048" Z="41.25226"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="368.849" Y="186.0744" Z="41.96738"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="664.178" Y="92.28677" Z="35.54713"/>
+<!--Seen Name="Infected Squirrel"-->
+<Hotspot X="923.2855" Y="-790.0598" Z="121.097"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="684.2633" Y="-955.5942" Z="164.5896"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="284.6871" Y="-1011.872" Z="80.46822"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="44.1631" Y="-1110.536" Z="37.52644"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Huge Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-154.8431" Y="-1337.271" Z="106.2098"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-681.6747" Y="-1477.596" Z="63.42886"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-837.2576" Y="-1309.548" Z="64.18251"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-738.7964" Y="-604.1907" Z="20.27873"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-721.9291" Y="-278.4263" Z="18.38719"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-879.2197" Y="-112.9414" Z="25.48064"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-821.6818" Y="120.0372" Z="41.11461"/>
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Infested Bear Cub"-->
+<Hotspot X="-294.506" Y="225.774" Z="92.95171"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="101.7521" Y="271.1561" Z="42.02267"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="961.4424" Y="-648.6805" Z="119.5514"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="627.0299" Y="-927.3737" Z="165.0558"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-102.1646" Y="-890.2034" Z="55.3214"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<Hotspot X="-324.1906" Y="-1114.667" Z="37.14776"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-324.9443" Y="-1316.653" Z="69.95374"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-506.071" Y="-1459.12" Z="51.03933"/>
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-580.7927" Y="-78.14494" Z="46.43996"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-466.2181" Y="87.42725" Z="56.95887"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="182.9792" Y="-93.48293" Z="111.9263"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="92.69751" Y="-826.9998" Z="76.1793"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-224.7312" Y="-325.0072" Z="161.1719"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="73.43754" Y="-491.8744" Z="140.285"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-130.7903" Y="-595.8226" Z="161.6414"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-981.563" Y="-915.0565" Z="31.77096"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-813.5239" Y="-614.9556" Z="13.8283"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-959.8942" Y="-277.3488" Z="62.14339"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-1006.248" Y="61.49715" Z="52.03618"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-833.3702" Y="304.2192" Z="45.09524"/>
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-500.8179" Y="355.1661" Z="91.39155"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-215.2743" Y="333.8418" Z="106.5146"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="42.25344" Y="399.231" Z="42.34092"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Infected Squirrel"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="455.995" Y="387.1126" Z="40.91864"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="384.3372" Y="191.5407" Z="43.59427"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="929.6875" Y="-779.1768" Z="119.9212"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="761.1642" Y="-1030.852" Z="146.4121"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="287.7511" Y="-996.0475" Z="79.26755"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-79.90191" Y="-1220.504" Z="63.49313"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-483.6441" Y="-1759.143" Z="79.38127"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-680.3453" Y="-1487.087" Z="62.20553"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-839.7222" Y="-1314.338" Z="63.56581"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-723.9004" Y="-597.0839" Z="24.06623"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-755.7365" Y="-285.0007" Z="16.83938"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-827.6946" Y="-88.86181" Z="26.01417"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Spider"-->
+<Hotspot X="-822.4019" Y="196.5474" Z="18.28275"/>
+<!--Seen Name="Spider"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Infested Bear Cub"-->
+<!--Seen Name="Infested Bear Cub"-->
+<Hotspot X="-280.873" Y="184.957" Z="90.9564"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="90.28437" Y="270.755" Z="42.10594"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="284.7954" Y="208.1268" Z="45.77025"/>
+<!--Seen Name="Lofty Libram"-->
+<!--Seen Name="Lofty Libram"-->
+<Hotspot X="952.262" Y="-637.8425" Z="121.7543"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="627.0825" Y="-924.2088" Z="165.2106"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="-145.0027" Y="-910.5609" Z="55.2856"/>
+<!--Seen Name="Rat"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Huge Toad"-->
+<Hotspot X="-244.4152" Y="-1155.412" Z="49.0637"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-506.071" Y="-1459.12" Z="51.04704"/>
+<!--Seen Name="Chicken"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-609.1849" Y="-80.34579" Z="46.5105"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="-473.8708" Y="86.63929" Z="57.16301"/>
+<!--Seen Name="Maggot"-->
+<!--Seen Name="Rat"-->
+<!--Seen Name="Rat"-->
+<Hotspot X="184.6715" Y="-111.9841" Z="117.726"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="89.05575" Y="-825.7407" Z="75.48048"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-291.1897" Y="-845.834" Z="56.272"/>
+<!--Seen Name="Red-Tailed Chipmunk"-->
+<Hotspot X="-237.5949" Y="-325.4697" Z="165.9991"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="76.73699" Y="-490.6925" Z="139.9443"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

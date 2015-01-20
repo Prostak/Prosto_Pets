@@ -1,0 +1,252 @@
+<HBProfile>
+  <Name>Stormwind City</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="-8648.978" Y="654.7709" Z="100.8755"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8693.777" Y="394.0131" Z="102.0818"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8473.032" Y="693.77" Z="99.8885"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8170.917" Y="235.5311" Z="127.3265"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8079.688" Y="436.9262" Z="127.88"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8037.459" Y="687.9764" Z="78.6007"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8130.704" Y="878.2664" Z="70.19537"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8241.123" Y="1244.687" Z="5.230233"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8453.082" Y="1235.706" Z="5.230242"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-9010.471" Y="1023.803" Z="129.1216"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9105.835" Y="825.9139" Z="126.1726"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9170.128" Y="472.2203" Z="104.5145"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8766.229" Y="373.6667" Z="100.8568"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8326.801" Y="470.6531" Z="123.169"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8138.353" Y="724.5789" Z="69.9889"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8327.667" Y="1104.385" Z="57.26216"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8913.059" Y="961.424" Z="117.4017"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8689.415" Y="927.5417" Z="101.276"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8324.15" Y="981.9016" Z="99.29863"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8296.875" Y="709.375" Z="75.12162"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8727.188" Y="438.763" Z="98.20889"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8919.95" Y="663.7409" Z="100.2971"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8659.774" Y="811.0834" Z="96.95501"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8170.5" Y="236.9746" Z="127.1026"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8079.941" Y="436.2954" Z="127.6922"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8029.633" Y="630.3578" Z="83.07215"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8097.081" Y="866.063" Z="67.21495"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8239.361" Y="1245.191" Z="5.230232"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8440.839" Y="1244.272" Z="5.230228"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-9010.854" Y="1027.348" Z="128.433"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9106.138" Y="827.1542" Z="126.1945"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-9169.614" Y="471.7686" Z="104.3101"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8765.754" Y="376.0487" Z="100.9835"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8326.906" Y="468.7816" Z="123.3223"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8136.208" Y="725.6795" Z="69.73133"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8329.466" Y="1102.761" Z="57.26216"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8917.179" Y="962.1672" Z="117.4659"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8689.2" Y="929.2584" Z="101.357"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8319.79" Y="982.3243" Z="100.5277"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="-8296.124" Y="707.6826" Z="75.12162"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8739.985" Y="338.4598" Z="100.6133"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8920.591" Y="663.9105" Z="100.1988"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="-8660.308" Y="814.7208" Z="96.93941"/>
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<!--Seen Name="Stormwind Rat"-->
+<Hotspot X="-8739.091" Y="331.903" Z="100.9683"/>
+<!--Seen Name="Rabbit"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

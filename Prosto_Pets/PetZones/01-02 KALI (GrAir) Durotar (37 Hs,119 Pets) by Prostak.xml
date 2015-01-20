@@ -1,0 +1,188 @@
+<HBProfile>
+  <Name>Durotar</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="1709.375" Y="-3928.125" Z="51.21383"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="1377.456" Y="-4608.467" Z="33.69115"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="1347.707" Y="-4892.802" Z="14.32413"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="1258.526" Y="-4641.709" Z="17.56507"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="1215.469" Y="-4030.952" Z="18.05462"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="1014.095" Y="-3945.221" Z="19.1897"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="950.0463" Y="-4380.656" Z="14.90625"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="885.3665" Y="-4640.261" Z="17.07053"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Spiny Lizard"-->
+<Hotspot X="1038.203" Y="-4804.809" Z="13.54675"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="952.2116" Y="-5044.063" Z="6.119951"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="743.761" Y="-4860.574" Z="31.38308"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="694.2502" Y="-4658.689" Z="-6.301867"/>
+<!--Seen Name="Dung Beetle"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<Hotspot X="748.2178" Y="-4342.378" Z="20.70033"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="822.1093" Y="-3924.359" Z="21.175"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="546.1669" Y="-3862.098" Z="20.91155"/>
+<!--Seen Name="Toad"-->
+<Hotspot X="468.5608" Y="-4094.299" Z="20.6284"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="375.6105" Y="-3907.392" Z="22.77082"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="223.7373" Y="-4039.166" Z="20.01339"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<Hotspot X="21.85395" Y="-4145.206" Z="33.36776"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="115.3517" Y="-4448.176" Z="28.32505"/>
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="420.0806" Y="-4616.875" Z="53.77035"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="613.1235" Y="-4527.879" Z="15.4651"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="597.1966" Y="-4729.087" Z="-8.7239"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="473.5045" Y="-4923.149" Z="26.3018"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="238.4992" Y="-4862.443" Z="15.16362"/>
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="252.4601" Y="-4386.834" Z="20.34947"/>
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="122.9702" Y="-4005.098" Z="18.83309"/>
+<!--Seen Name="Water Snake"-->
+<Hotspot X="254.555" Y="-3813.041" Z="20.96047"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<Hotspot X="21.20728" Y="-3822.207" Z="20.15616"/>
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Toad"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Water Snake"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="-211.9712" Y="-4708.84" Z="29.10552"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Hare"-->
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-6.59561" Y="-4939.898" Z="19.84716"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Hare"-->
+<Hotspot X="-209.5435" Y="-5053.531" Z="19.38544"/>
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="-427.3786" Y="-5078.251" Z="104.9628"/>
+<!--Seen Name="Dung Beetle"-->
+<Hotspot X="-1086.514" Y="-4842.702" Z="3.399057"/>
+<!--Seen Name="Spiny Lizard"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="-732.6087" Y="-4781.998" Z="30.78032"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="-1021.275" Y="-4427.734" Z="26.35596"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Creepy Crawly"-->
+<Hotspot X="-772.8726" Y="-4257.603" Z="50.0111"/>
+<!--Seen Name="Creepy Crawly"-->
+<!--Seen Name="Adder"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>

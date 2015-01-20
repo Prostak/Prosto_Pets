@@ -1,0 +1,260 @@
+<HBProfile>
+  <Name>Azshara</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>101</MaxLevel>
+  <Factions>99999</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Hotspots>
+<Hotspot X="4750.486" Y="-5816.084" Z="100.0056"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="4848.411" Y="-6746.464" Z="2.380697"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4867.442" Y="-7098.717" Z="110.4906"/>
+<!--Seen Name="Unknown"-->
+<!--Seen Name="Unknown"-->
+<Hotspot X="4757.191" Y="-7716.837" Z="11.69217"/>
+<!--Seen Name="Unknown"-->
+<Hotspot X="4525.22" Y="-7711.974" Z="20.28059"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4258.542" Y="-7798.848" Z="9.514515"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4144.05" Y="-8148.4" Z="6.23946"/>
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3911.765" Y="-8287.354" Z="6.609071"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3883.274" Y="-7954.497" Z="6.242309"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4013.14" Y="-7763.398" Z="5.553351"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="4048.477" Y="-7550.554" Z="7.376943"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="4357.59" Y="-7574.604" Z="7.913436"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4256.272" Y="-7316.781" Z="7.414611"/>
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="4113.541" Y="-7089.909" Z="17.04885"/>
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="4487.632" Y="-6960.294" Z="102.6139"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4728.482" Y="-7001.364" Z="106.5001"/>
+<!--Seen Name="Roach"-->
+<!--Seen Name="Spider"-->
+<!--Seen Name="Twilight Beetle"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="4312.26" Y="-6828.74" Z="90.34824"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4431.431" Y="-6546.451" Z="101.3888"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Roach"-->
+<Hotspot X="4293.455" Y="-5975.442" Z="97.4246"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3943.96" Y="-5316.528" Z="129.0193"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3910.791" Y="-4657.885" Z="266.7267"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="4177.832" Y="-5189.193" Z="140.7666"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="4580.396" Y="-5487.547" Z="106.1828"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4552.835" Y="-5780.284" Z="100.9494"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="4432.317" Y="-5514.5" Z="105.5767"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="3993.4" Y="-5053.735" Z="136.7652"/>
+<!--Seen Name="Rat"-->
+<Hotspot X="3959.355" Y="-5868.688" Z="9.857673"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="3569.342" Y="-6981.972" Z="1.736776"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3336.538" Y="-6754.861" Z="3.038532"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3709.251" Y="-6569.563" Z="2.443902"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3904.613" Y="-5835.874" Z="7.325942"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="3718.746" Y="-5718.772" Z="6.903876"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3449.103" Y="-5762.938" Z="2.426244"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3157.006" Y="-5752.357" Z="15.99889"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3329.336" Y="-5611.709" Z="11.95787"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3556.863" Y="-5527.676" Z="21.63204"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3652.027" Y="-4881.293" Z="125.327"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3650.334" Y="-4479.458" Z="115.4464"/>
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3192.714" Y="-4159.949" Z="105.4495"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="3040.547" Y="-4748.408" Z="133.4865"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2637.262" Y="-4001.483" Z="114.0667"/>
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2942.392" Y="-4841.245" Z="126.2384"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Robo-Chick"-->
+<Hotspot X="2977.261" Y="-5117.915" Z="126.9106"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2977.579" Y="-5348.684" Z="134.9713"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2993.361" Y="-5589.385" Z="148.6564"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Skunk"-->
+<Hotspot X="2858.673" Y="-5779.915" Z="117.8498"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2827.02" Y="-6132.045" Z="6.952919"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Squirrel"-->
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2620.441" Y="-6279.613" Z="100.3658"/>
+<!--Seen Name="Skunk"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2824.552" Y="-6707.356" Z="5.213003"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="2881.452" Y="-7016.681" Z="2.857981"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2918.382" Y="-7251.635" Z="7.376262"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3157.423" Y="-7656.282" Z="4.76038"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3344.873" Y="-8116.626" Z="6.288782"/>
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3320.749" Y="-8357.644" Z="6.049614"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="3205.556" Y="-7820.887" Z="7.09169"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2991.335" Y="-7539.632" Z="6.570226"/>
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2822.47" Y="-7299.709" Z="7.829928"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2543.674" Y="-7187.797" Z="8.746589"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Shore Crab"-->
+<Hotspot X="2303.847" Y="-7158.387" Z="5.704744"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2153.677" Y="-6720.611" Z="5.491079"/>
+<!--Seen Name="Turquoise Turtle"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2020.178" Y="-6537.792" Z="6.063735"/>
+<!--Seen Name="Shore Crab"-->
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2644.61" Y="-6031.75" Z="98.34866"/>
+<!--Seen Name="Skunk"-->
+<Hotspot X="2556.515" Y="-5651.265" Z="108.3754"/>
+<!--Seen Name="Robo-Chick"-->
+<Hotspot X="2249.784" Y="-5607.852" Z="8.676699"/>
+<!--Seen Name="Turquoise Turtle"-->
+<Hotspot X="2717.219" Y="-4983.392" Z="117.2708"/>
+<!--Seen Name="Rabbit"-->
+<Hotspot X="2662.635" Y="-4519.582" Z="144.3313"/>
+<!--Seen Name="Rabbit"-->
+<!--Seen Name="Squirrel"-->
+<Hotspot X="2426.607" Y="-4789.287" Z="128.6284"/>
+<!--Seen Name="Unknown"-->
+</Hotspots>
+<Blackspots>
+</Blackspots>
+</HBProfile>
