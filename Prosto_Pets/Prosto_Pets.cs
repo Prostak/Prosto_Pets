@@ -51,6 +51,9 @@ namespace Prosto_Pets
     public partial class Prosto_Pets : BotBase
     {
         public string Version { get { return "0.9.11"; } }
+        // 0.9.12:
+        // - additions for battle tactics
+        //
         // 0.9.11:
         // - profiles for EK and Kalimdor replaced with ground ones
         // - zone selection based on the current continent implemented:

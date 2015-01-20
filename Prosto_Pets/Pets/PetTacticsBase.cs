@@ -74,6 +74,25 @@ namespace Prosto_Pets
         public static bool strong(string ability) { return MyPets.IsStrong(ability); }
         // checking if our ability is weak against the current enemy pet
         public static bool weak(string ability) { return MyPets.IsWeak(ability); }
+
+        // checking for general conditions caused by multiple effects
+        public static bool enemyIsAsleep() { return MyPets.enemyIsAsleep(); }
+        public static bool enemyIsBleeding() { return MyPets.enemyIsBleeding(); }
+        public static bool enemyIsBlinded() { return MyPets.enemyIsBlinded(); }
+        public static bool enemyIsBurning() { return MyPets.enemyIsBurning(); }
+        public static bool enemyIsChilled() { return MyPets.enemyIsChilled(); }
+        public static bool enemyIsPoisoned() { return MyPets.enemyIsPoisoned(); }
+        public static bool enemyIsResilient() { return MyPets.enemyIsResilient(); }
+        public static bool enemyIsStunned() { return MyPets.enemyIsStunned(); }
+
+        public static bool myPetIsAsleep() { return MyPets.myPetIsAsleep(); }
+        public static bool myPetIsBurning() { return MyPets.myPetIsBurning(); }
+        public static bool myPetIsBlinded() { return MyPets.myPetIsBlinded(); }
+        public static bool myPetIsBleeding() { return MyPets.myPetIsBleeding(); }
+        public static bool myPetIsChilled() { return MyPets.myPetIsChilled(); }
+        public static bool myPetIsPoisoned() { return MyPets.myPetIsPoisoned(); }
+        public static bool myPetIsResilient() { return MyPets.myPetIsResilient(); }
+        public static bool myPetIsStunned() { return MyPets.myPetIsStunned(); }
         
     }
 }

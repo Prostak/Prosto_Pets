@@ -264,6 +264,168 @@ namespace Prosto_Pets
             return GetMod(ability) < 1;
         }
 
+        public static bool enemyIsAsleep()
+        {
+            if (debuff("Asleep"))
+            {
+                return true;
+            }
+            return false;
+        }
 
+        public static bool enemyIsBleeding()
+        {
+            if (debuff("Bleeding"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsBlinded()
+        {
+            if (_weather == "Darkness" || debuff("Blinding Poison") ||
+                debuff("Blinded") || debuff("Partially Blinded"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsBurning()
+        {
+            if (_weather == "Scorched Earth" || debuff("Fel Immolate") ||
+                debuff("Flame Breath") || debuff("Flame Jet") ||
+                debuff("Flamethrower") || debuff("Immolate"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsChilled()
+        {
+            if (_weather == "Blizzard" || debuff("Frostbite") ||
+                debuff("Frost Nova") || debuff("Frost Shock") ||
+                debuff("Slippery Ice"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsPoisoned()
+        {
+            // Glowing Toxin is a debuff but does not poison apparently
+            if (debuff("Poisoned") || debuff("Acidic Goo") ||
+                debuff("Blinding Poison") || debuff("Confusing Sting") ||
+                debuff("Corpse Explosion") || debuff("Creeping Ooze") ||
+                debuff("Sting"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        // immune to stun, polymorph, sleep
+        public static bool enemyIsResilient()
+        {
+            if (debuff("Resilient"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsStunned()
+        {
+            if (debuff("Stunned") || debuff("Crystal Prison"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsAsleep()
+        {
+            if (buff("Asleep"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsBleeding()
+        {
+            if (buff("Bleeding"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsBlinded()
+        {
+            if (_weather == "Darkness" || buff("Blinding Poison") ||
+                buff("Blinded") || buff("Partially Blinded"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsBurning()
+        {
+            if (_weather == "Scorched Earth" || buff("Fel Immolate") ||
+                buff("Flame Breath") || buff("Flame Jet") ||
+                buff("Flamethrower") || buff("Immolate"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsChilled()
+        {
+            if (_weather == "Blizzard" || buff("Frostbite") ||
+                buff("Frost Nova") || buff("Frost Shock") ||
+                buff("Slippery Ice"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsPoisoned()
+        {
+            // Glowing Toxin is a debuff but does not poison apparently
+            if (buff("Poisoned") || buff("Acidic Goo") ||
+                buff("Blinding Poison") || buff("Confusing Sting") ||
+                buff("Corpse Explosion") || buff("Creeping Ooze") ||
+                buff("Sting"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        // immune to stun, polymorph, sleep
+        public static bool myPetIsResilient()
+        {
+            if (buff("Resilient"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsStunned()
+        {
+            if (buff("Stunned") || buff("Crystal Prison"))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
