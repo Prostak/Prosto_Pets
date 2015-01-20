@@ -1175,16 +1175,24 @@ Cyotec}{}}}\rtlch \ltrch\loch\loch\f6
             FillHelp((Control)sender, "Swap pet 3 out of a battle when its health is less than specified here.");
         }
 
-        private void label17_MouseEnter(object sender, EventArgs e)
-        {
-
-        }
-
         private void checkBox_AutoZones_MouseEnter(object sender, EventArgs e)
         {
             FillHelp((Control)sender, "If CHECKED the bot will automatically load the profile from the list below. "
             + "The level to load will be determined by adding Zone Diff value for the current mode to the lowest pet level. "
             + " If NOT checked you should either load the profile yourself or use the manual mode.");
+        }
+
+        private void button_LoadCont_MouseEnter(object sender, EventArgs e)
+        {
+            FillHelp((Control)sender, "Click to load zone profiles according to pet levels for the continents you are now in."
+                + " If there is no zone with some pet level range on the continent '--- not set ---' will be used for this pet range.");
+        }
+
+        private void button_LoadCont_Click(object sender, EventArgs e)
+        {
+            PluginSettings.Instance.SelectProfilesForContinent();
+            Zone_PropertiesToButtons();
+            // TODO: need update texts?
         }
 
     }

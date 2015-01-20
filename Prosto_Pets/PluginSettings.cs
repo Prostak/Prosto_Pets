@@ -19,6 +19,8 @@ namespace Prosto_Pets
     public class PluginSettings : Settings, IPluginProperties, IPluginSettings
     {
         public static PluginSettings Instance { get; private set; }
+        public const string _NotSet = "--- Not Set ---";
+        public static string NotSet { get { return _NotSet; } }
 
         static PluginSettings()  // static constructor
         {
@@ -637,49 +639,65 @@ namespace Prosto_Pets
         public string AutoZoneChangeSetting { get; set; }
 
         // Need a script that will correct Defaults before build
-        [Setting, Styx.Helpers.DefaultValue("01-02 EK Elwynn Forest (87 Hs,321 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_1to3 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("04-06 EK Redridge Mountains (46 Hs,111 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_4to5 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("05-07 EK Duskwood (72 Hs,190 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_6to7 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("07-09 EK Northern Stranglethorn (114 Hs,301 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_8to9 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("09-10 EK The Cape of Stranglethorn (56 Hs,143 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_10to11 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("14-15 EK Swamp of Sorrows (44 Hs,121 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_12to13 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("14-15 EK Swamp of Sorrows (44 Hs,121 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_14to15 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("16-17 EK Blasted Lands (44 Hs,63 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_16to17 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("16-17 EK Blasted Lands (44 Hs,63 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_18to19 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("23-24 CAT Twilight Highlands (68 Hs,198 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_20to21 { get; set; }
 
-        [Setting, Styx.Helpers.DefaultValue("23-24 CAT Twilight Highlands (68 Hs,198 Pets) by Prostak.xml")]
+        [Setting, Styx.Helpers.DefaultValue(_NotSet)]
         [Browsable(false)]
         public string Zone_22to25 { get; set; }
+
+        public void SelectProfilesForContinent()
+        {
+            PluginSettings.Instance.Zone_1to3 = Prosto_Pets.FindProfileOnThisContinent(1,3);
+            PluginSettings.Instance.Zone_4to5 = Prosto_Pets.FindProfileOnThisContinent(4,5);
+            PluginSettings.Instance.Zone_6to7 = Prosto_Pets.FindProfileOnThisContinent(6,7);
+            PluginSettings.Instance.Zone_8to9 = Prosto_Pets.FindProfileOnThisContinent(8,9);
+            PluginSettings.Instance.Zone_10to11 = Prosto_Pets.FindProfileOnThisContinent(10,11);
+            PluginSettings.Instance.Zone_12to13 = Prosto_Pets.FindProfileOnThisContinent(12,13);
+            PluginSettings.Instance.Zone_14to15 = Prosto_Pets.FindProfileOnThisContinent(14,15);
+            PluginSettings.Instance.Zone_16to17 = Prosto_Pets.FindProfileOnThisContinent(16,17);
+            PluginSettings.Instance.Zone_18to19 = Prosto_Pets.FindProfileOnThisContinent(18,19);
+            PluginSettings.Instance.Zone_20to21 = Prosto_Pets.FindProfileOnThisContinent(20,21);
+            PluginSettings.Instance.Zone_22to25 = Prosto_Pets.FindProfileOnThisContinent(22,25);
+
+        }
 
         #endregion
 

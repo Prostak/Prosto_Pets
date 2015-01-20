@@ -50,7 +50,15 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.10"; } }
+        public string Version { get { return "0.9.11"; } }
+        // 0.9.11:
+        // - ground profiles for EK and Kalimdor added
+        // - zone selection based on the current continent implemented:
+        //   Default zone profile is now empty (--- not set ----).
+        //   If the zone is to be autoselected, but not set on "Pet Zone" tab (or set for another continent) - the bot will load a zone for the continent you are in. Stop if failed.
+        //   Button to load the zones for the continent added to "Pet Zones" tab. Set to (--- not found ---) if not found.
+        //   CATA zones prefix changed to EK and KALI as appropriate.
+        //
         // 0.9.10:
         // - help system implemented
         //
@@ -830,7 +838,7 @@ namespace Prosto_Pets
                 });
         }
 
-        private string GetCurrentProfileName()
+        private static string GetCurrentProfileName()
         {
             return System.IO.Path.GetFileName(Styx.CommonBot.Profiles.ProfileManager.XmlLocation);
         }
@@ -1298,11 +1306,11 @@ namespace Prosto_Pets
             }
         }
 
-    private void LuaEndOfBattle(object sender, LuaEventArgs args)
+        private void LuaEndOfBattle(object sender, LuaEventArgs args)
         {
             //Fires twice. - no more (event corrected)
             //Log("EndOfBattle: still in battle = " + _petLua.IsInBattle() );
-            if (_petLua.IsInBattle()) 
+            if (_petLua.IsInBattle())
                 return;   // can't load pets while still in the battle
             Logger.WriteDebug("EndOfBattle, out of the battle");
             Moved = false;
@@ -1314,14 +1322,159 @@ namespace Prosto_Pets
             return;
         }
 
-        public void LoadProfile(string filename)
+
+        public static string GetContinentAbbrev()
+        {
+            string cont = PetReport.GetContinentName();
+            if (cont == "Draenor" || cont.Contains("Garrison")) return "DRA";
+            else if (cont == "Kalimdor") return "KALI";
+            else if (cont == "Eastern Kingdoms") return "EK";
+            else if (cont == "Outland") return "OUT";
+            else if (cont == "Northrend") return "NOR";
+            else if (cont == "Pandaria") return "PAN";
+            else
+            {
+                Logger.Alert("Continent " + cont + " is UNKNOWN");
+                return "UNKNOWN";
+            }
+        }
+
+        public static string GetContinentAbbrev( string file)
+        {
+            // "01-02 EK ... "
+            char[] delim = new char[] { ' ', '-' };
+            string[] parts = file.Split(delim);
+            if (parts.Length >= 3)
+                return parts[2];
+            else
+                return "";
+        }
+
+        public static void GetRange( string file, out int min, out int max)
+        {
+            min = 0; max = 0;
+            char[] delim = new char[] { ' ', '-' };
+            string[] parts = file.Split(delim);
+            if( parts.Length > 2)
+            {
+                min = parts[0].ToInt32();
+                max = parts[1].ToInt32();
+            }
+            //for( int i = 0; i<parts.Length; i++)
+            //{
+            //    Logger.WriteDebug("part " + i + ": " + parts[i]);
+            //}
+        }
+
+        public static int GetOverlap(int min1, int max1, int min2, int max2)
+        {
+            int count = 0;
+            if (max1 < min1) return 0;  // sanity check
+            for (int i = min1; i <= max1; i++)
+            { // this is an absolutely crazy way to compute an overlap of long segments. But we have short segments only 
+                if (min2 <= i && i <= max2)
+                    count++;
+            }
+            //Logger.WriteDebug(string.Format("Overlap: [{0}-{1}] and [{2}-{3}] eq {4}", min1, max1, min2, max2, count));
+            return count;
+        }
+
+        public static int GetOverlap( int min, int max, string file)
+        {
+            int min2, max2;
+            GetRange(file, out min2, out max2);
+            return GetOverlap(min, max, min2, max2);
+        }
+
+        public static int GetNumHs(string file)
+        {
+            // 17-18 EK (GrAir) Deadwind Pass (6 Hs,34 Pets) by Prostak.xml
+            string[] delim = new string[] { "(", " " };
+            int hs = 0;
+            string[] parts = file.Split( delim, StringSplitOptions.None );
+
+            //for (int i = 0; i < parts.Length; i++ )
+            //{
+            //    Logger.WriteDebug("NumHs part" + i + ": " + parts[i]);
+            //}
+
+                for (int i = 0; i < parts.Length; i++)
+                {
+                    if (i > 0 && parts[i].StartsWith("Hs,"))
+                        hs = parts[i - 1].ToInt32();
+                }
+            return hs;
+        }
+
+        public static string FindProfileOnThisContinent(int min, int max)
+        {
+            string[] files = System.IO.Directory.GetFiles(GetZonesDir());
+            int bestOverlap = 0;
+            string bestProfile = PluginSettings.NotSet;
+            string continentAbbrev = GetContinentAbbrev();
+
+            // EK and CALI do not have all zones, bu we want to have something for these two anyway: starters
+            if (min == 18) min -= 1;
+            if (max == 21) max += 2;
+
+            foreach (string fullFile in files)
+            {
+                string file = System.IO.Path.GetFileName(fullFile);
+                if (continentAbbrev == GetContinentAbbrev(file))
+                {
+                    //Logger.WriteDebug("Abbrev: " + continentAbbrev + " == " + GetContinentAbbrev(file) + " in " + file);
+
+                    int overlap = GetOverlap(min, max, file);
+                    if (overlap > bestOverlap && GetNumHs(file) > 15 )  // Ignore small zones TODO: const
+                    {
+                        bestOverlap = overlap;
+                        bestProfile = fullFile;
+                    }
+                }
+                else
+                {
+                    //Logger.WriteDebug("Abbrev: " + continentAbbrev + " != " + GetContinentAbbrev(file) + " in " + file);
+                }
+            }
+
+            return bestProfile;
+        }
+
+        public static string GetZonesDir()
+        {
+            return Application.StartupPath + "\\Bots\\Prosto_Pets\\PetZones\\";
+        }
+
+        public static string LoadProfile(int min, int max, string filename)
+        {
+            if( string.IsNullOrEmpty(filename) || filename == PluginSettings.NotSet)
+            {
+                Logger.WriteDebug("Profile not set, finding one for the continent");
+                filename = FindProfileOnThisContinent(min, max);
+            }
+            else if (GetContinentAbbrev() != GetContinentAbbrev(filename))
+            {
+                Logger.WriteDebug("Profile not set, finding one for the continent");
+                filename = FindProfileOnThisContinent(min, max);
+            }
+
+            if (filename == PluginSettings.NotSet)
+            {
+                Logger.Alert(string.Format("Failed to find a profile with range [{0}-{1}] for the continent {3}", min, max, PetReport.GetContinentName()));
+                return filename;
+            }
+            LoadProfile(filename);
+            return filename;
+        }
+
+        public static void LoadProfile(string filename)
         {
             Logger.WriteDebug("LoadProfile: '" + filename + "'");
             bool changed = false;
             if (!filename.Contains(":"))
             {
                 // relative filename
-                filename = Application.StartupPath + "\\Bots\\Prosto_Pets\\PetZones\\" + filename;
+                filename = GetZonesDir() + filename;
             }
             if (Styx.CommonBot.Profiles.ProfileManager.XmlLocation != filename)
             {
@@ -1338,17 +1491,18 @@ namespace Prosto_Pets
             {
                 return;
             }
-            if (levelNeeded < 4) LoadProfile(PluginSettings.Instance.Zone_1to3);
-            else if (levelNeeded <= 5) LoadProfile(PluginSettings.Instance.Zone_4to5);
-            else if (levelNeeded <= 7) LoadProfile(PluginSettings.Instance.Zone_6to7);
-            else if (levelNeeded <= 9) LoadProfile(PluginSettings.Instance.Zone_8to9);
-            else if (levelNeeded <= 11) LoadProfile(PluginSettings.Instance.Zone_10to11);
-            else if (levelNeeded <= 13) LoadProfile(PluginSettings.Instance.Zone_12to13);
-            else if (levelNeeded <= 15) LoadProfile(PluginSettings.Instance.Zone_14to15);
-            else if (levelNeeded <= 17) LoadProfile(PluginSettings.Instance.Zone_16to17);
-            else if (levelNeeded <= 19) LoadProfile(PluginSettings.Instance.Zone_18to19);
-            else if (levelNeeded <= 21) LoadProfile(PluginSettings.Instance.Zone_20to21);
-            else LoadProfile(PluginSettings.Instance.Zone_22to25);
+            // TODO: do we reaaly need to change the settings? No: they are set by human. We will ignore them if unavoidable, but not change
+            if (levelNeeded < 4) LoadProfile(1,3,PluginSettings.Instance.Zone_1to3);
+            else if (levelNeeded <= 5)  LoadProfile(4,5,PluginSettings.Instance.Zone_4to5);
+            else if (levelNeeded <= 7)  LoadProfile(6,7,PluginSettings.Instance.Zone_6to7);
+            else if (levelNeeded <= 9)  LoadProfile(8,9,PluginSettings.Instance.Zone_8to9);
+            else if (levelNeeded <= 11) LoadProfile(10,11,PluginSettings.Instance.Zone_10to11);
+            else if (levelNeeded <= 13) LoadProfile(12,13,PluginSettings.Instance.Zone_12to13);
+            else if (levelNeeded <= 15) LoadProfile(14,15,PluginSettings.Instance.Zone_14to15);
+            else if (levelNeeded <= 17) LoadProfile(16,17,PluginSettings.Instance.Zone_16to17);
+            else if (levelNeeded <= 19) LoadProfile(18,19,PluginSettings.Instance.Zone_18to19);
+            else if (levelNeeded <= 21) LoadProfile(20,21,PluginSettings.Instance.Zone_20to21);
+            else LoadProfile(22,25,PluginSettings.Instance.Zone_22to25);
 
             CurrentProfileLevel = levelNeeded;
             Logger.WriteDebug("Current Profile Level is now " + CurrentProfileLevel);

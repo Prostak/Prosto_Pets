@@ -48,6 +48,8 @@ namespace Prosto_Pets
             add("Ahn'Qiraj: The Fallen Kingdom", 16, 17);
             add("Silithus", 16, 17);
             add("Winterspring", 17, 18);
+            add("Mount Hyjal", 22, 24);
+            add("Uldum", 23, 24);
 
             // EASTERN KINGDOMS
             Continent = "EK";
@@ -79,6 +81,7 @@ namespace Prosto_Pets
             add("Burning Steppes", 15, 16);
             add("Blasted Lands", 16, 17);
             add("Deadwind Pass", 17, 18);
+            add("Twilight Highlands", 23, 24);
 
             // OUTLAND
             Continent = "OUT";
@@ -105,9 +108,6 @@ namespace Prosto_Pets
             // CATACLYSM Zones
             Continent = "CAT";
             add("Deepholm", 22, 23);
-            add("Mount Hyjal", 22, 24);
-            add("Uldum", 23, 24);
-            add("Twilight Highlands", 23, 24);
 
             // PANDARIA
             Continent = "PAN";

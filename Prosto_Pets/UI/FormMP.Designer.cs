@@ -222,6 +222,7 @@
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.label_HelpName = new System.Windows.Forms.Label();
             this.label_Help = new System.Windows.Forms.Label();
+            this.button_LoadCont = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -2647,10 +2648,10 @@
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnCount = 3;
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel11.Controls.Add(this.checkBox_AutoZones, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.label78, 0, 1);
             this.tableLayoutPanel11.Controls.Add(this.button_Zone_1to3, 1, 1);
@@ -2674,6 +2675,7 @@
             this.tableLayoutPanel11.Controls.Add(this.button_Zone_20to21, 1, 10);
             this.tableLayoutPanel11.Controls.Add(this.button_Zone_22to25, 1, 11);
             this.tableLayoutPanel11.Controls.Add(this.label89, 0, 11);
+            this.tableLayoutPanel11.Controls.Add(this.button_LoadCont, 2, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel11.Location = new System.Drawing.Point(0, 0);
@@ -2691,6 +2693,7 @@
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel11.Size = new System.Drawing.Size(469, 361);
             this.tableLayoutPanel11.TabIndex = 0;
             // 
@@ -2702,9 +2705,9 @@
             this.checkBox_AutoZones.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_AutoZones.Location = new System.Drawing.Point(3, 6);
             this.checkBox_AutoZones.Name = "checkBox_AutoZones";
-            this.checkBox_AutoZones.Size = new System.Drawing.Size(366, 17);
+            this.checkBox_AutoZones.Size = new System.Drawing.Size(315, 17);
             this.checkBox_AutoZones.TabIndex = 0;
-            this.checkBox_AutoZones.Text = "Automatically Select Zones based on pet Level and per-Mode increment";
+            this.checkBox_AutoZones.Text = "Automatically Select Zones by pet Level and Mode increment";
             this.checkBox_AutoZones.UseVisualStyleBackColor = true;
             this.checkBox_AutoZones.MouseEnter += new System.EventHandler(this.checkBox_AutoZones_MouseEnter);
             // 
@@ -2722,6 +2725,7 @@
             // 
             this.button_Zone_1to3.AutoSize = true;
             this.button_Zone_1to3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_1to3, 2);
             this.button_Zone_1to3.Location = new System.Drawing.Point(96, 33);
             this.button_Zone_1to3.Name = "button_Zone_1to3";
             this.button_Zone_1to3.Size = new System.Drawing.Size(34, 24);
@@ -2825,6 +2829,7 @@
             // 
             this.button_Zone_4to5.AutoSize = true;
             this.button_Zone_4to5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_4to5, 2);
             this.button_Zone_4to5.Location = new System.Drawing.Point(96, 63);
             this.button_Zone_4to5.Name = "button_Zone_4to5";
             this.button_Zone_4to5.Size = new System.Drawing.Size(34, 24);
@@ -2838,6 +2843,7 @@
             // 
             this.button_Zone_6to7.AutoSize = true;
             this.button_Zone_6to7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_6to7, 2);
             this.button_Zone_6to7.Location = new System.Drawing.Point(96, 93);
             this.button_Zone_6to7.Name = "button_Zone_6to7";
             this.button_Zone_6to7.Size = new System.Drawing.Size(34, 24);
@@ -2851,6 +2857,7 @@
             // 
             this.button_Zone_8to9.AutoSize = true;
             this.button_Zone_8to9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_8to9, 2);
             this.button_Zone_8to9.Location = new System.Drawing.Point(96, 123);
             this.button_Zone_8to9.Name = "button_Zone_8to9";
             this.button_Zone_8to9.Size = new System.Drawing.Size(34, 24);
@@ -2864,6 +2871,7 @@
             // 
             this.button_Zone_10to11.AutoSize = true;
             this.button_Zone_10to11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_10to11, 2);
             this.button_Zone_10to11.Location = new System.Drawing.Point(96, 153);
             this.button_Zone_10to11.Name = "button_Zone_10to11";
             this.button_Zone_10to11.Size = new System.Drawing.Size(34, 24);
@@ -2877,6 +2885,7 @@
             // 
             this.button_Zone_12to13.AutoSize = true;
             this.button_Zone_12to13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_12to13, 2);
             this.button_Zone_12to13.Location = new System.Drawing.Point(96, 183);
             this.button_Zone_12to13.Name = "button_Zone_12to13";
             this.button_Zone_12to13.Size = new System.Drawing.Size(34, 24);
@@ -2890,6 +2899,7 @@
             // 
             this.button_Zone_14to15.AutoSize = true;
             this.button_Zone_14to15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_14to15, 2);
             this.button_Zone_14to15.Location = new System.Drawing.Point(96, 213);
             this.button_Zone_14to15.Name = "button_Zone_14to15";
             this.button_Zone_14to15.Size = new System.Drawing.Size(34, 24);
@@ -2903,6 +2913,7 @@
             // 
             this.button_Zone_16to17.AutoSize = true;
             this.button_Zone_16to17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_16to17, 2);
             this.button_Zone_16to17.Location = new System.Drawing.Point(96, 243);
             this.button_Zone_16to17.Name = "button_Zone_16to17";
             this.button_Zone_16to17.Size = new System.Drawing.Size(34, 24);
@@ -2916,6 +2927,7 @@
             // 
             this.button_Zone_18to19.AutoSize = true;
             this.button_Zone_18to19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_18to19, 2);
             this.button_Zone_18to19.Location = new System.Drawing.Point(96, 273);
             this.button_Zone_18to19.Name = "button_Zone_18to19";
             this.button_Zone_18to19.Size = new System.Drawing.Size(34, 24);
@@ -2929,6 +2941,7 @@
             // 
             this.button_Zone_20to21.AutoSize = true;
             this.button_Zone_20to21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_20to21, 2);
             this.button_Zone_20to21.Location = new System.Drawing.Point(96, 303);
             this.button_Zone_20to21.Name = "button_Zone_20to21";
             this.button_Zone_20to21.Size = new System.Drawing.Size(34, 24);
@@ -2942,6 +2955,7 @@
             // 
             this.button_Zone_22to25.AutoSize = true;
             this.button_Zone_22to25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel11.SetColumnSpan(this.button_Zone_22to25, 2);
             this.button_Zone_22to25.Location = new System.Drawing.Point(96, 333);
             this.button_Zone_22to25.Name = "button_Zone_22to25";
             this.button_Zone_22to25.Size = new System.Drawing.Size(34, 25);
@@ -2966,7 +2980,7 @@
             this.tabListPage1.Controls.Add(this.richTextBox1);
             this.tabListPage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabListPage1.Name = "tabListPage1";
-            this.tabListPage1.Size = new System.Drawing.Size(471, 363);
+            this.tabListPage1.Size = new System.Drawing.Size(42, 192);
             this.tabListPage1.TabIndex = 7;
             this.tabListPage1.Text = "Credits";
             // 
@@ -2975,7 +2989,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(471, 363);
+            this.richTextBox1.Size = new System.Drawing.Size(42, 192);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
@@ -3019,6 +3033,19 @@
             this.label_Help.Size = new System.Drawing.Size(466, 55);
             this.label_Help.TabIndex = 1;
             this.label_Help.Text = "Mouse-over a Control to get Help";
+            // 
+            // button_LoadCont
+            // 
+            this.button_LoadCont.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button_LoadCont.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.button_LoadCont.Location = new System.Drawing.Point(330, 3);
+            this.button_LoadCont.Name = "button_LoadCont";
+            this.button_LoadCont.Size = new System.Drawing.Size(136, 24);
+            this.button_LoadCont.TabIndex = 25;
+            this.button_LoadCont.Text = "Load for Continent";
+            this.button_LoadCont.UseVisualStyleBackColor = true;
+            this.button_LoadCont.Click += new System.EventHandler(this.button_LoadCont_Click);
+            this.button_LoadCont.MouseEnter += new System.EventHandler(this.button_LoadCont_MouseEnter);
             // 
             // FormMP
             // 
@@ -3307,6 +3334,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private System.Windows.Forms.Label label_HelpName;
         private System.Windows.Forms.Label label_Help;
+        private System.Windows.Forms.Button button_LoadCont;
 
     }
 }
