@@ -284,8 +284,8 @@ namespace Prosto_Pets
 
         public static bool enemyIsBlinded()
         {
-            if (_weather == "Darkness" || debuff("Blinding Poison") ||
-                debuff("Blinded") || debuff("Partially Blinded"))
+            if ((_weather == "Darkness" && EnemyActivePet.PetType != (int)PF.Elemental) ||
+                debuff("Blinding Poison") || debuff("Blinded") || debuff("Partially Blinded"))
             {
                 return true;
             }
@@ -294,8 +294,8 @@ namespace Prosto_Pets
 
         public static bool enemyIsBurning()
         {
-            if (_weather == "Scorched Earth" || debuff("Fel Immolate") ||
-                debuff("Flame Breath") || debuff("Flame Jet") ||
+            if ((_weather == "Scorched Earth" && EnemyActivePet.PetType != (int)PF.Elemental) ||
+                debuff("Fel Immolate") || debuff("Flame Breath") || debuff("Flame Jet") ||
                 debuff("Flamethrower") || debuff("Immolate"))
             {
                 return true;
@@ -305,9 +305,9 @@ namespace Prosto_Pets
 
         public static bool enemyIsChilled()
         {
-            if (_weather == "Blizzard" || debuff("Frostbite") ||
-                debuff("Frost Nova") || debuff("Frost Shock") ||
-                debuff("Slippery Ice"))
+            if ((_weather == "Blizzard" && EnemyActivePet.PetType != (int)PF.Elemental) ||
+                debuff("Frostbite") || debuff("Frost Nova") ||
+                debuff("Frost Shock") || debuff("Slippery Ice"))
             {
                 return true;
             }
@@ -366,8 +366,8 @@ namespace Prosto_Pets
 
         public static bool myPetIsBlinded()
         {
-            if (_weather == "Darkness" || buff("Blinding Poison") ||
-                buff("Blinded") || buff("Partially Blinded"))
+            if ((_weather == "Darkness" && ActivePet.PetType != (int)PF.Elemental) ||
+                buff("Blinding Poison") || buff("Blinded") || buff("Partially Blinded"))
             {
                 return true;
             }
@@ -376,8 +376,8 @@ namespace Prosto_Pets
 
         public static bool myPetIsBurning()
         {
-            if (_weather == "Scorched Earth" || buff("Fel Immolate") ||
-                buff("Flame Breath") || buff("Flame Jet") ||
+            if ((_weather == "Scorched Earth" && ActivePet.PetType != (int)PF.Elemental) ||
+                buff("Fel Immolate") || buff("Flame Breath") || buff("Flame Jet") ||
                 buff("Flamethrower") || buff("Immolate"))
             {
                 return true;
@@ -387,15 +387,15 @@ namespace Prosto_Pets
 
         public static bool myPetIsChilled()
         {
-            if (_weather == "Blizzard" || buff("Frostbite") ||
-                buff("Frost Nova") || buff("Frost Shock") ||
-                buff("Slippery Ice"))
+            if ((_weather == "Blizzard" && ActivePet.PetType != (int)PF.Elemental) ||
+                buff("Frostbite") || buff("Frost Nova") ||
+                buff("Frost Shock") || buff("Slippery Ice"))
             {
                 return true;
             }
             return false;
         }
-
+        
         public static bool myPetIsPoisoned()
         {
             // Glowing Toxin is a debuff but does not poison apparently
