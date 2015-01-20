@@ -58,6 +58,8 @@ namespace Prosto_Pets
         public static int buffLeft(string spell) { return MyPets.buffLeft(spell); }
         // is "spell" aura is on the enemy team or on the enemy active pet?
         public static bool debuff(string spell) { return MyPets.debuff(spell); }
+        // number of turns left for such an aura (-1 if the aura is absent)
+        public static int debuffLeft(string spell) { return MyPets.debuffLeft(spell); }
 
         // current weather, "" if none.
         public static bool weather(string name) { return MyPets.Weather == name; }
