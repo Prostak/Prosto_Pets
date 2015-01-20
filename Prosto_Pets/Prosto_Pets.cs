@@ -50,7 +50,10 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.12"; } }
+        public string Version { get { return "0.9.13"; } }
+        // 0.9.13:
+        // - speedEnemy corrected
+        //
         // 0.9.12:
         // - additions for battle tactics
         //

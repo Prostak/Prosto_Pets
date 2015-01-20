@@ -50,7 +50,7 @@ namespace Prosto_Pets
         // our active pet speed
         public static int speed { get { return MyPets.ActivePet.Speed; } }
         // enemy active pet speed
-        public static int speedEnemy { get { return MyPets.ActivePet.Speed; } }
+        public static int speedEnemy { get { return MyPets.EnemyActivePet.Speed; } }
 
         // is "spell" aura on our team or on our active pet?
         public static bool buff(string spell) { return MyPets.buff(spell); }
