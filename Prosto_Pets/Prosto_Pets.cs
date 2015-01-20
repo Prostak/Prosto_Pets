@@ -52,12 +52,12 @@ namespace Prosto_Pets
     {
         public string Version { get { return "0.9.11"; } }
         // 0.9.11:
-        // - ground profiles for EK and Kalimdor added
+        // - profiles for EK and Kalimdor replaced with ground ones
         // - zone selection based on the current continent implemented:
-        //   Default zone profile is now empty (--- not set ----).
-        //   If the zone is to be autoselected, but not set on "Pet Zone" tab (or set for another continent) - the bot will load a zone for the continent you are in. Stop if failed.
-        //   Button to load the zones for the continent added to "Pet Zones" tab. Set to (--- not found ---) if not found.
-        //   CATA zones prefix changed to EK and KALI as appropriate.
+        //   -- Default zone profile is now empty (--- not set ----).
+        //   -- If the zone is to be autoselected, but not set on "Pet Zone" tab (or set for another continent) - the bot will load a zone for the continent you are in. Stop if failed.
+        //   -- Button to load the zones for the continent added to "Pet Zones" tab. Set to (--- not found ---) if not found.
+        //   -- CATA zones prefix changed to EK and KALI as appropriate.
         //
         // 0.9.10:
         // - help system implemented
