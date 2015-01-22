@@ -87,6 +87,7 @@ namespace Prosto_Pets
         public static bool enemyIsResilient() { return MyPets.enemyIsResilient(); }
         public static bool enemyIsStunned() { return MyPets.enemyIsStunned(); }
 
+        public static bool myPetHasAbility(string ability) { return MyPets.myPetHasAbility(ability); }
         public static bool myPetIsAsleep() { return MyPets.myPetIsAsleep(); }
         public static bool myPetIsBurning() { return MyPets.myPetIsBurning(); }
         public static bool myPetIsBlinded() { return MyPets.myPetIsBlinded(); }
