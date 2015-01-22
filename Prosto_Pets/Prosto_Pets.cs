@@ -50,9 +50,14 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.13"; } }
+        public string Version { get { return "0.9.14"; } }
+        // 0.9.14:
+        // - closest profile selected
+        //
         // 0.9.13:
         // - speedEnemy corrected
+        // - Base tactics corrected.
+        // - debuffLeft added.
         //
         // 0.9.12:
         // - additions for battle tactics
@@ -1412,16 +1417,91 @@ namespace Prosto_Pets
             return hs;
         }
 
+        struct Hotspot
+        {
+            public float X, Y, Z;
+            public Hotspot(Styx.WoWPoint p)
+            {
+                X = p.X; Y = p.Y; Z = p.Z;
+            }
+            public override string ToString()
+            {
+                return string.Format("<X={0}, Y={1}, Z={2}>", X, Y, Z);
+            }
+        }
+
+        static float SqrDist2x(Hotspot a, Hotspot b)
+        {
+            return (a.X - b.X) * (a.X - b.X) + (a.Y - b.Y) * (a.Y - b.Y);
+        }
+
+        static bool GetHotSpot(string line, out Hotspot hotspot)
+        {
+            hotspot = new Hotspot() { X = 0, Y = 0, Z = 0 };
+            if (!line.Contains("<Hotspot ")) { return false; }
+
+            string[] sep = new string[] { "X=\"", "Y=\"", "Z=\"", "\"" };
+            string[] xBeg = line.Split(sep, StringSplitOptions.RemoveEmptyEntries);
+            if (xBeg.Length < 6) { return false; }
+            bool xOk = float.TryParse(xBeg[1], out hotspot.X);
+            if (!xOk) { return false; }
+
+            bool yOk = float.TryParse(xBeg[3], out hotspot.Y);
+            if (!yOk) { return false; }
+
+            bool zOk = float.TryParse(xBeg[5], out hotspot.Z);
+            if (!zOk) { return false; }
+
+            return true;
+        }
+
+        public static float GetDistanceToProfile( string file)
+        {
+            float distance = float.MaxValue;
+
+            string[] lines;
+            try
+            {
+                lines = System.IO.File.ReadAllLines(file);
+            }
+            catch( Exception e)
+            {
+                Logger.Alert(e.ToString());
+                return float.MaxValue;
+            }
+
+            Hotspot me = new Hotspot( StyxWoW.Me.Location );
+            
+            foreach( string line in lines )
+            {
+                Hotspot hs;
+                if( GetHotSpot( line, out hs) )
+                {
+                    float hsDist = SqrDist2x(hs, me);
+                    if (hsDist < distance)
+                    {
+                        //Logger.WriteDebug(string.Format("LineDist: {0:f} " + line + " " + hs.ToString(), hsDist));
+                        distance = hsDist;
+                    }
+                }
+            }
+
+            return distance;
+        }
+
         public static string FindProfileOnThisContinent(int min, int max)
         {
             string[] files = System.IO.Directory.GetFiles(GetZonesDir());
-            int bestOverlap = 0;
+            //int bestOverlap = 0;
+            float minDistance = float.MaxValue;
             string bestProfile = PluginSettings.NotSet;
             string continentAbbrev = GetContinentAbbrev();
 
             // EK and CALI do not have all zones, bu we want to have something for these two anyway: starters
             if (min == 18) min -= 1;
             if (max == 21) max += 2;
+
+            Logger.WriteDebug("Me: " + StyxWoW.Me.Location.ToString());
 
             foreach (string fullFile in files)
             {
@@ -1431,10 +1511,19 @@ namespace Prosto_Pets
                     //Logger.WriteDebug("Abbrev: " + continentAbbrev + " == " + GetContinentAbbrev(file) + " in " + file);
 
                     int overlap = GetOverlap(min, max, file);
-                    if (overlap > bestOverlap && GetNumHs(file) > 15 )  // Ignore small zones TODO: const
+                    int hs = GetNumHs(file);
+                    if (hs != 0 && hs > 15) // Ignore small zones TODO: const, 0 means that Hs are not defined in the title
                     {
-                        bestOverlap = overlap;
-                        bestProfile = fullFile;
+                        if (overlap > 0)
+                        {
+                            float distance = GetDistanceToProfile(fullFile);
+                            //Logger.WriteDebug(string.Format("Distance: {0:f} to " + file, distance));
+                            if( distance < minDistance )
+                            {
+                                minDistance = distance;
+                                bestProfile = fullFile;
+                            }
+                        }
                     }
                 }
                 else
