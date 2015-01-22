@@ -50,7 +50,10 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.14"; } }
+        public string Version { get { return "0.9.15"; } }
+        // 0.9.15:
+        // Studio60 120+ pet tactics merged
+        //
         // 0.9.14:
         // - closest profile selected
         //
