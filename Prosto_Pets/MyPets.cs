@@ -58,7 +58,7 @@ namespace Prosto_Pets
 
         public static List<string> ButtonNames
         {
-            get { return _abilityNames;  }
+            get { return _abilityNames; }
         }
 
         public static BattlePet Pet(int index)
@@ -340,6 +340,16 @@ namespace Prosto_Pets
         public static bool enemyIsStunned()
         {
             if (debuff("Stunned") || debuff("Crystal Prison"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        // great in combination with weak/strong checks to choose attacks
+        public static bool myPetHasAbility(string ability)
+        {
+            if(_abilityNames.Contains(ability))
             {
                 return true;
             }
