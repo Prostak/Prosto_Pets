@@ -39,29 +39,29 @@ namespace Prosto_Pets
                      * Slot 3: Soothe       | Pump
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Wave", 	() => hp < 0.7 ),	
-			            new AandC("Cleansing Rain", () => hp < 0.9 ),	
-                        new AandC("Pump",      	    () => buff("Pumped Up") && strong("Pump")),  
-                        new AandC("Poison Spit",	() => buff("Pumped Up") && strong("Poison Spit")),	
-			            new AandC("Pump",      	    () => ! buff("Pumped Up") && hpEnemy > 0.4),  
-			            new AandC("Poison Spit"),
+                    {
+                        new AandC("Healing Wave",   () => hp < 0.7 ),   
+                        new AandC("Cleansing Rain", () => hp < 0.9 ),   
+                        new AandC("Pump",           () => buff("Pumped Up") && strong("Pump")),  
+                        new AandC("Poison Spit",    () => buff("Pumped Up") && strong("Poison Spit")),  
+                        new AandC("Pump",           () => ! buff("Pumped Up") && hpEnemy > 0.4),  
+                        new AandC("Poison Spit"),
                         new AandC("Water Jet"), 
-		            };
+                    };
                     break;
 
                 case "Biletoad":
-                case "Frog": 
-                case "Garden Frog": 
-                case "Huge Toad": 
-                case "Jubling": 
-                case "Jungle Darter": 
-                case "Leopard Tree Frog": 
-                case "Mac Frog": 
-                case "Mojo": 
-                case "Small Frog": 
-                case "Spotted Bell Frog": 
-                case "Toad": 
+                case "Frog":
+                case "Garden Frog":
+                case "Huge Toad":
+                case "Jubling":
+                case "Jungle Darter":
+                case "Leopard Tree Frog":
+                case "Mac Frog":
+                case "Mojo":
+                case "Small Frog":
+                case "Spotted Bell Frog":
+                case "Toad":
                 case "Tree Frog":
                 case "Wood Frog":
                 case "Yellow-Bellied Bullfrog":
@@ -74,16 +74,16 @@ namespace Prosto_Pets
                      * Slot 3: Frog Kiss    | Swarm of Flies
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Wave",   () => hp < 0.7),
+                    {
+                        new AandC("Healing Wave",   () => hp < 0.7),
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain") || hp < 0.9),
                         new AandC("Swarm of Flies", () => ! debuff("Swarm of Flies")),
-			            new AandC("Tongue Lash",    () => speed > speedEnemy || strong("Tongue Lash")),
-                        new AandC("Frog Kiss",      () => ! enemyIsResilient()),	
+                        new AandC("Tongue Lash",    () => speed > speedEnemy || strong("Tongue Lash")),
+                        new AandC("Frog Kiss",      () => ! enemyIsResilient()),    
                         new AandC("Frog Kiss",      () => myPetHasAbility("Tongue Lash") && weak("Tongue Lash")),
                         new AandC("Water Jet"),
-			            new AandC("Tongue Lash"),
-		            };
+                        new AandC("Tongue Lash"),
+                    };
                     break;
 
                 case "Chuck":
@@ -99,18 +99,18 @@ namespace Prosto_Pets
                      * Slot 3: Devour   | Blood in the Water
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Devour",             () => hpEnemy < 0.2 || (strong("Devour") || hp < 0.3)),	 
-			            new AandC("Rip",                () => ! enemyIsBleeding()),	
-			            new AandC("Consume",            () => hp < 0.8),
-   			            new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                    {
+                        new AandC("Devour",             () => hpEnemy < 0.2 || (strong("Devour") || hp < 0.3)),  
+                        new AandC("Rip",                () => ! enemyIsBleeding()), 
+                        new AandC("Consume",            () => hp < 0.8),
+                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
                         new AandC("Surge",              () => myPetHasAbility("Consume") && (weak("Consume") || strong("Surge"))),
                         new AandC("Surge",              () => myPetHasAbility("Rip") && (weak("Rip") || strong("Surge"))),
-			            new AandC("Water Jet",          () => myPetHasAbility("Consume") && (weak("Consume") || strong("Water Jet"))),
+                        new AandC("Water Jet",          () => myPetHasAbility("Consume") && (weak("Consume") || strong("Water Jet"))),
                         new AandC("Water Jet",          () => myPetHasAbility("Rip") && (weak("Rip") || strong("Water Jet"))),
-			            new AandC("Consume"),
+                        new AandC("Consume"),
                         new AandC("Rip"),
-		            };
+                    };
                     break;
 
                 case "Darkmoon Turtle":
@@ -128,17 +128,17 @@ namespace Prosto_Pets
                      * Slot 3: Headbutt     | Powerball
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Wave",   () => hp < 0.7),
-			            new AandC("Shell Shield",   () => ! buff("Shell Shield")),
-			            new AandC("Headbutt"),
+                    {
+                        new AandC("Healing Wave",   () => hp < 0.7),
+                        new AandC("Shell Shield",   () => ! buff("Shell Shield")),
+                        new AandC("Headbutt"),
                         new AandC("Powerball",      () => myPetHasAbility("Bite") && weak("Bite")),
                         new AandC("Powerball",      () => myPetHasAbility("Grasp") && weak("Grasp")),
-			            new AandC("Powerball",      () => strong("Powerball")),
+                        new AandC("Powerball",      () => strong("Powerball")),
                         new AandC("Powerball",      () => ! weak("Powerball") && speed < speedEnemy),
-			            new AandC("Bite"),
-			            new AandC("Grasp"),
-		            };
+                        new AandC("Bite"),
+                        new AandC("Grasp"),
+                    };
                     break;
 
                 case "Emerald Turtle":
@@ -151,17 +151,17 @@ namespace Prosto_Pets
                      * Slot 3: Headbutt     | Powerball
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Wave",   () => hp < 0.7 ),
-			            new AandC("Shell Shield",   () => ! buff("Shell Shield") ),
-			            new AandC("Headbutt"),
+                    {
+                        new AandC("Healing Wave",   () => hp < 0.7 ),
+                        new AandC("Shell Shield",   () => ! buff("Shell Shield") ),
+                        new AandC("Headbutt"),
                         new AandC("Powerball",      () => myPetHasAbility("Emerald Bite") && weak("Emerald Bite")),
                         new AandC("Powerball",      () => myPetHasAbility("Grasp") && weak("Grasp")),
-			            new AandC("Powerball",      () => strong("Powerball")),
+                        new AandC("Powerball",      () => strong("Powerball")),
                         new AandC("Powerball",      () => ! weak("Powerball") && speed < speedEnemy),
                         new AandC("Emerald Bite"),
-			            new AandC("Grasp"),
-		            };
+                        new AandC("Grasp"),
+                    };
                     break;
 
                 case "Emperor Crab":
@@ -181,15 +181,15 @@ namespace Prosto_Pets
                      * Slot 3: Shell Shield     | Whirlpool
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Renewing Mists", () => ! buff("Renewing Mists")),
-			            new AandC("Healing Wave", 	() => hp < 0.7),
+                    {
+                        new AandC("Renewing Mists", () => ! buff("Renewing Mists")),
+                        new AandC("Healing Wave",   () => hp < 0.7),
                         new AandC("Shell Shield",   () => speed <= speedEnemy && buffLeft("Shell Shield") < 2),
-			            new AandC("Shell Shield", 	() => ! buff("Shell Shield")),
+                        new AandC("Shell Shield",   () => ! buff("Shell Shield")),
                         new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.5),
                         new AandC("Snap"),
-			            new AandC("Surge"),
-		            };
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Fishy":
@@ -203,18 +203,18 @@ namespace Prosto_Pets
                      * Slot 3: Whirlpool        | Pump
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Cleansing Rain",     () => ! weather("Cleansing Rain") || hp < 0.8),
-			            new AandC("Healing Wave", 	    () => hp < 0.7 ),
-			            new AandC("Whirlpool",          () => ! debuff("Whirlpool") && hpEnemy > 0.5),
-			            new AandC("Pump",               () => buff("Pumped Up") || hpEnemy > 0.4),
-			            new AandC("Water Jet"),
-			            new AandC("Surge"),
-		            };
+                    {
+                        new AandC("Cleansing Rain",     () => ! weather("Cleansing Rain") || hp < 0.8),
+                        new AandC("Healing Wave",       () => hp < 0.7 ),
+                        new AandC("Whirlpool",          () => ! debuff("Whirlpool") && hpEnemy > 0.5),
+                        new AandC("Pump",               () => buff("Pumped Up") || hpEnemy > 0.4),
+                        new AandC("Water Jet"),
+                        new AandC("Surge"),
+                    };
                     break;
 
-                case "Frostshell Pincher": 
-                case "Ironclaw Scuttler": 
+                case "Frostshell Pincher":
+                case "Ironclaw Scuttler":
                 case "Kelp Scuttler":
                     /* Changelog:
                      * 2015-01-22: Double Spiny Carapace is now used for retaliation on huge attacks - Studio60
@@ -253,24 +253,24 @@ namespace Prosto_Pets
                      * Slot 3: Whirlpool    | Geyser
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Devour", 		    () => hpEnemy < 0.2 || (strong("Devour") && hpEnemy < 0.3)),
-			            new AandC("Swallow You Whole",  () => hpEnemy < 0.25),
-			            new AandC("Whirlpool",          () => ! debuff("Whirpool") && hpEnemy > 0.5),
-			            new AandC("Geyser",             () => ! debuff("Geyser") && hpEnemy > 0.55),
-			            new AandC("Swallow You Whole",  () => myPetHasAbility("Bite") && weak("Bite")),
+                    {
+                        new AandC("Devour",             () => hpEnemy < 0.2 || (strong("Devour") && hpEnemy < 0.3)),
+                        new AandC("Swallow You Whole",  () => hpEnemy < 0.25),
+                        new AandC("Whirlpool",          () => ! debuff("Whirpool") && hpEnemy > 0.5),
+                        new AandC("Geyser",             () => ! debuff("Geyser") && hpEnemy > 0.55),
+                        new AandC("Swallow You Whole",  () => myPetHasAbility("Bite") && weak("Bite")),
                         new AandC("Swallow You Whole",  () => strong("Swallow You Whole")),
                         new AandC("Bite"),
-			            new AandC("Tail Slap"),
-		            };
+                        new AandC("Tail Slap"),
+                    };
                     break;
 
-                case "Golden Civet": 
-                case "Golden Civet Kitten": 
-                case "Kuitan Mongoose": 
-                case "Mongoose": 
-                case "Mongoose Pup": 
-                case "Sifang Otter": 
+                case "Golden Civet":
+                case "Golden Civet Kitten":
+                case "Kuitan Mongoose":
+                case "Mongoose":
+                case "Mongoose Pup":
+                case "Sifang Otter":
                 case "Sifang Otter Pup":
                     /* Changelog:
                      * 2015-01-22: viable base tactic designed - Studio60
@@ -281,14 +281,14 @@ namespace Prosto_Pets
                      * Slot 3: Surge    | Dive
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
+                    {
                         new AandC("Dive",       () => shouldIHide && speed >= speedEnemy),
-			            new AandC("Survival",   () => hp < 0.3 ),
+                        new AandC("Survival",   () => hp < 0.3 ),
                         new AandC("Screech",    () => ! debuff("Speed Reduction") && speed <= speedEnemy),
-			            new AandC("Surge",      () => strong("Surge") || weak("Bite")),
+                        new AandC("Surge",      () => strong("Surge") || weak("Bite")),
                         new AandC("Bite"),
-			            new AandC("Gnaw"),
-		            };
+                        new AandC("Gnaw"),
+                    };
                     break;
 
                 case "Gulp Froglet":
@@ -332,14 +332,14 @@ namespace Prosto_Pets
                      * TODO: Call Lightning is not always beneficial, only if mech's on our side
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Shell Armor",        () => ! buff("Shell Armor")),
-			            new AandC("Swallow You Whole",  () => hpEnemy < 0.25 ),
-			            new AandC("Whirlpool",          () => ! debuff("Whirlpool") && hpEnemy > 0.5),
-			            new AandC("Call Lightning",     () => ! weather("Lightning Storm")),
-			            new AandC("Deep Bite"),
-			            new AandC("Tail Slap"),
-		            };
+                    {
+                        new AandC("Shell Armor",        () => ! buff("Shell Armor")),
+                        new AandC("Swallow You Whole",  () => hpEnemy < 0.25 ),
+                        new AandC("Whirlpool",          () => ! debuff("Whirlpool") && hpEnemy > 0.5),
+                        new AandC("Call Lightning",     () => ! weather("Lightning Storm")),
+                        new AandC("Deep Bite"),
+                        new AandC("Tail Slap"),
+                    };
                     break;
 
                 case "Horny Toad":
@@ -354,14 +354,14 @@ namespace Prosto_Pets
                      * TODO: Frog Kiss should be used primarily if Tongue Lash is selected and weak
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Wave",       () => hp < 0.7 ),
-			            new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
-			            new AandC("Cleansing Rain",     () => ! weather("Cleansing Rain") || hp < 0.9),
-			            new AandC("Frog Kiss",          () => ! enemyIsResilient()),
-			            new AandC("Water Jet"),
-			            new AandC("Tongue Lash"),
-		            };
+                    {
+                        new AandC("Healing Wave",       () => hp < 0.7 ),
+                        new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
+                        new AandC("Cleansing Rain",     () => ! weather("Cleansing Rain") || hp < 0.9),
+                        new AandC("Frog Kiss",          () => ! enemyIsResilient()),
+                        new AandC("Water Jet"),
+                        new AandC("Tongue Lash"),
+                    };
                     break;
 
                 case "Land Shark":
@@ -403,8 +403,8 @@ namespace Prosto_Pets
                         new AandC("Poison Spit",    () => ! debuff("Poisoned")),
                         new AandC("Whirlpool",      () => hpEnemy > 0.4),
                         new AandC("Primal Cry",     () => ! debuff("Speed Reduction")),
-                        new AandC("Tail Slap"),	// Slot 1
-                        new AandC("Water Jet"),	// Slot 1
+                        new AandC("Tail Slap"), // Slot 1
+                        new AandC("Water Jet"), // Slot 1
                     };
                     break;
 
@@ -415,14 +415,14 @@ namespace Prosto_Pets
                      * Slot 3: Whirlpool        | Wish
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Wish",           () => hp < 0.5),
-			            new AandC("Shell Shield",   () => ! buff("Shell Shield")),
-			            new AandC("Renewing Mists", () => ! buff("Renewing Mists")),
-			            new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.5),
-			            new AandC("Snap"),
-			            new AandC("Surge"),
-		            };
+                    {
+                        new AandC("Wish",           () => hp < 0.5),
+                        new AandC("Shell Shield",   () => ! buff("Shell Shield")),
+                        new AandC("Renewing Mists", () => ! buff("Renewing Mists")),
+                        new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.5),
+                        new AandC("Snap"),
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Moonshell Crab":
@@ -437,19 +437,19 @@ namespace Prosto_Pets
                      * TODO: Moon Tears: Detect state of team / enemy team pets
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Arcane Slash",   () => hpEnemy < 0.2 ),
-			            new AandC("Moon Tears",     () => ! weather("Moonlight")),
-			            new AandC("Renewing Mists", () => hp < 0.7 && ! buff("Renewing Mists")	),
-			            new AandC("Amplify Magic",  () => hp > 0.4 && ! buff("Amplify Magic")),
-			            new AandC("Shell Shield",   () => hp < hpEnemy && ! buff("Shell Shield" )),
-			            new AandC("Arcane Slash"),
-			            new AandC("Water Jet"),
-		            };
+                    {
+                        new AandC("Arcane Slash",   () => hpEnemy < 0.2 ),
+                        new AandC("Moon Tears",     () => ! weather("Moonlight")),
+                        new AandC("Renewing Mists", () => hp < 0.7 && ! buff("Renewing Mists")  ),
+                        new AandC("Amplify Magic",  () => hp > 0.4 && ! buff("Amplify Magic")),
+                        new AandC("Shell Shield",   () => hp < hpEnemy && ! buff("Shell Shield" )),
+                        new AandC("Arcane Slash"),
+                        new AandC("Water Jet"),
+                    };
                     break;
 
                 case "Mr. Chilly":
-                case "Pengu": 
+                case "Pengu":
                 case "Tundra Penguin":
                     /* 2015-01-23: Ice Lance is cast when it has a type advantage over base attacks and if frost spit is not selected or the enemy is chilled (oh boy!) - Studio60
                      *             Belly Slide is now only cast during Blizzard or with Uncanny Luck
@@ -459,17 +459,17 @@ namespace Prosto_Pets
                      * Slot 3: Ice Lance    | Belly Slide
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Slippery Ice",   () => ! debuff("Slippery Ice")),
+                    {
+                        new AandC("Slippery Ice",   () => ! debuff("Slippery Ice")),
                         new AandC("Slippery Ice",   () => debuffLeft("Slippery Ice") == 1 && speed <= speedEnemy),
-			            new AandC("Ice Lance",      () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled()))),
+                        new AandC("Ice Lance",      () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled()))),
                         new AandC("Ice Lance",      () => (myPetHasAbility("Surge") && (weak("Surge") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled()))),
-			            new AandC("Frost Spit",     () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Frost Spit")))),
+                        new AandC("Frost Spit",     () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Frost Spit")))),
                         new AandC("Frost Spit",     () => (myPetHasAbility("Surge") && (weak("Surge") || strong("Frost Spit")))),
-			            new AandC("Belly Slide",    () => buff("Uncanny Luck") || weather("Blizzard")),
-			            new AandC("Peck"),
-			            new AandC("Surge"),
-		            };
+                        new AandC("Belly Slide",    () => buff("Uncanny Luck") || weather("Blizzard")),
+                        new AandC("Peck"),
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Mud Jumper":
@@ -532,16 +532,16 @@ namespace Prosto_Pets
                      * Slot 3: Whirlpool    | Pump
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Spiked Skin",    () => ! shouldIHide && speed >= speedEnemy),
+                    {
+                        new AandC("Spiked Skin",    () => ! shouldIHide && speed >= speedEnemy),
                         new AandC("Healing Wave",   () => hp < 0.7 ),
-			            new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
+                        new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
                         new AandC("Spiked Skin",    () => buffLeft("Spiked Skin") == 1 && speed <= speedEnemy),
                         new AandC("Pump",           () => ! buff("Pumped Up")),
-			            new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.5),
+                        new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.5),
                         new AandC("Water Jet"),
-			            new AandC("Surge"),
-		            };
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Sea Calf":
@@ -583,17 +583,17 @@ namespace Prosto_Pets
                      * TODO: Tidal Wave needs to check for enemy objects
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
-			            new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),
-			            new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
-			            new AandC("Pump",           () => buff("Pumped Up")),
+                    {
+                        new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
+                        new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),
+                        new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
+                        new AandC("Pump",           () => buff("Pumped Up")),
                         new AandC("Pump",           () => hpEnemy > 0.4),
                         new AandC("Surge",          () => myPetHasAbility("Tidal Wave")),
                         new AandC("Pump",           () => myPetHasAbility("Tidal Wave") && ! myPetHasAbility("Surge")),
                         new AandC("Water Jet"),
                         new AandC("Tidal Wave"),
-		            };
+                    };
                     break;
 
                 case "Spawn of G'nathus":
@@ -606,15 +606,15 @@ namespace Prosto_Pets
                      * Slot 3: Thunderbolt          | Paralyzing Shock
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Dive",               () => shouldIHide && speed >= speedEnemy),
-			            new AandC("Swallow You Whole",  () => hpEnemy < 0.25),
+                    {
+                        new AandC("Dive",               () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Swallow You Whole",  () => hpEnemy < 0.25),
                         new AandC("Lightning Shield",   () => ! buff("Lightning Shield")),
-			            new AandC("Thunderbolt"),
-			            new AandC("Paralyzing Shock"),
-			            new AandC("Swallow You Whole"),
-			            new AandC("Jolt"),
-		            };
+                        new AandC("Thunderbolt"),
+                        new AandC("Paralyzing Shock"),
+                        new AandC("Swallow You Whole"),
+                        new AandC("Jolt"),
+                    };
                     break;
 
                 case "Spineclaw Crab":
@@ -649,17 +649,17 @@ namespace Prosto_Pets
                      * Slot 3: Frog Kiss    | Bubble
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Bubble",             () => shouldIHide && speed > speedEnemy),
-			            new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
-			            new AandC("Croak",              () => ! debuff("Croak")),
+                    {
+                        new AandC("Bubble",             () => shouldIHide && speed > speedEnemy),
+                        new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
+                        new AandC("Croak",              () => ! debuff("Croak")),
                         new AandC("Croak",              () => debuffLeft("Croak") == 1 && speed <= speedEnemy),
-			            new AandC("Frog Kiss",          () => ! enemyIsResilient()),
+                        new AandC("Frog Kiss",          () => ! enemyIsResilient()),
                         new AandC("Frog Kiss",          () => myPetHasAbility("Tongue Lash") && (weak("Tongue Lash"))),
                         new AandC("Frog Kiss",          () => myPetHasAbility("Tongue Lash") && (strong("Frog Kiss"))),
-			            new AandC("Water Jet"),
-			            new AandC("Tongue Lash"),
-		            };
+                        new AandC("Water Jet"),
+                        new AandC("Tongue Lash"),
+                    };
                     break;
 
                 case "Tideskipper":
@@ -672,14 +672,14 @@ namespace Prosto_Pets
                      * Slot 3: Clobber      | Geyser
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),
-			            new AandC("Clobber"),
-			            new AandC("Geyser",         () => ! debuff("Geyser") && hpEnemy > 0.5),
-			            new AandC("Body Slam",      () => hp > 0.4 && myPetHasAbility("Grasp") && (weak("Grasp") || strong("Body Slam"))),
+                    {
+                        new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),
+                        new AandC("Clobber"),
+                        new AandC("Geyser",         () => ! debuff("Geyser") && hpEnemy > 0.5),
+                        new AandC("Body Slam",      () => hp > 0.4 && myPetHasAbility("Grasp") && (weak("Grasp") || strong("Body Slam"))),
                         new AandC("Crush"),
-			            new AandC("Grasp"),
-		            };
+                        new AandC("Grasp"),
+                    };
                     break;
 
                 case "Tiny Blue Carp":
@@ -692,17 +692,17 @@ namespace Prosto_Pets
                      * Slot 3: Pump             | Mana Surge
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Stream", () => hp < 0.8),
-			            new AandC("Wild Magic",     () => ! debuff("Wild Magic")),
-			            new AandC("Pump",           () => ! buff("Pumped Up")),
-			            new AandC("Mana Surge",     () => weather("Arcane Winds")),
+                    {
+                        new AandC("Healing Stream", () => hp < 0.8),
+                        new AandC("Wild Magic",     () => ! debuff("Wild Magic")),
+                        new AandC("Pump",           () => ! buff("Pumped Up")),
+                        new AandC("Mana Surge",     () => weather("Arcane Winds")),
                         new AandC("Mana Surge",     () => myPetHasAbility("Surge") && (weak("Surge") || strong("Mana Surge")) && hp > 0.4),
-			            new AandC("Psychic Blast",  () => weather("Arcane Winds")),
+                        new AandC("Psychic Blast",  () => weather("Arcane Winds")),
                         new AandC("Pump",           () => myPetHasAbility("Psychic Blast") && (weak("Psychic Blast") || strong("Pump"))),
                         new AandC("Surge"),
-			            new AandC("Psychic Blast"),
-		            };
+                        new AandC("Psychic Blast"),
+                    };
                     break;
 
                 case "Tiny Green Carp":
@@ -718,13 +718,13 @@ namespace Prosto_Pets
                      * Invisibility is currently not used as there is no solid use case
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Healing Stream", () => hp < 0.8),
+                    {
+                        new AandC("Healing Stream", () => hp < 0.8),
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
-			            new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
+                        new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
                         new AandC("Water Jet"),
-			            new AandC("Surge"),
-		            };
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Tiny Red Carp":
@@ -737,15 +737,15 @@ namespace Prosto_Pets
                      * Slot 3: Whirlpool        | Spiked Skin
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
+                    {
                         new AandC("Healing Stream", () => hp < 0.8),
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
-			            new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
+                        new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
                         new AandC("Spiked Skin",    () => buffLeft("Spiked Skin") == 1 && speed < speedEnemy),
                         new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
-			            new AandC("Water Jet"),
-			            new AandC("Poison Spit"),
-		            };
+                        new AandC("Water Jet"),
+                        new AandC("Poison Spit"),
+                    };
                     break;
 
                 case "Tiny White Carp":
@@ -758,14 +758,14 @@ namespace Prosto_Pets
                      * Slot 3: Dive             | Healing Stream
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Dive",           () => shouldIHide && speed >= speedEnemy),
+                    {
+                        new AandC("Dive",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Healing Wave",   () => hp < 0.6),
                         new AandC("Healing Stream", () => hp < 0.8),
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
-			            new AandC("Water Jet"),
-			            new AandC("Surge"),
-		            };
+                        new AandC("Water Jet"),
+                        new AandC("Surge"),
+                    };
                     break;
 
                 case "Wanderer's Festival Hatchling":
@@ -778,16 +778,16 @@ namespace Prosto_Pets
                      * Slot 3: Pump         | Cleansing Rain
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
+                    {
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
-			            new AandC("Shell Shield",   () => ! buff("Shell Shield")),
+                        new AandC("Shell Shield",   () => ! buff("Shell Shield")),
                         new AandC("Shell Shield",   () => buffLeft("Shell Shield") == 1 && speed <= speedEnemy),
-			            new AandC("Perk Up",        () => ! buff("Healthy") && hp < 0.7),
-			            new AandC("Pump",           () => ! buff("Pumped Up")),
-			            new AandC("Pump",           () => myPetHasAbility("Bite") && (weak("Bite") || strong("Pump")) && hpEnemy > 0.3),
+                        new AandC("Perk Up",        () => ! buff("Healthy") && hp < 0.7),
+                        new AandC("Pump",           () => ! buff("Pumped Up")),
+                        new AandC("Pump",           () => myPetHasAbility("Bite") && (weak("Bite") || strong("Pump")) && hpEnemy > 0.3),
                         new AandC("Bite"),
-			            new AandC("Grasp"),
-		            };
+                        new AandC("Grasp"),
+                    };
                     break;
 
                 case "Zangar Crawler":
@@ -802,18 +802,18 @@ namespace Prosto_Pets
                      * TODO: Add Uncanny Luck to Blood in the Water
                      */
                     aquatic_abilities = new List<AandC>()
-		            {
-			            new AandC("Dive",               () => shouldIHide && speed >= speedEnemy),
-			            new AandC("Spiny Carapace",     () => shouldIHide && speed >= speedEnemy),
+                    {
+                        new AandC("Dive",               () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Spiny Carapace",     () => shouldIHide && speed >= speedEnemy),
                         new AandC("Shell Shield",       () => ! buff("Shell Shield" )),
                         new AandC("Shell Shield",       () => buffLeft("Shell Shield") == 1 && speed <= speedEnemy),
-			            new AandC("Spiny Carapace",     () => ! buff("Spiny Carapace")),
+                        new AandC("Spiny Carapace",     () => ! buff("Spiny Carapace")),
                         new AandC("Spiny Carapace",     () => buffLeft("Spiny Carapace") == 1 && speed <= speedEnemy),
-			            new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
-			            new AandC("Rip",                () => ! debuff("Bleeding")),
-			            new AandC("Rip"),
-			            new AandC("Claw"),
-		            };
+                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                        new AandC("Rip",                () => ! debuff("Bleeding")),
+                        new AandC("Rip"),
+                        new AandC("Claw"),
+                    };
                     break;
 
                 default:
