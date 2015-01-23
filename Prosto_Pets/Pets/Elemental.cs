@@ -71,6 +71,8 @@ namespace Prosto_Pets
                      * Slot 1: Feedback         | Burn
                      * Slot 2: Crystal Overload | Stoneskin
                      * Slot 3: Crystal Prison   | Instability
+                     * 
+                     * * Add Uncanny Luck to Instability
                      */
                     elemental_abilities = new List<AandC>() 
                     {

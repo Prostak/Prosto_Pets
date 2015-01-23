@@ -481,6 +481,8 @@ namespace Prosto_Pets
                      * Slot 1: Chomp        | Consume
                      * Slot 2: Sticky Goo   | Moth Balls
                      * Slot 3: Burrow       | Moth Dust
+                     * 
+                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     critter_abilities = new List<AandC>() 
                     {

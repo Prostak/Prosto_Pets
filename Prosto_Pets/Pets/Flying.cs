@@ -28,9 +28,9 @@ namespace Prosto_Pets
             {
                 case "Amberbarb Wasp":
                 case "Bloodsting Wasp":
+                case "Bone Wasp":
                 case "Twilight Wasp": 
                 case "Wood Wasp":
-                case "Bone Wasp":
                     /* Changelog:
                      * 2015-01-20: Puncture Wound is now checking for all poison effects - Studio60
                      * 2015-01-18: Initial tactic by Studio60
@@ -72,6 +72,8 @@ namespace Prosto_Pets
                      * Slot 1: Slicing Wind     | Alpha Strike
                      * Slot 2: Cocoon Strike    | Adrenaline Rush
                      * Slot 3: Moth Balls       | Moth Dust
+                     * 
+                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -116,6 +118,8 @@ namespace Prosto_Pets
                      *
                      * Tactic Information
                      * Moth balls deal unreliable damage, but become useful if we are faster than the enemy
+                     * 
+                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Nimbus", () => ! buff("Nimbus")),
@@ -128,8 +132,8 @@ namespace Prosto_Pets
                     break;
 
                 case "Axebeak Hatchling":
-                case "Junglebeak":
                 case "Fruit Hunter":
+                case "Junglebeak":
                     /* Changelog:
                      * 2015-01-20: Nocturnal Strike is now checking for all blindness effects - Studio60
                      *             Lift-Off is now also used to hide from huge attacks if both pets have equal speed - Studio60
@@ -141,6 +145,8 @@ namespace Prosto_Pets
                      * Slot 1: Slicing Wind | Peck
                      * Slot 2: Rain Dance   | Flyby
                      * Slot 3: Lift-Off     | Nocturnal Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Lift-Off",           () => strong("Lift-Off") || (shouldIHide && speed >= speedEnemy)),
@@ -184,6 +190,8 @@ namespace Prosto_Pets
                      * Slot 1: Bite             | Leech Life
                      * Slot 2: Screech          | Hawk Eye
                      * Slot 3: Reckless Strike  | Nocturnal Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -251,6 +259,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -360,6 +370,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -400,6 +412,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck     | Alpha Strike
                      * Slot 2: Squawk   | Call Darkness
                      * Slot 3: Murder   | Nocturnal Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -459,6 +473,7 @@ namespace Prosto_Pets
                      * 
                      * TODO: Nocturnal Strike should check if pet has selected Call Darkness
                      * TODO: Consume Corpse needs to check for dead allies
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // (missing condition) nocturnal strike: should check if pet has skill darkness
                     // (missing condition) consume corpse: requires e.g. "deadAllies > 0"
@@ -591,6 +606,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Alpha Strike
                      * Slot 2: Darkflame        | Call Darkness
                      * Slot 3: Nocturnal Strike | Nevermore
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -694,6 +711,8 @@ namespace Prosto_Pets
                      * Tactic Information:
                      * Quills are prioritized after Flock to finish the enemy off
                      * Flock is used in Black Claw combo
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
@@ -711,6 +730,8 @@ namespace Prosto_Pets
                      * Slot 1: Slicing Wind     | Wild Winds
                      * Slot 2: Cocoon Strike    | Moth Balls
                      * Slot 3: Moth Dust        | Cyclone
+                     * 
+                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -772,6 +793,7 @@ namespace Prosto_Pets
                      * Predatory Strike is used as a finisher
                      * 
                      * TODO: Nocturnal Strike should be used more often, if no team pet can cause Blindness
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
@@ -814,6 +836,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
@@ -915,6 +939,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Dark Talon
                      * Slot 2: Nocturnal Strike | Soulrush
                      * Slot 3: Moonfire         | Ethereal
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // ethereal: can always dodge shouldIHide attacks
                     flying_abilities = new List<AandC>() {
@@ -1158,6 +1184,8 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Wild Winds       | Flock
                      * Slot 3: Nocturnal Strike | Predatory Strike
+                     * 
+                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // nocturnal strike: only if enemy is blinded
                     flying_abilities = new List<AandC>() {

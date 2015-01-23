@@ -278,6 +278,8 @@ namespace Prosto_Pets
                      * Tactics Information:
                      * Cataclysm's hit chance makes it too unreliable without other hit chance buff
                      * Devour can be used earlier against critters
+                     * 
+                     * TODO: Add Uncanny Luck to Cataclysm
                      */
                     dragonkin_abilities = new List<AandC>() {
                         new AandC("Devour",             () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
@@ -294,6 +296,8 @@ namespace Prosto_Pets
                      * Slot 1: Shadowflame      | Tail Sweep
                      * Slot 2: Call Darkness    | Roll
                      * Slot 3: Elementium Bolt  | Cataclysm
+                     * 
+                     * TODO: Add Uncanny Luck to Cataclysm
                      */
                     dragonkin_abilities = new List<AandC>() 
                     {
@@ -345,6 +349,8 @@ namespace Prosto_Pets
                      * Slot 1: Breath       | Nether Blast
                      * Slot 2: Phase Shift  | Accuracy
                      * Slot 3: Instability  | Soulrush
+                     * 
+                     * Add Uncanny Luck to Instability
                      */
                     dragonkin_abilities = new List<AandC>() 
                     {
@@ -468,6 +474,8 @@ namespace Prosto_Pets
                      * Slot 1: Claw         | Tail Sweep
                      * Slot 2: Roar         | Spiked Skin
                      * Slot 3: Instability  | Healing Flame
+                     * 
+                     * * Add Uncanny Luck to Instability
                      */
                     dragonkin_abilities = new List<AandC>() 
                     {

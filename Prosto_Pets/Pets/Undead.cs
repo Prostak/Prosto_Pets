@@ -309,6 +309,8 @@ namespace Prosto_Pets
                      * Slot 1: Shadow Slash | Death Coil
                      * Slot 2: Ghostly Bite | Spectral Strike
                      * Slot 3: Siphon Life  | Unholy Ascension
+                     * 
+                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     undead_abilities = new List<AandC>() 
                     {
@@ -646,6 +648,7 @@ namespace Prosto_Pets
                      * TODO: Consume Corpse needs to check own team status
                      * TODO: Death Grip needs to check own team status
                      * TODO: Corpse Explosion needs to check own team status
+                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     undead_abilities = new List<AandC>() {
                         new AandC("Haymaker",           () => strong("Haymaker")),
@@ -666,6 +669,8 @@ namespace Prosto_Pets
                      * Slot 1: Pounce           | Spirit Clawss
                      * Slot 2: Devour           | Spectral Strike
                      * Slot 3: Call Darkness    | Prowl
+                     * 
+                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     // prowl: trying to only use it, if we stay faster after using it
                     undead_abilities = new List<AandC>() {

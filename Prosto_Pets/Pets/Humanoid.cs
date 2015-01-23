@@ -31,6 +31,8 @@ namespace Prosto_Pets
                      * Slot 1: Crush        | Demolish
                      * Slot 2: Sandstorm    | Stoneskin
                      * Slot 3: Deflection   | Rupture
+                     * 
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
@@ -79,6 +81,8 @@ namespace Prosto_Pets
                      * 
                      * Tactic Information:
                      * Dodge is used to avoid big hits
+                     * 
+                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() {
                         new AandC("Going Bonkers!",     () => ! buff("Bonkers!")),
@@ -447,6 +451,8 @@ namespace Prosto_Pets
                      * Slot 1: Punch        | Flurry
                      * Slot 2: Shield Block | Counterstrike
                      * Slot 3: Heroic Leap  | Haymaker
+                     * 
+                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
@@ -556,6 +562,8 @@ namespace Prosto_Pets
                      * Slot 1: Thrash   | Punch
                      * Slot 2: Mangle   | Haymaker
                      * Slot 3: Rampage  | Bash
+                     * 
+                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
@@ -581,6 +589,7 @@ namespace Prosto_Pets
                      * Shell Armor should block knockback damage (Untested)
                      * 
                      * TODO: Use Spiny Carapace again on anticipated big hit
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     humanoid_abilities = new List<AandC>() {
                         new AandC("Shell Armor",    () => ! buff("Shell Armor")),

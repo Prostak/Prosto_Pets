@@ -55,6 +55,8 @@ namespace Prosto_Pets
                      * Slot 1: Bite     | Demolish
                      * Slot 2: Repair   | Rebuild
                      * Slot 3: Maul     | Supercharge
+                     * 
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
@@ -113,6 +115,8 @@ namespace Prosto_Pets
                      * Slot 1: Jab      | Haymaker 
                      * Slot 2: Overtune | Counterstrike
                      * Slot 3: Kick     | Dodge
+                     * 
+                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
@@ -198,6 +202,8 @@ namespace Prosto_Pets
                      * Slot 1: Metal Fist   | Thrash
                      * Slot 2: Overtune     | Extra-Plating
                      * Slot 3: Demolish     | Repair
+                     * 
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     mechanical_abilities = new List<AandC>()
                     {
@@ -254,6 +260,7 @@ namespace Prosto_Pets
                      * Slot 2: Powerball    | Toxic Smoke
                      * Slot 3: Supercharge  | Explode
                      * 
+                     * TODO: Add Uncanny Luck to Demolish
                      * TODO: Explode needs to check the chances to win conventionally
                      */
                     mechanical_abilities = new List<AandC>() {
@@ -443,6 +450,8 @@ namespace Prosto_Pets
                      * Slot 1: Zap              | Overtune
                      * Slot 2: Shock and Awe    | Demolish
                      * Slot 3: Lock-On          | Ion Cannon
+                     * 
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
@@ -715,6 +724,8 @@ namespace Prosto_Pets
                      * Slot 1: Metal Fist   | Thrash
                      * Slot 2: Overtune     | Extra Plating
                      * Slot 3: Demolish     | Repair
+                     * 
+                     * TODO: Add Uncanny Luck to Demolish
                      */
                     mechanical_abilities = new List<AandC>() 
                     {

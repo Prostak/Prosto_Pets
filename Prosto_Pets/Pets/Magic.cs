@@ -656,6 +656,8 @@ namespace Prosto_Pets
                      * Slot 1: Claw         | Rend
                      * Slot 2: Evanescence  | Spectral Strike
                      * Slot 3: Leap         | Prowl
+                     * 
+                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     magic_abilities = new List<AandC>() 
                     {
@@ -673,6 +675,8 @@ namespace Prosto_Pets
                      * Slot 1: Bite                 | Powerball
                      * Slot 2: Spectral Strike      | Spirit Spikes
                      * Slot 3: Illusionary Barrier  | Spectral Spine
+                     * 
+                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     magic_abilities = new List<AandC>() 
                     {
