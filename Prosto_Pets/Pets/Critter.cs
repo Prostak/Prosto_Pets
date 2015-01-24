@@ -350,7 +350,7 @@ namespace Prosto_Pets
                 case "Little Fawn": 
                 case "Winter Reindeer":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Hoof         | Stampede
@@ -371,7 +371,7 @@ namespace Prosto_Pets
                 case "Fire Beetle":
                 case "Lava Beetle":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Burn             | Flank
@@ -420,7 +420,7 @@ namespace Prosto_Pets
                 case "Mr. Wiggles": 
                 case "Silver Pig":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Hoof         | Diseased Bite
@@ -444,7 +444,7 @@ namespace Prosto_Pets
                 case "Red Cricket": 
                 case "Singing Cricket":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Skitter          | Screech
@@ -465,7 +465,7 @@ namespace Prosto_Pets
                 case "Grotto Vole":
                 case "Whiskers the Rat":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Scratch      | Flurry
@@ -512,7 +512,7 @@ namespace Prosto_Pets
                 case "Skunk": 
                 case "Stinker":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Scratch  | Flurry
@@ -532,7 +532,7 @@ namespace Prosto_Pets
 
                 case "Imperial Silkworm":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Chomp        | Consume
@@ -577,7 +577,7 @@ namespace Prosto_Pets
                 case "Lucky Quilen Cub":
                 case "Perky Pug":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Bite     | Comeback
@@ -619,7 +619,7 @@ namespace Prosto_Pets
 
                 case "Nether Roach":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Flank    | Nether Blast
@@ -642,7 +642,7 @@ namespace Prosto_Pets
                 case "Peanut":
                 case "Pint-Sized Pink Pachyderm":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Smash            | Trample
@@ -691,7 +691,7 @@ namespace Prosto_Pets
                 case "Shimmershell Snail": 
                 case "Silkbead Snail":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Ooze Touch   | Absorb
@@ -712,7 +712,7 @@ namespace Prosto_Pets
 
                 case "Wolpertinger":
                     /* Changelog:
-                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 2014-01-24: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Scratch  | Horn Attack
