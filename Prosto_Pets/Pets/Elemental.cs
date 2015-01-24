@@ -32,56 +32,66 @@ namespace Prosto_Pets
                 case "Emerald Shale Hatchling":
                 case "Tiny Shale Spider":
                 case "Topaz Shale Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Leech Life
                      * Slot 2: Sticky Web   | Poison Spit
                      * Slot 3: Stone Rush   | Stoneskin
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Stoneskin",      () => ! buff("Stoneskin")),
+                        new AandC("Stoneskin",      () => buffLeft("Stoneskin") == 1 && speed < speedEnemy),
+                        new AandC("Sticky Web",     () => ! debuff("Webbed")),
+                        new AandC("Poison Spit",    () => ! debuff("Poisoned")),
+                        new AandC("Stone Rush",     () => ! weak("Stone Rush")),
                         new AandC("Burn"),
                         new AandC("Leech Life"),
-                        new AandC("Sticky Web"),
-                        new AandC("Poison Spit"),
-                        new AandC("Stone Rush"),
-                        new AandC("Stoneskin"),
                     };
                     break;
 
                 case "Ammen Vale Lashling":
                 case "Crimson Lasher":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Lash             | Poison Lash
                      * Slot 2: Soothing Mists   | Plant
                      * Slot 3: Stun Seed        | Entangling Roots
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Soothing Mists",     () => ! buff("Soothing Mists")),
+                        new AandC("Plant",              () => ! buff("Planted") && hp > 0.4),
+                        new AandC("Plant",              () => buff("Planted") && hp < 0.4),
+                        new AandC("Stun Seed",          () => ! debuff("Stun Seed") && hpEnemy > 0.4),
+                        new AandC("Entangling Roots",   () => ! debuff("Entangling Roots") && hpEnemy > 0.4),
                         new AandC("Lash"),
                         new AandC("Poison Lash"),
-                        new AandC("Soothing Mists"),
-                        new AandC("Plant"),
-                        new AandC("Stun Seed"),
-                        new AandC("Entangling Roots"),
                     };
                     break;
 
                 case "Ashstone Core":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Feedback         | Burn
                      * Slot 2: Crystal Overload | Stoneskin
                      * Slot 3: Crystal Prison   | Instability
                      * 
-                     * * Add Uncanny Luck to Instability
+                     * TODO: Reintroduce Crystal Prison with viable use case
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Crystal Overload", () => buff("Crystal Overload") && hp > 0.50),
+                        new AandC("Crystal Overload",   () => buff("Crystal Overload") && hp > 0.50),
+                        new AandC("Stoneskin",          () => ! buff("Stoneskin")),
+                        new AandC("Instability",        () => buff("Uncanny Luck")),
                         new AandC("Feedback"),
                         new AandC("Burn"),
-                        new AandC("Stoneskin"),
-                        new AandC("Crystal Prison"),
-                        new AandC("Instability"),
                     };
                     break;
 
@@ -109,7 +119,10 @@ namespace Prosto_Pets
                     break;
 
                 case "Blossoming Ancient":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Poisoned Branch  | Ironbark
                      * Slot 2: Autumn Breeze    | Photosynthesis
                      * Slot 3: Stun Seed        | Sunlight
@@ -117,16 +130,19 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Photosynthesis",     () => ! buff("Photosynthesis") && hp < 0.8),
+                        new AandC("Sunlight",           () => ! buff("Sunlight")),
+                        new AandC("Autumn Breeze",      () => ! buff("Autumn Breeze")),
+                        new AandC("Stun Seed",          () => ! debuff("Stun Seed") && hpEnemy > 0.3),
                         new AandC("Poisoned Branch"),
                         new AandC("Ironbark"),
-                        new AandC("Autumn Breeze"),
-                        new AandC("Stun Seed"),
-                        new AandC("Sunlight"),
                     };
                     break;
 
                 case "Cinder Kitten":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw     | Rend
                      * Slot 2: Immolate | Leap 
                      * Slot 3: Prowl    | Scorched Earth
@@ -134,28 +150,32 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
-                        new AandC("Immolate",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth") ),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Prowl",          () => ! buff("Prowl") && speed * 0.7 > speedEnemy),
                         new AandC("Leap",           () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Claw"),
                         new AandC("Rend"),
-                        new AandC("Prowl"),
                     };
                     break;
 
                 case "Core Hound Pup":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Scratch  | Trash
                      * Slot 2: Howl     | Dodge
                      * Slot 3: Burn     | Burrow
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Burrow",     () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Dodge",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Howl",       () => ! debuff("Shattered Defenses")),
+                        new AandC("Burn",       () => myPetHasAbility("Scratch") && (weak("Scratch") || strong("Burn"))),
+                        new AandC("Burn",       () => myPetHasAbility("Thrash") && (weak("Thrash") || strong("Burn"))),
                         new AandC("Scratch"),
                         new AandC("Thrash"),
-                        new AandC("Howl"),
-                        new AandC("Dodge"),
-                        new AandC("Burn"),
-                        new AandC("Burrow"),
                     };
                     break;
 
@@ -189,7 +209,10 @@ namespace Prosto_Pets
 
                 case "Crimson Geode":
                 case "Elementium Geode":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Feedback         | Spark
                      * Slot 2: Crystal Overload | Amplify Magic
                      * Slot 3: Stone Rush       | Elementium Bolt
@@ -197,28 +220,31 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Crystal Overload",   () => buff("Crystal Overload") && hp > 0.50),
+                        new AandC("Amplify Magic",      () => ! buff("Amplify Magic") && hpEnemy > 0.2),
+                        new AandC("Stone Rush",         () => ! weak("Stone Rush")),
+                        new AandC("Elementium Bolt",    () => hpEnemy > 0.4),
                         new AandC("Feedback"),
                         new AandC("Spark"),
-                        new AandC("Amplify Magic"),
-                        new AandC("Stone Rush"),
-                        new AandC("Elementium Bolt"),
                     };
                     break;
 
                 case "Dark Phoenix Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn | Laser
                      * Slot 2: Darkflame | Immolate
                      * Slot 3: Conflagrate | Dark Rebirth
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Conflagrate",    () => debuff("Immolate") || debuff("Flamethrower") || weather("Scorched Earth")),
-                        new AandC("Immolate",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
+                        new AandC("Dark Rebirth",   () => hp < 0.15),
+                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
                         new AandC("Darkflame"),
                         new AandC("Burn"),
                         new AandC("Laser"),
-                        new AandC("Dark Rebirth"),
                     };
                     break;
 
@@ -274,25 +300,32 @@ namespace Prosto_Pets
                     break;
 
                 case "Electrified Razortooth":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Rip              | Jolt
                      * Slot 2: Paralyzing Shock | Blood in the Water
                      * Slot 3: Devour           | Lightning Shield
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Devour",             () => hpEnemy < 0.20 ),
-                        new AandC("Rip"),
-                        new AandC("Jolt"),
+                        new AandC("Devour",             () => hpEnemy < 0.2),
+                        new AandC("Devour",             () => strong("Devour") && hpEnemy < 0.3),
                         new AandC("Paralyzing Shock"),
                         new AandC("Lightning Shield"),
-                        new AandC("Blood in the Water"),
+                        new AandC("Blood in the Water", () => enemyIsBleeding()),
+                        new AandC("Rip"),
+                        new AandC("Jolt"),
                     };
                     break;
 
                 case "Fel Flame":
                 case "Searing Scorchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Existing tactic revised - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Flame Breath
                      * Slot 2: Immolate     | Scorched Earth
                      * Slot 3: Conflagrate  | Immolation
@@ -300,9 +333,9 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
-                        new AandC("Conflagrate",    () => debuff("Immolate") || debuff("Flamethrower") || weather("Scorched Earth")),
+                        new AandC("Conflagrate",    () => enemyIsBurning()),
                         new AandC("Immolation",     () => ! buff("Immolation")),
-                        new AandC("Immolate",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
                         new AandC("Burn"),
                         new AandC("Flame Breath"),
                     };
@@ -334,19 +367,23 @@ namespace Prosto_Pets
                     break;
 
                 case "Frigid Frostling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Ice Lance    | Surge
                      * Slot 2: Frost Nova   | Slippery Ice
                      * Slot 3: Ice Tomb     | Howling Blast
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Frost Shock"),
+                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
+                        new AandC("Slippery Ice",   () => ! debuff("Slippery Ice")),
+                        new AandC("Ice Tomb",       () => hpEnemy > 0.5),
+                        new AandC("Howling Blast",  () => enemyIsChilled()),
+                        new AandC("Ice Lance"),
                         new AandC("Surge"),
-                        new AandC("Frost Nova"),
-                        new AandC("Slippery Ice"),
-                        new AandC("Ice Tomb"),
-                        new AandC("Howling Blast"),
+
                     };
                     break;
 
@@ -372,19 +409,22 @@ namespace Prosto_Pets
                 case "Grinder":
                 case "Lumpy": 
                 case "Pebble":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Stone Shot   | Stone Rush
                      * Slot 2: Sandstorm    | Rupture
                      * Slot 3: Rock Barrage | Quake
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Sandstorm",      () => ! weather("Standstorm")),
+                        new AandC("Rock Barrage",   () => ! debuff("Rock Barrage")),
+                        new AandC("Rupture"),
+                        new AandC("Quake",          () => weak("Stone Shot") || strong("Quake")),
                         new AandC("Stone Shot"),
                         new AandC("Stone Rush"),
-                        new AandC("Sandstorm"),
-                        new AandC("Rupture"),
-                        new AandC("Rock Barrage"),
-                        new AandC("Quake"),
                     };
                     break;
 
@@ -460,50 +500,65 @@ namespace Prosto_Pets
                     break;
 
                 case "Jade Tentacle":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Scratch          | Poisoned Branch
                      * Slot 2: Shell Shield     | Photosynthesis
                      * Slot 3: Entangling Roots | Thorns
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Photosynthesis",     () =>  ! buff("Photosynthesis") && hp < 0.8),
-                        new AandC("Shell Shield",       () =>  ! buff("Shell Shield")),
+                        new AandC("Photosynthesis",     () => ! buff("Photosynthesis") && hp < 0.8),
+                        new AandC("Shell Shield",       () => ! buff("Shell Shield")),
+                        new AandC("Shell Shield",       () => buffLeft("Shell Shield") == 1 && speed < speedEnemy),
+                        new AandC("Thorns",             () => ! buff("Thorns")),
+                        new AandC("Entangling Roots",   () => hpEnemy > 0.4),
                         new AandC("Scratch"),
                         new AandC("Poisoned Branch"),
-                        new AandC("Entangling Roots"),
-                        new AandC("Thorns"),
                     };
                     break;
 
                 case "Kirin Tor Familiar":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Beam             | Arcane Blast
                      * Slot 2: Gravity          | Arcane Storm
                      * Slot 3: Arcane Explosion | Rot
+                     * 
+                     * TODO: Reintroduce Arcane Explosion - Needs to consider enemy team status
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Arcane Storm",       () => ! weather("Arcane Winds")),
+                        new AandC("Rot",                () => ! debuff("Rot") && famEnemy(PF.Aquatic)),
+                        new AandC("Gravity"),
                         new AandC("Beam"),
                         new AandC("Arcane Blast"),
-                        new AandC("Gravity"),
-                        new AandC("Arcane Storm"),
-                        new AandC("Arcane Explosion"),
-                        new AandC("Dark Simulacrum"),
                     };
                     break;
 
                 case "Lava Crab":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Survival
                      * Slot 2: Shell Shield | Cauterize
                      * Slot 3: Conflagrate  | Magma Wave
+                     * 
+                     * Tactic Information:
+                     * Conflagrate/Magma Wave are at the end in case Survival is picked
                      */
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Survival",       () => hp < 0.3),
                         new AandC("Cauterize",      () => hp < 0.7),
                         new AandC("Shell Shield",   () => ! buff("Shell Shield")),
+                        new AandC("Shell Shield",   () => buffLeft("Shell Shield") == 1 && speed < speedEnemy),
                         new AandC("Conflagrate"),
                         new AandC("Burn"),
                         new AandC("Magma Wave"),
@@ -511,16 +566,19 @@ namespace Prosto_Pets
                     break;
 
                 case "Lil' Ragnaros":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Sulfuras Smash   | Magma Wave
                      * Slot 2: Magma Trap       | Conflagrate
                      * Slot 3: Flamethrower     | Sons of the Flame
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Conflagrate",        () => debuff("Immolate") || debuff("Flamethrower") || weather("Scorched Earth")),
-                        new AandC("Flamethrower",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
-                        new AandC("Sons of the Flame"),
+                        new AandC("Sons of the Flame",  () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Conflagrate",        () => enemyIsBurning()),
+                        new AandC("Flamethrower",       () => ! debuff("Flamethrower")),
                         new AandC("Magma Trap"),
                         new AandC("Sulfuras Smash"),
                         new AandC("Magma Wave"),
@@ -528,36 +586,43 @@ namespace Prosto_Pets
                     break;
 
                 case "Living Sandling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Sand Bolt
                      * Slot 2: Stoneskin    | Sandstorm
                      * Slot 3: Stone Rush   | Quicksand
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Stoneskin",      () => ! buff("Stoneskin")), 
+                        new AandC("Sandstorm",      () => ! weather("Standstorm")), 
+                        new AandC("Stone Rush"), 
+                        new AandC("Quicksand",      () => ! debuff("Quicksand")),
                         new AandC("Punch"), 
                         new AandC("Sand Bolt"), 
-                        new AandC("Stoneskin"), 
-                        new AandC("Sandstorm"), 
-                        new AandC("Stone Rush"), 
-                        new AandC("Quicksand"),
                     };
                     break;
 
                 case "Molten Corgi":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bark                 | Flamethrower
                      * Slot 2: Superbark            | Cauterize
                      * Slot 3: Puppies of the Flame | Inferno Herding
+                     * 
+                     * TODO: Reintroduce Inferno Herding - Needs to consider enemy team status
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Puppies of the Flame",   () => shouldIHide),
+                        new AandC("Puppies of the Flame",   () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cauterize",              () => hp < 0.7),
-                        new AandC("Superbark"),
+                        new AandC("Superbark",              () => hpEnemy > 0.3),
                         new AandC("Bark"),
                         new AandC("Flamethrower"),
-                        new AandC("Inferno Herding"),
                     };
                     break;
 
@@ -605,41 +670,51 @@ namespace Prosto_Pets
                     break;
 
                 case "Pandaren Air Spirit":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Wild Winds
                      * Slot 2: Whirlwind    | Soothing Mists
                      * Slot 3: Cyclone      | Arcane Storm
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Soothing Mists", () => ! buff("Soothing Mists") && hp < 0.8),
+                        new AandC("Arcane Storm",   () => ! weather("Arcane Winds") || ! weak("Arcane Storm")),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
+                        new AandC("Whirlwind"),
                         new AandC("Slicing Wind"),
                         new AandC("Wild Winds"),
-                        new AandC("Whirlwind"),
-                        new AandC("Soothing Mists"),
-                        new AandC("Arcane Storm"),
                     };
                     break;
 
                 case "Pandaren Earth Spirit":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Stone Shot       | Stone Rush
                      * Slot 2: Rupture          | Rock Barrage
                      * Slot 3: Crystal Prison   | Mudslide
+                     * 
+                     * TODO: Reintroduce Crystal Prison with viable use case
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Mudslide",       () => ! weather("Mudslide")),
+                        new AandC("Rock Barrage",   () => ! debuff("Rock Barrage")),
+                        new AandC("Rupture"),
                         new AandC("Stone Shot"),
                         new AandC("Stone Rush"),
-                        new AandC("Rupture"),
-                        new AandC("Rock Barrage"),
-                        new AandC("Crystal Prison"),
-                        new AandC("Mudslide"),
                     };
                     break;
 
                 case "Pandaren Fire Spirit":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Magma Wave
                      * Slot 2: Immolate     | Flamethrower
                      * Slot 3: Cauterize    | Conflagrate
@@ -647,33 +722,39 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Cauterize",      () => hp < 0.7),
-                        new AandC("Immolate",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Flamethrower",   () => ! debuff("Flamethrower")),
+                        new AandC("Conflagrate"),
                         new AandC("Burn"),
                         new AandC("Magma Wave"),
-                        new AandC("Flamethrower"),
-                        new AandC("Conflagrate"),
                     };
                     break;
 
                 case "Pandaren Water Spirit":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Water Jet    | Tidal Wave
                      * Slot 2: Healing Wave | Whirlpool
                      * Slot 3: Dive         | Geyser
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Dive"),
+                        new AandC("Dive",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Healing Wave",   () => hp < 0.7),
+                        new AandC("Geyser",         () => ! debuff("Geyser") && hpEnemy > 0.6),
+                        new AandC("Whirlpool",      () => ! debuff("Whirlpool") && hpEnemy > 0.4),
                         new AandC("Water Jet"),
                         new AandC("Tidal Wave"),
-                        new AandC("Healing Wave"),
-                        new AandC("Whirlpool"),
-                        new AandC("Geyser"),
                     };
                     break;
 
                 case "Phoenix Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Conflagrate now considers global burning status changes
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Peck
                      * Slot 2: Cauterize    | Immolate
                      * Slot 3: Immolation   | Conflagrate
@@ -682,8 +763,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Cauterize",      () => hp < 0.7),
                         new AandC("Immolation",     () => ! buff("Immolation")),
-                        new AandC("Immolate",       () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
-                        new AandC("Conflagrate",    () => debuff("Immolate") || debuff("Flamethrower") || weather("Scorched Earth") ),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Conflagrate",    () => enemyIsBurning()),
                         new AandC("Burn"),
                         new AandC("Peck"),
                     };
@@ -713,41 +794,53 @@ namespace Prosto_Pets
                     break;
 
                 case "Ruby Sapling":
-                    /* Abilities
+                case "Teldrassil Sproutling":
+                case "Withers":
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     *             Merged Ruby Sapling/Teldrassil Sproutling/Withers tactics
+                     * 
+                     * Abilities
                      * Slot 1: Scratch          | Ironbark
-                     * Slot 2: Thorns           | Poisened Branch
+                     * Slot 2: Thorns           | Poisoned Branch
                      * Slot 3: Photosynthesis   | Entangling Roots
                      */
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Photosynthesis",     () => ! buff("Photosynthesis") && hp < 0.8),
-                        new AandC("Shell Shield",       () => ! buff("Shell Shield")),
+                        new AandC("Poisoned Branch",    () => ! debuff("Poisoned")),
+                        new AandC("Thorns",             () => ! buff("Thorns")),
+                        new AandC("Entangling Roots",   () => hpEnemy > 0.4),
                         new AandC("Scratch"),
-                        new AandC("Poisoned Branch"),
-                        new AandC("Thorns"),
-                        new AandC("Entangling Roots"),
+                        new AandC("Ironbark"),
                     };
                     break;
 
                 case "Sapphire Cub":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Lash         | Pounce
                      * Slot 2: Rake         | Screech
                      * Slot 3: Stone Rush   | Prowl
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Lash"),
-                        new AandC("Pounch"),
-                        new AandC("Rake"),
-                        new AandC("Screech"),
+                        new AandC("Prowl",      () => ! buff("Prowl") && speed * 0.7 > speedEnemy),
+                        new AandC("Screech",    () => ! debuff("Speed Reduction")),
                         new AandC("Stone Rush"),
-                        new AandC("Prowl"),
+                        new AandC("Rake"),
+                        new AandC("Lash"),
+                        new AandC("Pounce"),
                     };
                     break;
 
                 case "Singing Sunflower":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Lash             | Solar Beam
                      * Slot 2: Photosynthesis   | Inspiring Song
                      * Slot 3: Early Advantage  | Sunlight
@@ -756,27 +849,31 @@ namespace Prosto_Pets
                     {
                         new AandC("Photosynthesis",     () => ! buff("Photosynthesis") && hp < 0.8),
                         new AandC("Early Advantage",    () => hp < hpEnemy),
+                        new AandC("Inspiring Song",     () => hp < 0.9),
+                        new AandC("Sunlight",           () => ! weather("Sunlight")),
                         new AandC("Lash"),
                         new AandC("Solar Beam"),
-                        new AandC("Inspiring Song"),
-                        new AandC("Sunlight"),
                     };
                     break;
 
                 case "Sinister Squashling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn     | Poison Lash
                      * Slot 2: Thorns   | Stun Seed
                      * Slot 3: Plant    | Leech Seed
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Thorns",     () => ! buff("Thorns")),
+                        new AandC("Stun Seed",  () => ! debuff("Stun Seed") && hpEnemy > 0.4),
+                        new AandC("Plant",      () => ! buff("Planted") && hp > 0.4),
+                        new AandC("Plant",      () => buff("Planted") && hp < 0.3),
+                        new AandC("Leech Seed"),
                         new AandC("Burn"),
                         new AandC("Poison Lash"),
-                        new AandC("Thorns"),
-                        new AandC("Stun Seed"),
-                        new AandC("Plant"),
-                        new AandC("Leech Seed"),
                     };
                     break;
 
@@ -833,7 +930,10 @@ namespace Prosto_Pets
                     break;
 
                 case "Spirit of Summer":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Flame Breath
                      * Slot 2: Immolate     | Scorched Earth
                      * Slot 3: Conflagrate  | Immolation
@@ -842,8 +942,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Scorched Earth",     () => ! weather("Scorched Earth")),
                         new AandC("Immolation",         () => ! buff("Immolation")),
-                        new AandC("Immolate",           () => ! debuff("Immolate") && ! debuff("Flamethrower") && ! weather("Scorched Earth")),
-                        new AandC("Conflagrate",        () => debuff("Immolate") || debuff("Flamethrower") || weather("Scorched Earth")),
+                        new AandC("Immolate",           () => ! debuff("Immolate")),
+                        new AandC("Conflagrate",        () => enemyIsBurning()),
                         new AandC("Burn"),
                         new AandC("Flame Breath"),
                     };
@@ -892,75 +992,72 @@ namespace Prosto_Pets
                     break;
 
                 case "Tainted Waveling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Ooze Touch   | Poison Spit
                      * Slot 2: Acidic Goo   | Corrosion
                      * Slot 3: Healing Wave | Creeping Ooze
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Healing Wave",   () => hp < 0.7),
+                        new AandC("Creeping Ooze",  () => ! debuff("Creeping Ooze")),
                         new AandC("Acidic Goo",     () => ! debuff("Acidic Goo")),
+                        new AandC("Corrosion",      () => ! debuff("Corrosion")),
                         new AandC("Ooze Touch"),
                         new AandC("Poison Spit"),
-                        new AandC("Corrosion"),
-                        new AandC("Healing Wave"),
-                        new AandC("Creeping Ooze"),
-                    };
-                    break;
-
-                case "Teldrassil Sproutling":
-                    /* Abilities
-                     * Slot 1: Scratch          | Ironbark
-                     * Slot 2: Thorns           | Poisoned Branch
-                     * Slot 3: Photosynthesis   | Entangling Roots
-                     */
-                    elemental_abilities = new List<AandC>() 
-                    {
-                        new AandC("Photosynthesis",     () =>  ! buff("Photosynthesis") && hp < 0.8),
-                        new AandC("Shell Shield",       () =>  ! buff("Shell Shield")),
-                        new AandC("Scratch"),
-                        new AandC("Poisoned Branch"),
-                        new AandC("Thorns"),
-                        new AandC("Entangling Roots"),
                     };
                     break;
 
                 case "Terrible Turnip":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Weakening Blow   | Tidal Wave
                      * Slot 2: Leech Seed       | Inspiring Song
                      * Slot 3: Sunlight         | Sons of the Root
+                     * 
+                     * TODO: Create failsafe/switchout mechanic because of Weakening Blow
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Weakening Blow", () =>  hpEnemy > 0.05 ),
+                        new AandC("Sons of the Root",   () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Sunlight",           () => ! weather("Sunlight")),
+                        new AandC("Leech Seed",         () => ! debuff("Leech Seed") && hp < 0.7),
+                        new AandC("Inspiring Song",     () => hp < 0.8),
+                        new AandC("Weakening Blow",     () => hpEnemy > 0.05 ),
                         new AandC("Tidal Wave"),
-                        new AandC("Leech Seed"),
-                        new AandC("Inspiring Song"),
-                        new AandC("Sunlight"),
-                        new AandC("Sons of the Root"),
                     };
                     break;
 
                 case "Thundertail Flapper":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Tail Slap        | Jolt
                      * Slot 2: Buried Treasure  | Lightning Shield
                      * Slot 3: Thunderbolt      | Beaver Dam
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Beaver Dam",         () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Buried Treasure",    () => hp < 0.7),
+                        new AandC("Lightning Shield",   () => ! buff("Lightning Shield")),
+                        new AandC("Thunderbolt"),
                         new AandC("Tail Slap"),
                         new AandC("Jolt"),
-                        new AandC("Buried Treasure"),
-                        new AandC("Lightning Shield"),
-                        new AandC("Thunderbolt"),
-                        new AandC("Beaver Dam"),
                     };
                     break;
 
                 case "Tiny Bog Beast":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush        | Clobber
                      * Slot 2: Lash         | Leap
                      * Slot 3: Poison Lash  | Rampage
@@ -968,96 +1065,94 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Leap",           () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Lash",           () => speed > speedEnemy),
+                        new AandC("Poison Lash",    () => ! debuff("Poisoned")),
+                        new AandC("Rampage",        () => hp > 0.4),
                         new AandC("Crush"),
                         new AandC("Clobber"),
-                        new AandC("Lash"),
-                        new AandC("Poison Lash"),
-                        new AandC("Rampage"),
                     };
                     break;
 
                 case "Tiny Snowman":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Snowball         | Magic Hat
                      * Slot 2: Call Blizzard    | Frost Nova
                      * Slot 3: Howling Blast    | Deep Freeze
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Snowball"),
-                        new AandC("Magic Hat"),
-                        new AandC("Call Blizzard"),
-                        new AandC("Frost Nova"),
+                        new AandC("Call Blizzard",  () => ! weather("Blizzard")),
+                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
                         new AandC("Howling Blast"),
                         new AandC("Deep Freeze"),
+                        new AandC("Snowball"),
+                        new AandC("Magic Hat"),
                     };
                     break;
 
                 case "Tiny Twister":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Wild Winds
                      * Slot 2: Flyby        | Bash
                      * Slot 3: Cyclone      | Call Lightning
+                     * 
+                     * TODO: Bash needs a real use case
                      */
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
+                        new AandC("Call Lightning", () => ! weather("Lightning Storm")),
+                        new AandC("Flyby",          () => ! debuff("Weakened Defenses")),
+                        new AandC("Bash",           () => hpEnemy > 0.3),
                         new AandC("Slicing Wind"),
                         new AandC("Wild Winds"),
-                        new AandC("Flyby"),
-                        new AandC("Bash"),
-                        new AandC("Sandstorm"),
                     };
                     break;
 
                 case "Venus":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Lash         | Poison Lash
                      * Slot 2: Sunlight     | Plant
                      * Slot 3: Stun Seed    | Leech Seed
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Sunlight",       () => ! weather("Sunlight")),
+                        new AandC("Stun Seed",      () => ! debuff("Stun Seed") && hpEnemy > 0.4),
+                        new AandC("Leech Seed",     () => ! debuff("Leech Seed") && hp < 0.8),
+                        new AandC("Plant",          () => ! buff("Planted") && hp > 0.5),
+                        new AandC("Plant",          () => buff("Planted") && hp < 0.3),
                         new AandC("Lash"),
                         new AandC("Poison Lash"),
-                        new AandC("Sunlight"),
-                        new AandC("Plant"),
-                        new AandC("Stun Seed"),
-                        new AandC("Leech Seed"),
                     };
                     break;
 
                 case "Water Waveling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Water Jet    | Ice Lance
                      * Slot 2: Frost Nova   | Frost Shock
                      * Slot 3: Geyser       | Tidal Wave
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
+                        new AandC("Frost Shock",    () => ! debuff("Frost Shock")),
+                        new AandC("Geyser",         () => ! debuff("Geyser") && hpEnemy > 0.5),
+                        new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),
                         new AandC("Water Jet"),
                         new AandC("Ice Lance"),
-                        new AandC("Frost Nova"),
-                        new AandC("Frost Shock"),
-                        new AandC("Geyser"),
-                        new AandC("Tidal Wave"),
-                    };
-                    break;
-
-                case "Withers":
-                    /* Abilities
-                     * Slot 1: Scratch          | Ironbark
-                     * Slot 2: Thorns           | Poisoned Branch
-                     * Slot 3: Photosynthesis   | Entangling Roots
-                     */
-                    elemental_abilities = new List<AandC>() 
-                    {
-                        new AandC("Photosynthesis",     () => ! buff("Photosynthesis") && hp < 0.8),
-                        new AandC("Shell Shield",       () => ! buff("Shell Shield")),
-                        new AandC("Scratch"),
-                        new AandC("Poisoned Branch"),
-                        new AandC("Thorns"),
-                        new AandC("Entangling Roots"),
                     };
                     break;
             
