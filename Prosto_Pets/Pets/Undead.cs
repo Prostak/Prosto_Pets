@@ -27,19 +27,24 @@ namespace Prosto_Pets
             switch (petName)
             {
                 case "Blighted Squirrel":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-23: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities:
                      * Slot 1: Scratch          | Woodchipper
                      * Slot 2: Adrenaline Rush  | Crouch
                      * Slot 3: Rabid Strike     | Stampede
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Adrenaline Rush",    () => speed < speedEnemy && ! buff("Adrenaline")),
+                        new AandC("Crouch",             () => ! buff("Crouch")),
+                        new AandC("Crouch",             () => buffLeft("Crouch") == 1 && speed < speedEnemy),
+                        new AandC("Rabid Strike",       () => ! debuff("Rabies")),
+                        new AandC("Rabid Strike",       () => debuffLeft("Rabies") == 1 && speed < speedEnemy),
+                        new AandC("Stampede",           () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Scratch"),
                         new AandC("Woodchipper"),
-                        new AandC("Adrenaline Rush"),
-                        new AandC("Crouch"),
-                        new AandC("Rabid Strike"),
-                        new AandC("Stampede"),
                     };
                     break;
 
