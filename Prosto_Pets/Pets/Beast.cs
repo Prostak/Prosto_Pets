@@ -26,27 +26,27 @@ namespace Prosto_Pets
 
             switch (petName)
             {
-                case "Adder": 
-                case "Albino Snake": 
-                case "Ash Viper": 
-                case "Black Kingsnake": 
-                case "Brown Snake": 
-                case "Cobra Hatchling": 
-                case "Coral Adder": 
-                case "Coral Snake": 
-                case "Crimson Snake": 
-                case "Emerald Boa": 
-                case "Grove Viper": 
-                case "King Snake": 
-                case "Moccasin": 
-                case "Rat Snake": 
-                case "Rattlesnake": 
-                case "Rock Viper": 
-                case "Sidewinder": 
-                case "Snake": 
-                case "Temple Snake": 
-                case "Tree Python": 
-                case "Water Snake": 
+                case "Adder":
+                case "Albino Snake":
+                case "Ash Viper":
+                case "Black Kingsnake":
+                case "Brown Snake":
+                case "Cobra Hatchling":
+                case "Coral Adder":
+                case "Coral Snake":
+                case "Crimson Snake":
+                case "Emerald Boa":
+                case "Grove Viper":
+                case "King Snake":
+                case "Moccasin":
+                case "Rat Snake":
+                case "Rattlesnake":
+                case "Rock Viper":
+                case "Sidewinder":
+                case "Snake":
+                case "Temple Snake":
+                case "Tree Python":
+                case "Water Snake":
                 case "Zooey Snake":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -94,9 +94,9 @@ namespace Prosto_Pets
 
                 case "Alpine Foxling":
                 case "Alpine Foxling Kit":
-                case "Arctic Fox Kit": 
-                case "Fjord Worg Pup": 
-                case "Fox Kit": 
+                case "Arctic Fox Kit":
+                case "Fjord Worg Pup":
+                case "Fox Kit":
                 case "Worg Pup":
                     /* Changelog:
                      * 2015-01-23: Revised existing tactic - Studio60
@@ -138,18 +138,18 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Amethyst Spiderling": 
-                case "Ash Spiderling": 
-                case "Desert Spider": 
-                case "Dusk Spiderling": 
-                case "Feverbite Hatchling": 
-                case "Forest Spiderling": 
-                case "Jumping Spider": 
-                case "Skittering Cavern Crawler": 
-                case "Smolderweb Hatchling": 
-                case "Spider": 
-                case "Twilight Spider": 
-                case "Venomspitter Hatchling": 
+                case "Amethyst Spiderling":
+                case "Ash Spiderling":
+                case "Desert Spider":
+                case "Dusk Spiderling":
+                case "Feverbite Hatchling":
+                case "Forest Spiderling":
+                case "Jumping Spider":
+                case "Skittering Cavern Crawler":
+                case "Smolderweb Hatchling":
+                case "Spider":
+                case "Twilight Spider":
+                case "Venomspitter Hatchling":
                 case "Widow Spiderling":
                     /* Abilities:
                      * Slot 1: Strike       | Poison Spit
@@ -188,13 +188,13 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Ash Lizard": 
-                case "Diemetradon Hatchling": 
-                case "Horned Lizard": 
-                case "Lizard Hatchling": 
-                case "Plains Monitor": 
-                case "Spiky Lizard": 
-                case "Spiny Lizard": 
+                case "Ash Lizard":
+                case "Diemetradon Hatchling":
+                case "Horned Lizard":
+                case "Lizard Hatchling":
+                case "Plains Monitor":
+                case "Spiky Lizard":
+                case "Spiny Lizard":
                 case "Twilight Iguana":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -216,8 +216,8 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Baby Ape": 
-                case "Bananas": 
+                case "Baby Ape":
+                case "Bananas":
                 case "Darkmoon Monkey":
                     /* Changelog: 
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -260,21 +260,21 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Black Tabby Cat": 
-                case "Bombay Cat": 
-                case "Calico Cat": 
-                case "Cat": 
-                case "Cheetah Cub": 
-                case "Cornish Rex Cat": 
-                case "Darkmoon Cub": 
-                case "Nightsaber Cub": 
-                case "Orange Tabby Cat": 
-                case "Panther Cub": 
-                case "Sand Kitten": 
-                case "Siamese Cat": 
-                case "Silver Tabby Cat": 
-                case "Snow Cub": 
-                case "White Kitten": 
+                case "Black Tabby Cat":
+                case "Bombay Cat":
+                case "Calico Cat":
+                case "Cat":
+                case "Cheetah Cub":
+                case "Cornish Rex Cat":
+                case "Darkmoon Cub":
+                case "Nightsaber Cub":
+                case "Orange Tabby Cat":
+                case "Panther Cub":
+                case "Sand Kitten":
+                case "Siamese Cat":
+                case "Silver Tabby Cat":
+                case "Snow Cub":
+                case "White Kitten":
                 case "Winterspring Cub":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -362,11 +362,11 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Crunchy Scorpion": 
-                case "Durotar Scorpion": 
-                case "Leopard Scorpid": 
-                case "Scorpid": 
-                case "Scorpling": 
+                case "Crunchy Scorpion":
+                case "Durotar Scorpion":
+                case "Leopard Scorpid":
+                case "Scorpid":
+                case "Scorpling":
                 case "Stripe-Tailed Scorpid":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -406,9 +406,9 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Darkshore Cub": 
-                case "Dun Morogh Cub": 
-                case "Hyjal Bear Cub": 
+                case "Darkshore Cub":
+                case "Dun Morogh Cub":
+                case "Hyjal Bear Cub":
                 case "Panda Cub":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -431,14 +431,14 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Darting Hatchling": 
-                case "Deviate Hatchling": 
-                case "Gundrak Hatchling": 
-                case "Lashtail Hatchling": 
-                case "Leaping Hatchling": 
-                case "Obsidian Hatchling": 
-                case "Ravasaur Hatchling": 
-                case "Razormaw Hatchling": 
+                case "Darting Hatchling":
+                case "Deviate Hatchling":
+                case "Gundrak Hatchling":
+                case "Lashtail Hatchling":
+                case "Leaping Hatchling":
+                case "Obsidian Hatchling":
+                case "Ravasaur Hatchling":
+                case "Razormaw Hatchling":
                 case "Razzashi Hatchling":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -505,11 +505,11 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Devouring Maggot": 
-                case "Festering Maggot": 
-                case "Jungle Grub": 
-                case "Larva": 
-                case "Maggot": 
+                case "Devouring Maggot":
+                case "Festering Maggot":
+                case "Jungle Grub":
+                case "Larva":
+                case "Maggot":
                 case "Mr. Grubbs":
                     /* Changelog:
                      * 2015-01-23: Revised existing tactic - Studio60
@@ -531,10 +531,11 @@ namespace Prosto_Pets
                     };
                     break;
 
-                case "Direhorn Runt": 
-                case "Pygmy Direhorn": 
+                case "Direhorn Runt":
+                case "Pygmy Direhorn":
                 case "Stunted Direhorn":
                     /* Changelog:
+                     * 2015-24:01: Trample mechanic adapted: 10% additional damage relates to maximum health not current health - Studio60
                      * 2015-23-01: Viable base tactic designed - Studio60
                      * Abilities:
                      * Slot 1: Trihorn Charge   | Trample
@@ -546,7 +547,6 @@ namespace Prosto_Pets
                         new AandC("Primal Cry",     () => speed < speedEnemy && ! debuff("Speed Reduction")),
                         new AandC("Stampede",       () => ! weak("Stampede") && ! debuff("Shattered Defenses")),
                         new AandC("Horn Attack",    () => speed > speedEnemy),
-                        new AandC("Horn Attack",    () => myPetHasAbility("Trample") && hpEnemy < 0.5),
                         new AandC("Trihorn Shield", () => ! buff("Trihorn Shield")),
                         new AandC("Trihorn Charge"),
                         new AandC("Trample"),
@@ -865,7 +865,7 @@ namespace Prosto_Pets
                         new AandC("Quick Attack"),
                     };
                     break;
-                
+
                 case "Ravager Hatchling":
                     /* Changelog:
                      * 2015-01-23: Viable base tactic designed - Studio60
@@ -1000,19 +1000,21 @@ namespace Prosto_Pets
 
                 case "Stunted Shardhorn":
                     /* Changelog:
+                     * 2015-01-24: Horn Attack is now used if the pet is faster than the enemy - Studio60
                      * 2015-01-23: Viable base tactic designed - Studio60
                      * 
                      * Abilities:
                      * Slot 1: Smash            | Survival
                      * Slot 2: Trample          | Horn Attack
                      * Slot 3: Trumpet Strike   | Stampede
+                     * 
+                     * TODO: Trample needs to consider absolute enemy health
                      */
                     beast_abilities = new List<AandC>() 
                     {
                         new AandC("Survival",       () => hp < 0.3),
-                        new AandC("Trample",        () => hpEnemy > 0.5),
                         new AandC("Trumpet Strike", () => ! buff("Attack Boost")),
-                        new AandC("Horn Attack"),
+                        new AandC("Horn Attack",    () => speed > speedEnemy),
                         new AandC("Stampede",       () => ! debuff("Shattered Defenses")),
                         new AandC("Smash"),
                         new AandC("Trumpet Strike"),
