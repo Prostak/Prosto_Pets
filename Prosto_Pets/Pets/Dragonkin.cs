@@ -88,7 +88,7 @@ namespace Prosto_Pets
                     dragonkin_abilities = new List<AandC>() 
                     {
                         new AandC("Flamethrower",   () => ! debuff("Flamethrower")),
-                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Flame Breath",   () => ! debuff("Flame Breath")),
                         new AandC("Rake",           () => ! weak("Rake")),
                         new AandC("Claw"),
@@ -207,7 +207,7 @@ namespace Prosto_Pets
                      */
                     dragonkin_abilities = new List<AandC>() 
                     {
-                        new AandC("Clobber",        () => ! enemyIsStunned() && ! enemyIsResilient()),
+                        new AandC("Clobber",        () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
                         new AandC("Spiked Skin",    () => buffLeft("Spiked Skin") == 1 && speed < speedEnemy),
                         new AandC("Darkflame",      () => ! debuff("Healing Reduction")),
@@ -315,11 +315,10 @@ namespace Prosto_Pets
                      * Tactics Information:
                      * Cataclysm's hit chance makes it too unreliable without other hit chance buff
                      * Devour can be used earlier against critters
-                     * 
-                     * TODO: Add Uncanny Luck to Cataclysm
                      */
                     dragonkin_abilities = new List<AandC>() {
                         new AandC("Devour",             () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
+                        new AandC("Cataclysm",          () => myPetIsLucky),
                         new AandC("Ancient Blessing",   () => hp < 0.8 && ! buff("Ancient Blessing")),
                         new AandC("Corrosion",          () => ! debuff("Corrosion")),
                         new AandC("Triple Snap"),
@@ -342,7 +341,7 @@ namespace Prosto_Pets
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
                         new AandC("Elementium Bolt",    () => hpEnemy > 0.6),
                         new AandC("Roll",               () => ! buff("Attack Boost")),
-                        new AandC("Cataclysm",          () => buff("Uncanny Luck")),
+                        new AandC("Cataclysm",          () => myPetIsLucky),
                         new AandC("Shadowflame"),
                         new AandC("Tail Sweep"),
                     };
@@ -402,7 +401,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Phase Shift",    () => shouldIHide && speed >= speedEnemy),
                         new AandC("Accuracy",       () => ! buff("Accuracy")),
-                        new AandC("Instability",    () => buff("Uncanny Luck")),
+                        new AandC("Instability",    () => myPetIsLucky),
                         new AandC("Soulrush"),
                         new AandC("Breath"),
                         new AandC("Nether Blast"),
@@ -555,7 +554,7 @@ namespace Prosto_Pets
                         new AandC("Healing Flame",  () => hp < 0.75),
                         new AandC("Roar",           () => ! buff("Attack Boost")),
                         new AandC("Spiked Skin",    () => ! buff("Spiked Skin")),
-                        new AandC("Instability",    () => buff("Uncanny Luck")),
+                        new AandC("Instability",    () => myPetIsLucky),
                         new AandC("Claw"),
                         new AandC("Tail Sweep"),
                     };

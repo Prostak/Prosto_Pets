@@ -43,7 +43,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() {
                         new AandC("Ravage",             () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
                         new AandC("Barbed Stinger",     () => ! debuff("Poisoned")), 
-                        new AandC("Puncture Wound",     () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound",     () => enemyIsPoisoned),
                         new AandC("Focus",              () => ! buff("Focused")),
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Puncture Wound"),
@@ -80,7 +80,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Cocoon Strike",      () => shouldIHide && speed >= speedEnemy),
                         new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
-                        new AandC("Moth Balls",         () => buff("Uncanny Luck")),
+                        new AandC("Moth Balls",         () => myPetIsLucky),
                         new AandC("Moth Dust"),
                         new AandC("Slicing Wind"),
                         new AandC("Alpha Strike"),
@@ -122,12 +122,11 @@ namespace Prosto_Pets
                      *
                      * Tactic Information
                      * Moth balls deal unreliable damage, but become useful if we are faster than the enemy
-                     * 
-                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Nimbus", () => ! buff("Nimbus")),
                         new AandC("Cocoon Strike", () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Moth Balls", () => myPetIsLucky),
                         new AandC("Moth Balls", () => ! debuff("Speed Reduction") && speed < speedEnemy && speed > speedEnemy * 0.75),
                         new AandC("Moth Dust"),
                         new AandC("Alpha Strike"),
@@ -149,12 +148,10 @@ namespace Prosto_Pets
                      * Slot 1: Slicing Wind | Peck
                      * Slot 2: Rain Dance   | Flyby
                      * Slot 3: Lift-Off     | Nocturnal Strike
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Lift-Off",           () => strong("Lift-Off") || (shouldIHide && speed >= speedEnemy)),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Rain Dance",         () => ! buff("Rain Dance")  && hp < 0.8 && hpEnemy > 0.15),
                         new AandC("Flyby",              () => ! debuff("Weakened Defenses")),
                         new AandC("Nocturnal Strike"),
@@ -195,15 +192,14 @@ namespace Prosto_Pets
                      * Slot 1: Bite             | Leech Life
                      * Slot 2: Screech          | Hawk Eye
                      * Slot 3: Reckless Strike  | Nocturnal Strike
-                     * 
-                     * TODO: High Priority for Leech Life if enemy is Webbed
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Leech Life",         () => enemyIsWebbed),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
                         new AandC("Screech",            () => ! debuff("Speed Reduction") && speed <= speedEnemy),
                         new AandC("Reckless Strike",    () => hp > hpEnemy || strong("Reckless Strike")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded() || buff("Uncanny Luck")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Bite"),
                         new AandC("Leech Life"),
                     };
@@ -267,12 +263,11 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
+                        new AandC("Nocturnal Strike",   () => myPetIsLucky),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
                         new AandC("Nocturnal Strike"),
@@ -393,7 +388,7 @@ namespace Prosto_Pets
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded() || buff("Uncanny Luck")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Peck"),
                         new AandC("Quills"),
                     };
@@ -434,7 +429,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded() || buff("Uncanny Lucky")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Squawk",             () => ! debuff("Attack Reduction")),                    
                         new AandC("Murder",             () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Peck"),
@@ -495,13 +490,12 @@ namespace Prosto_Pets
                      * 
                      * TODO: Nocturnal Strike should check if pet has selected Call Darkness
                      * TODO: Consume Corpse needs to check for dead allies
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // (missing condition) nocturnal strike: should check if pet has skill darkness
                     // (missing condition) consume corpse: requires e.g. "deadAllies > 0"
                     // nocturnal strike: only during darkness
                     flying_abilities = new List<AandC>() {
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Anzu's Blessing",    () => ! buff("Attack Boost")),
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
                         new AandC("Nocturnal Strike"),
@@ -574,7 +568,7 @@ namespace Prosto_Pets
                      * Healing Flame is used later in Sunlight, because it heals more
                      */
                     flying_abilities = new List<AandC>() {
-                        new AandC("Deep Burn",      () => enemyIsBurning()),
+                        new AandC("Deep Burn",      () => enemyIsBurning),
                         new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
                         new AandC("Sunlight",       () => ! weather("Sunny Day")),
                         new AandC("Healing Flame",  () => (weather("Sunny Day") && hp < 0.5) || (! weather("Sunny Day") && hp < 0.75)),
@@ -642,7 +636,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Darkflame",          () => strong("Darkflame") || ! debuff("Healing Reduction")),
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded() || buff("Uncanny Luck")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Nevermore"),
                         new AandC("Peck"),
                         new AandC("Alpha Strike"),
@@ -750,13 +744,11 @@ namespace Prosto_Pets
                      * Tactic Information:
                      * Quills are prioritized after Flock to finish the enemy off
                      * Flock is used in Black Claw combo
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Black Claw",         () => ! debuff("Black Claw") && hpEnemy > 0.15),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Quills",             () => debuff("Black Claw") && debuff("Shattered Defenses")),
                         new AandC("Flock",              () => debuff("Black Claw")),
                         new AandC("Savage Talon"),
@@ -777,7 +769,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Cocoon Strike",  () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
-                        new AandC("Moth Balls",     () => buff("Uncanny Luck")),
+                        new AandC("Moth Balls",     () => myPetIsLucky),
                         new AandC("Moth Dust"),
                         new AandC("Slicing Wind"),
                         new AandC("Wild Winds"),
@@ -840,11 +832,10 @@ namespace Prosto_Pets
                      * Predatory Strike is used as a finisher
                      * 
                      * TODO: Nocturnal Strike should be used more often, if no team pet can cause Blindness
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
                         new AandC("Nocturnal Strike"),
@@ -886,15 +877,13 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded() || buff("Uncanny Luck")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Peck"),
                         new AandC("Quills"),
                     };
@@ -997,13 +986,11 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Dark Talon
                      * Slot 2: Nocturnal Strike | Soulrush
                      * Slot 3: Moonfire         | Ethereal
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // ethereal: can always dodge shouldIHide attacks
                     flying_abilities = new List<AandC>() {
                         new AandC("Ethereal",           () => shouldIHide),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Soulrush"),
                         new AandC("Moonfire"),
                         new AandC("Nocturnal Strike"),
@@ -1131,7 +1118,7 @@ namespace Prosto_Pets
                     // lift-off: used defensively if we are fast enough
                     flying_abilities = new List<AandC>() {
                         new AandC("Lift-Off",       () => shouldIHide && speed >= speedEnemy),
-                        new AandC("Puncture Wound", () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound", () => enemyIsPoisoned),
                         new AandC("Flyby",          () => ! debuff("Weakened Defenses")),
                         new AandC("Barbed Stinger"),
                         new AandC("Alpha Strike"),
@@ -1252,14 +1239,12 @@ namespace Prosto_Pets
                      * Slot 1: Peck             | Quills
                      * Slot 2: Wild Winds       | Flock
                      * Slot 3: Nocturnal Strike | Predatory Strike
-                     * 
-                     * TODO: Add Uncanny Luck to Nocturnal Strike
                      */
                     // nocturnal strike: only if enemy is blinded
                     flying_abilities = new List<AandC>() {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Flock",              () => ! debuff("Shattered Defenses")),
                         new AandC("Peck"),
                         new AandC("Quills"),

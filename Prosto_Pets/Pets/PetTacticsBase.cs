@@ -78,24 +78,28 @@ namespace Prosto_Pets
         public static bool weak(string ability) { return MyPets.IsWeak(ability); }
 
         // checking for general conditions caused by multiple effects
-        public static bool enemyIsAsleep() { return MyPets.enemyIsAsleep(); }
-        public static bool enemyIsBleeding() { return MyPets.enemyIsBleeding(); }
-        public static bool enemyIsBlinded() { return MyPets.enemyIsBlinded(); }
-        public static bool enemyIsBurning() { return MyPets.enemyIsBurning(); }
-        public static bool enemyIsChilled() { return MyPets.enemyIsChilled(); }
-        public static bool enemyIsPoisoned() { return MyPets.enemyIsPoisoned(); }
-        public static bool enemyIsResilient() { return MyPets.enemyIsResilient(); }
-        public static bool enemyIsStunned() { return MyPets.enemyIsStunned(); }
+        public static bool enemyIsAsleep    { get { return MyPets.enemyIsAsleep(); } }
+        public static bool enemyIsBleeding  { get { return MyPets.enemyIsBleeding(); } }
+        public static bool enemyIsBlinded   { get { return MyPets.enemyIsBlinded(); } } 
+        public static bool enemyIsBurning   { get { return MyPets.enemyIsBurning(); } }
+        public static bool enemyIsChilled   { get { return MyPets.enemyIsChilled(); } }
+        public static bool enemyIsLucky     { get { return MyPets.enemyIsLucky(); } }
+        public static bool enemyIsPoisoned  { get { return MyPets.enemyIsPoisoned(); } }
+        public static bool enemyIsResilient { get { return MyPets.enemyIsResilient(); } }
+        public static bool enemyIsStunned   { get { return MyPets.enemyIsStunned(); } }
+        public static bool enemyIsWebbed    { get { return MyPets.enemyIsWebbed(); } }
 
         public static bool myPetHasAbility(string ability) { return MyPets.myPetHasAbility(ability); }
-        public static bool myPetIsAsleep() { return MyPets.myPetIsAsleep(); }
-        public static bool myPetIsBurning() { return MyPets.myPetIsBurning(); }
-        public static bool myPetIsBlinded() { return MyPets.myPetIsBlinded(); }
-        public static bool myPetIsBleeding() { return MyPets.myPetIsBleeding(); }
-        public static bool myPetIsChilled() { return MyPets.myPetIsChilled(); }
-        public static bool myPetIsPoisoned() { return MyPets.myPetIsPoisoned(); }
-        public static bool myPetIsResilient() { return MyPets.myPetIsResilient(); }
-        public static bool myPetIsStunned() { return MyPets.myPetIsStunned(); }
+        public static bool myPetIsAsleep    { get { return MyPets.myPetIsAsleep(); } }
+        public static bool myPetIsBurning   { get { return MyPets.myPetIsBurning(); } }
+        public static bool myPetIsBlinded   { get { return MyPets.myPetIsBlinded(); } }
+        public static bool myPetIsBleeding  { get { return MyPets.myPetIsBleeding(); } }
+        public static bool myPetIsChilled   { get { return MyPets.myPetIsChilled(); } } 
+        public static bool myPetIsLucky     { get { return MyPets.myPetIsLucky(); } }
+        public static bool myPetIsPoisoned  { get { return MyPets.myPetIsPoisoned(); } }
+        public static bool myPetIsResilient { get { return MyPets.myPetIsResilient(); } }
+        public static bool myPetIsStunned   { get { return MyPets.myPetIsStunned(); } }
+        public static bool myPetIsWebbed    { get { return MyPets.myPetIsWebbed(); } }
         
     }
 }

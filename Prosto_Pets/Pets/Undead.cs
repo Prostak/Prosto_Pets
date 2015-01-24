@@ -314,11 +314,10 @@ namespace Prosto_Pets
                      * Slot 1: Shadow Slash | Death Coil
                      * Slot 2: Ghostly Bite | Spectral Strike
                      * Slot 3: Siphon Life  | Unholy Ascension
-                     * 
-                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Spectral Strike",        () => myPetIsLucky),
                         new AandC("Shadow Slash"),
                         new AandC("Death Coil"),
                         new AandC("Ghostly Bite"),
@@ -653,10 +652,9 @@ namespace Prosto_Pets
                      * TODO: Consume Corpse needs to check own team status
                      * TODO: Death Grip needs to check own team status
                      * TODO: Corpse Explosion needs to check own team status
-                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     undead_abilities = new List<AandC>() {
-                        new AandC("Haymaker",           () => strong("Haymaker")),
+                        new AandC("Haymaker",           () => strong("Haymaker") || myPetIsLucky),
                         new AandC("Cleave"),
                         new AandC("Diseased Bite"),
                         new AandC("Consume Corpse"),
@@ -674,13 +672,11 @@ namespace Prosto_Pets
                      * Slot 1: Pounce           | Spirit Clawss
                      * Slot 2: Devour           | Spectral Strike
                      * Slot 3: Call Darkness    | Prowl
-                     * 
-                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     // prowl: trying to only use it, if we stay faster after using it
                     undead_abilities = new List<AandC>() {
                         new AandC("Devour",             () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
-                        new AandC("Spectral Strike",    () => enemyIsBlinded()),
+                        new AandC("Spectral Strike",    () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
                         new AandC("Prowl",              () => speed * 0.7 > speedEnemy),
                         new AandC("Pounce"),

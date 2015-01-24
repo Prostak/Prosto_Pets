@@ -27,21 +27,24 @@ namespace Prosto_Pets
             switch (petName)
             {
                 case "Anubisath Idol":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush        | Demolish
                      * Slot 2: Sandstorm    | Stoneskin
                      * Slot 3: Deflection   | Rupture
-                     * 
-                     * TODO: Add Uncanny Luck to Demolish
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
-                        new AandC("Deflection",     () => shouldIHide),
-                        new AandC("Sandstorm"),                            
+                        new AandC("Deflection", () => shouldIHide),
+                        new AandC("Sandstorm",  () => ! weather("Sandstorm")),
+                        new AandC("Demolish",   () => myPetIsLucky),
+                        new AandC("Stoneskin",  () => ! buff("Stoneskin")),
+                        new AandC("Stoneskin",  () => buffLeft("Stoneskin") == 1 && speed <= speedEnemy),
+                        new AandC("Rupture"),
                         new AandC("Crush"),
                         new AandC("Demolish"),
-                        new AandC("Stoneskin"),
-                        new AandC("Rupture"),
                     };
                     break;
 
@@ -81,13 +84,11 @@ namespace Prosto_Pets
                      * 
                      * Tactic Information:
                      * Dodge is used to avoid big hits
-                     * 
-                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() {
                         new AandC("Going Bonkers!",     () => ! buff("Bonkers!")),
                         new AandC("Dodge",              () => shouldIHide && speed >= speedEnemy), 
-                        new AandC("Haymaker"),
+                        new AandC("Haymaker",           () => myPetIsLucky),
                         new AandC("Tornado Punch"),
                         new AandC("Jab"), 
                         new AandC("Bite"),
@@ -95,53 +96,64 @@ namespace Prosto_Pets
                     break;
 
                 case "Corefire Imp":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Rush
                      * Slot 2: Immolation   | Flamethrower
                      * Slot 3: Cauterize    | Wild Magic
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
-                        new AandC("Rush",           () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Cauterize",      () => hp < 0.7),
+                        new AandC("Wild Magic",     () => ! debuff("Wild Magic")),
                         new AandC("Immolation",     () => ! buff("Immolation")),
+                        new AandC("Flamethrower",   () => ! debuff("Flamethrower")),
                         new AandC("Burn"),
-                        new AandC("Flamethrower"),
-                        new AandC("Cauterize"),
-                        new AandC("Wild Magic"),
+                        new AandC("Rush"),
                     };
                     break;
 
                 case "Curious Oracle Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch            | Water Jet
                      * Slot 2: Super Sticky Goo | Aged Yolk
                      * Slot 3: Backflip         | Dreadful Breath
+                     * 
+                     * TODO: Reintroduce Aged Yolk - Needs to consider pet auras
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Super Sticky Goo",   () => strong("Super Sticky Goo")),
+                        new AandC("Backflip"),
+                        new AandC("Dreadful Breath",    () => hp > 0.5),
                         new AandC("Punch"),
                         new AandC("Water Jet"),
-                        new AandC("Super Sticky Goo"),
-                        new AandC("Aged Yolk"),
-                        new AandC("Backflip"),
-                        new AandC("Dreadful Breath"),
                     };
                     break;
 
                 case "Curious Wolvar Pup":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Bite
                      * Slot 2: Snap Trap    | Frenzyheart Brew
                      * Slot 3: Whirlwind    | Maul
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
-                        new AandC("Punch"),
-                        new AandC("Bite"),
-                        new AandC("Snap Trap"),
-                        new AandC("Frenzyheart Brew"),
+                        new AandC("Maul",               () => enemyIsBleeding),
+                        new AandC("Snap Trap",          () => hpEnemy > 0.6),
+                        new AandC("Frenzyheart Brew",   () => ! buff("Frenzyheart Brew")),
                         new AandC("Whirlwind"),
                         new AandC("Maul"),
+                        new AandC("Punch"),
+                        new AandC("Bite"),
                     };
                     break;
 
@@ -166,111 +178,140 @@ namespace Prosto_Pets
                     break;
 
                 case "Deathy":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch            | Deep Breath
                      * Slot 2: Scorched Earth   | Call Darkness
                      * Slot 3: Clobber          | Roar
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
+                        new AandC("Call Darkness",  () => ! weather("Darkness")),
+                        new AandC("Roar",           () => ! buff ("Attack Boost")),
+                        new AandC("Clobber",        () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Punch"),
                         new AandC("Deep Breath"),
-                        new AandC("Scorched Earth"),
-                        new AandC("Call Darkness"),
-                        new AandC("Clobber"),
-                        new AandC("Roar"),
                     };
                     break;
 
                 case "Father Winter's Helper":
                 case "Winter's Little Helper":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Snowball         | Ice Lance
                      * Slot 2: Call Blizzard    | Eggnog
                      * Slot 3: Ice Tomb         | Gift of Winter's Veil
+                     * 
+                     * TODO: Reintroduce Eggnog - Needs to consider pet auras
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Call Blizzard",          () => ! weather("Blizzard")),
+                        new AandC("Ice Tomb",               () => ! debuff("Ice Tomb") && hpEnemy > 0.5),
+                        new AandC("Gift of Winter's Veil"),  
                         new AandC("Snowball"),
                         new AandC("Ice Lance"),
-                        new AandC("Call Blizzard"),
-                        new AandC("Eggnog"),
-                        new AandC("Ice Tomb"),
-                        new AandC("Gift of Winter's Veil"),  
                     };
                     break;
 
                 case "Feral Vermling":
                 case "Hopling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush        | Tongue Lash
                      * Slot 2: Sticky Goo   | Poison Lash
                      * Slot 3: Backflip     | Dreadful Breath
+                     * 
+                     * TODO: Reintroduce Sticky Goo for PvP
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Poison Lash",        () => ! debuff("Poisoned")),
+                        new AandC("Backflip"),
+                        new AandC("Dreadful Breath",    () => hp > 0.4 && hpEnemy > 0.4),
                         new AandC("Crush"),
                         new AandC("Tongue Lash"),
-                        new AandC("Sticky Goo"),
-                        new AandC("Poison Lash"),
-                        new AandC("Backflip"),
-                        new AandC("Dreadful Breath"),
                     };
                     break;
 
                 case "Fiendish Imp":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn         | Sear Magic
                      * Slot 2: Immolation   | Flamethrower
                      * Slot 3: Rush         | Nether Gate
+                     * 
+                     * Tactic Information:
+                     * Immolation/Flamethrower added at the end to avoid passing turns
+                     * 
+                     * TODO: Reintroduce Sear Magic - Needs to consider pet auras
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
                         new AandC("Rush",           () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Immolation",     () => ! buff("Immolation")),
-                        new AandC("Burn"),
-                        new AandC("Sear Magic"),
-                        new AandC("Flamethrower"),
+                        new AandC("Flamethrower",   () => ! debuff("Flamethrower")),
                         new AandC("Nether Gate"),
+                        new AandC("Burn"),
+                        new AandC("Immolation"),
+                        new AandC("Flamethrower"),
                     };
                     break;
 
                 case "Flayer Youngling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Blitz    | Triple Snap
                      * Slot 2: Focus    | Deflection
                      * Slot 3: Kick     | Rampage
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Deflection",     () => shouldIHide),
+                        new AandC("Focus",          () => ! buff("Focused")),
+                        new AandC("Kick"),
+                        new AandC("Rampage",        () => hp > 0.5 && ! weak("Rampage")),
                         new AandC("Blitz"),
                         new AandC("Triple Snap"),
-                        new AandC("Focus"),
-                        new AandC("Deflection"),
-                        new AandC("Kick"),
-                        new AandC("Rampage"),
                     };
                     break;
 
                 case "Gregarious Grell":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Burn
                      * Slot 2: Immolate     | Phase Shift
                      * Slot 3: Cauterize    | Sear Magic
+                     * 
+                     * TODO: Reintroduce Sear Magic - Needs to consider pet auras
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Phase Shift",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Cauterize",      () => hp < 0.7),
                         new AandC("Immolate",       () => ! debuff("Immolate")),
                         new AandC("Punch"),
                         new AandC("Burn"),
-                        new AandC("Phase Shift"),
-                        new AandC("Cauterize"),
-                        new AandC("Sear Magic"),
                     };
                     break;
 
                 case "Grommloc":
                     /* Changelog
+                     * 2015-01-24: Takedown is only used if the enemy is stunned - Studio60
+                     *             Clobber won't activate if enemy is stunned or resilient - Studio60
                      * 2015-01-12: Initial Tactic by Misanthrope
                      * 
                      * Abilities
@@ -281,28 +322,32 @@ namespace Prosto_Pets
                     humanoid_abilities = new List<AandC>() 
                     {           
                         new AandC("Giant's Blood",  () => ! buff("Attack Boost") || hp < 0.6),
+                        new AandC("Takedown",       () => enemyIsStunned),
+                        new AandC("Clobber",        () => ! enemyIsResilient && ! enemyIsStunned),
+                        new AandC("Mighty Charge"),
                         new AandC("Vicious Slice"),
                         new AandC("Smash"),
-                        new AandC("Clobber"),
-                        new AandC("Mighty Charge"),
-                        new AandC("Takedown"),
                     };
                     break;
 
                 case "Grunty":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Gauss Rifle  | U-238 Rounds
                      * Slot 2: Stimpack     | Shield Block
                      * Slot 3: Launch       | Lock-On
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Launch",         () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Shield Block",   () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Stimpack",       () => ! buff("Stimpack")),
+                        new AandC("Lock-On",        () => buff("Locked On")),
+                        new AandC("Lock-On",        () => hpEnemy > 0.4 && ! weak("Lock-On")),
                         new AandC("Gauss Rifle"),
                         new AandC("U-238 Rounds"),
-                        new AandC("Stimpack"),
-                        new AandC("Shield Block"),
-                        new AandC("Launch"),
-                        new AandC("Lock-On"),
                     };
                     break;
 
@@ -311,33 +356,41 @@ namespace Prosto_Pets
                 case "Murki":
                 case "Murky":
                 case "Terky":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Flank
                      * Slot 2: Acid Touch   | Lucky Dance
                      * Slot 3: Clobber      | Stampede
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Clobber",        () => ! enemyIsStunned && ! enemyIsResilient),
+                        new AandC("Lucky Dance",    () => ! ! buff("Lucky Dnce")),
+                        new AandC("Acid Touch",     () => ! debuff("Acid Touch")),
+                        new AandC("Stampede",       () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Punch"),
                         new AandC("Flank"),
-                        new AandC("Acid Touch"),
-                        new AandC("Lucky Dance"),
-                        new AandC("Clobber"),
-                        new AandC("Stampede"),
                     };
                     break;
 
                 case "Harbinger of Flame":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Jab          | Burn
                      * Slot 2: Magma Wave   | Immolate
                      * Slot 3: Impale       | Conflagrate
+                     * 
+                     * TODO: Magma Wave needs to consider battlefield objects
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
-                        new AandC("Impale",         () => hpEnemy < 0.25 ),
+                        new AandC("Impale",         () => hpEnemy < 0.25),
                         new AandC("Immolate",       () => ! debuff("Immolate")),
-                        new AandC("Conflagrate",    () => debuff("Immolate") || weather("Scorched Earth")),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Jab"),
                         new AandC("Burn"),
                         new AandC("Magma Wave"),
@@ -345,174 +398,224 @@ namespace Prosto_Pets
                     break;
 
                 case "Harpy Youngling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Quills   | Slicing Wind
                      * Slot 2: Flyby    | Counterstrike
                      * Slot 3: Squawk   | Lift-Off
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
-                        new AandC("Lift-Off"),
+                        new AandC("Lift-Off",       () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Flyby",          () => ! debuff("Weakened Defenses")),
+                        new AandC("Counterstrike",  () => speed < speedEnemy),
+                        new AandC("Squawk",         () => ! debuff("Attack Reduction")),
                         new AandC("Quills"),
                         new AandC("Slicing Wind"),
-                        new AandC("Flyby"),
-                        new AandC("Counterstrike"),
-                        new AandC("Squawk"),
                     };
                     break;
 
                 case "Kun-Lai Runt":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Thrash   | Takedown
                      * Slot 2: Mangle   | Frost Shock
                      * Slot 3: Rampage  | Deep Freeze
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Mangle",         () => ! debuff("Mangle")),
+                        new AandC("Frost Shock",    () => ! debuff("Frost Shock")),
+                        new AandC("Rampage",        () => ! weak("Rampage") && hp > 0.4 && hpEnemy > 0.4),
+                        new AandC("Deep Freeze"),
                         new AandC("Thrash"),
                         new AandC("Takedown"),
-                        new AandC("Mangle"),
-                        new AandC("Frost Shock"),
-                        new AandC("Rampage"),
-                        new AandC("Deep Freeze"),
                     };
                     break;
 
                 case "Lil' Bad Wolf":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw     | Counterstrike
                      * Slot 2: Mangle   | Dodge
                      * Slot 3: Howl     | Pounce
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Dodge",          () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Mangle",         () => debuff("Mangle")),
+                        new AandC("Howl",           () => ! debuff("Shattered Defenses")),
+                        new AandC("Pounce",         () => strong("Pounce") || speed > speedEnemy),
                         new AandC("Claw"),
                         new AandC("Counterstrike"),
-                        new AandC("Mangle"),
-                        new AandC("Dodge"),
-                        new AandC("Howl"),
-                        new AandC("Pounce"),
                     };
                     break;
 
                 case "Mini Tyrael":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Holy Sword   | Omnislash
                      * Slot 2: Holy Justice | Surge of Light
                      * Slot 3: Holy Charge  | Restoration
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Restoration",    () => hp < 0.75),
+                        new AandC("Holy Justice",   () => ! enemyIsResilient && ! enemyIsStunned),
+                        new AandC("Surge of Light"),
+                        new AandC("Holy Charge",    () => hpEnemy > 0.4),
                         new AandC("Holy Sword"),
                         new AandC("Omnislash"),
-                        new AandC("Holy Justice"),
-                        new AandC("Surge of Light"),
-                        new AandC("Holy Charge"),
-                        new AandC("Restoration"),
                     };
                     break;
 
                 case "Moonkin Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch            | Solar Beam
                      * Slot 2: Entangling Roots | Clobber
                      * Slot 3: Cyclone          | Moonfire
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Moonfire",           () => ! weather("Sunlight") && ! weather("Moonlight")),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
+                        new AandC("Entangling Roots",   () => ! debuff("Entangling Roots") && hpEnemy > 0.4),
+                        new AandC("Clobber",            () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Punch"),
                         new AandC("Solar Beam"),
-                        new AandC("Entangling Roots"),
-                        new AandC("Clobber"),
-                        new AandC("Moonfire"),
                     };
                     break;
 
                 case "Murkablo":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn             | Bone Prison 
                      * Slot 2: Agony            | Drain Power
                      * Slot 3: Blast of Hatred  | Scorched Earth
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Scorched Earth",     () => ! weather("Scorched Earth")),
+                        new AandC("Agony",              () => ! debuff("Agony")),
+                        new AandC("Drain Power",        () => ! debuff("Attack Reduction")),
+                        new AandC("Blast of Hatred",    () => strong("Blast of Hatred") || speed > speedEnemy),
                         new AandC("Burn"),
                         new AandC("Bone Prison"),
-                        new AandC("Agony"),
-                        new AandC("Drain Power"),
-                        new AandC("Blast of Hatred"),
-                        new AandC("Scorched Earth"),
+                    };
+                    break;
+
+                case "Murkalot":
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
+                     * Slot 1: Punish                   | Blessed Hammer
+                     * Slot 2: Falling Murloc           | Reflective Shield
+                     * Slot 3: Righteous Inspiration    | Shieldstorm
+                     */
+                    humanoid_abilities = new List<AandC>() 
+                    {
+                        new AandC("Shieldstorm",            () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Reflective Shield",      () => ! debuff("Reflective Shield")),
+                        new AandC("Righteous Inspiration"),
+                        new AandC("Falling Murloc"),
+                        new AandC("Punish"),
+                        new AandC("Blessed Hammer"),
                     };
                     break;
 
                 case "Murkimus the Gladiator":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Flurry
                      * Slot 2: Shield Block | Counterstrike
                      * Slot 3: Heroic Leap  | Haymaker
-                     * 
-                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Heroic Leap",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Shield Block",   () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Haymaker",       () => myPetIsLucky),
+                        new AandC("Counterstrike",  () => speed < speedEnemy),
                         new AandC("Punch"),
                         new AandC("Flurry"),
-                        new AandC("Shield Block"),
-                        new AandC("Counterstrike"),
-                        new AandC("Heroic Leap"),
-                        new AandC("Haymaker"),
                     };
                     break;
 
                 case "Pandaren Monk":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Jab                  | Takedown
                      * Slot 2: Focus Chi            | Staggered Steps
                      * Slot 3: Fury of 1,000 Fists  | Blackout Kick
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Takedown",               () => enemyIsStunned),
+                        new AandC("Focus Chi",              () => ! buff("Focus Chi")),
+                        new AandC("Fury of 1,000 Fists",    () => buff("Focus Chi")),
+                        new AandC("Blackout Kick",          () => ! enemyIsStunned && ! enemyIsResilient),
+                        new AandC("Staggered Steps",        () => ! buff("Staggered Steps")),
+                        new AandC("Fury of 1,000 Fists"),
                         new AandC("Jab"),
                         new AandC("Takedown"),
-                        new AandC("Focus Chi"),
-                        new AandC("Staggered Steps"),
-                        new AandC("Fury of 1,000 Fists"),
-                        new AandC("Blackout Kick"),
                     };
                     break;
 
                 case "Peddlefeet":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bow Shot                 | Rapid Fire
                      * Slot 2: Lovestruck               | Perfumed Arrow
                      * Slot 3: Shot Through The Heart   | Love Potion
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Love Potion",            () => hp < 0.7),
+                        new AandC("Lovestruck",             () => ! enemyIsStunned && ! enemyIsResilient),
+                        new AandC("Perfumed Arrow"),
+                        new AandC("Shot Through The Heart", () => hpEnemy > 0.4), 
                         new AandC("Bow Shot"),
                         new AandC("Rapid Fire"),
-                        new AandC("Lovestruck"),
-                        new AandC("Perfumed Arrow"),
-                        new AandC("Shot Through The Heart"), 
-                        new AandC("Love Potion"),
                     };
                     break;
 
                 case "Qiraji Guardling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush            | Whirlwind
                      * Slot 2: Hawk Eye         | Sandstorm
                      * Slot 3: Reckless Strike  | Blackout Kick
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Sandstorm",          () => ! weather("Sandstorm")),
+                        new AandC("Blackout Kick",      () => speed > speedEnemy && ! enemyIsResilient && ! enemyIsStunned),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")), 
+                        new AandC("Reckless Strike",    () => hp > hpEnemy),
                         new AandC("Crush"),
                         new AandC("Whirlwind"),
-                        new AandC("Sandstorm"),
-                        new AandC("Reckless Strike"),
-                        new AandC("Blackout Kick"),
                     };
                     break;
 
@@ -541,38 +644,43 @@ namespace Prosto_Pets
                     break;
 
                 case "Sporeling Sprout":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Jab              | Charge
                      * Slot 2: Creeping Fungus  | Leech Seed
                      * Slot 3: Spore Shrooms    | Crouch
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Creeping Fungus",    () => ! debuff("Creeping Fungus")),
+                        new AandC("Leech Seed",         () => ! debuff("Leech Seed")),
+                        new AandC("Spore Shrooms",      () => ! debuff("Spore Shrooms") && hpEnemy > 0.6),
+                        new AandC("Crouch",             () => ! buff("Crouch")),
+                        new AandC("Crouch",             () => buffLeft("Crouch") == 1 && speed < speedEnemy),
                         new AandC("Jab"),
                         new AandC("Charge"),
-                        new AandC("Creeping Fungus"),
-                        new AandC("Leech Seed"),
-                        new AandC("Spore Shrooms"),
-                        new AandC("Crouch"),
                     };
                     break;
 
                 case "Stunted Yeti":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Thrash   | Punch
                      * Slot 2: Mangle   | Haymaker
                      * Slot 3: Rampage  | Bash
-                     * 
-                     * TODO: Add Uncanny Strike to Haymaker
                      */
                     humanoid_abilities = new List<AandC>() 
                     {
+                        new AandC("Mangle",     () => ! debuff("Mangle")),
+                        new AandC("Haymaker",   () => myPetIsLucky),
+                        new AandC("Rampage",    () => ! weak("Rampage") && hp > 0.4 && hpEnemy > 0.4),
+                        new AandC("Bash",       () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Thrash"),
                         new AandC("Punch"),
-                        new AandC("Mangle"),
-                        new AandC("Haymaker"),
-                        new AandC("Rampage"),
-                        new AandC("Bash"),
                     };
                     break;
 
@@ -589,13 +697,12 @@ namespace Prosto_Pets
                      * Shell Armor should block knockback damage (Untested)
                      * 
                      * TODO: Use Spiny Carapace again on anticipated big hit
-                     * TODO: Add Uncanny Luck to Demolish
                      */
                     humanoid_abilities = new List<AandC>() {
                         new AandC("Shell Armor",    () => ! buff("Shell Armor")),
                         new AandC("Spiny Carapace", () => ! buff("Spiny Carapace")),  
                         new AandC("Body Slam",      () => buff("Shell Armor")),
-                        new AandC("Demolish"),
+                        new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Acid Touch"),  
                         new AandC("Punch"),
                     };

@@ -79,7 +79,7 @@ namespace Prosto_Pets
                         new AandC("Cleansing Rain", () => ! weather("Cleansing Rain") || hp < 0.9),
                         new AandC("Swarm of Flies", () => ! debuff("Swarm of Flies")),
                         new AandC("Tongue Lash",    () => speed > speedEnemy || strong("Tongue Lash")),
-                        new AandC("Frog Kiss",      () => ! enemyIsResilient()),    
+                        new AandC("Frog Kiss",      () => ! enemyIsResilient),    
                         new AandC("Frog Kiss",      () => myPetHasAbility("Tongue Lash") && weak("Tongue Lash")),
                         new AandC("Water Jet"),
                         new AandC("Tongue Lash"),
@@ -101,9 +101,9 @@ namespace Prosto_Pets
                     aquatic_abilities = new List<AandC>()
                     {
                         new AandC("Devour",             () => hpEnemy < 0.2 || (strong("Devour") || hp < 0.3)),  
-                        new AandC("Rip",                () => ! enemyIsBleeding()), 
+                        new AandC("Rip",                () => ! enemyIsBleeding), 
                         new AandC("Consume",            () => hp < 0.8),
-                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => enemyIsBleeding || myPetIsLucky),
                         new AandC("Surge",              () => myPetHasAbility("Consume") && (weak("Consume") || strong("Surge"))),
                         new AandC("Surge",              () => myPetHasAbility("Rip") && (weak("Rip") || strong("Surge"))),
                         new AandC("Water Jet",          () => myPetHasAbility("Consume") && (weak("Consume") || strong("Water Jet"))),
@@ -219,7 +219,7 @@ namespace Prosto_Pets
                     /* Changelog:
                      * 2015-01-22: Double Spiny Carapace is now used for retaliation on huge attacks - Studio60
                      *             Spiny Carapace/Shell Shield are now being kept active without wasting turns - Studio60
-                     *             Blood in the Water is now used when Uncanny Luck is active - Studio60
+                     *             Blood in the Water is now used when hit buff is active - Studio60
                      * 2015-01-20: Dive is now also used to hide from huge attacks if both pets have equal speed - Studio60
                      * 2015-01-18: Initial tactic by Studio60
                      * 
@@ -236,7 +236,7 @@ namespace Prosto_Pets
                         new AandC("Spiny Carapace",     () => buffLeft("Spiny Carapace") == 1 && speed <= speedEnemy),
                         new AandC("Shell Shield",       () => ! buff("Shell Shield")),
                         new AandC("Shell Shield",       () => buffLeft("Shell Shield") == 1 && speed <= speedEnemy),
-                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => myPetIsLucky || enemyIsBleeding),
                         new AandC("Rip"),
                         new AandC("Claw"),
                     };
@@ -358,7 +358,7 @@ namespace Prosto_Pets
                         new AandC("Healing Wave",       () => hp < 0.7 ),
                         new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
                         new AandC("Cleansing Rain",     () => ! weather("Cleansing Rain") || hp < 0.9),
-                        new AandC("Frog Kiss",          () => ! enemyIsResilient()),
+                        new AandC("Frog Kiss",          () => ! enemyIsResilient),
                         new AandC("Water Jet"),
                         new AandC("Tongue Lash"),
                     };
@@ -366,7 +366,7 @@ namespace Prosto_Pets
 
                 case "Land Shark":
                     /* Changelog:
-                     * 2015-01-22: Blood in the Water is now also cast under the effect of Uncanny Luck - Studio60
+                     * 2015-01-22: Blood in the Water is now also cast with +hit effects - Studio60
                      * 2015-01-20: Blood in the Water is now checking for all bleed effects - Studio60
                      * 2015-01-18: Initial tactic by Studio60
                      * 
@@ -381,7 +381,7 @@ namespace Prosto_Pets
                         new AandC("Swallow You Whole",  () => hpEnemy < 0.25),
                         new AandC("Tidal Wave",         () => debuff("Decoy") || debuff("Turret")),
                         new AandC("Focus",              () => ! buff("Focused")),
-                        new AandC("Blood in the Water", () => enemyIsBleeding() || buff("Uncanny Luck")),
+                        new AandC("Blood in the Water", () => enemyIsBleeding || myPetIsLucky),
                         new AandC("Water Jet"),
                         new AandC("Tail Slap"),
                     };
@@ -452,7 +452,7 @@ namespace Prosto_Pets
                 case "Pengu":
                 case "Tundra Penguin":
                     /* 2015-01-23: Ice Lance is cast when it has a type advantage over base attacks and if frost spit is not selected or the enemy is chilled (oh boy!) - Studio60
-                     *             Belly Slide is now only cast during Blizzard or with Uncanny Luck
+                     *             Belly Slide is now only cast during Blizzard or with +hit
                      * Abilities:
                      * Slot 1: Peck         | Surge
                      * Slot 2: Frost Spit   | Slippery Ice
@@ -462,11 +462,11 @@ namespace Prosto_Pets
                     {
                         new AandC("Slippery Ice",   () => ! debuff("Slippery Ice")),
                         new AandC("Slippery Ice",   () => debuffLeft("Slippery Ice") == 1 && speed <= speedEnemy),
-                        new AandC("Ice Lance",      () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled()))),
-                        new AandC("Ice Lance",      () => (myPetHasAbility("Surge") && (weak("Surge") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled()))),
+                        new AandC("Ice Lance",      () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled))),
+                        new AandC("Ice Lance",      () => (myPetHasAbility("Surge") && (weak("Surge") || strong("Ice Lance")) && (! myPetHasAbility("Frost Spit") || enemyIsChilled))),
                         new AandC("Frost Spit",     () => (myPetHasAbility("Peck") && (weak("Peck") || strong("Frost Spit")))),
                         new AandC("Frost Spit",     () => (myPetHasAbility("Surge") && (weak("Surge") || strong("Frost Spit")))),
-                        new AandC("Belly Slide",    () => buff("Uncanny Luck") || weather("Blizzard")),
+                        new AandC("Belly Slide",    () => myPetIsLucky || weather("Blizzard")),
                         new AandC("Peck"),
                         new AandC("Surge"),
                     };
@@ -516,7 +516,7 @@ namespace Prosto_Pets
                         new AandC("Dive",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Sunlight",       () => ! weather("Sunny Day")),
                         new AandC("Nature's Ward",  () => hp < 0.9 && ! famEnemy(PF.Aquatic) && ! buff("Nature's Ward")),
-                        new AandC("Clobber",        () => ! enemyIsResilient()),
+                        new AandC("Clobber",        () => ! enemyIsResilient),
                         new AandC("Water Jet"),
                         new AandC("Punch"),
                     };
@@ -546,7 +546,7 @@ namespace Prosto_Pets
 
                 case "Sea Calf":
                     /* Changelog:
-                     * 2015-01-23: Blood in the Water is now also used with Uncanny Luck
+                     * 2015-01-23: Blood in the Water is now also used with +Hit buffs
                      * 2015-01-20: Bubble is now also used to hide from huge attacks if both pets have equal speed - Studio60
                      *             Dive is now also used to hide from huge attacks if both pets have equal speed - Studio60
                      *             Blood in the Water is now checking for all bleed effects - Studio60
@@ -561,7 +561,7 @@ namespace Prosto_Pets
                         new AandC("Bubble",             () => shouldIHide && speed >= speedEnemy),
                         new AandC("Dive",               () => shouldIHide && speed >= speedEnemy),
                         new AandC("Feed",               () => hp < 0.7),
-                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => myPetIsLucky || enemyIsBleeding),
                         new AandC("Water Jet"),
                         new AandC("Surge"),
                     };
@@ -619,7 +619,7 @@ namespace Prosto_Pets
 
                 case "Spineclaw Crab":
                     /* Changelog:
-                     * 2015-01-23: Blood in the Water is now also used with Uncanny Luck - Studio60
+                     * 2015-01-23: Blood in the Water is now also used with hit buffs - Studio60
                      * 2015-01-20: Blood in the Water is now checking for all bleed effects - Studio60
                      * 2015-01-18: Initial tactic by Studio60
                      * 
@@ -633,7 +633,7 @@ namespace Prosto_Pets
                         new AandC("Spiny Carapace",     () => ! buff("Spiny Carapace")),
                         new AandC("Healing Wave",       () => hp < 0.6),
                         new AandC("Whirlpool",          () => hpEnemy > 0.5),
-                        new AandC("Blood in the Water", () => buff("Uncanny Luck") | enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => myPetIsLucky | enemyIsBleeding),
                         new AandC("Rip"),
                         new AandC("Triple Snap"),
                     };
@@ -654,7 +654,7 @@ namespace Prosto_Pets
                         new AandC("Swarm of Flies",     () => ! debuff("Swarm of Flies")),
                         new AandC("Croak",              () => ! debuff("Croak")),
                         new AandC("Croak",              () => debuffLeft("Croak") == 1 && speed <= speedEnemy),
-                        new AandC("Frog Kiss",          () => ! enemyIsResilient()),
+                        new AandC("Frog Kiss",          () => ! enemyIsResilient),
                         new AandC("Frog Kiss",          () => myPetHasAbility("Tongue Lash") && (weak("Tongue Lash"))),
                         new AandC("Frog Kiss",          () => myPetHasAbility("Tongue Lash") && (strong("Frog Kiss"))),
                         new AandC("Water Jet"),
@@ -798,8 +798,6 @@ namespace Prosto_Pets
                      * Slot 1: Rip              | Claw
                      * Slot 2: Spiny Carapace   | Shell Shield
                      * Slot 3: Dive             | Blood in the Water
-                     * 
-                     * TODO: Add Uncanny Luck to Blood in the Water
                      */
                     aquatic_abilities = new List<AandC>()
                     {
@@ -809,7 +807,7 @@ namespace Prosto_Pets
                         new AandC("Shell Shield",       () => buffLeft("Shell Shield") == 1 && speed <= speedEnemy),
                         new AandC("Spiny Carapace",     () => ! buff("Spiny Carapace")),
                         new AandC("Spiny Carapace",     () => buffLeft("Spiny Carapace") == 1 && speed <= speedEnemy),
-                        new AandC("Blood in the Water", () => buff("Uncanny Luck") || enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => myPetIsLucky || enemyIsBleeding),
                         new AandC("Rip",                () => ! debuff("Bleeding")),
                         new AandC("Rip"),
                         new AandC("Claw"),

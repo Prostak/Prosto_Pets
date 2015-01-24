@@ -83,9 +83,9 @@ namespace Prosto_Pets
                      * Slot 3: Clobber  | Headbutt
                      */
                     beast_abilities = new List<AandC>() {
-                        new AandC("Takedown",   () => enemyIsStunned()),
+                        new AandC("Takedown",   () => enemyIsStunned),
                         new AandC("Stoneskin",  () => ! buff("Stoneskin")),
-                        new AandC("Clobber",    () => ! enemyIsResilient() && ! enemyIsStunned()),
+                        new AandC("Clobber",    () => ! enemyIsResilient && ! enemyIsStunned),
                         new AandC("Headbutt"),
                         new AandC("Bite"),
                         new AandC("Water Jet"),
@@ -162,8 +162,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Sticky Web",       () => ! debuff("Webbed")),
                         new AandC("Brittle Webbing",  () => ! debuff("Brittle Webbing")),
-                        new AandC("Leech Life",       () => debuff("Webbed") || debuff("Brittle Webbing")),
-                        new AandC("Spiderling Swarm", () => debuff("Webbed") || debuff("Brittle Webbing")),
+                        new AandC("Leech Life",       () => enemyIsWebbed),
+                        new AandC("Spiderling Swarm", () => enemyIsWebbed),
                         new AandC("Strike"),
                         new AandC("Poison Spit"),
                     };
@@ -232,7 +232,7 @@ namespace Prosto_Pets
                         new AandC("Barrel Toss",        () => buff("Barrel Ready")),
                         new AandC("Banana Barrage",     () => ! debuff("Banana Barrage")),
                         new AandC("Roar",               () => ! buff("Attack Boost")),
-                        new AandC("Clobber",            () => ! enemyIsStunned() && ! enemyIsResilient()),
+                        new AandC("Clobber",            () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Smash"),
                         new AandC("Rake"),
                     };
@@ -250,10 +250,10 @@ namespace Prosto_Pets
                     beast_abilities = new List<AandC>() 
                     {
                         new AandC("Hibernate",      () => hp < 0.5),
-                        new AandC("Maul",           () => enemyIsBleeding()),
+                        new AandC("Maul",           () => enemyIsBleeding),
                         new AandC("Roar",           () => ! buff("Attack Boost")),
                         new AandC("Call Blizzard",  () => ! weather("Blizzard")),
-                        new AandC("Bash",           () => ! enemyIsStunned() && ! enemyIsResilient()),
+                        new AandC("Bash",           () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Maul"),
                         new AandC("Bite"),
                         new AandC("Roar"),
@@ -399,8 +399,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Sticky Web",       () => ! debuff("Webbed")),
                         new AandC("Brittle Webbing",  () => ! debuff("Brittle Webbing")),
-                        new AandC("Leech Life",       () => debuff("Webbed") || debuff("Brittle Webbing")),
-                        new AandC("Spiderling Swarm", () => debuff("Webbed") || debuff("Brittle Webbing")),
+                        new AandC("Leech Life",       () => enemyIsWebbed),
+                        new AandC("Spiderling Swarm", () => enemyIsWebbed),
                         new AandC("Strike"),
                         new AandC("Crystal Prison"),
                     };
@@ -421,10 +421,10 @@ namespace Prosto_Pets
                     beast_abilities = new List<AandC>() 
                     {
                         new AandC("Hibernate",  () => hp < 0.5),
-                        new AandC("Maul",       () => enemyIsBleeding()),
+                        new AandC("Maul",       () => enemyIsBleeding),
                         new AandC("Roar",       () => ! buff("Attack Boost")),
                         new AandC("Rampage",    () => hp > 0.5),
-                        new AandC("Bash",       () => ! enemyIsStunned() && ! enemyIsResilient()),
+                        new AandC("Bash",       () => ! enemyIsStunned && ! enemyIsResilient),
                         new AandC("Maul"),
                         new AandC("Bite"),
                         new AandC("Roar"),
@@ -476,8 +476,8 @@ namespace Prosto_Pets
                      */
                     beast_abilities = new List<AandC>() {
                         new AandC("Feed",           () => hp < 0.7),
-                        new AandC("Clobber",        () => ! enemyIsStunned() && ! enemyIsResilient()),
-                        new AandC("Takedown",       () => enemyIsStunned() || weak("Bite") || strong("Takedown")),
+                        new AandC("Clobber",        () => ! enemyIsStunned && ! enemyIsResilient),
+                        new AandC("Takedown",       () => enemyIsStunned || weak("Bite") || strong("Takedown")),
                         new AandC("Leap"),
                         new AandC("Woodchipper"),
                         new AandC("Bite"),
@@ -497,8 +497,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Burrow",             () => shouldIHide && speed >= speedEnemy),
                         new AandC("Crouch",             () => ! buff("Crouch") && hpEnemy > 0.2),
-                        new AandC("Poison Fang",        () => ! enemyIsPoisoned()),
-                        new AandC("Puncture Wound",     () => enemyIsPoisoned()),
+                        new AandC("Poison Fang",        () => ! enemyIsPoisoned),
+                        new AandC("Puncture Wound",     () => enemyIsPoisoned),
                         new AandC("Blinding Poison",    () => ! debuff("Blinding Poison")),
                         new AandC("Poison Fang"),
                         new AandC("Vicious Fang"),
@@ -653,7 +653,7 @@ namespace Prosto_Pets
                         new AandC("Ravage",         () => hpEnemy < 0.2),
                         new AandC("Ravage",         () => strong("Ravage") && hpEnemy > 0.3),
                         new AandC("Body Slam",      () => hp > hpEnemy),
-                        new AandC("Puncture Wound", () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound", () => enemyIsPoisoned),
                         new AandC("Takedown",       () => myPetHasAbility("Gnaw") && speed < speedEnemy),
                         new AandC("Takedown",       () => weak("Gnaw")),
                         new AandC("Gnaw"),
@@ -675,9 +675,9 @@ namespace Prosto_Pets
                     beast_abilities = new List<AandC>() 
                     {
                         new AandC("Digest Brains",  () => hp < 0.8),
-                        new AandC("Poison Fang",    () => ! enemyIsPoisoned()),
+                        new AandC("Poison Fang",    () => ! enemyIsPoisoned),
                         new AandC("Black Claw",     () => ! debuff("Black Claw")),
-                        new AandC("Puncture Wound", () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound", () => enemyIsPoisoned),
                         new AandC("Poison Fang"),
                         new AandC("Puncture Wound", () => myPetHasAbility("Body Slam") && (weak("Body Slam") || strong("Puncture Wound"))),
                         new AandC("Body Slam"),
@@ -764,7 +764,7 @@ namespace Prosto_Pets
                      */
                     beast_abilities = new List<AandC>() 
                     {
-                        new AandC("Leech Life",         () => buff("Webbed") || buff("Brittle Webbing")),
+                        new AandC("Leech Life",         () => enemyIsWebbed),
                         new AandC("Cauterize",          () => hp < 0.8),
                         new AandC("Magma Wave",         () => debuff("Decoy") || debuff("Turret")),
                         new AandC("Sticky Web",         () => ! debuff("Webbed")),
@@ -807,8 +807,8 @@ namespace Prosto_Pets
                         new AandC("Gnaw",             () => speed > speedEnemy),
                         new AandC("Ravage",           () => hpEnemy < 0.2),
                         new AandC("Ravage",           () => strong("Ravage") && hpEnemy < 0.3),
-                        new AandC("Puncture Wound",   () => enemyIsPoisoned()),
-                        new AandC("Takedown",         () => enemyIsStunned()),
+                        new AandC("Puncture Wound",   () => enemyIsPoisoned),
+                        new AandC("Takedown",         () => enemyIsStunned),
                         new AandC("Body Slam",        () => hp > hpEnemy || strong("Body Slam")),
                         new AandC("Takedown",         () => weak("Gnaw") || strong("Takedown")),
                         new AandC("Gnaw"),
@@ -856,7 +856,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Screech",        () => ! debuff("Speed Reduction")),
                         new AandC("Screech",        () => debuffLeft("Speed Reduction") == 1 && speed <= speedEnemy),
-                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Comeback",       () => hp < hpEnemy),
                         new AandC("Ravage",         () => hpEnemy < 0.2),
                         new AandC("Ravage",         () => strong("Ravage") && hpEnemy > 0.4),
@@ -1086,8 +1086,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Gnaw",           () => speed > speedEnemy ),
                         new AandC("Ravage",         () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
-                        new AandC("Puncture Wound", () => enemyIsPoisoned()),
-                        new AandC("Takedown",       () => enemyIsStunned()),
+                        new AandC("Puncture Wound", () => enemyIsPoisoned),
+                        new AandC("Takedown",       () => enemyIsStunned),
                         new AandC("Takedown",       () => weak("Gnaw") || strong("Takedown")),
                         new AandC("Body Slam",      () => strong("Body Slam")),
                         new AandC("Gnaw"),

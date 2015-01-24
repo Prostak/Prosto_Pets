@@ -42,6 +42,7 @@ namespace Prosto_Pets
                      */
                     elemental_abilities = new List<AandC>() 
                     {
+                        new AandC("Leech Life",     () => enemyIsWebbed),
                         new AandC("Stoneskin",      () => ! buff("Stoneskin")),
                         new AandC("Stoneskin",      () => buffLeft("Stoneskin") == 1 && speed < speedEnemy),
                         new AandC("Sticky Web",     () => ! debuff("Webbed")),
@@ -89,7 +90,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Crystal Overload",   () => buff("Crystal Overload") && hp > 0.50),
                         new AandC("Stoneskin",          () => ! buff("Stoneskin")),
-                        new AandC("Instability",        () => buff("Uncanny Luck")),
+                        new AandC("Instability",        () => myPetIsLucky),
                         new AandC("Feedback"),
                         new AandC("Burn"),
                     };
@@ -240,7 +241,7 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Dark Rebirth",   () => hp < 0.15),
-                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Immolate",       () => ! debuff("Immolate")),
                         new AandC("Darkflame"),
                         new AandC("Burn"),
@@ -314,7 +315,7 @@ namespace Prosto_Pets
                         new AandC("Devour",             () => strong("Devour") && hpEnemy < 0.3),
                         new AandC("Paralyzing Shock"),
                         new AandC("Lightning Shield"),
-                        new AandC("Blood in the Water", () => enemyIsBleeding()),
+                        new AandC("Blood in the Water", () => enemyIsBleeding),
                         new AandC("Rip"),
                         new AandC("Jolt"),
                     };
@@ -333,7 +334,7 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
-                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Immolation",     () => ! buff("Immolation")),
                         new AandC("Immolate",       () => ! debuff("Immolate")),
                         new AandC("Burn"),
@@ -377,10 +378,10 @@ namespace Prosto_Pets
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
+                        new AandC("Frost Nova",     () => ! enemyIsChilled),
                         new AandC("Slippery Ice",   () => ! debuff("Slippery Ice")),
                         new AandC("Ice Tomb",       () => hpEnemy > 0.5),
-                        new AandC("Howling Blast",  () => enemyIsChilled()),
+                        new AandC("Howling Blast",  () => enemyIsChilled),
                         new AandC("Ice Lance"),
                         new AandC("Surge"),
 
@@ -443,7 +444,7 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() {
                         new AandC("Flamethrower",       () => ! debuff("Burning")),
                         new AandC("Armageddon",         () => hp < 0.1),
-                        new AandC("Conflagrate",        () => enemyIsBurning()),
+                        new AandC("Conflagrate",        () => enemyIsBurning),
                         new AandC("Cauterize",          () => hp < 0.6),
                         new AandC("Blast of Hatred"),
                         new AandC("Deep Burn"),
@@ -577,7 +578,7 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Sons of the Flame",  () => shouldIHide && speed >= speedEnemy),
-                        new AandC("Conflagrate",        () => enemyIsBurning()),
+                        new AandC("Conflagrate",        () => enemyIsBurning),
                         new AandC("Flamethrower",       () => ! debuff("Flamethrower")),
                         new AandC("Magma Trap"),
                         new AandC("Sulfuras Smash"),
@@ -764,7 +765,7 @@ namespace Prosto_Pets
                         new AandC("Cauterize",      () => hp < 0.7),
                         new AandC("Immolation",     () => ! buff("Immolation")),
                         new AandC("Immolate",       () => ! debuff("Immolate")),
-                        new AandC("Conflagrate",    () => enemyIsBurning()),
+                        new AandC("Conflagrate",    () => enemyIsBurning),
                         new AandC("Burn"),
                         new AandC("Peck"),
                     };
@@ -943,7 +944,7 @@ namespace Prosto_Pets
                         new AandC("Scorched Earth",     () => ! weather("Scorched Earth")),
                         new AandC("Immolation",         () => ! buff("Immolation")),
                         new AandC("Immolate",           () => ! debuff("Immolate")),
-                        new AandC("Conflagrate",        () => enemyIsBurning()),
+                        new AandC("Conflagrate",        () => enemyIsBurning),
                         new AandC("Burn"),
                         new AandC("Flame Breath"),
                     };
@@ -1085,7 +1086,7 @@ namespace Prosto_Pets
                     elemental_abilities = new List<AandC>() 
                     {
                         new AandC("Call Blizzard",  () => ! weather("Blizzard")),
-                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
+                        new AandC("Frost Nova",     () => ! enemyIsChilled),
                         new AandC("Howling Blast"),
                         new AandC("Deep Freeze"),
                         new AandC("Snowball"),
@@ -1147,7 +1148,7 @@ namespace Prosto_Pets
                      */
                     elemental_abilities = new List<AandC>() 
                     {
-                        new AandC("Frost Nova",     () => ! enemyIsChilled()),
+                        new AandC("Frost Nova",     () => ! enemyIsChilled),
                         new AandC("Frost Shock",    () => ! debuff("Frost Shock")),
                         new AandC("Geyser",         () => ! debuff("Geyser") && hpEnemy > 0.5),
                         new AandC("Tidal Wave",     () => debuff("Decoy") || debuff("Turret")),

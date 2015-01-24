@@ -656,12 +656,11 @@ namespace Prosto_Pets
                      * Slot 1: Claw         | Rend
                      * Slot 2: Evanescence  | Spectral Strike
                      * Slot 3: Leap         | Prowl
-                     * 
-                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     magic_abilities = new List<AandC>() 
                     {
                         new AandC("Leap",               () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Spectral Strike",    () => myPetIsLucky),
                         new AandC("Claw"),
                         new AandC("Rend"),
                         new AandC("Evanescence"),
@@ -675,11 +674,10 @@ namespace Prosto_Pets
                      * Slot 1: Bite                 | Powerball
                      * Slot 2: Spectral Strike      | Spirit Spikes
                      * Slot 3: Illusionary Barrier  | Spectral Spine
-                     * 
-                     * TODO: Add Uncanny Luck to Spectral Strike
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Spectral Strike",        () => myPetIsLucky),
                         new AandC("Bite"),
                         new AandC("Powerball"),
                         new AandC("Spectral Strike"),

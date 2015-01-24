@@ -43,7 +43,7 @@ namespace Prosto_Pets
                         new AandC("Adrenaline Rush",    () => buffLeft("Adrenaline") == 1 && speed < speedEnemy),
                         new AandC("Crouch",             () => ! buff("Crouch")),
                         new AandC("Nut Barrage",        () => ! debuff("Nut Barrage")),
-                        new AandC("Woodchipper",        () => ! enemyIsBleeding()),
+                        new AandC("Woodchipper",        () => ! enemyIsBleeding),
                         new AandC("Stampede",           () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Scratch"),
                         new AandC("Woodchipper"),
@@ -405,7 +405,7 @@ namespace Prosto_Pets
                      */
                     critter_abilities = new List<AandC>() 
                     {
-                        new AandC("Sneak Attack",   () => enemyIsBlinded()),
+                        new AandC("Sneak Attack",   () => enemyIsBlinded),
                         new AandC("Crouch",         () => ! buff("Crouch")),
                         new AandC("Refuge",         () => shouldIHide && speed >= speedEnemy),
                         new AandC("Stampede",       () => ! debuff("Shattered Defenses")),
@@ -538,14 +538,12 @@ namespace Prosto_Pets
                      * Slot 1: Chomp        | Consume
                      * Slot 2: Sticky Goo   | Moth Balls
                      * Slot 3: Burrow       | Moth Dust
-                     * 
-                     * TODO: Add Uncanny Luck to Moth Balls
                      */
                     critter_abilities = new List<AandC>() 
                     {
                         new AandC("Burrow",     () => shouldIHide && speed <= speedEnemy),
                         new AandC("Sticky Goo", () => myPetHasAbility("Consume") && weak("Consume") && hp > 0.8),
-                        new AandC("Moth Balls", () => buff("Uncanny Luck")),
+                        new AandC("Moth Balls", () => myPetIsLucky),
                         new AandC("Moth Dust"),
                         new AandC("Chomp"),
                         new AandC("Consume"),
