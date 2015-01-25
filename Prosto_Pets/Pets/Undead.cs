@@ -679,7 +679,7 @@ namespace Prosto_Pets
 
                 case "Unborn Val'kyr":
                     /* Changelog:
-                     * 2015-01-18: Initial tactic by Studio60 for new pet coming in patch 6.1
+                     * 2015-01-25: Viable base tactic designed - Studio60
                      * 
                      * Abilities
                      * Slot 1: Shadow Slash | Shadow Stock
@@ -700,7 +700,7 @@ namespace Prosto_Pets
 
                 case "Vampiric Batling":
                     /* Changelog:
-                     * 2015-01-18: Initial tactic by Studio60 for new pet coming in patch 6.1
+                     * 2015-01-25: Viable base tactic designed - Studio60
                      * 
                      * Abilities
                      * Slot 1: Bite             | Screech
