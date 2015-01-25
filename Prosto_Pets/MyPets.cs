@@ -314,6 +314,15 @@ namespace Prosto_Pets
             return false;
         }
 
+        public static bool enemyIsLucky()
+        {
+            if (debuff("Uncanny Luck") || debuff("Lucky Dance"))
+            {
+                return true;
+            }
+            return false;
+        }
+
         public static bool enemyIsPoisoned()
         {
             // Glowing Toxin is a debuff but does not poison apparently
@@ -340,6 +349,15 @@ namespace Prosto_Pets
         public static bool enemyIsStunned()
         {
             if (debuff("Stunned") || debuff("Crystal Prison"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool enemyIsWebbed()
+        {
+            if (debuff("Webbed") || debuff("Brittle Webbing"))
             {
                 return true;
             }
@@ -405,6 +423,16 @@ namespace Prosto_Pets
             }
             return false;
         }
+
+        public static bool myPetIsLucky()
+        {
+            // hit +50% & crit +25%
+            if(buff("Uncanny Luck") || buff("Lucky Dance"))
+            {
+                return true;
+            }
+            return false;
+        }
         
         public static bool myPetIsPoisoned()
         {
@@ -432,6 +460,15 @@ namespace Prosto_Pets
         public static bool myPetIsStunned()
         {
             if (buff("Stunned") || buff("Crystal Prison"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool myPetIsWebbed()
+        {
+            if (buff("Webbed") || buff("Brittle Webbing"))
             {
                 return true;
             }

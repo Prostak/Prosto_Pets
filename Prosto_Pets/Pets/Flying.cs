@@ -28,9 +28,9 @@ namespace Prosto_Pets
             {
                 case "Amberbarb Wasp":
                 case "Bloodsting Wasp":
+                case "Bone Wasp":
                 case "Twilight Wasp": 
                 case "Wood Wasp":
-                case "Bone Wasp":
                     /* Changelog:
                      * 2015-01-20: Puncture Wound is now checking for all poison effects - Studio60
                      * 2015-01-18: Initial tactic by Studio60
@@ -43,7 +43,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() {
                         new AandC("Ravage",             () => hpEnemy < 0.25 || (famEnemy(PF.Critter) && hpEnemy > 0.4)),
                         new AandC("Barbed Stinger",     () => ! debuff("Poisoned")), 
-                        new AandC("Puncture Wound",     () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound",     () => enemyIsPoisoned),
                         new AandC("Focus",              () => ! buff("Focused")),
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Puncture Wound"),
@@ -68,19 +68,22 @@ namespace Prosto_Pets
                 case "Tainted Moth":
                 case "White Moth":
                 case "Yellow Moth":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Alpha Strike
                      * Slot 2: Cocoon Strike    | Adrenaline Rush
                      * Slot 3: Moth Balls       | Moth Dust
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Cocoon Strike",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
+                        new AandC("Moth Balls",         () => myPetIsLucky),
+                        new AandC("Moth Dust"),
                         new AandC("Slicing Wind"),
                         new AandC("Alpha Strike"),
-                        new AandC("Cocoon Strike"),
-                        new AandC("Adrenaline Rush"),
-                        new AandC("Moth Balls"),
-                        new AandC("Moth Dust"),
                     };
                     break;
 
@@ -88,19 +91,22 @@ namespace Prosto_Pets
                 case "Chicken":
                 case "Szechuan Chicken":
                 case "Westfall Chicken":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck         | Slicing Wind
                      * Slot 2: Squawk       | Adrenaline Rush
                      * Slot 3: Egg Barrage  | Flock
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
+                        new AandC("Squawk",             () => ! debuff("Attack Reduction")),  
+                        new AandC("Egg Barrage",        () => ! debuff("Egg Barrage")),
+                        new AandC("Flock",              () => ! debuff("Shattered Defenses")),
                         new AandC("Peck"),
                         new AandC("Slicing Wind"),
-                        new AandC("Squawk"),
-                        new AandC("Adrenaline Rush"),
-                        new AandC("Egg Barrage"),
-                        new AandC("Flock"),
                     };
                     break;
 
@@ -120,6 +126,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() {
                         new AandC("Nimbus", () => ! buff("Nimbus")),
                         new AandC("Cocoon Strike", () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Moth Balls", () => myPetIsLucky),
                         new AandC("Moth Balls", () => ! debuff("Speed Reduction") && speed < speedEnemy && speed > speedEnemy * 0.75),
                         new AandC("Moth Dust"),
                         new AandC("Alpha Strike"),
@@ -128,8 +135,8 @@ namespace Prosto_Pets
                     break;
 
                 case "Axebeak Hatchling":
-                case "Junglebeak":
                 case "Fruit Hunter":
+                case "Junglebeak":
                     /* Changelog:
                      * 2015-01-20: Nocturnal Strike is now checking for all blindness effects - Studio60
                      *             Lift-Off is now also used to hide from huge attacks if both pets have equal speed - Studio60
@@ -144,7 +151,7 @@ namespace Prosto_Pets
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Lift-Off",           () => strong("Lift-Off") || (shouldIHide && speed >= speedEnemy)),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Rain Dance",         () => ! buff("Rain Dance")  && hp < 0.8 && hpEnemy > 0.15),
                         new AandC("Flyby",              () => ! debuff("Weakened Defenses")),
                         new AandC("Nocturnal Strike"),
@@ -164,8 +171,6 @@ namespace Prosto_Pets
                      *
                      * Tactic Information:
                      * Reckless Strike is risky if used against magic pets due to incoming spiky magic damage
-                     * 
-                     * TODO: Cleansing Rain is less important if pet does not have Surge
                      */             
                     flying_abilities = new List<AandC>() {
                         new AandC("Cleansing Rain",     () => ! buff("Cleansing Rain")),
@@ -180,19 +185,23 @@ namespace Prosto_Pets
 
                 case "Bat":
                 case "Tirisfal Batling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite             | Leech Life
                      * Slot 2: Screech          | Hawk Eye
                      * Slot 3: Reckless Strike  | Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Leech Life",         () => enemyIsWebbed),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
+                        new AandC("Screech",            () => ! debuff("Speed Reduction") && speed <= speedEnemy),
+                        new AandC("Reckless Strike",    () => hp > hpEnemy || strong("Reckless Strike")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Bite"),
                         new AandC("Leech Life"),
-                        new AandC("Screech"),
-                        new AandC("Reckless Strike"),
-                        new AandC("Nocturnal Strike"),
                     };
                     break;
 
@@ -203,19 +212,22 @@ namespace Prosto_Pets
                 case "Imperial Eagle Chick":
                 case "Tickbird Hatchling": 
                 case "White Tickbird Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Thrash
                      * Slot 2: Hawk Eye     | Adrenaline Rush
                      * Slot 3: Lift-Off     | Cyclone
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
-                        new AandC("Lift-Off"),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
                         new AandC("Slicing Wind"),
                         new AandC("Thrash"),
-                        new AandC("Adrenaline Rush"),
                     };
                     break;
 
@@ -255,6 +267,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
+                        new AandC("Nocturnal Strike",   () => myPetIsLucky),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
                         new AandC("Nocturnal Strike"),
@@ -291,19 +304,22 @@ namespace Prosto_Pets
 
                 case "Cenarion Hatchling":
                 case "Hippogryph Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck             | Quills
                      * Slot 2: Screech          | Rush
                      * Slot 3: Reckless Strike  | Lift-Off
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Rush",               () => speed < speedEnemy && ! buff("Speed Boost")),
-                        new AandC("Lift-Off"),
+                        new AandC("Screech",            () => ! debuff("Speed Reduction") && speed < speedEnemy),
+                        new AandC("Reckless Strike",    () => hp > hpEnemy),
                         new AandC("Peck"),
                         new AandC("Quills"),
-                        new AandC("Screech"),
-                        new AandC("Reckless Strike"),
                     };
                     break;
 
@@ -336,19 +352,22 @@ namespace Prosto_Pets
                 case "Parrot":
                 case "Polly":
                 case "Senegal":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Thrash
                      * Slot 2: Hawk Eye     | Adrenaline Rush
                      * Slot 3: Lift-Off     | Cynclone
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
-                        new AandC("Lift-Off"),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
                         new AandC("Slicing Wind"),
                         new AandC("Thrash"),
-                        new AandC("Hawk Eye"),
-                        new AandC("Adrenaline Rush"),
                     };
                     break;
 
@@ -356,19 +375,22 @@ namespace Prosto_Pets
                 case "Great Horned Owl":
                 case "Hawk Owl":
                 case "Snowy Owl":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
+                        new AandC("Cyclone",            () => ! debuff("Cyclone")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Peck"),
                         new AandC("Quills"),
-                        new AandC("Cyclone"),
-                        new AandC("Nocturnal Strike"),
-                        new AandC("Predatory Strike"),
                     };
                     break;
 
@@ -396,53 +418,62 @@ namespace Prosto_Pets
                     break;
 
                 case "Crow":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck     | Alpha Strike
                      * Slot 2: Squawk   | Call Darkness
                      * Slot 3: Murder   | Nocturnal Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Call Darkness",      () => ! weather("Darkness")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
+                        new AandC("Squawk",             () => ! debuff("Attack Reduction")),                    
+                        new AandC("Murder",             () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Peck"),
                         new AandC("Alpha Strike"),
-                        new AandC("Squawk"),
-                        new AandC("Call Darkness"),
-                        new AandC("Murder"),
-                        new AandC("Nocturnal Strike"),
                     };
                     break;
 
                 case "Darkmoon Glowfly":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Scratch          | Slicing Wind
                      * Slot 2: Glowing Toxin    | Sting
                      * Slot 3: Confusing Sting  | Dazzling Dance
                      */
                     flying_abilities = new List<AandC>() 
                     {
-                        new AandC("Dazzling Dance",     () =>speed < speedEnemy && ! buff("Dazzling Dance")),
+                        new AandC("Dazzling Dance",     () => speed <= speedEnemy && ! buff("Dazzling Dance")),
+                        new AandC("Glowing Toxin",      () => ! debuff("Glowing Toxin")),
+                        new AandC("Sting",              () => ! debuff("Sting")),
+                        new AandC("Confusing Sting",    () => ! debuff("Confusing Sting")),
                         new AandC("Scratch"),
                         new AandC("Slicing Wind"),
-                        new AandC("Glowing Toxin"),
-                        new AandC("Sting"),
-                        new AandC("Confusing Sting"),
                     };
                     break;
 
                 case "Dragon Kite":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Breath           | Tail Sweep
                      * Slot 2: Call Lightning   | Roar 
                      * Slot 3: Volcano          | Lift-Off
                      */
                     flying_abilities = new List<AandC>() 
                     {
-                        new AandC("Lift-Off"),
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Call Lightning",     () => ! weather("Lightning Storm")),
+                        new AandC("Roar",               () => ! buff("Attack Boost")),
+                        new AandC("Volcano",            () => ! debuff("Volcano") && hpEnemy > 0.4),
                         new AandC("Breath"),
                         new AandC("Tail Sweep"),
-                        new AandC("Call Lightning"),
-                        new AandC("Roar"),
-                        new AandC("Volcano"),
                     };
                     break;
 
@@ -464,7 +495,7 @@ namespace Prosto_Pets
                     // (missing condition) consume corpse: requires e.g. "deadAllies > 0"
                     // nocturnal strike: only during darkness
                     flying_abilities = new List<AandC>() {
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Anzu's Blessing",    () => ! buff("Attack Boost")),
                         new AandC("Call Darkness",      () => ! weather("Darkness")),
                         new AandC("Nocturnal Strike"),
@@ -502,19 +533,22 @@ namespace Prosto_Pets
                 case "Firefly":
                 case "Mei Li Sparkler":
                 case "Shrine Fly":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Cocoon Strike is now used to hide from big attacks - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Scratch          | Slicing Wind
                      * Slot 2: Confusing Sting  | Cocoon Strike
                      * Slot 3: Swarm            | Glowing Toxin
-                     */ 
+                     */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Cocoon Strike",      () => shouldIHide && speed >= speedEnemy),
                         new AandC("Confusing Sting",    () => debuff("Confusing Sting")),
                         new AandC("Swarm",              () => ! debuff("Shattered Defenses")),
                         new AandC("Glowing Toxin",      () => ! debuff("Glowing Toxin")),
                         new AandC("Scratch"),
                         new AandC("Slicing Wind"),
-                        new AandC("Cocoon Strike"),
                     };
                     break;
 
@@ -534,7 +568,7 @@ namespace Prosto_Pets
                      * Healing Flame is used later in Sunlight, because it heals more
                      */
                     flying_abilities = new List<AandC>() {
-                        new AandC("Deep Burn",      () => enemyIsBurning()),
+                        new AandC("Deep Burn",      () => enemyIsBurning),
                         new AandC("Scorched Earth", () => ! weather("Scorched Earth")),
                         new AandC("Sunlight",       () => ! weather("Sunny Day")),
                         new AandC("Healing Flame",  () => (weather("Sunny Day") && hp < 0.5) || (! weather("Sunny Day") && hp < 0.75)),
@@ -570,36 +604,42 @@ namespace Prosto_Pets
 
                 case "Fledgling Nether Ray":
                 case "Nether Ray Fry":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite         | Arcane Blast
                      * Slot 2: Tail Sweep   | Slicing Wind
                      * Slot 3: Shadow Shock | Lash
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Tail Sweep",     () => strong("Tail Sweep")),
+                        new AandC("Slicing Wind",   () => strong("Slicing Wind")),
+                        new AandC("Shadow Shock",   () => strong("Shadow Shock")),
+                        new AandC("Lash",           () => strong("Lash")),
                         new AandC("Bite"),
                         new AandC("Arcane Blast"),
-                        new AandC("Tail Sweep"),
-                        new AandC("Slicing Wind"),
-                        new AandC("Shadow Shock"),
-                        new AandC("Lash"),
                     };
                     break;
 
                 case "Gilnean Raven":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck             | Alpha Strike
                      * Slot 2: Darkflame        | Call Darkness
                      * Slot 3: Nocturnal Strike | Nevermore
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Darkflame",          () => strong("Darkflame") || ! debuff("Healing Reduction")),
+                        new AandC("Call Darkness",      () => ! weather("Darkness")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
+                        new AandC("Nevermore"),
                         new AandC("Peck"),
                         new AandC("Alpha Strike"),
-                        new AandC("Drakflame"),
-                        new AandC("Call Darkness"),
-                        new AandC("Nocturnal Strike"),
-                        new AandC("Nevermore"),
                     };
                     break;
 
@@ -628,24 +668,30 @@ namespace Prosto_Pets
 
                 case "Gryphon Hatchling":
                 case "Wildhammer Gryphon Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck     | Slicing Wind
                      * Slot 2: Squawk   | Adrenaline Rush
                      * Slot 3: Flock    | Lift-Off
                      */
                     flying_abilities = new List<AandC>() 
                     {
-                        new AandC("Lift-Off"),
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Squawk",             () => ! debuff("Attack Reduction")),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
+                        new AandC("Flock",              () => ! debuff("Shattered Defenses")),
                         new AandC("Peck"),
                         new AandC("Slicing Wind"),
-                        new AandC("Squawk"),
-                        new AandC("Adrenaline Rush"),
-                        new AandC("Flock"),
                     };
                     break;
 
                 case "Guardian Cub":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Onyx Bite
                      * Slot 2: Roar             | Wild Winds
                      * Slot 3: Reckless Strike  | Cyclone
@@ -653,30 +699,34 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
+                        new AandC("Roar",               () => ! buff("Attack Boost")),
+                        new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
+                        new AandC("Reckless Strike",    () => hp > hpEnemy),
                         new AandC("Slicing Wind"),
                         new AandC("Onyx Bite"),
-                        new AandC("Roar"),
-                        new AandC("Wild Winds"),
-                        new AandC("Reckless Strike"),
                     };
                     break;
 
                 case "Highlands Turkey":
                 case "Plump Turkey":
                 case "Turkey":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck         | Slicing Wind
                      * Slot 2: Squawk       | Gobble Strike
                      * Slot 3: Food Coma    | Flock
+                     * 
+                     * TODO: Reintroduce Food Coma if a use case is found
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Squawk",         () => ! debuff("Attack Reduction")),
+                        new AandC("Gobble Strike",  () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Flock",          () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Peck"),
                         new AandC("Slicing Wind"),
-                        new AandC("Squawk"),
-                        new AandC("Gobble Strike",  () =>speed < speedEnemy && ! buff("Speed Boost")),
-                        new AandC("Food Coma"),
-                        new AandC("Flock"),
                     };
                     break;
 
@@ -698,7 +748,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() {
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Black Claw",         () => ! debuff("Black Claw") && hpEnemy > 0.15),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Quills",             () => debuff("Black Claw") && debuff("Shattered Defenses")),
                         new AandC("Flock",              () => debuff("Black Claw")),
                         new AandC("Savage Talon"),
@@ -707,24 +757,30 @@ namespace Prosto_Pets
                     break;
 
                 case "Imperial Moth":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Wild Winds
                      * Slot 2: Cocoon Strike    | Moth Balls
                      * Slot 3: Moth Dust        | Cyclone
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Cocoon Strike",  () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
+                        new AandC("Moth Balls",     () => myPetIsLucky),
+                        new AandC("Moth Dust"),
                         new AandC("Slicing Wind"),
                         new AandC("Wild Winds"),
-                        new AandC("Cocoon Strike"),
-                        new AandC("Moth Balls"),
-                        new AandC("Moth Dust"),
                     };
                     break;
 
                 case "Jade Crane Chick":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Thrash
                      * Slot 2: Hawk Eye     | Jadeskin
                      * Slot 3: Cyclone      | Flock
@@ -733,15 +789,19 @@ namespace Prosto_Pets
                     {
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
                         new AandC("Hawk Eye",       () => ! buff("Hawk Eye")),
+                        new AandC("Jadeskin",       () => ! buff("Jadeskin")),
+                        new AandC("Jadeskin",       () => buffLeft("Jadeskin") == 1 && speed <= speedEnemy),
+                        new AandC("Flock",          () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Slicing Wind"),
                         new AandC("Thrash"),
-                        new AandC("Jadeskin"),
-                        new AandC("Flock"),
                     };
                     break;
 
                 case "Ji-Kun Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Peck
                      * Slot 2: Wild Winds   | Acidic Goo
                      * Slot 3: Flock        | Caw
@@ -749,11 +809,11 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() 
                     {
                         new AandC("Acidic Goo",     () => ! debuff("Acidic Goo")),
-                        new AandC("Slicing Wind",   () => ! debuff("Wild Winds")),
+                        new AandC("Flock",          () => ! debuff("Shattered Defenses") && hp > 0.4),
+                        new AandC("Wild Winds",     () => ! debuff("Wild Winds")),
+                        new AandC("Caw",            () => ! buff("Caw")),
+                        new AandC("Slicing Wind"),
                         new AandC("Peck"),
-                        new AandC("Wild Winds"),
-                        new AandC("Flock"),
-                        new AandC("Caw"),
                     };
                     break;
 
@@ -775,7 +835,7 @@ namespace Prosto_Pets
                      */
                     flying_abilities = new List<AandC>() {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
                         new AandC("Nocturnal Strike"),
@@ -810,36 +870,44 @@ namespace Prosto_Pets
                     break;
 
                 case "Miniwing":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck             | Quills
                      * Slot 2: Shriek           | Cyclone
                      * Slot 3: Nocturnal Strike | Predatory Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Peck"),
                         new AandC("Quills"),
-                        new AandC("Nocturnal Strike"),
-                        new AandC("Predatory Strike"),
                     };
                     break;
 
                 case "Pterrordax Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Flyby
                      * Slot 2: Ancient Blessing | Apocalypse
                      * Slot 3: Lift-Off         | Feign Death
+                     * 
+                     * Tactic Information:
+                     * Deactivated Apocalypse as it would be suicidal
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Ancient Blessing",   () => !buff("Ancient Blessing") || hp < 0.75 ),
-                        new AandC("Lift-Off"),
+                        new AandC("Feign Death"),
                         new AandC("Slicing Wind"),
                         new AandC("Flyby"),
-                        new AandC("Apocalypse"),
-                        new AandC("Feign Death"),
                     };
                     break;
 
@@ -889,17 +957,20 @@ namespace Prosto_Pets
                 case "Rustberg Gull":
                 case "Sandy Petrel":
                 case "Sea Gull":
-                    /* Abilities 
+                    /* Changelog:
+                     * 2015-01-24: Lift-Off is now used defensively - Studio60
+                     * 
+                     * Abilities 
                      * Slot 1: Slicing Wind | Thrash
                      * Slot 2: Cyclone      | Adrenaline Rush
                      * Slot 3: Hawk Eye     | Lift-Off
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
                         new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
-                        new AandC("Lift-Off"),
                         new AandC("Slicing Wind"),
                         new AandC("Thrash"),
                     };
@@ -919,7 +990,7 @@ namespace Prosto_Pets
                     // ethereal: can always dodge shouldIHide attacks
                     flying_abilities = new List<AandC>() {
                         new AandC("Ethereal",           () => shouldIHide),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Soulrush"),
                         new AandC("Moonfire"),
                         new AandC("Nocturnal Strike"),
@@ -937,7 +1008,6 @@ namespace Prosto_Pets
                      * Slot 2: Creeping Fungus  | Leech Seed
                      * Slot 3: Spore Shrooms    | Barbed Stinger
                      */
-                    // pretty basic tactic
                     flying_abilities = new List<AandC>() {
                         new AandC("Creeping Fungus",    () => ! debuff("Creeping Fungus")),
                         new AandC("Leech Seed",         () => ! debuff("Leech Seed")),
@@ -957,7 +1027,6 @@ namespace Prosto_Pets
                      * Slot 2: Vicious Slice    | Alpha Strike
                      * Slot 3: Tail Sweep       | Shadow Shock
                      */
-                    // six different attack types
                     flying_abilities = new List<AandC>() {
                         new AandC("Vicious Slice",  () => strong("Vicious Slice")),
                         new AandC("Alpha Strike",   () => strong("Alpha Strike")),
@@ -975,19 +1044,22 @@ namespace Prosto_Pets
                     break;
 
                 case "Skywisp Moth":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Reckless Strike
                      * Slot 2: Cocoon Strike    | Counterspell
                      * Slot 3: Moth Dust        | Call Lightning
                      */
                     flying_abilities = new List<AandC>() 
                     {
-                        new AandC("Call Lightning"),
-                        new AandC("Counterspell",       () =>  speed > speedEnemy ),
-                        new AandC("Cocoon Strike"),
+                        new AandC("Cocoon Strike",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Call Lightning",     () => ! weather("Lightning Storm")),
+                        new AandC("Counterspell",       () => speed > speedEnemy ),
+                        new AandC("Moth Dust"),
                         new AandC("Slicing Wind"),
                         new AandC("Reckless Strike"),
-                        new AandC("Moth Dust"),
                     };
                     break;
 
@@ -1046,7 +1118,7 @@ namespace Prosto_Pets
                     // lift-off: used defensively if we are fast enough
                     flying_abilities = new List<AandC>() {
                         new AandC("Lift-Off",       () => shouldIHide && speed >= speedEnemy),
-                        new AandC("Puncture Wound", () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound", () => enemyIsPoisoned),
                         new AandC("Flyby",          () => ! debuff("Weakened Defenses")),
                         new AandC("Barbed Stinger"),
                         new AandC("Alpha Strike"),
@@ -1077,53 +1149,62 @@ namespace Prosto_Pets
                     break;
 
                 case "Tiny Flamefly":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn     | Alpha Strike
                      * Slot 2: Immolate | Hiss
                      * Slot 3: Swarm    | Adrenaline Rush
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Immolate",           () => ! debuff("Immolate")),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
+                        new AandC("Hiss",               () => ! debuff("Speed Reduction")),
+                        new AandC("Swarm",              () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Burn"),
                         new AandC("Alpha Strike"),
-                        new AandC("Immolate"),
-                        new AandC("Hiss"),
-                        new AandC("Swarm"),
-                        new AandC("Adrenaline Rush"),
                     };
                     break;
 
                 case "Tiny Sporebat":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Shadow Slash
                      * Slot 2: Creeping Fungus  | Leech Seed
                      * Slot 3: Spore Shrooms    | Confusing Sting
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Creeping Fungus",    () => ! debuff("Creeping Fungus")),
+                        new AandC("Leech Seed",         () => ! debuff("Leech Seed")),
+                        new AandC("Spore Shrooms",      () => ! debuff("Spore Shroooms") && hpEnemy > 0.4),
+                        new AandC("Confusing Sting",    () => ! debuff("Confusing Sting")),
                         new AandC("Slicing Wind"),
                         new AandC("Shadow Slash"),
-                        new AandC("Creeping Fungus"),
-                        new AandC("Leech Seed"),
-                        new AandC("Spore Shrooms"),
-                        new AandC("Confusing Sting"),
                     };
                     break;
 
                 case "Tuskarr Kite":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind | Frost Shock
                      * Slot 2: Wild Winds   | Cyclone
                      * Slot 3: Flyby        | Reckless Strike
                      */
                     flying_abilities = new List<AandC>() 
                     {
-                        new AandC("Cyclone",            () =>     ! debuff("Cyclone")),
+                        new AandC("Cyclone",            () => ! debuff("Cyclone")),
+                        new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
+                        new AandC("Flyby",              () => ! debuff("Attack Reduction")),
+                        new AandC("Reckless Strike",    () => hp > hpEnemy),
                         new AandC("Slicing Wind"),
                         new AandC("Frost Shock"),
-                        new AandC("Wild Winds"),
-                        new AandC("Flyby"),
-                        new AandC("Reckless Strike"),
                     };
                     break;
 
@@ -1163,7 +1244,7 @@ namespace Prosto_Pets
                     flying_abilities = new List<AandC>() {
                         new AandC("Predatory Strike",   () => hpEnemy < 0.25),
                         new AandC("Wild Winds",         () => ! debuff("Wild Winds")),
-                        new AandC("Nocturnal Strike",   () => enemyIsBlinded()),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || myPetIsLucky),
                         new AandC("Flock",              () => ! debuff("Shattered Defenses")),
                         new AandC("Peck"),
                         new AandC("Quills"),
@@ -1171,16 +1252,19 @@ namespace Prosto_Pets
                     break;
 
                 case "Waterfly":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-24: Small tactic revision - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Barbed Stinger   | Alpha Strike
                      * Slot 2: Healing Stream   | Puncture Wound
                      * Slot 3: Lift-Off         | Dodge
                      */
                     flying_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Dodge",              () => shouldIHide && speed >= speedEnemy),
                         new AandC("Healing Stream",     () => hp < 0.7),
-                        new AandC("Lift-Off"),
-                        new AandC("Dodge"),
                         new AandC("Barbed Stinger",     () => ! debuff("Poisoned")),
                         new AandC("Alpha Strike",       () => speed > speedEnemy),
                         new AandC("Puncture Wound",     () => debuff("Poisoned")),

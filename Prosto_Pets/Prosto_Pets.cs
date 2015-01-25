@@ -1103,25 +1103,25 @@ namespace Prosto_Pets
 
             if (abilities == null)
             {
-                if (MyPets.ActivePet.PetType == 1)         // TODO: use PT from PetTacticsBase
+                if (MyPets.ActivePet.PetTypeBase == 1)         // TODO: use PT from PetTacticsBase
                     abilities = Humanoid.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 2)
+                else if (MyPets.ActivePet.PetTypeBase == 2)
                     abilities = Dragonkin.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 3)
+                else if (MyPets.ActivePet.PetTypeBase == 3)
                     abilities = Flying.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 4)
+                else if (MyPets.ActivePet.PetTypeBase == 4)
                     abilities = Undead.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 5)
+                else if (MyPets.ActivePet.PetTypeBase == 5)
                     abilities = Critter.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 6)
+                else if (MyPets.ActivePet.PetTypeBase == 6)
                     abilities = Magic.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 7)
+                else if (MyPets.ActivePet.PetTypeBase == 7)
                     abilities = Elemental.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 8)
+                else if (MyPets.ActivePet.PetTypeBase == 8)
                     abilities = Beast.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 9)
+                else if (MyPets.ActivePet.PetTypeBase == 9)
                     abilities = Aquatic.GetSpellTable();
-                else if (MyPets.ActivePet.PetType == 10)
+                else if (MyPets.ActivePet.PetTypeBase == 10)
                     abilities = Mechanical.GetSpellTable();
 
                 if (abilities == null) { return 0; }

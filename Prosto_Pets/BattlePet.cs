@@ -18,6 +18,7 @@ namespace Prosto_Pets
         private string _name;
         private string _icon;
         private int _petType;
+        private int _petTypeBase;
         private int _creatureID;
         private string _sourceText;
         private string _description;
@@ -47,6 +48,7 @@ namespace Prosto_Pets
             _name = "";
             _icon = "";
             _petType = 1;
+            _petTypeBase = 0;
             _creatureID = 1;
             _sourceText = "";
             _description = "";
@@ -68,6 +70,7 @@ namespace Prosto_Pets
             int petType, int creatureID, string sourceText, string description, bool isWild, bool canBattle, bool tradeable, bool unique, bool obtainable, 
             int health, int maxHealth, int power, int speed, int rarity, string petID)
         {
+           
             _isValid = true;
             _speciesID = speciesId;
             _customName = customName;
@@ -79,6 +82,8 @@ namespace Prosto_Pets
             _name = name;
             _icon = icon;
             _petType = petType;
+            if (_petTypeBase == 0 || ! PetLua.Instance.IsInBattle())
+                _petTypeBase = petType;
             _creatureID = creatureID;
             _sourceText = sourceText;
             _description = description;
@@ -109,6 +114,8 @@ namespace Prosto_Pets
             _name = name;
             _icon = icon;
             _petType = petType;
+            if (_petTypeBase == 0 || ! PetLua.Instance.IsInBattle())
+                _petTypeBase = petType;
             _health = health;
             _maxHealth = maxHealth;
             _power = power;
@@ -175,6 +182,11 @@ namespace Prosto_Pets
         public int PetType
         {
             get { return _petType; }
+        }
+
+        public int PetTypeBase
+        {
+            get { return _petTypeBase; }
         }
 
         public int CreatureID

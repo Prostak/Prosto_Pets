@@ -60,7 +60,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Repair",         () => hp < 0.7),
                         new AandC("Bite"),
-                        new AandC("Demolish"),
+                        new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Rebuild"),
                         new AandC("Maul"),
                         new AandC("Supercharge"),
@@ -119,7 +119,7 @@ namespace Prosto_Pets
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Kick"),
                         new AandC("Jab"),
-                        new AandC("Haymaker"),
+                        new AandC("Haymaker",       () => myPetIsLucky),
                         new AandC("Counterstrike"),
                         new AandC("Dodge"),
                     };
@@ -203,6 +203,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Repair",         () => hp < 0.7),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
                         new AandC("Extra Plating"),
@@ -257,12 +258,13 @@ namespace Prosto_Pets
                      * TODO: Explode needs to check the chances to win conventionally
                      */
                     mechanical_abilities = new List<AandC>() {
-                        new AandC("Explode",       () => hp < 0.1), 
-                        new AandC("Powerball",     () => speed <= speedEnemy), 
-                        new AandC("Toxic Smoke" ,  () => ! buff("Toxic Smoke")),
-                        new AandC("Wind-Up",       () => ! buff("Wind-Up")),
-                        new AandC("Supercharge",   () => shouldIHide),
-                        new AandC("Wind-Up",       () => buff("Wind-Up") && buff("Supercharge") && ! shouldIHide),
+                        new AandC("Explode",        () => hp < 0.1), 
+                        new AandC("Demolish",       () => myPetIsLucky),
+                        new AandC("Powerball",      () => speed <= speedEnemy), 
+                        new AandC("Toxic Smoke" ,   () => ! buff("Toxic Smoke")),
+                        new AandC("Wind-Up",        () => ! buff("Wind-Up")),
+                        new AandC("Supercharge",    () => shouldIHide),
+                        new AandC("Wind-Up",        () => buff("Wind-Up") && buff("Supercharge") && ! shouldIHide),
                         new AandC("Demolish"),
                         new AandC("Powerball"), 
                     };
@@ -395,7 +397,7 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Extra Plating",      () => !buff("Extra Plating")),
-                        new AandC("Puncture Wound",     () => enemyIsPoisoned()),
+                        new AandC("Puncture Wound",     () => enemyIsPoisoned),
                         new AandC("Black Claw",         () => ! debuff("Black Claw") && hpEnemy > 0.15),
                         new AandC("Blinding Poison",    () => ! debuff("Blinding Poison")),
                         new AandC("Puncture Wound"),
@@ -450,7 +452,7 @@ namespace Prosto_Pets
                         new AandC("Shock && Awe"),
                         new AandC("Zap"),
                         new AandC("Overtune"),
-                        new AandC("Demolish"),
+                        new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Lock-On"),
                     };
                     break;
@@ -579,8 +581,8 @@ namespace Prosto_Pets
                      */
                     mechanical_abilities = new List<AandC>()     // Studio60
                     {    
-                        new AandC("Lens Flare",     () => ! enemyIsBlinded()),
-                        new AandC("Amber Prison",   () => ! enemyIsStunned()),                  
+                        new AandC("Lens Flare",     () => ! enemyIsBlinded),
+                        new AandC("Amber Prison",   () => ! enemyIsStunned),                  
                         new AandC("Armageddon",     () => hp < 0.1),
                         new AandC("Phaser"),
                         new AandC("Plot Twist"),              
@@ -720,6 +722,7 @@ namespace Prosto_Pets
                     {
                         new AandC("Repair",         () => hp < 0.7),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
                         new AandC("Extra Plating"),
