@@ -50,9 +50,13 @@ namespace Prosto_Pets
 
     public partial class Prosto_Pets : BotBase
     {
-        public string Version { get { return "0.9.15"; } }
+        public string Version { get { return "0.9.16"; } }
+        // 0.9.16:
+        // - Studio60 Aquatic/Beast Tactics Pre-5.3 + Fixes 
+        // - Elekk Plushie blacklisted
+        //
         // 0.9.15:
-        // Studio60 120+ pet tactics merged
+        // - Studio60 120+ pet tactics merged
         //
         // 0.9.14:
         // - closest profile selected
