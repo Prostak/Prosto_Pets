@@ -216,6 +216,7 @@ namespace Prosto_Pets
                         if (healthyNeeded && availablePet.HealthPercentage < _pluginProperties.MinPetHealth && !isRingerSelection) { Wd("health levelled"); continue; } // health too low
                         if (healthyNeeded && availablePet.HealthPercentage < _pluginProperties.MinRingerPetHealth && isRingerSelection) { Wd("Health Ringer"); continue; } // health too low
                         if (_pluginProperties.OnlyBluePets && !availablePet.IsRare && (!isRingerSelection)) { Wd("not blue"); continue; } // not rare
+                        if (availablePet.Name == "Elekk Plushie") { Wd("Elekk Plushie"); continue; }
                         if (availablePet.IsSummonable() || availablePet.Health==0)
                         {
                             Wd("selected");
