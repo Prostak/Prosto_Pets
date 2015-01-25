@@ -49,36 +49,43 @@ namespace Prosto_Pets
                     break;
 
                 case "Arcane Eye":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Focused Beams        | Psychic Blast
                      * Slot 2: Eyeblast             | Drain Power
                      * Slot 3: Interrupting Gaze    | Mana Surge
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Interrupting Gaze",  () => speed > speedEnemy),
+                        new AandC("Eyeblast",           () => ! debuff("Speed Reduction")),
+                        new AandC("Drain Power",        () => ! buff("Attack Boost")),
+                        new AandC("Mana Surge",         () => ! weak("Mana Surge") && hp > 0.5),
                         new AandC("Focused Beams"),
                         new AandC("Physic Blast"),
-                        new AandC("Eyeblast"),
-                        new AandC("Drain Power"),
-                        new AandC("Interrupting Gaze"),
-                        new AandC("Mana Surge"),
                     };
                     break;
 
                 case "Baneling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite                 | Trash
                      * Slot 2: Centrifugal Hooks    | Adrenal Glands
                      * Slot 3: Burrow               | Baneling Burst
+                     * 
+                     * TODO Reintroduce Baneling Burst - Needs to consider team status
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Burrow",             () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Centrifugal Hooks",  () => speed < speedEnemy && ! buff("Centrifugal Hooks")),
+                        new AandC("Adrenal Glands",     () => ! buff("Adrenal Glands")),
                         new AandC("Bite"),
                         new AandC("Thrash"),
-                        new AandC("Centrifugal Hooks"),
-                        new AandC("Adrenal Glands"),
-                        new AandC("Burrow"),
-                        new AandC("Baneling Burst"),
                     };
                     break;
 
@@ -106,38 +113,65 @@ namespace Prosto_Pets
                     break;
 
                 case "Coilfang Stalker":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Laser            | Focused Beams
                      * Slot 2: Gravity          | Illusionary Barrier 
                      * Slot 3: Surge of Power   | Amplify Magic
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Illusionary Barrier",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Amplify Magic",          () => ! buff("Amplify Magic") && hpEnemy > 0.2),
+                        new AandC("Surge of Power",         () => hpEnemy < 0.3),
+                        new AandC("Gravity"),
                         new AandC("Laser"),
                         new AandC("Focused Beams"),
-                        new AandC("Gravity"),
-                        new AandC("Illusionary Barrier"),
-                        new AandC("Surge of Power"),
-                        new AandC("Amplify Magic"),
                     };
                     break;
 
                 case "Darkmoon Eye":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Laser            | Focused Beams
                      * Slot 2: Eyeblast         | Inner Vision
                      * Slot 3: Darkmoon Curse   | Interrupting Gaze
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Interrupting Gaze",  () => speed > speedEnemy),
+                        new AandC("Eyeblast",           () => speed < speedEnemy && ! debuff("Speed Reduction")),
+                        new AandC("Darkmoon Curse",     () => ! debuff("Attack Reduction")),
+                        new AandC("Inner Vision"),
                         new AandC("Laser"),
                         new AandC("Focused Beams"),
-                        new AandC("Eyeblast"),
-                        new AandC("Inner Vision"),
-                        new AandC("Darkmoon Curse"),
-                        new AandC("Interrupting Gaze"),
                     };
                     break;
+
+                case "Disgusting Oozeling":
+                case "Jade Oozeling":
+                case "Oily Slimeling":
+                case "Toxic Wasteling":
+                    /* Abilities
+                     * Slot 1: Ooze Touch   | Absorb
+                     * Slot 2: Corrosion    | Creeping Ooze
+                     * Slot 3: Expunge      | Acidic Goo
+                     */
+                    magic_abilities = new List<AandC>() 
+                    {
+                        new AandC("Acidic Goo",     () => ! debuff("Acidic Goo")),
+                        new AandC("Corrosion",      () => ! debuff("Corrosion")),
+                        new AandC("Creeping Ooze",  () => ! debuff("Creeping Ooze")),
+                        new AandC("Expunge"),
+                        new AandC("Ooze Touch"),
+                        new AandC("Absorb"),
+                    };
+                    break;
+
 
                 case "Elekk Plushie":
                     /* Changelog:
@@ -162,55 +196,65 @@ namespace Prosto_Pets
                     break;
 
                 case "Enchanted Broom":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Broom        | Batter
                      * Slot 2: Sandstorm    | Sweep
                      * Slot 3: Clean-Up     | Wind-Up
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Sandstorm",  () => ! weather("Sandstorm")),
+                        new AandC("Sweep",      () => strong("Sweep")),
+                        new AandC("Clean-Up",   () => debuff("Decoy") || debuff("Turret") || strong("Clean-Up")),
+                        new AandC("Wind-Up",    () => ! buff("Wind-Up")),
+                        new AandC("Wind-Up",    () => buff("Wind-Up") && strong("Wind-Up")),
                         new AandC("Broom"),
                         new AandC("Batter"),
-                        new AandC("Sandstorm"),
-                        new AandC("Sweep"),
-                        new AandC("Clean-Up"),
-                        new AandC("Wind-Up"),
                     };
                     break;
 
                 case "Enchanted Lantern":
                 case "Festival Lantern":
                 case "Lunar Lantern":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Beam         | Burn
                      * Slot 2: Illuminate   | Flash
                      * Slot 3: Soul Ward    | Light
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Soul Ward",  () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Light",      () => enemyIsBlinded),
+                        new AandC("Illuminate", () => ! weather("Sunlight")),
+                        new AandC("Flash",      () => ! debuff("Partially Blinded")),
                         new AandC("Beam"),
                         new AandC("Burn"),
-                        new AandC("Illuminate"),
-                        new AandC("Flash"),
-                        new AandC("Soul Ward"),
-                        new AandC("Light"),
                     };
                     break;
 
                 case "Ethereal Soul-Trader":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Punch        | Beam
                      * Slot 2: Soul Ward    | Inner Vision
                      * Slot 3: Soulrush     | Life Exchange
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Punch"),
-                        new AandC("Beam"),
-                        new AandC("Soul Ward"),
+                        new AandC("Soul Ward",      () => shouldIHide && speed >= speedEnemy),
                         new AandC("Inner Vision"),
                         new AandC("Soulrush"),
-                        new AandC("Life Exchange"),
+                        new AandC("Life Exchange",  () => hp * 2.5 < hpEnemy),
+                        new AandC("Punch"),
+                        new AandC("Beam"),
                     };
                     break;
 
@@ -236,36 +280,42 @@ namespace Prosto_Pets
                     break;
 
                 case "Filthling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Dreadful Breath  | Absorb
                      * Slot 2: Stench           | Expunge
                      * Slot 3: Corrosion        | Creeping Ooze
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Stench",             () => ! debuff("Stench")),
+                        new AandC("Expunge",            () => ! weak("Expunge")),
+                        new AandC("Corrosion",          () => ! debuff("Corrosion")),
+                        new AandC("Creeping Ooze",      () => ! debuff("Creeping Ooze")),
                         new AandC("Dreadful Breath"),
                         new AandC("Absorb"),
-                        new AandC("Stench"),
-                        new AandC("Expunge"),
-                        new AandC("Corrosion"),
-                        new AandC("Creeping Ooze"),
                     };
                     break;
 
                 case "Gusting Grimoire":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Fel Immolate     | Shadow Shock
                      * Slot 2: Agony            | Amplify Magic
                      * Slot 3: Meteor Strike    | Curse of Doom
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Meteor Strike",  () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Agony",          () => ! debuff("Agony")),
+                        new AandC("Amplify Magic",  () => ! debuff("Amplify Magic")),
+                        new AandC("Curse of Doom",  () => ! debuff("Curse of Doom") && hpEnemy > 0.5),
                         new AandC("Fel Immolate"),
                         new AandC("Shadow Shock"),
-                        new AandC("Agony"),
-                        new AandC("Amplify Magic"),
-                        new AandC("Meteor Strike"),
-                        new AandC("Curse of Doom"),
                     };
                     break;
 
@@ -314,59 +364,48 @@ namespace Prosto_Pets
                         new AandC("Arcane Blast"),
                         new AandC("Sear Magic"),  
                     };
-                    break;  
-
-                case "Jade Oozeling":
-                case "Oily Slimeling":
-                case "Toxic Wasteling":
-                case "Disgusting Oozeling":
-                    /* Abilities
-                     * Slot 1: Ooze Touch   | Absorb
-                     * Slot 2: Corrosion    | Creeping Ooze
-                     * Slot 3: Expunge      | Acidic Goo
-                     */
-                    magic_abilities = new List<AandC>() 
-                    {
-                        new AandC("Acidic Goo",     () => ! debuff("Acidic Goo")),
-                        new AandC("Ooze Touch"),
-                        new AandC("Absorb"),
-                        new AandC("Corrosion"),
-                        new AandC("Creeping Ooze"),
-                        new AandC("Expunge"),
-                    };
                     break;
 
                 case "Jade Owl":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Slicing Wind     | Thrash
                      * Slot 2: Adrenaline Rush  | Hawk Eye
                      * Slot 3: Lift-Off         | Cyclone
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",           () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline") && speed < speedEnemy),
+                        new AandC("Adrenaline Rush",    () => strong("Adrenaline Rush")),
                         new AandC("Cyclone",            () => ! debuff("Cyclone")),
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
-                        new AandC("Lift-Off"),
                         new AandC("Slicing Wind"),
                         new AandC("Thrash"),
-                        new AandC("Adrenaline Rush"),
                     };
                     break;
 
                 case "Jade Tiger":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Jade Claw    | Pounce
                      * Slot 2: Rake         | Jadeskin
                      * Slot 3: Devour       | Prowl
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Devour",     () => hpEnemy < 0.20 ),
+                        new AandC("Devour",     () => hpEnemy < 0.2),
+                        new AandC("Devour",     () => strong("Devour") && hpEnemy < 0.3),
+                        new AandC("Jadeskin",   () => ! buff("Jadeskin")),
+                        new AandC("Jadeskin",   () => buffLeft("Jadeskin") == 1 && speed < speedEnemy),
+                        new AandC("Prowl",      () => speed * 0.7 > speedEnemy),
+                        new AandC("Rake"),
                         new AandC("Jade Claw"),
                         new AandC("Pounce"),
-                        new AandC("Rake"),
-                        new AandC("Jadeskin"),
-                        new AandC("Prowl"),
                     };
                     break;
 
@@ -384,36 +423,42 @@ namespace Prosto_Pets
                  */  
 
                 case "Legs":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Laser            | Pump
                      * Slot 2: Surge of Power   | Gravity
                      * Slot 3: Focused Beams    | Whirlpool
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Laser"),
-                        new AandC("Pump"),
-                        new AandC("Surge of Power"),
+                        new AandC("Whirlpool",          () => hpEnemy > 0.4),
+                        new AandC("Surge of Power",     () => hpEnemy < 0.4),
                         new AandC("Gravity"),
                         new AandC("Focused Beams"),
-                        new AandC("Whirlpool"),
+                        new AandC("Laser"),
+                        new AandC("Pump"),
                     };
                     break;
 
                 case "Lesser Voidcaller":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Shock     | Nether Blast
                      * Slot 2: Siphon Life      | Prismatic Barrier
                      * Slot 3: Curse of Doom    | Drain Power
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Curse of Doom"),
+                        new AandC("Prismatic Barrier",  () => shouldIHide && speed > speedEnemy),
+                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom") && hp > 0.5),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Drain Power",        () => ! buff("Attack Boost")),
                         new AandC("Shadow Shock"),
                         new AandC("Nether Blast"),
-                        new AandC("Siphon Life"),
-                        new AandC("Prismatic Barrier"),
-                        new AandC("Drain Power"),
                     };
                     break;
 
@@ -439,139 +484,168 @@ namespace Prosto_Pets
                     break;
 
                 case "Living Fluid":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Ooze Touch   | Absorb
                      * Slot 2: Corrosion    | Acidic Goo
                      * Slot 3: Expunge      | Evolution
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Acidic Goo",  () => ! debuff("Acidic Goo")),
+                        new AandC("Acidic Goo", () => ! debuff("Acidic Goo")),
+                        new AandC("Corrosion",  () => ! debuff("Corrosion")),
+                        new AandC("Evolution",  () => ! weak("Evolution") && hpEnemy < 0.3),
+                        new AandC("Expunge"),
                         new AandC("Ooze Touch"),
                         new AandC("Absorb"),
-                        new AandC("Corrosion"),
-                        new AandC("Expunge"),
-                        new AandC("Evolution"),
                     };
                     break;
 
                 case "Lofty Libram":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Arcane Blast     | Shadow Shock
                      * Slot 2: Arcane Explosion | Amplify Magic
                      * Slot 3: Inner Vision     | Curse of Doom
+                     * 
+                     * TODO: Reintroduce Arcane Explosion - Needs to consider enemy team status
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Amplify Magic",  () => ! debuff("Amplify Magic")),
+                        new AandC("Curse of Doom",  () => ! debuff("Curse of Doom") && hpEnemy > 0.5),
+                        new AandC("Inner Vision"),
                         new AandC("Arcane Blast"),
                         new AandC("Shadow Shock"),
-                        new AandC("Arcane Explosion"),
-                        new AandC("Amplify Magic"),
-                        new AandC("Inner Vision"),
-                        new AandC("Curse of Doom"),
                     };
                     break;
 
                 case "Magic Lamp":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Beam         | Arcane Blast
                      * Slot 2: Sear Magic   | Gravity
                      * Slot 3: Soul Ward    | Wish
+                     * 
+                     * TODO: Reintroduce Sear Magic - Needs to consider pet auras
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Wish",           () => hp < 0.5),
+                        new AandC("Soul Ward",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Gravity"),
                         new AandC("Beam"),
                         new AandC("Arcane Blast"),
-                        new AandC("Sear Magic"),
-                        new AandC("Gravity"),
-                        new AandC("Soul Ward"),
-                        new AandC("Wish"),
                     };
                     break;
 
                 case "Mana Wyrmling":
                 case "Shimmering Wyrmling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Feedback     | Flurry
                      * Slot 2: Drain Power  | Amplify Magic
                      * Slot 3: Mana Surge   | Deflection
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Deflection",     () => shouldIHide),
+                        new AandC("Drain Power",    () => ! buff("Attack Boost")),
+                        new AandC("Amplify Magic",  () => ! debuff("Amplify Magic")),
+                        new AandC("Mana Surge",     () => ! weak("Mana Surge")),
                         new AandC("Feedback"),
                         new AandC("Flurry"),
-                        new AandC("Drain Power"),
-                        new AandC("Amplify Magic"),
-                        new AandC("Mana Surge"),
-                        new AandC("Deflection"),
                     };
                     break;
 
                 case "Minfernal":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush            | Immolate
                      * Slot 2: Immolation       | Extra Plating
                      * Slot 3: Meteor Strike    | Explode
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Explode",        () => hp < 0.1 && hpEnemy > 0.4),
+                        new AandC("Meteor Strike",  () => shouldIHide && speed >= speedEnemy),
                         new AandC("Immolation",     () => ! buff("Immolation")),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
+                        new AandC("Extra Plating",  () => buffLeft("Extra Plating") == 1 && speed < speedEnemy),
                         new AandC("Crush"),
                         new AandC("Immolate"),
-                        new AandC("Extra Plating"),
-                        new AandC("Meteor Strike"),
-                        new AandC("Explode"),
                     };
                     break;
 
                 case "Mini Diablo":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Burn             | Blast of Hatred
                      * Slot 2: Call Darkness    | Agony
                      * Slot 3: Weakness         | Bone Prison
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Call Darkness",      () => ! weather("Darkness")),
+                        new AandC("Agony",              () => ! debuff("Agony")),
+                        new AandC("Weakness",           () => ! debuff("Weakness")),
+                        new AandC("Bone Prison",        () => ! weak("Bone Prison")),
                         new AandC("Burn"),
                         new AandC("Blast of Hatred"),
-                        new AandC("Call of Darkness"),
-                        new AandC("Agony"),
-                        new AandC("Weakness"),
-                        new AandC("Bone Prison"),
                     };
                     break;
 
                 case "Mini Mindslayer":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Eyeblast             | Mana Surge
                      * Slot 2: Amplify Magic        | Inner Vision
                      * Slot 3: Interrupting Gaze    | Life Exchange
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Amplify Magic",      () => ! debuff("Amplify Magic")),
+                        new AandC("Interrupting Gaze",  () => speed >= speedEnemy),
+                        new AandC("Life Exchange",      () => hp * 2.5 < hpEnemy),
+                        new AandC("Inner Vision"),
                         new AandC("Eyeblast"),
                         new AandC("Mana Surge"),
-                        new AandC("Amplify Magic"),
-                        new AandC("Inner Vision"),
-                        new AandC("Interrupting Gaze"),
-                        new AandC("Life Exchange"),
                     };
                     break;
 
                 case "Netherspace Abyssal":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Crush            | Immolate
                      * Slot 2: Immolation       | Explode
                      * Slot 3: Meteor Strike    | Nether Gate
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Explode",        () => hp < 0.1 && hpEnemy > 0.3),
+                        new AandC("Meteor Strike",  () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Immolation",     () => ! buff("Immolation")),
+                        new AandC("Nether Gate"),
                         new AandC("Crush"),
                         new AandC("Immolate"),
-                        new AandC("Immolation"),
-                        new AandC("Explode"),
-                        new AandC("Meteor Strike"),
-                        new AandC("Nether Gate"),
                     };
                     break;
 
@@ -597,24 +671,32 @@ namespace Prosto_Pets
                     break;
 
                 case "Nordrassil Wisp":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Beam         | Light
                      * Slot 2: Flash        | Arcane Blast
                      * Slot 3: Soul Ward    | Arcane Explosion
+                     * 
+                     * TODO: Reintroduce Arcane Explosion - Needs to consider enemy team status
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Soul Ward",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Light",          () => enemyIsBlinded),
+                        new AandC("Flash",          () => ! enemyIsBlinded),
+                        new AandC("Arcane Blast"),
                         new AandC("Beam"),
                         new AandC("Light"),
-                        new AandC("Flash"),
-                        new AandC("Arcane Blast"),
-                        new AandC("Soul Ward"),
-                        new AandC("Arcane Explosion"),
                     };
                     break;
 
                 case "Onyx Panther":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw         | Onyx Bite
                      * Slot 2: Stoneskin    | Roar
                      * Slot 3: Leap         | Stone Rush
@@ -622,11 +704,12 @@ namespace Prosto_Pets
                     magic_abilities = new List<AandC>() 
                     {
                         new AandC("Leap",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Stoneskin",  () => ! buff("Stoneskin") && hpEnemy > 0.2),
+                        new AandC("Stoneskin",  () => buffLeft("Stoneskin") == 1 && speed <= speedEnemy && hpEnemy > 0.2),
+                        new AandC("Roar",       () => ! buff("Attack Boost")),
+                        new AandC("Stone Rush"),
                         new AandC("Claw"),
                         new AandC("Onyx Bite"),
-                        new AandC("Stoneskin"),
-                        new AandC("Roar"),
-                        new AandC("Stone Rush"),
                     };
                     break;
 
@@ -652,38 +735,42 @@ namespace Prosto_Pets
 
                 case "Spectral Cub":
                 case "Spectral Tiger Cub":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw         | Rend
                      * Slot 2: Evanescence  | Spectral Strike
                      * Slot 3: Leap         | Prowl
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Evanescence",        () => shouldIHide && speed >= speedEnemy),
                         new AandC("Leap",               () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Spectral Strike",    () => myPetIsLucky),
+                        new AandC("Prowl",              () => speed * 0.7 > speedEnemy),
                         new AandC("Claw"),
                         new AandC("Rend"),
-                        new AandC("Evanescence"),
-                        new AandC("Spectral Strike"),
-                        new AandC("Prowl"),
                     };
                     break;
 
                 case "Spectral Porcupette":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite                 | Powerball
                      * Slot 2: Spectral Strike      | Spirit Spikes
                      * Slot 3: Illusionary Barrier  | Spectral Spine
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Illusionary Barrier",    () => shouldIHide && speed >= speedEnemy),
                         new AandC("Spectral Strike",        () => myPetIsLucky),
+                        new AandC("Spirit Spikes"),
+                        new AandC("Spectral Spine"),
                         new AandC("Bite"),
                         new AandC("Powerball"),
-                        new AandC("Spectral Strike"),
-                        new AandC("Spirit Spikes"),
-                        new AandC("Illusionary Barrier"),
-                        new AandC("Spectral Spine"),
                     };
                     break;
 
@@ -727,7 +814,10 @@ namespace Prosto_Pets
                     break;
 
                 case "Twilight Fiendling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Creepy Chomp     | Rake
                      * Slot 2: Leap             | Creeping Ooze
                      * Slot 3: Adrenal Glands   | Siphon Life
@@ -735,96 +825,113 @@ namespace Prosto_Pets
                     magic_abilities = new List<AandC>() 
                     {
                         new AandC("Leap",               () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Andrenal Glands",    () => ! buff("Adrenal Glands")),
+                        new AandC("Creeping Ooze",      () => ! debuff("Creeping Ooze")),
                         new AandC("Creepy Chomp"),
                         new AandC("Rake"),
-                        new AandC("Creeping Ooze"),
-                        new AandC("Andrenal Glands"),
-                        new AandC("Siphone Life"),
                     };
                     break;
 
                 case "Viscidus Globule":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Ooze Touch   | Acid Touch
                      * Slot 2: Weakness     | Poison Spit
                      * Slot 3: Expunge      | Creeping Ooze
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Expunge"), 
+                        new AandC("Poison Spit",    () => ! debuff("Poisoned")), 
+                        new AandC("Creeping Ooze",  () => ! debuff("Creeping Ooze")),  
+                        new AandC("Weakness"),
                         new AandC("Ooze Touch"),
                         new AandC("Acid Touch"),
-                        new AandC("Weakness"),
-                        new AandC("Poison Spit"),
-                        new AandC("Expunge"),
-                        new AandC("Creeping Ooze"),
                     };
                     break;
 
                 case "Viscous Horror":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Ooze Touch   | Absorb
                      * Slot 2: Corrosion    | Plagued Blood
                      * Slot 3: Expunge      | Evolution
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Expunge"),
+                        new AandC("Corrosion",      () => ! debuff("Corrosion")),
+                        new AandC("Plagued Blood",  () => ! debuff("Plagued")),
+                        new AandC("Evolution",      () => hpEnemy < 0.4),
                         new AandC("Ooze Touch"),
                         new AandC("Absorb"),
-                        new AandC("Corrosion"),
-                        new AandC("Plagued Blood"),
-                        new AandC("Expunge"),
-                        new AandC("Evolution"),
                     };
                     break;
 
                 case "Willy":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Tongue Lash          | Focused Beams
                      * Slot 2: Interrupting Gaze    | Eyeblast
                      * Slot 3: Agony                | Rot
                      */
                     magic_abilities = new List<AandC>() 
                     {
+                        new AandC("Interrupting Gaze",  () => speed > speedEnemy),
+                        new AandC("Eye Blast",          () => ! debuff("Speed Reduction") && speed <= speedEnemy),
+                        new AandC("Agony",              () => ! debuff("Agony")),
+                        new AandC("Dark Simulacrum"),
                         new AandC("Tongue Lash"),
                         new AandC("Focused Beams"),
-                        new AandC("Interrupting Gaze"),
-                        new AandC("Eye Blast"),
-                        new AandC("Agony"),
-                        new AandC("Dark Simulacrum"),
                     };
                     break;
 
                 case "Zergling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite             | Flank
                      * Slot 2: Metabolic Boost  | Adrenal Glands
                      * Slot 3: Consume          | Zergling Rush
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Metabolic Boost", () => speed < speedEnemy && ! buff("Metabolic Boost")),
+                        new AandC("Metabolic Boost",    ()  => speed < speedEnemy && ! buff("Metabolic Boost")),
+                        new AandC("Adrenal Glands",     () => ! buff("Adrenal Glands")),
+                        new AandC("Consume",            () => ! weak("Consume") && hp < 0.8),
+                        new AandC("Zergling Rush",      () => ! debuff("Shattered Defenses") && hp > 0.4),
                         new AandC("Bite"),
                         new AandC("Flank"),
-                        new AandC("Adrenal Glands"),
-                        new AandC("Consume"),
-                        new AandC("Zergling Rush"),
                     };
                     break;
 
                 case "Zipao Tiger":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactics designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Onyx Bite    | Pounce
                      * Slot 2: Rake         | Stoneskin
                      * Slot 3: Devour       | Prowl
                      */
                     magic_abilities = new List<AandC>() 
                     {
-                        new AandC("Devour",     () => hpEnemy < 0.20 ),
+                        new AandC("Devour",     () => hpEnemy < 0.2),
+                        new AandC("Devour",     () => strong("Devour") && hpEnemy < 0.3),
+                        new AandC("Stoneskin",  () => ! buff("Stoneskin")),
+                        new AandC("Stoneskin",  () => buffLeft("Stoneskin") == 1 && speed < speedEnemy),
+                        new AandC("Prowl",      () => speed * 0.7 > speedEnemy),
+                        new AandC("Rake"),
                         new AandC("Onyx Bite"),
                         new AandC("Pounce"),
-                        new AandC("Rake"),
-                        new AandC("Stoneskin"),
-                        new AandC("Prowl"),
                     };
                     break;
 
