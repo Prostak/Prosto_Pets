@@ -193,9 +193,25 @@ namespace Prosto_Pets
         {
             return (ActivePet.HealthPercent*1.0F) / 100.0F;
         }
+        public static float hpValue()
+        {
+            return (ActivePet.Health);
+        }
+        public static float hpMax()
+        {
+            return (ActivePet.MaxHealth);
+        }
         public static float hpEnemy()
         {
             return (EnemyActivePet.HealthPercent*1.0F) / 100.0F;
+        }
+        public static float hpValueEnemy()
+        {
+            return (EnemyActivePet.Health);
+        }
+        public static float hpMaxEnemy()
+        {
+            return (EnemyActivePet.MaxHealth);
         }
         public static bool buff(string name)
         {

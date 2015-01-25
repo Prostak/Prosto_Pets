@@ -380,9 +380,10 @@ namespace Prosto_Pets
                     dragonkin_abilities = new List<AandC>() 
                     {
                         new AandC("Evanescence",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.25 && hp < 0.75),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.5),
                         new AandC("Moonfire",       () => ! weather("Moonlight")),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
-                        new AandC("Life Exchange",  () => hp * 2.5 < hpEnemy),
                         new AandC("Slicing Wind"),
                         new AandC("Arcane Blast"),
                     };
