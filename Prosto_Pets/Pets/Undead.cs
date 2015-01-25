@@ -49,53 +49,65 @@ namespace Prosto_Pets
                     break;
 
                 case "Blighthawk":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Infected Claw    | Slicing Wind
                      * Slot 2: Consume Corpse   | Ghostly Bite
                      * Slot 3: Lift-Off         | Cyclone
+                     * 
+                     * TODO: Reintroduce Consume Corpse: Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Lift-Off",       () => shouldIHide && speed >= speedEnemy),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
-                        new AandC("Lift-Off"),
+                        new AandC("Ghostly Bite"),
                         new AandC("Infected Claw"),
                         new AandC("Slicing Wind"),
-                        new AandC("Consume Corpse"),
-                        new AandC("Ghostly Bite"),
                     };
                     break;
 
                 case "Crawling Claw":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash     | Agony
                      * Slot 2: Ancient Blessing | Death Grip
                      * Slot 3: Curse of Doom    | Rot
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Curse of Doom", () => ! debuff("Curse of Doom")),
+                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom")),
+                        new AandC("Ancient Blessing",   () => ! buff("Ancient Blessing") && hp < 0.8),
+                        new AandC("Death Grip",         () => myPetHasAbility("Agony")),
+                        new AandC("Rot",                () => ! debuff("Rot") && famEnemy(PF.Aquatic)),
                         new AandC("Shadow Slash"),
                         new AandC("Agony"),
-                        new AandC("Ancient"),
-                        new AandC("Death Grip"),
-                        new AandC("Dark Simulacrum"),
                     };
                     break;
 
                 case "Creepy Crate":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Creepy Chomp | Agony
                      * Slot 2: Death Grip   | Curse of Doom
                      * Slot 3: Devour       | BONESTORM
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Devour",         () => hpEnemy < 0.20 ),
-                        new AandC("Curse of Doom",  () => ! debuff("Curse of Doom")),
+                        new AandC("Devour",         () => hpEnemy < 0.2),
+                        new AandC("Devour",         () => strong("Devour") && hpEnemy < 0.3),
+                        new AandC("Curse of Doom",  () => ! debuff("Curse of Doom") && hp > 0.5),
+                        new AandC("Agony",          () => ! debuff("Agony")),
+                        new AandC("Death Grip",     () => myPetHasAbility("Agony")),
+                        new AandC("BONESTORM",      () => hp > 0.3),
                         new AandC("Creepy Chomp"),
                         new AandC("Agony"),
-                        new AandC("Death Grip"),
-                        new AandC("BONESTORM"),
                     };
                     break;
 
@@ -119,55 +131,65 @@ namespace Prosto_Pets
                     break;
 
                 case "Eye of the Legion":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Eyeblast
                      * Slot 2: Agony        | Gravity
                      * Slot 3: Soul Ward    | Rot
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Shadow Slash"),
-                        new AandC("Eyeblast"),
-                        new AandC("Agony"),
+                        new AandC("Soul Ward",          () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Agony",              () => ! debuff("Agony")),
                         new AandC("Gravity"),
-                        new AandC("Soul Ward"),
-                        new AandC("Dark Simulacrum"),
+                        new AandC("Rot",                () => ! debuff("Rot") && famEnemy(PF.Aquatic)),
+                        new AandC("Eyeblast"),
+                        new AandC("Shadow Slash"),
                     };
                     break;
 
                 case "Fetish Shaman":
                 case "Sen'jin Fetish":
                 case "Voodoo Figurine":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Flame Breath
                      * Slot 2: Immolate     | Wild Magic
                      * Slot 3: Sear Magic   | Rot
+                     * 
+                     * TODO: Reintroduce Sear Magic - Needs to consider auras
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Immolate",       () => ! debuff("Immolate")),
+                        new AandC("Wild Magic",     () => ! debuff("Wild Magic")),
+                        new AandC("Rot",            () => ! debuff("Rot") && famEnemy(PF.Aquatic)),
                         new AandC("Shadow Slash"),
                         new AandC("Flame Breath"),
-                        new AandC("Immolate"),
-                        new AandC("Wild Magic"),
-                        new AandC("Sear Magic"),
-                        new AandC("Dark Simulacrum"),
                     };
                     break;
 
                 case "Fossilized Hatchling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw             | Bone Bite
                      * Slot 2: Ancient Blessing | Death and Decay
                      * Slot 3: Bone Prison      | BONESTORM
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Ancient Blessing", () => ! buff("Ancient Blessing") || hp < 0.75 ),
+                        new AandC("Ancient Blessing",   () => ! buff("Ancient Blessing") || hp < 0.75 ),
+                        new AandC("Death and Decay",    () => ! debuff("Death and Decay")),
+                        new AandC("BONESTORM",          () => hp > 0.3),
+                        new AandC("Bone Prison"),
                         new AandC("Claw"),
                         new AandC("Bone Bite"),
-                        new AandC("Death && Decay"),
-                        new AandC("Bone Prison"),
-                        new AandC("BONESTORM"),
                     };
                     break;
 
@@ -252,7 +274,10 @@ namespace Prosto_Pets
                     break;
 
                 case "Frosty":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Diseased Bite    | Frost Breath
                      * Slot 2: Call Blizzard    | Shriek
                      * Slot 3: Ice Tomb         | Blistering Cold
@@ -260,28 +285,32 @@ namespace Prosto_Pets
                     undead_abilities = new List<AandC>() 
                     {
                         new AandC("Shriek",             () => ! debuff("Attack Reduction")),
+                        new AandC("Call Blizzard",      () => ! weather("Blizzard")),
+                        new AandC("Ice Tomb",           () => ! debuff("Ice Tomb")),
+                        new AandC("Blistering Cold",    () => ! debuff("Blistering Cold")),
                         new AandC("Diseased Bite"),
                         new AandC("Frost Breath"),
-                        new AandC("Call Blizzard"),
-                        new AandC("Ice Tomb"),
-                        new AandC("Blistering Cold"),
                     };
                     break;
 
                 case "Fungal Abomination":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Absorb           | Consume
                      * Slot 2: Creeping Fungus  | Leech Seed
                      * Slot 3: Spore Shrooms    | Stun Seed
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Consume",            () => ! weak("Consume") && hp < 0.7),
+                        new AandC("Creeping Fungus",    () => ! debuff("Creeping Fungus")),
+                        new AandC("Leech Seed",         () => ! debuff("Leech Seed") && hp < 0.8),
+                        new AandC("Spore Shrooms",      () => ! debuff("Spore Shrooms")),
+                        new AandC("Stun Seed",          () => ! debuff("Stun Seed") && hpEnemy > 0.5),
                         new AandC("Absorb"),
                         new AandC("Consume"),
-                        new AandC("Creeping Fungus"),
-                        new AandC("Leech Seed"),
-                        new AandC("Spore Shrooms"),
-                        new AandC("Stun Seed"),
                     };
                     break;
 
@@ -310,37 +339,43 @@ namespace Prosto_Pets
                     break;
 
                 case "Ghostly Skull":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Death Coil
                      * Slot 2: Ghostly Bite | Spectral Strike
                      * Slot 3: Siphon Life  | Unholy Ascension
+                     * 
+                     * TODO: Reintroduce Unholy Ascension with team mechanics
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Spectral Strike",        () => myPetIsLucky),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Spectral Strike",    () => strong("Spectral Strike") || enemyIsBlinded || enemyIsLucky),
+                        new AandC("Ghostly Bite"),
                         new AandC("Shadow Slash"),
                         new AandC("Death Coil"),
-                        new AandC("Ghostly Bite"),
-                        new AandC("Spectral Strike"),
-                        new AandC("Siphon Life"),
-                        new AandC("Unholy Ascension"),
                     };
                     break;
 
                 case "Giant Bone Spider":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bone Bite    | Poison Spit
                      * Slot 2: Sticky Web   | Siphon Life
                      * Slot 3: Leech Life   | Death Grip
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Sticky Web",     () => ! debuff("Sticky Web")),
+                        new AandC("Leech Life",     () => enemyIsWebbed && hp < 0.7),
+                        new AandC("Siphon Life",    () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Death Grip"),
                         new AandC("Bone Bite"),
                         new AandC("Poison Spit"),
-                        new AandC("Sticky Web"),
-                        new AandC("Siphon Life"),
-                        new AandC("Leech Life"),
-                        new AandC("Death Grip"),
                     };
                     break;
 
@@ -364,88 +399,109 @@ namespace Prosto_Pets
                     break;
 
                 case "Infected Fawn":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Diseased Bite    | Flurry
                      * Slot 2: Adrenaline Rush  | Consume Corpse
                      * Slot 3: Siphon Life      | Death and Decay
+                     * 
+                     * TODO: Reintroduce Consume Corpse - Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Adrenaline Rush",    () => ! buff("Adrenaline")),
+                        new AandC("Death and Decay",    () => ! debuff("Death and Decay")),
                         new AandC("Diseased Bite"),
                         new AandC("Flurry"),
-                        new AandC("Adrenaline Rush"),
-                        new AandC("Consume Corpse"),
-                        new AandC("Siphon Life"),
-                        new AandC("Death && Decay"),
                     };
                     break;
 
                 case "Infected Squirrel":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Diseased Bite    | Stampede
                      * Slot 2: Rabid Strike     | Creeping Fungus
                      * Slot 3: Consume          | Corpse Explosion
+                     * 
+                     * TODO: Reintroduce Corpse Explosion - Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Consume",            () => hp < 0.8),
+                        new AandC("Creeping Fungus",    () => ! debuff("Creeping Fungus")),
+                        new AandC("Rabid Strike",       () => ! debuff("Rabies")),
                         new AandC("Diseased Bite"),
-                        new AandC("Creeping Fungus"),
-                        new AandC("Rabid Strike"),
                         new AandC("Stampede"),
-                        new AandC("Consume"),
-                        new AandC("Corpse Explosion"),
                     };
                     break;
 
                 case "Infested Bear Cub":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Diseased Bite    | Roar
                      * Slot 2: Bash             | Hibernate
                      * Slot 3: Maul             | Corpse Explosion
+                     * 
+                     * TODO: Reintroduce Corpse Explosion - Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Hibernate",      () => hp < 0.5),
+                        new AandC("Roar",           () => ! buff("Attack Boost")),
+                        new AandC("Bash",           () => ! enemyIsResilient && ! enemyIsStunned),
+                        new AandC("Maul"),
                         new AandC("Diseased Bite"),
                         new AandC("Roar"),
-                        new AandC("Bash"),
-                        new AandC("Hibernate"),
-                        new AandC("Maul"),
-                        new AandC("Corpse Explosion"),
                     };
                     break;
 
                 case "Landro's Lichling":
                 case "Lil' K.T.":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Howling Blast
                      * Slot 2: Siphon Life  | Death and Decay
                      * Slot 3: Frost Nova   | Curse of Doom
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Shadow Slash"),
-                        new AandC("Howling Blast",  () => debuff("Frost Nova")),
-                        new AandC("Siphon Life"),
-                        new AandC("Death && Decay"),
+                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom") && hp > 0.6),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life") && hp < 0.8),
+                        new AandC("Death and Decay",    () => ! debuff("Death and Decay")),
                         new AandC("Frost Nova"),
-                        new AandC("Curse of Doom"),
+                        new AandC("Shadow Slash"),
+                        new AandC("Howling Blast"),
                     };
                     break;
 
                 case "Lost of Lordaeron":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Absorb
                      * Slot 2: Siphon Life  | Arcane Explosion
                      * Slot 3: Bone Prison  | Curse of Doom
+                     * 
+                     * TODO: Reintroduce Arcane Explosion - Needs to consider enemy team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom")),
+                        new AandC("Absorb",             () => hp < 0.6),
+                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom") && hp > 0.6),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life")),
+                        new AandC("Bone Prison"),
                         new AandC("Shadow Slash"),
                         new AandC("Absorb"),
-                        new AandC("Siphon Life"),
-                        new AandC("Arcane Explosion"),
-                        new AandC("Bone Prison"),
                     };
                     break;
 
@@ -470,41 +526,50 @@ namespace Prosto_Pets
                     break;
 
                 case "Mr. Bigglesworth":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw         | Pounce
                      * Slot 2: Ice Barrier  | Frost Nova
                      * Slot 3: Ice Tomb     | Howling Blast
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Ice Barrier",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Frost Nova",     () => ! debuff("Frost Nova")),
+                        new AandC("Ice Tomb",       () => ! debuff("Ice Tomb")),
+                        new AandC("Howling Blast"),
                         new AandC("Claw"),
                         new AandC("Pounce"),
-                        new AandC("Ice Barrier"),
-                        new AandC("Frost Nova"),
-                        new AandC("Ice Tomb"),
-                        new AandC("Howling Blast"),
                     };
                     break;
 
                 case "Restless Shadeling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Shock     | Arcane Blast
                      * Slot 2: Plagued Blood    | Death and Decay
                      * Slot 3: Death Coil       | Phase Shift
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Phase Shift",        () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Plagued Blood",      () => ! debuff("Plagued Blood")),
+                        new AandC("Death and Decay",    () => ! debuff("Death and Decay")),
+                        new AandC("Death Coil",         () => ! weak("Death Coil") && hp < 0.7),
                         new AandC("Shadow Shock"),
                         new AandC("Arcane Blast"),
-                        new AandC("Plagued Blood"),
-                        new AandC("Death && Decay"),
-                        new AandC("Death Coil"),
-                        new AandC("Phase Shift"),
                     };
                     break;
 
                 case "Scourged Whelpling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Corrected Death and Decay typo - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Shadowflame      | Tail Sweep
                      * Slot 2: Call Darkness    | Death and Decay
                      * Slot 3: Plagued Blood    | Dreadful Breath
@@ -512,7 +577,7 @@ namespace Prosto_Pets
                     undead_abilities = new List<AandC>() 
                     {
                         new AandC("Plagued Blood",     () => ! debuff("Plagued Blood")),
-                        new AandC("Death && Decay",    () => ! debuff("Death && Decay")),
+                        new AandC("Death and Decay",   () => ! debuff("Death and Decay")),
                         new AandC("Dreadful Breath",   () => weather("Cleansing Rain")),
                         new AandC("Call Darkness",     () => ! weather("Darkness")),
                         new AandC("Shadowflame"),
@@ -548,7 +613,10 @@ namespace Prosto_Pets
                     break;
 
                 case "Spirit Crab":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Snap         | Amplify Magic
                      * Slot 2: Surge        | Whirlpool
                      * Slot 3: Shell Shield | Rot
@@ -556,28 +624,32 @@ namespace Prosto_Pets
                     undead_abilities = new List<AandC>() 
                     {
                         new AandC("Shell Shield",       () => ! buff("Shell Shield")),
-                        new AandC("Snap"),
-                        new AandC("Amplify Magic"),
+                        new AandC("Amplify Magic",      () => ! debuff("Amplify Magic")),
+                        new AandC("Whirlpool",          () => ! debuff("Whirlpool") && hpEnemy > 0.5),
+                        new AandC("Rot",                () => strong("Rot")),
                         new AandC("Surge"),
-                        new AandC("Whirlpool"),
-                        new AandC("Dark Simulacrum"),
+                        new AandC("Snap"),
                     };
                     break;
 
                 case "Stitched Pup":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Diseased Bite    | Flurry
                      * Slot 2: Rabid Strike     | Howl
                      * Slot 3: Consume Corpse   | Plagued Blood
+                     * 
+                     * TODO: Reintroduce Consume Corpse - Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
+                        new AandC("Rabid Strike",   () => ! debuff("Rabies")),
+                        new AandC("Howl",           () => ! debuff("Shattered Defenses")),
+                        new AandC("Plagued Blood",  () => ! debuff("Plagued")),
                         new AandC("Diseased Bite"),
                         new AandC("Flurry"),
-                        new AandC("Rabid Strike"),
-                        new AandC("Howl"),
-                        new AandC("Consume Corpse"),
-                        new AandC("Plagued Blood"),
                     };
                     break;
 
@@ -606,24 +678,31 @@ namespace Prosto_Pets
                     break;
 
                 case "Unborn Val'kyr":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-18: Initial tactic by Studio60 for new pet coming in patch 6.1
+                     * 
+                     * Abilities
                      * Slot 1: Shadow Slash | Shadow Stock
                      * Slot 2: Siphon Life  | Curse of Doom
                      * Slot 3: Haunt        | Unholy Ascension
+                     * 
+                     * TODO: Reintroduce Haunt - Needs to consider team status
                      */
                     undead_abilities = new List<AandC>() 
                     {
-                        new AandC("Unholy Ascension", () => hp < 0.3 ),
-                        new AandC("Curse of Doom",    () => ! debuff("Curse of Doom")),
+                        new AandC("Siphon Life",        () => ! debuff("Siphon Life")),
+                        new AandC("Unholy Ascension",   () => hp < 0.1 ),
+                        new AandC("Curse of Doom",      () => ! debuff("Curse of Doom")),
                         new AandC("Shadow Slash"),
                         new AandC("Shadow Shock"),
-                        new AandC("Siphon Life"),
-                        new AandC("Haunt"),
                     };
                     break;
 
                 case "Vampiric Batling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-18: Initial tactic by Studio60 for new pet coming in patch 6.1
+                     * 
+                     * Abilities
                      * Slot 1: Bite             | Screech
                      * Slot 2: Leech Life       | Hawk Eye
                      * Slot 3: Reckless Strike  | Nocturnal Strike
@@ -631,11 +710,11 @@ namespace Prosto_Pets
                     undead_abilities = new List<AandC>() 
                     {
                         new AandC("Hawk Eye",           () => ! buff("Hawk Eye")),
+                        new AandC("Leech Life",         () => ! weak("Leech Life") && hp < 0.8),
+                        new AandC("Reckless Strike",    () => hpEnemy < 0.25),
+                        new AandC("Nocturnal Strike",   () => enemyIsBlinded || enemyIsLucky),
                         new AandC("Bite"),
                         new AandC("Screech"),
-                        new AandC("Leech Life"),
-                        new AandC("Reckless Strike"),
-                        new AandC("Nocturnal Strike"),
                     };
                     break;
 
