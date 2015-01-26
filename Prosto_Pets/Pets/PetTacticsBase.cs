@@ -85,6 +85,9 @@ namespace Prosto_Pets
         // checking if our ability is weak against the current enemy pet
         public static bool weak(string ability) { return MyPets.IsWeak(ability); }
 
+        // check current battle turn
+        public static int round {  get { return Battle.Round; } }
+
         // checking for general conditions caused by multiple effects
         public static bool enemyIsAsleep    { get { return MyPets.enemyIsAsleep(); } }
         public static bool enemyIsBleeding  { get { return MyPets.enemyIsBleeding(); } }

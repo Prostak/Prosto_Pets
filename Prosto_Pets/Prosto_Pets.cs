@@ -1233,6 +1233,11 @@ namespace Prosto_Pets
 
             Lua.Events.AttachEvent("PET_BATTLE_PET_ROUND_RESULTS",           LuaPetRoundResults);
             Lua.Events.AttachEvent("PET_BATTLE_PET_ROUND_PLAYBACK_COMPLETE", LuaPetRoundResultsComplete);
+
+            // events used to set/reset battle turn counter
+            Lua.Events.AttachEvent("CHAT_MSG_PET_BATTLE_COMBAT_LOG", BattleLogParser.LuaMessage);
+            Lua.Events.AttachEvent("PET_BATTLE_CLOSE", Battle.LuaResetRound);
+            Lua.Events.AttachEvent("PET_BATTLE_OPENING_START", Battle.LuaResetRound);
         }
         private void DetachLuaEvents()
         {
@@ -1250,6 +1255,11 @@ namespace Prosto_Pets
 
             Lua.Events.DetachEvent("PET_BATTLE_PET_ROUND_RESULTS",           LuaPetRoundResults);
             Lua.Events.DetachEvent("PET_BATTLE_PET_ROUND_PLAYBACK_COMPLETE", LuaPetRoundResultsComplete);
+
+            // events used to set/reset battle turn counter
+            Lua.Events.DetachEvent("CHAT_MSG_PET_BATTLE_COMBAT_LOG", BattleLogParser.LuaMessage);
+            Lua.Events.AttachEvent("PET_BATTLE_CLOSE", Battle.LuaResetRound);
+            Lua.Events.AttachEvent("PET_BATTLE_OPENING_START", Battle.LuaResetRound);
         }
 
         private void LuaPetBattleStarted(object sender, LuaEventArgs args)
