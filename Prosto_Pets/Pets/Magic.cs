@@ -250,9 +250,10 @@ namespace Prosto_Pets
                     magic_abilities = new List<AandC>() 
                     {
                         new AandC("Soul Ward",      () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.25 && hp < 0.75),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.5),
                         new AandC("Inner Vision"),
                         new AandC("Soulrush"),
-                        new AandC("Life Exchange",  () => hp * 2.5 < hpEnemy),
                         new AandC("Punch"),
                         new AandC("Beam"),
                     };
@@ -621,7 +622,8 @@ namespace Prosto_Pets
                     {
                         new AandC("Amplify Magic",      () => ! debuff("Amplify Magic")),
                         new AandC("Interrupting Gaze",  () => speed >= speedEnemy),
-                        new AandC("Life Exchange",      () => hp * 2.5 < hpEnemy),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.25 && hp < 0.75),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.5),
                         new AandC("Inner Vision"),
                         new AandC("Eyeblast"),
                         new AandC("Mana Surge"),

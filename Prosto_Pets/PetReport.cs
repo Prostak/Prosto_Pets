@@ -88,7 +88,45 @@ namespace Prosto_Pets
 
         public static string GetContinentName()
         {
-            return Lua.GetReturnVal<string>("return GetInstanceInfo()", 0);
+            // 1 = Kalimdor
+            // 2 = Eastern Kingdoms
+            // 3 = Outland
+            // 4 = Northrend
+            // 5 = The Maelstrom
+            // 6 = Pandaria
+            // 7 = Draenor
+
+            int id = Lua.GetReturnVal<int>("return GetCurrentMapContinent()", 0);
+            string name = "UNKNOWN";
+
+            switch (id)
+            {
+                case 1:
+                    name = "Kalimdor";
+                    break;
+                case 2:
+                    name = "Eastern Kingdoms";
+                    break;
+                case 3:
+                    name = "Outland";
+                    break;
+                case 4:
+                    name = "Northrend";
+                    break;
+                case 5:
+                    name = "The Maelstrom";
+                    break;
+                case 6:
+                    name = "Pandaria";
+                    break;
+                case 7:
+                    name = "Draenor";
+                    break;
+                default:
+                    name = "#" + id.ToString();
+                    break;
+            }
+            return name;
         }
 
         public static string PlayerZone()

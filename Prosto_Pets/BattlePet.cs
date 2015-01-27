@@ -70,7 +70,7 @@ namespace Prosto_Pets
             int petType, int creatureID, string sourceText, string description, bool isWild, bool canBattle, bool tradeable, bool unique, bool obtainable, 
             int health, int maxHealth, int power, int speed, int rarity, string petID)
         {
-           
+            Logger.WriteDebug(name + ": " + speciesId);
             _isValid = true;
             _speciesID = speciesId;
             _customName = customName;

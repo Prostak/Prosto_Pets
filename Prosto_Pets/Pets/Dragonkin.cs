@@ -232,7 +232,7 @@ namespace Prosto_Pets
                         new AandC("Emerald Dream",      () => hp < 0.5 && hpEnemy > 0.3),
                         new AandC("Ancient Blessing",   () => ! buff("Ancient Blessing") || hp < 0.75),
                         new AandC("Emerald Presence",   () => ! buff("Emerald Presence")),
-                        new AandC("Emerald Presence",   () => buffLeft("Emerald Presence") == 1 || speed < speedEnemy),
+                        new AandC("Emerald Presence",   () => buffLeft("Emerald Presence") == 1 && speed < speedEnemy),
                         new AandC("Breath"),
                         new AandC("Emerald Bite"),
                     };
@@ -380,9 +380,10 @@ namespace Prosto_Pets
                     dragonkin_abilities = new List<AandC>() 
                     {
                         new AandC("Evanescence",    () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.25 && hp < 0.75),
+                        new AandC("Life Exchange",  () => ((hpValue + hpValueEnemy) / 2) > hpMax * 0.5),
                         new AandC("Moonfire",       () => ! weather("Moonlight")),
                         new AandC("Cyclone",        () => ! debuff("Cyclone")),
-                        new AandC("Life Exchange",  () => hp * 2.5 < hpEnemy),
                         new AandC("Slicing Wind"),
                         new AandC("Arcane Blast"),
                     };

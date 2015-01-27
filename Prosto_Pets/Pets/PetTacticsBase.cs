@@ -42,10 +42,18 @@ namespace Prosto_Pets
     public class PetTacticsBase
     {
         // our active pet HP % in 0-1 range (not in 0-100!)
-        public static float hp { get { return MyPets.hp(); } }
+        // hpValue returns the absolute number of hitpoints
+        // hpMax returns the absolute number of total hitpoints
+        public static float hp      { get { return MyPets.hp(); } }
+        public static float hpValue { get { return MyPets.hpValue(); } }
+        public static float hpMax   { get { return MyPets.hpMax(); } }
 
         // enemy active pet HP % in 0-1 range (not in 0-100!)
-        public static float hpEnemy { get { return MyPets.hpEnemy(); } }
+        // hpValueEnemy returns the absolute number of hitpoints
+        // hpMaxEnemy returns the absolute number of total hitpoints
+        public static float hpEnemy      { get { return MyPets.hpEnemy(); } }
+        public static float hpValueEnemy { get { return MyPets.hpValueEnemy(); } }
+        public static float hpMaxEnemy   { get { return MyPets.hpMaxEnemy(); } }
 
         // our active pet speed
         public static int speed { get { return MyPets.ActivePet.Speed; } }
@@ -76,6 +84,9 @@ namespace Prosto_Pets
         public static bool strong(string ability) { return MyPets.IsStrong(ability); }
         // checking if our ability is weak against the current enemy pet
         public static bool weak(string ability) { return MyPets.IsWeak(ability); }
+
+        // check current battle turn
+        public static int round {  get { return Battle.Round; } }
 
         // checking for general conditions caused by multiple effects
         public static bool enemyIsAsleep    { get { return MyPets.enemyIsAsleep(); } }

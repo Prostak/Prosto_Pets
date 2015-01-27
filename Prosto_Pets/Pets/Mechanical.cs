@@ -51,19 +51,24 @@ namespace Prosto_Pets
                     break;
 
                 case "Anodized Robo Cub":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite     | Demolish
                      * Slot 2: Repair   | Rebuild
                      * Slot 3: Maul     | Supercharge
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
-                        new AandC("Repair",         () => hp < 0.7),
-                        new AandC("Bite"),
+                        new AandC("Repair",         () => hp < 0.7 && ! buff("Supercharged")),
+                        new AandC("Rebuild",        () => hp < 0.6 && ! buff("Supercharged")),
                         new AandC("Demolish",       () => myPetIsLucky),
-                        new AandC("Rebuild"),
+                        new AandC("Maul",           () => buff("Supercharged")),
+                        new AandC("Supercharge",    () => hp > 0.4),
                         new AandC("Maul"),
-                        new AandC("Supercharge"),
+                        new AandC("Bite"),
+                        new AandC("Demolish"),
                     };
                     break;
 
@@ -88,45 +93,56 @@ namespace Prosto_Pets
                     };
                     break;
 
+
                 case "Blue Clockwork Rocket Bot":
                 case "Clockwork Rocket Bot":
                 case "Lil' Smoky":
                 case "Mini Thor":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Missile          | Batter
                      * Slot 2: Toxic Smoke      | Minefield
                      * Slot 3: Sticky Grenade   | Launch Rocket
+                     * 
+                     * TODO: Reintroduce Minefield - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Sticky Grenade", () => ! debuff("Sticky Grenade") && hpEnemy > 0.4),
+                        new AandC("Toxic Smoke",    () => ! debuff("Toxic Smoke")),
+                        new AandC("Launch Rocket",  () => buff("Setup Rocket") || hpEnemy > 0.4),
                         new AandC("Missile"),
                         new AandC("Batter"),
-                        new AandC("Toxic Smoke"),
-                        new AandC("Minefield"),
-                        new AandC("Sticky Grenade"),
-                        new AandC("Launch Rocket"),
                     };
                     break;
 
                 case "Clock'em":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Jab      | Haymaker 
                      * Slot 2: Overtune | Counterstrike
                      * Slot 3: Kick     | Dodge
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Dodge",          () => shouldIHide && speed >= speedEnemy),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
-                        new AandC("Kick"),
+                        new AandC("Kick",           () => speed >= speedEnemy),
+                        new AandC("Counterstrike",  () => speed <= speedEnemy),
                         new AandC("Jab"),
                         new AandC("Haymaker",       () => myPetIsLucky),
-                        new AandC("Counterstrike"),
-                        new AandC("Dodge"),
                     };
                     break;
 
                 case "Clockwork Gnome":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Railgun
                      * Slot 2: Repair       | Blitz
                      * Slot 3: Build Turret | Launch Turret
@@ -134,16 +150,21 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Launch Rocket",  () => buff("Setup Rocket")),
                         new AandC("Build Turret"),
+                        new AandC("Blitz",          () => myPetHasAbility("Metal Fist") && ! strong("Metal Fist") && ! weak("Blitz") && speed > speedEnemy),
+                        new AandC("Blitz",          () => myPetHasAbility("Railgun") && ! strong("Railgun") && ! weak("Blitz") && speed > speedEnemy),
+                        new AandC("Launch Rocket",  () => hpEnemy > 0.4),
                         new AandC("Metal Fist"),
                         new AandC("Railgun"),
-                        new AandC("Blitz"),
-                        new AandC("Launch Rocket"),
                     };
                     break;
 
                 case "Cogblade Raptor":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Bite             | Batter
                      * Slot 2: Overtune         | Screech
                      * Slot 3: Exposed Wounds   | Repair
@@ -151,50 +172,62 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Exposed Wounds", () => ! debuff("Exposed Wounds")),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Screech",        () => speed < speedEnemy && ! buff("Speed Reduction")),
                         new AandC("Bite"),
                         new AandC("Batter"),
-                        new AandC("Screech"),
-                        new AandC("Exposed Wounds"),
                     };
                     break;
 
                 case "Darkmoon Tonk":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Missile          | Charge
                      * Slot 2: Shock and Awe    | Minefield
                      * Slot 3: Lock-On          | Ion Cannon
+                     * 
+                     * TODO: Reintroduce Minefield - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Lock-On",        () => buff("Locked On")),
                         new AandC("Ion Cannon",     () => hp < 0.35),
-                        new AandC("Shock && Awe"),
-                        new AandC("Minefield"),
+                        new AandC("Shock and Awe"),
+                        new AandC("Lock-On",        () => hpEnemy > 0.4),
                         new AandC("Missile"),
                         new AandC("Charge"),
-                        new AandC("Lock-On"),
                     };
                     break;
 
                 case "Darkmoon Zeppelin":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Missile      | Flyby
                      * Slot 2: Bombing Run  | Explode
                      * Slot 3: Thunderbolt  | Decoy
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
-                        new AandC("Missile"),
+                        new AandC("Explode",        () => buff("Failsafe")),
+                        new AandC("Decoy",          () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Flyby",          () => debuff("Weakened Defenses")),
                         new AandC("Thunderbolt"),
+                        new AandC("Bombing Run",    () => hpEnemy > 0.5),
+                        new AandC("Missile"),
                         new AandC("Flyby"),
-                        new AandC("Decoy"),
-                        new AandC("Bombing Run"),
-                        new AandC("Explode"),
                     };
                     break;
 
                 case "De-Weaponized Mechanical Companion":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Thrash
                      * Slot 2: Overtune     | Extra-Plating
                      * Slot 3: Demolish     | Repair
@@ -202,12 +235,11 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>()
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Extra Plating"),
-                        new AandC("Demolish"),
                     };
                     break;
 
@@ -233,19 +265,23 @@ namespace Prosto_Pets
                     break;
 
                 case "Fluxfire Feline":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Claw     | Pounce
                      * Slot 2: Flux     | Overtune
                      * Slot 3: Prowl    | Supercharge
+                     * 
+                     * TODO: Reintroduce Flux - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Overtune",   () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Prowl",      () => ! debuff("Prowl") && speed * 0.7 > speedEnemy),
+                        new AandC("Supercharge"),
                         new AandC("Claw"),
                         new AandC("Pounce"),
-                        new AandC("Flux"),
-                        new AandC("Prowl"),
-                        new AandC("Supercharge"),
                     };
                     break;
 
@@ -272,7 +308,10 @@ namespace Prosto_Pets
 
                 case "Landro's Lil' XT":
                 case "Lil' XT":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Zap              | Thrash
                      * Slot 2: Repair           | Heartbroken
                      * Slot 3: XE-321 Boombot   | Tympanic Tantrum
@@ -280,11 +319,11 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",             () => hp < 0.7),
+                        new AandC("Tympanic Tantrum",   () => buff("Heartbroken")),
+                        new AandC("XE-321 Boombot",     () => hpEnemy > 0.5),
+                        new AandC("Heartbroken",        () => ! buff("Heartbroken")),
                         new AandC("Zap"),
                         new AandC("Thrash"),
-                        new AandC("Heartbroken"),
-                        new AandC("XE-321 Boombot"),
-                        new AandC("Tympanic Tantrum"),
                     };
                     break;
 
@@ -310,19 +349,22 @@ namespace Prosto_Pets
                     break;
 
                 case "Lifelike Toad":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Water Jet    | Tongue Lash
                      * Slot 2: Healing Wave | Cleansing Rain
                      * Slot 3: Frog Kiss    | Repair
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Cleansing Rain", () => ! weather("Cleansing Rain")),
+                        new AandC("Healing Wave",   () => hp < 0.7),
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Frog Kiss",      () => ! enemyIsResilient),
                         new AandC("Water Jet"),
                         new AandC("Tongue Lash"),
-                        new AandC("Healing Wave"),
-                        new AandC("Cleansing Rain"),
-                        new AandC("Frog Kiss"),
                     };
                     break;
 
@@ -350,36 +392,43 @@ namespace Prosto_Pets
 
                 case "Mechanical Chicken":
                 case "Robo-Chick":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck         | Batter
                      * Slot 2: Overtune     | Rebuild
                      * Slot 3: Supercharge  | Wind-Up
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Rebuild",        () => hp < 0.7),
+                        new AandC("Wind-Up",        () => ! buff("Wind-Up")),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Supercharge",    () => hpEnemy > 0.4),
                         new AandC("Peck"),
                         new AandC("Batter"),
-                        new AandC("Rebuild"),
-                        new AandC("Supercharge"),
-                        new AandC("Wind-Up"),
                     };
                     break;
 
                 case "Mechanical Pandaren Dragonling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Breath       | Flyby
                      * Slot 2: Bombing Run  | Thunderbolt
                      * Slot 3: Explode      | Decoy
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
-                        new AandC("Breath"),
+                        new AandC("Explode",        () => buff("Failsafe")),
+                        new AandC("Decoy",          () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Flyby",          () => ! debuff("Weakened Defenses")),
+                        new AandC("Bombing Run",    () => hpEnemy > 0.5),
                         new AandC("Thunderbolt"),
+                        new AandC("Breath"),
                         new AandC("Flyby"),
-                        new AandC("Decoy"),
-                        new AandC("Bombing Run"),
-                        new AandC("Explode"),
                     };
                     break;
 
@@ -402,12 +451,15 @@ namespace Prosto_Pets
                         new AandC("Blinding Poison",    () => ! debuff("Blinding Poison")),
                         new AandC("Puncture Wound"),
                         new AandC("Barbed Stinger"),
-                        new AandC("Wind-Up"),                     
+                        new AandC("Wind-Up"),                    
                     };
                     break;
 
                 case "Mechanical Squirrel":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Trash
                      * Slot 2: Overtune     | Extra Plating
                      * Slot 3: Wind-Up      | Repair
@@ -415,33 +467,42 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
+                        new AandC("Wind-Up",        () => ! buff("Wind-Up")),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Extra Plating"),
-                        new AandC("Wind-Up"),
                     };
                     break;
 
                 case "Mechanopeep":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Peck     | Rebuild
                      * Slot 2: Batter   | Overtune
                      * Slot 3: Wind-Up  | Repair
+                     * 
+                     * Tactic Information:
+                     * Batter/Overtune at the end as a fallback to avoid passing turns
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",     () => hp < 0.7),
+                        new AandC("Rebuild",    () => hp < 0.7),
+                        new AandC("Wind-Up",    () => ! buff("Wind-Up")),
                         new AandC("Overtune",   () => speed < speedEnemy && ! buff("Speed Boost")),
-                        new AandC("Peck"),
-                        new AandC("Rebuild"),
                         new AandC("Batter"),
-                        new AandC("Wind-Up"),
+                        new AandC("Peck"),
                     };
                     break;
 
                 case "Menagerie Custodian":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Zap              | Overtune
                      * Slot 2: Shock and Awe    | Demolish
                      * Slot 3: Lock-On          | Ion Cannon
@@ -449,45 +510,54 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Ion Cannon",     () => hp < 0.35),
-                        new AandC("Shock && Awe"),
+                        new AandC("Lock-On",        () => ! buff("Locked On")),
+                        new AandC("Shock and Awe"),
+                        new AandC("Demolish",       () => myPetIsLucky),
+                        new AandC("Lock-On",        () => hpEnemy > 0.4),
                         new AandC("Zap"),
                         new AandC("Overtune"),
-                        new AandC("Demolish",       () => myPetIsLucky),
-                        new AandC("Lock-On"),
                     };
                     break;
 
                 case "Personal World Destroyer":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist       | Trash
                      * Slot 2: Repair           | Supercharge
                      * Slot 3: Screeching Gears | Quake
+                     * 
+                     * TODO: Reintroduce Quake - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",             () => hp < 0.7),
+                        new AandC("Screeching Gears",   () => ! enemyIsStunned),
+                        new AandC("Supercharge"),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Supercharge"),
-                        new AandC("Screeching Gears"),
-                        new AandC("Quake"),
                     };
                     break;
 
                 case "Pet Bombling":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Zap              | Batter
                      * Slot 2: Minefield        | Toxic Smoke
                      * Slot 3: Screeching Gears | Explode
+                     * 
+                     * TODO: Reintroduce Minefield - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Explode",            () => buff("Failsafe")),
+                        new AandC("Toxic Smoke",        () => ! debuff("Toxic Smoke")),
+                        new AandC("Screeching Gears",   () => ! enemyIsStunned),
                         new AandC("Zap"),
                         new AandC("Batter"),
-                        new AandC("Minefield"),
-                        new AandC("Toxic Smoke"),
-                        new AandC("Screeching Gears"),
-                        new AandC("Explode"),
                     };
                     break;
 
@@ -514,24 +584,31 @@ namespace Prosto_Pets
                     break; 
 
                 case "Pocket Reaver":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Trash
                      * Slot 2: Repair       | Quake
                      * Slot 3: Fel Immolate | Supercharge
+                     * 
+                     * TODO: Reintroduce Quake - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Fel Immolate",   () => ! debuff("Fel Immolate")),
+                        new AandC("Supercharge"),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Fel Immolate"),
-                        new AandC("Supercharge"),
-                        new AandC("Quake"),
                     };
                     break;
 
                 case "Rabid Nut Varmint 5000":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Trash
                      * Slot 2: Overtune     | Extra Plating
                      * Slot 3: Rabid Strike | Repair
@@ -540,10 +617,10 @@ namespace Prosto_Pets
                     {
                         new AandC("Repair",         () => hp < 0.7),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
+                        new AandC("Rabid Strike",   () => ! debuff("Rabies")),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Extra Plating"),
-                        new AandC("Rabid Strike"),
                     };
                     break;
 
@@ -591,19 +668,22 @@ namespace Prosto_Pets
                     break;
 
                 case "Rocket Chicken":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Missile          | Peck
                      * Slot 2: Squawk           | Toxic Smoke
                      * Slot 3: Extra Plating    | Launch
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Launch",         () => shouldIHide && speed >= speedEnemy),
+                        new AandC("Squawk",         () => ! debuff("Attack Reduction")),
+                        new AandC("Toxic Smoke",    () => ! debuff("Toxic Smoke")),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
                         new AandC("Missile"),
                         new AandC("Peck"),
-                        new AandC("Squawk"),
-                        new AandC("Toxic Smoke"),
-                        new AandC("Extra Plating"),
-                        new AandC("Launch"),
                     };
                     break;
 
@@ -696,24 +776,30 @@ namespace Prosto_Pets
                     break;
 
                 case "Sunreaver Micro-Sentry":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Laser            | Fel Immolate
                      * Slot 2: Extra Plating    | Haywire
                      * Slot 3: Call Lightning   | Supercharge
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
-                        new AandC("Call Lightning", () => !weather("Lightning Storm")),
-                        new AandC("Extra Plating"),
+                        new AandC("Call Lightning", () => ! weather("Lightning Storm")),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
+                        new AandC("Supercharge"),
+                        new AandC("Haywire",        () => hpEnemy > 0.4),
                         new AandC("Laser"),
                         new AandC("Fel Immolate"),
-                        new AandC("Haywire"),
-                        new AandC("Supercharge"),
                     };
                     break;
 
                 case "Tiny Harvester":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist   | Thrash
                      * Slot 2: Overtune     | Extra Plating
                      * Slot 3: Demolish     | Repair
@@ -721,46 +807,53 @@ namespace Prosto_Pets
                     mechanical_abilities = new List<AandC>() 
                     {
                         new AandC("Repair",         () => hp < 0.7),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
                         new AandC("Overtune",       () => speed < speedEnemy && ! buff("Speed Boost")),
                         new AandC("Demolish",       () => myPetIsLucky),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Extra Plating"),
-                        new AandC("Demolish"),
                     };
                     break;
 
                 case "Tranquil Mechanical Yeti":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Metal Fist       | Thrash
                      * Slot 2: Call Lightning   | Call Blizzard
                      * Slot 3: Supercharge      | Ion Cannnon
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Ion Cannon",     () => hpEnemy < 0.4),
+                        new AandC("Call Lightning", () => ! weather("Lightning Storm")),
+                        new AandC("Call Blizzard",  () => ! weather("Blizzard")),
+                        new AandC("Supercharge"),
                         new AandC("Metal Fist"),
                         new AandC("Thrash"),
-                        new AandC("Call Lightning"),
-                        new AandC("Call Blizzard"),
-                        new AandC("Supercharge"),
-                        new AandC("Ion Cannon"),
                     };
                     break;
 
                 case "Warbot":
-                    /* Abilities
+                    /* Changelog:
+                     * 2015-01-25: Viable base tactic designed - Studio60
+                     * 
+                     * Abilities
                      * Slot 1: Missile          | Batter
                      * Slot 2: Toxic Smoke      | Minefield 
                      * Slot 3: Extra Plating    | Launch Rocket
+                     * 
+                     * TODO: Reintroduce Minefield - Needs to consider enemy team status
                      */
                     mechanical_abilities = new List<AandC>() 
                     {
+                        new AandC("Launch Rocket",  () => buff("Setup Rocket")),
+                        new AandC("Toxic Smoke",    () => ! debuff("Toxic Smoke")),
+                        new AandC("Extra Plating",  () => ! buff("Extra Plating")),
+                        new AandC("Launch Rocket",  () => hpEnemy > 0.4),
                         new AandC("Missile"),
                         new AandC("Batter"),
-                        new AandC("Toxic Smoke"),
-                        new AandC("Minefield"),
-                        new AandC("Extra Plating"),
-                        new AandC("Launch Rocket"),
                     };
                     break;
 
