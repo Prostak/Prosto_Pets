@@ -232,7 +232,7 @@ namespace Prosto_Pets
                         new AandC("Emerald Dream",      () => hp < 0.5 && hpEnemy > 0.3),
                         new AandC("Ancient Blessing",   () => ! buff("Ancient Blessing") || hp < 0.75),
                         new AandC("Emerald Presence",   () => ! buff("Emerald Presence")),
-                        new AandC("Emerald Presence",   () => buffLeft("Emerald Presence") == 1 || speed < speedEnemy),
+                        new AandC("Emerald Presence",   () => buffLeft("Emerald Presence") == 1 && speed < speedEnemy),
                         new AandC("Breath"),
                         new AandC("Emerald Bite"),
                     };
